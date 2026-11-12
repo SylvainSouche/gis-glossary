@@ -1,0 +1,41 @@
+name: Search acceptance test
+
+# Can an English query find records written in other languages? Builds the glossary from
+# the repository, exports the search lexicon, and compares potion-multilingual-128M alone,
+# with glossary concepts, with glossary keywords (hybrid) and BGE-M3 as the reference.
+# Takes about an hour. Results: docs/evaluations/embedding-tests.md.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet model2vec sentence-transformers numpy
+      - name: Build glossary and export lexicon
+        run: |
+          python tools/build_glossary.py
+          python tools/export_lexicon.py
+      - name: Run the test
+        working-directory: tests/acceptance
+        run: python acceptance.py | tee acceptance.log
+      - run: cat tests/acceptance/acceptance.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: acceptance
+          path: |
+            tests/acceptance/acceptance.md
+            tests/acceptance/acceptance.log
+            tests/acceptance/records.json

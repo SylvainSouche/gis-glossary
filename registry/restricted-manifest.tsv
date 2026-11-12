@@ -1,0 +1,11 @@
+id	method	url	target	sha256
+kartverket-den-norske-los-7-nb	file	https://www.kartverket.no/globalassets/til-sjos/nautiske-publikasjoner/den-norske-los-bind7.pdf	den-norske-los-bind7.pdf	4e08dce4f3248ebc450c5802749855c2fcd252ba1bf3a8ca2ee63922a34922ee
+kartverket-den-norske-los-7-en	file	https://www.kartverket.no/globalassets/til-sjos/nautiske-publikasjoner/den-norske-los-bind7-engelsk.pdf	den-norske-los-bind7-engelsk.pdf	e5e43bc64416d1e874b1e2a62988d10260ba1c967f6a96ef699c8a0797510462
+kartverket-int1-2020	file	https://kartverket.no/globalassets/nautiske-publikasjoner/symboler-og-forkortelser-i-norske-sjokart.pdf	symboler-og-forkortelser-i-norske-sjokart.pdf	61321470c6e1a670b58df5b68ed14cec3d0f0a9ade69b6292e8c198f61cf1d89
+kartverket-toponymic-guidelines-2025	file	https://www.kartverket.no/globalassets/til-lands/stadnamn/toponymicguidelinesnorway-2025-versjon-2.pdf	toponymicguidelinesnorway-2025-versjon-2.pdf	f228e2ad9e4c19f8a57e16ec4f44b2272343c5853111ecb256d95d1d9a747f62
+iso-tc-211-mlgt-geolexica	git	https://github.com/geolexica/isotc211-glossary	isotc211-glossary	-
+lantmateriet-hmk-ordlista	file	https://www.lantmateriet.se/globalassets/om-lantmateriet/var-samverkan-med-andra/hmk/handbocker/hmk-ordlista_april_2022.pdf	hmk-ordlista_april_2022.pdf	069ce4d0612b278a03acd329512d1242a92f71cadfd477ead52fb1f0ce8db3eb
+lasy-leksykon-geomatyczny	file	https://www.geomatyka.lasy.gov.pl/documents/25999395/0/1.5_Leksykon+geomatyczny.pdf/4c488573-f554-4c67-889c-e1a0587023c7	lasy-leksykon-geomatyczny.pdf	1ed29a8543af3faec84785596876a7fa780f32f635f2028a077a200560bbd808
+zrc-geoinformatics-dictionary	file	https://omp.zrc-sazu.si/zalozba/catalog/download/2272/9159/3324?inline=1	terminoloski-slovarji-2272.pdf	55a5925976b0238f8c3634d1a7d276b76c4fbacb64a1609d74b26761cac7a2b2
+zrc-geoinformatics-dictionary	file	https://omp.zrc-sazu.si/zalozba/catalog/download/2206/8972/3144?inline=1	terminoloski-slovarji-2206.pdf	c758236935589a1d3b99370faee2a3a5bf49745b173959fa2c3f86d8457243d3
+lisa-glossary	file	https://landupplysingar.is/wp-content/uploads/2025/07/LISA-ISL-EN-6utg-2015-1-14-1.pdf	lisa-isl-en-2015.pdf	7c337585b035e0dc9c979402ee192edb0f3985d323be28e076f7762caaca254e

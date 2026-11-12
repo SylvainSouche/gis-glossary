@@ -1,0 +1,18 @@
+cache/
+build/
+output/
+.ollama-models/
+*.sqlite
+__pycache__/
+.DS_Store
+sources/restricted/
+
+# LÍSA term pairs held back until LÍSA confirms the licence (see published/lisa/README.md)
+published/lisa/lisa_terms.csv
+tests/acceptance/lexicon.tsv.xz
+tests/acceptance/records.json
+tests/acceptance/acceptance.md
+tests/acceptance/acceptance.log
+
+# IATE export (18 MB): download it from https://iate.europa.eu/download-iate; see sources/open/iate/ATTRIBUTION.md
+sources/open/iate/IATE_export.tbx.xz

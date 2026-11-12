@@ -1,0 +1,649 @@
+8.4. Leçon : Exercice Supplémentaire
+Dans cette leçon, vous serez guidé à travers une analyse complète de SIG dans QGIS.
+
+Note
+
+Leçon élaborée par Linfiniti Consulting (Afrique du Sud) et Siddique Motala (Université de technologie de la péninsule du Cap)
+
+8.4.1. Énoncé du problème
+Vous êtes mandaté pour trouver les aires de la Péninsule du Cap et alentours adaptées à l’accueil d’espèces rares de plante « fynbos ». L’étendue de votre aire d’investigation couvre Cape Town et la péninsule du Cap entre Melkbosstrand au nord et Strand au sud. Les botanistes vous ont fourni les caractéristiques suivantes adaptées aux espèces en question:
+
+elle se développe sur les pentes orientées à l’est
+
+elle se développe sur des pentes d’inclinaison comprises entre 15% et 60%
+
+elle se développe sur des surfaces qui enregistrent un cumul annuel de pluies >1000mm
+
+elle devra se situer à au moins 250m de tout aménagement humain
+
+la zone de végétation dans laquelle elle se situera, doit être d’au moins 6000 m²
+
+En tant qu’étudiant à l’université, vous avez accepté de rechercher la plante dans quatre zones différentes de terrain approprié. Vous voulez que ces quatre zones soient les plus proches de l’université du Cap où vous vivez. Utilisez vos compétences en SIG pour déterminer où vous devez aller pour chercher.
+
+8.4.2. Aperçu de la solution
+Les données de cet exercice se trouvent dans le dossier :file`exercise_data/more_analysis`.
+
+Vous devez trouver les quatre sites adaptés le plus proche de l’Université de Cape Town.
+
+La solution impliquera :
+
+Analyse d’une couche raster MNE (DEM) pour trouver les pentes orientées à l’est et les pentes avec les gradients corrects
+
+Analyse d’une couche raster des précipitations pour trouver les zones ayant la bonne quantité de pluie
+
+Analyse d’une couche vectorielle de zonage pour trouver des secteurs éloignés des sociétés humaines et de la bonne taille
+
+8.4.3. Follow Along: Setting up the Map
+Cliquez sur le bouton projectionEnabled CRS courant dans le coin inférieur droit de l’écran. Sous l’onglet CRS du dialogue qui apparaît, utilisez l’outil « Filtre » pour rechercher « 33S ». Sélectionnez l’entrée WGS 84 / UTM zone 33S (avec le code EPSG 32733).
+
+Cliquez sur OK
+
+../../../_images/crs.png
+Fig. 8.32 Mise en place du SCR
+
+Enregistrez le fichier de projet en cliquant sur le bouton fileSave Enregistrer le projet de la barre d’outils, ou utilisez l’élément de menu Projet► Enregistrer sous….
+
+Enregistrez-le dans un nouveau dossier appelé Rasterprac, que vous devez créer quelque part sur votre ordinateur. Vous enregistrerez également les couches que vous aurez créées dans ce dossier. Enregistrez le projet sous le nom votre_nom_fynbos.qgs.
+
+8.4.4. Chargement de données dans la carte
+Afin de traiter les données, vous devrez charger les couches nécessaires (noms des rues, zones, précipitations, MNE, quartiers) dans le canevas de la carte.
+
+Pour les données vectorielles…
+Cliquez sur le bouton | dataSourceManager | Ouvrir le gestionnaire de sources de données dans la barre d’outils du gestionnaire de sources de données, et activez l’onglet addOgrLayer Vecteur dans la boîte de dialogue qui apparaît, ou utilisez Layer -> Add Layer -> addOgrLayer Ajouter un calque vectoriel …
+
+Assurez-vous que radioButtonOn Fichier est sélectionné
+
+Cliquez sur le bouton … pour rechercher le(s) jeu(x) de données vecteur
+
+Dans la boîte de dialogue qui apparaît, ouvrez le dossier exercise_data/more_analysis/Streets.
+
+Sélectionnez le fichier Street_Names_UTM33S.shp
+
+Cliquer sur Ouvrir.
+
+Le dialogue se ferme et affiche le dialogue original, avec le chemin d’accès au fichier spécifié dans le champ de texte à côté de Jeu(x) de données vectorielles. Cela vous permet de vous assurer que le bon fichier est sélectionné. Il est également possible de saisir manuellement le chemin d’accès au fichier dans ce champ, si vous le souhaitez.
+
+Cliquez sur ajouter. La couche vecteur sera chargée dans votre carte. Sa couleur est automatiquement assignée. Vous la changerez plus tard.
+
+Renommez la couche en Streets.
+
+Faites un clic droit dessus dans le panneau couches (par défaut, le panneau situé sur le côté gauche de l’écran)
+
+Cliquez sur renommer dans le dialogue qui apparaît et renommez-le, en appuyant sur la touche Entrée lorsque vous avez terminé
+
+Répétez le processus d’ajout de vecteurs, mais cette fois, sélectionnez le fichier Generalised_Zoning_Dissolve_UTM33S.shp dans le dossier Zoning.
+
+Renommez-le en Zoning.
+
+Chargez également la couche vecteur admin_boundaries/Western_Cape_UTM33S.shp dans votre carte.
+
+Renommez-la en districts.
+
+Pour les raster…
+Cliquez sur le bouton dataSourceManager Ouvrir le Gestionnaire des sources de données et activez l’onglet addRasterLayer Raster dans le dialogue qui apparaît, ou utilisez l’élément de menu Couche ► Ajouter une couche ► addRasterLayer Ajouter une couche raster….
+
+Assurez-vous que radioButtonOn Fichier est sélectionné
+
+Naviguez vers le fichier approprié, sélectionnez-le et cliquez sur Ouvrir.
+
+Faites-le pour chacun des deux fichiers raster suivants, DEM/SRTM.tif et rainfall/reprojected/rainfall.tif.
+
+Renommez la grille SRTM en DEM et la grille des précipitations en Rainfall (avec une majuscule initiale)
+
+8.4.5. Changement de l’ordre des couches
+Cliquez et faites glisser les couches de haut en bas dans le panneau couches pour modifier l’ordre dans lequel elles apparaissent sur la carte afin que vous puissiez voir autant de couches que possible.
+
+Maintenant que toutes les données sont chargées et correctement visibles, l’analyse peut commencer. Il est préférable que l’opération de découpage soit effectuée en premier. De cette façon, aucune puissance de calcul n’est gaspillée pour calculer des valeurs dans des domaines qui ne seront pas utilisés de toute façon.
+
+8.4.6. Trouver les bons districts
+En raison du domaine d’investigation susmentionné, nous devons limiter nos districts aux suivants :
+
+Bellville
+
+Cape
+
+Goodwood
+
+Kuils River
+
+Mitchells Plain
+
+Simon Town
+
+Wynberg
+
+Cliquez avec le bouton droit de la souris sur la couche Districts dans le panneau Couches.
+
+Dans le menu qui apparaît, sélectionnez l’élément de menu Filtrer…. La boîte de dialogue Constructeur de requêtes apparaît.
+
+Vous allez maintenant construire une requête pour sélectionner uniquement les districts candidats :
+
+Dans la liste des champs, double-cliquez sur le champ NAME_2 pour le faire apparaître dans le champ de texte SQL where clause ci-dessous
+
+Cliquez sur le bouton IN pour l’ajouter à la requête SQL
+
+Ouvrez les parenthèses
+
+Cliquez sur le bouton tous sous la liste (actuellement vide) valeurs.
+
+Après un court délai, cela remplira la liste valeurs avec les valeurs du champ sélectionné (NAME_2).
+
+Double-cliquez sur la valeur Bellville dans la liste valeurs pour l’ajouter à la requête SQL.
+
+Ajoutez une virgule et double-cliquez pour ajouter le district Cape
+
+Répétez l’étape précédente pour les autres districts
+
+Fermer les parenthèses
+
+../../../_images/query_builder.png
+Fig. 8.33 Constructeur de requêtes
+
+La dernière requête doit être (l’ordre des districts entre parenthèses n’a pas d’importance): :
+
+"NAME_2" in ('Bellville', 'Cape', 'Goodwood', 'Kuils River',
+             'Mitchells Plain', 'Simon Town', 'Wynberg')
+Note
+
+Vous pouvez également utiliser l’opérateur OR ; la requête ressemblerait à ceci: :
+
+"NAME_2" = 'Bellville' OR "NAME_2" = 'Cape' OR
+"NAME_2" = 'Goodwood' OR "NAME_2" = 'Kuils River' OR
+"NAME_2" = 'Mitchells Plain' OR "NAME_2" = 'Simon Town' OR
+"NAME_2" = 'Wynberg'
+Cliquez deux fois sur OK.
+
+Les districts indiqués sur votre carte sont désormais limités à ceux de la liste ci-dessus.
+
+8.4.7. Découper les rasters
+Maintenant que vous avez une zone d’intérêt, vous pouvez couper les rasters sur cette zone.
+
+Ouvrez le dialogue de découpage en sélectionnant l’élément de menu Raster ► Extraction ► découper le raster à partir d’une couche de masque…
+
+Dans la liste déroulante Couche source, sélectionnez la couche DEM.
+
+Dans la liste déroulante Couche de masquage, sélectionnez la couche Districts.
+
+Faites défiler vers le bas et spécifiez un emplacement de sortie dans le champ de texte Découpé (masque) en cliquant sur le bouton … et en choisissant Enregistrer vers un fichier…
+
+Naviguez vers le répertoire Rasterprac.
+
+Entrez un nom de fichier - DEM_clipped.tif
+
+Enregistrer
+
+Assurez-vous que la case checkbox ouvrir le fichier en sortie après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+Une fois l’opération de découpage terminée, laissez la boîte de dialogue découper le raster à partir d’une couche masque ouverte, afin de pouvoir réutiliser la zone de découpage
+
+Sélectionnez la couche raster Rainfall dans la liste déroulante Couche d’entrée et enregistrez votre sortie sous le nom Rainfall_clipped.tif.
+
+Ne modifiez pas les autres options. Laissez tout comme avant et cliquez sur Exécuter.
+
+Une fois la deuxième opération de découpage terminée, vous pouvez fermer la boîte de dialogue découper le raster à partir d’une couche masque
+
+Enregistrer la carte
+
+../../../_images/clipped_r_filtered_v_reordered_l.png
+Fig. 8.34 Vue de la carte avec des couches vectorielles filtrées, rasters découpées et réagencées
+
+Aligner les raster
+Pour notre analyse, nous avons besoin que les rasters aient le même CRS et qu’ils soient alignés.
+
+Nous commençons par modifier la résolution de nos données pluviométriques à 30 mètres (taille du pixel) :
+
+Dans le panneau Couches, assurez-vous que Rainfall_clipped est la couche active (c’est-à-dire qu’elle est mise en évidence en ayant été cliquée)
+
+Cliquez sur le menu Raster ► Projections ► Projection(Warp) ` pour ouvrir le dialogue de l’algorithme :guilabel:`Projection (warp)
+
+Sous Méthode de ré-échantillonnage à utiliser, sélectionnez Bilinear (2x2 kernel) dans le menu déroulant
+
+Fixez la Résolution du fichier de sortie dans les unités de géoréférencement de la cible à 30
+
+Scrollez jusqu’à Reprojeté et enregistrez la sortie vers le dossier rainfall/reprojected sous le nom Rainfall30.tif.
+
+Assurez-vous que la case checkbox ouvrir le fichier en sortie après exécution de l’algorithme est cochée
+
+../../../_images/wrap_rainfall.png
+Fig. 8.35 Warp (Reproject) Rainfall_clipped
+
+Ensuite, nous alignons le MNE:
+
+Dans le panneau Couches, assurez-vous que DEM_clipped est la couche sélectionnée (càd qu’elle soit mise en évidence après un clic)
+
+Cliquez sur le menu Raster ► Projections ► Projection(Warp) ` pour ouvrir le dialogue de l’algorithme :guilabel:`Projection (warp)
+
+Sous SCR cible, sélectionnez SCR du Project: EPSG:32733 - WGS 84 / UTM zone 33S dans le menu déroulant
+
+Sous Méthode de ré-échantillonnage à utiliser, sélectionnez Bilinear (2x2 kernel) dans le menu déroulant
+
+Fixez la Résolution du fichier de sortie dans les unités de géoréférencement de la cible à 30
+
+Descendez jusqu’à Etendue du fichier de sortie qui va être créé. Utilisez le bouton à droite du champ texte pour sélectionner Calculer depuis la couche ► Rainfall30.
+
+Descendez jusqu’à Reprojecté et sauvez la sortie dans votre dossier DEM/reprojected sous le nom DEM30.tif.
+
+Assurez-vous que la case checkbox ouvrir le fichier en sortie après exécution de l’algorithme est cochée
+
+Afin de bien voir ce qu’il se passe, la symbologie des couches doit être changée.
+
+8.4.8. Changement de la symbologie des couches vectorielles
+In the Layers panel, right-click on the Streets layer
+
+Sélectionnez Propriétés dans le menu qui apparaît
+
+Passez à l’onglet Symbologie dans la boîte de dialogue qui apparaît
+
+Cliquez sur l’entrée Ligne dans le widget du haut
+
+Sélectionnez un symbole dans la liste ci-dessous ou fixez-en un nouveau (couleur, transparence, …)
+
+Click OK to close the Layer Properties dialog. This will change the rendering of the Streets layer.
+
+Follow a similar process for the Zoning layer and choose an appropriate color for it
+
+8.4.9. Changement de la symbologie des couches raster
+La symbologie des couches raster est quelque peu différente.
+
+Open the Properties dialog for the Rainfall30 raster layer
+
+Passez à l’onglet Symbologie. Vous remarquerez que ce dialogue est très différent de la version utilisée pour les couches vectorielles.
+
+Développer Paramètres des valeurs min/max
+
+Assurez-vous que le bouton moyenne +/- écart-type est selectionne
+
+Assurez-vous que la valeur dans la case associée est 2.00.
+
+Pour amelioration du contraste, assurez-vous qu’il est écrit Etirer jusqu’au MinMax.
+
+Pour Color gradient, changez-le en White to Black.
+
+Cliquez sur OK
+
+../../../_images/raster_symbology.png
+Fig. 8.36 Symbologie raster
+
+Le raster Rainfall30, s’il est visible, doit changer de couleur, ce qui vous permet de voir différentes valeurs de luminosité pour chaque pixel
+
+Répétez ce processus pour la couche DEM30, mais fixez les écarts types utilisés pour l’étirement à 4,00.
+
+8.4.10. Nettoyer la carte.
+Supprimez les couches originales Rainfall et DEM, ainsi que Rainfall_clipped et DEM_clipped du panneau couches :
+
+Faites un clic-droit sur ces couches et sélectionnez Supprimer.
+
+Note
+
+Cela ne va pas supprimer les données de votre périphérique de stockage, cela va seulement l’ôter de votre carte.
+
+Enregistrer la carte
+
+Vous pouvez maintenant cacher les couches vecteur en décochant la case à côté d’elles dans le panneau couches. Cela accélérera le rendu de la carte et vous fera gagner du temps.
+
+8.4.11. Créer l’ombrage
+Afin de créer l’ombrage, vous devrez utiliser un algorithme créé dans ce but.
+
+Dans le panneau couches, assurez-vous que DEM30 est la couche active (c’est-à-dire qu’elle est mise en évidence en ayant été cliquée)
+
+Cliquez sur le menu Raster ► Analyse ► Ombrage… pour ouvrir le dialogue ombrage
+
+Descendez jusqu’à Ombrage et enregistrez la sortie dans votre répertoire Rasterprac sous le nom hillshade.tif.
+
+Assurez-vous que la case checkbox ouvrir le fichier en sortie après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+Attendez que le processus se termine.
+
+../../../_images/hillshade.png
+Fig. 8.37 Raster analysis Hillshade
+
+La nouvelle couche hillshade est apparue dans le panneau Couches.
+
+Faites un clic droit sur la couche hillshade dans le panneau Couches” et faites apparaître la fenêtre des :guilabel:`Propriétés
+
+Cliquez sur l’onglet Transparence et réglez le curseur Opacité globale sur 20%.
+
+Cliquez sur OK
+
+Notez l’effet lorsque l’ombre transparente est superposée sur le MNE (DEM) coupé. Vous devrez peut-être changer l’ordre de vos couches, ou cliquer sur la couche Rainfall30 pour voir l’effet.
+
+8.4.12. Pente
+Cliquez sur le menu Raster ► Analyse ► Pente… pour ouvrir le dialogue de l’algorithme Pente
+
+Sélectionnez DEM30 comme Couche d’entrée.
+
+Check checkbox Pente exprimée en pourcentage au lieu de degrés. La pente peut être exprimée en différentes unités (pourcentage ou degrés). Nos critères suggèrent que la plante d’intérêt pousse sur des pentes dont la pente est comprise entre 15 et 60 %. Nous devons donc nous assurer que nos données sur la pente sont exprimées en pourcentage.
+
+Indiquez un nom de fichier et un emplacement appropriés pour votre sortie.
+
+Assurez-vous que la case checkbox ouvrir le fichier en sortie après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+../../../_images/slope.png
+Fig. 8.38 Raster analysis Slope
+
+L’image de la pente a été calculée et ajoutée à la carte. Comme d’habitude, elle est rendue en niveaux de gris. Changez la symbologie pour une symbologie plus colorée :
+
+Ouvrez la couche Dialogue des propriétés (comme d’habitude, via le menu contextuel de la couche)
+
+Cliquez sur l’onglet Symbologie
+
+Là où il est écrit Bande grise unique (dans le menu déroulant Type de rendu), changez-le en Pseudo-couleur à bande unique.
+
+Choisissez moyenne +/- écart-type x pour parametre valeur Min / Max ` avec une valeur de ``2.0`.
+
+Sélectionnez une rampe de couleurs appropriée
+
+Cliquez sur Exécuter
+
+8.4.13. Try Yourself: Aspect
+Utilisez la même approche que pour le calcul de la pente, en choisissant Aspect… dans le menu Raster ► analyse.
+
+N’oubliez pas de sauvegarder le projet régulièrement.
+
+8.4.14. Reclassement des rasters
+Choisissez Raster ► calculatrice raster…
+
+Indiquez votre répertoire Rasterprac comme emplacement pour la couche Output (cliquez sur le bouton …), et enregistrez-le sous le nom slope15_60.tif.
+
+Assurez-vous que la case ouvrir le fichier sortie après exécution de l’algorithme est sélectionnée.
+
+In the Raster bands list on the left, you will see all the raster layers in your Layers panel. If your Slope layer is called slope, it will be listed as slope@1. Indicating band 1 of the slope raster.
+
+La pente doit être comprise entre 15 et 60 degrés.
+
+En utilisant les éléments de la liste et les boutons de l’interface, construisez l’expression suivante: :
+
+(slope@1 > 15) AND (slope@1 < 60)
+Configurez le champ Couche de sortie avec un emplacement approprié et un nom de fichier.
+
+Cliquez sur Exécuter.
+
+../../../_images/raster_calculator_slope.png
+Fig. 8.39 Raster calculator Slope
+
+Trouvez maintenant l’aspect correct (face est : entre 45 et 135 degrés) en utilisant la même approche.
+
+Construisez l’expression suivante: :
+
+(aspect@1 > 45) AND (aspect@1 < 135)
+Vous saurez que cela a fonctionné lorsque toutes les pentes orientées vers l’est seront blanches dans le raster résulta t (c’est presque comme si elles étaient éclairées par le soleil du matin).
+
+Trouvez de la même manière la bonne pluviométrie (supérieure à 1000 mm). Utilisez l’expression suivante: :
+
+Rainfall30@1 > 1000
+Maintenant que vous disposez de ces trois critères, chacun dans une grille distincte, vous devez les combiner pour voir quelles zones répondent à tous les critères. Pour ce faire, les rasters seront multipliés les uns par rapport aux autres. Dans ce cas, tous les pixels qui se chevauchent et qui ont une valeur de 1 conserveront la valeur de 1 (c’est-à-dire que l’emplacement répond aux critères), mais si un pixel de l’un des trois rasters a une valeur de 0 (c’est-à-dire que l’emplacement ne répond pas aux critères), alors il aura une valeur de 0 dans le résultat. De cette façon, le résultat ne contiendra que les zones de chevauchement qui répondent à tous les critères appropriés.
+
+8.4.15. Combiner des rasters
+Ouvrez la Calculatrice raster (Raster ► calculatrice raster…)
+
+Construisez l’expression suivante (avec les noms appropriés pour vos couches): :
+
+[aspect45_135] * [slope15_60] * [rainfall_1000]
+Définissez l’emplacement de sortie dans le répertoire Rasterprac.
+
+Nommez le raster en sortie : file:aspect_slope_rainfall.tif.
+
+Assurez-vous que la case checkbox ouvrir le fichier après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+Le nouveau raster affiche désormais correctement les zones où les trois critères sont satisfaits.
+
+Sauvegardez le projet.
+
+../../../_images/aspect_slope_rainfall.png
+Fig. 8.40 Vue de la carte où les trois critères sont satisfaits
+
+Le prochain critère à remplir est que la zone doit être éloignée de 250 mètres des zones urbaines. Nous satisferons à cette exigence en nous assurant que les zones que nous calculons se trouvent à l’intérieur de zones rurales et qu’elles sont à 250 mètres ou plus de la limite de la zone. C’est pourquoi nous devons d’abord trouver toutes les zones rurales.
+
+8.4.16. Trouver les zones rurales
+Cacher toutes les couches dans le panneau couche
+
+Masquer la couche vecteur zoning
+
+Faites un clic droit dessus et faites apparaître la boîte de dialogue table attribut. Notez les nombreuses façons différentes dont la terre est zonée ici. Nous voulons isoler les zones rurales. Fermez la table des attributs.
+
+Faites un clic droit sur la couche Zoning et sélectionnez filtrer… pour faire apparaître le dialogue constructeur de requetes
+
+Construisez la requête suivante: :
+
+"Gen_Zoning" = 'Rural'
+Si vous êtes bloqué, consultez les instructions précédentes.
+
+Cliquez sur OK pour fermer la fenêtre du Constructeur de requêtes. La requête devrait retourner une entité.
+
+../../../_images/query_builder_zoning.png
+Zonage avec le constructeur de requêtes
+
+Vous devriez voir les polygones ruraux de la couche zoning. Vous devrez les sauvegarder.
+
+Dans le menu du clic droit pour Zoning, sélectionnez Exporter ► Sauvegarder les entités sous….
+
+Enregistrez votre couche dans le répertoire Rasterprac.
+
+Nommez le fichier de sortie : file:rural.shp.
+
+Cliquez sur OK
+
+Sauvegarder le projet
+
+Il faut maintenant exclure les zones qui se trouvent dans un rayon de 250m de la limite des zones rurales. Pour ce faire, il faut créer une zone tampon négative, comme expliqué ci-dessous.
+
+8.4.17. Création d’un tampon négatif
+Cliquez sur l’élément de menu vecteur ► outils de geoprocessing ► tampon…
+
+Dans le dialogue qui apparaît, sélectionnez la couche rural comme couche vectorielle d’entrée (sélectionner les entités seulement ne doit pas être coché)
+
+Réglez Distance à -250. La valeur négative signifie que le tampon sera un tampon intérieur. Assurez-vous que les unités sont des mètres dans le menu déroulant.
+
+Check checkbox Dissoudre le résultat.
+
+Dans Buffered, placez le fichier de sortie dans le répertoire Rasterprac, et nommez-le rural_buffer.shp.
+
+Cliquez sur sauver.
+
+Cliquez sur executer et attendez que le traitement soit terminé
+
+Fermez la boîte de dialogue Tampon.
+
+Assurez-vous que votre tampon a fonctionné correctement en notant en quoi la couche rural_buffer est différente de la couche rural. Vous devrez peut-être changer l’ordre de dessin afin d’observer la différence.
+
+Supprimer la couche rural
+
+Sauvegarder le projet
+
+../../../_images/rural_buffer.png
+Fig. 8.41 Vue de la carte avec le tampon rural (rural buffer)
+
+Maintenant, vous devez combiner votre couche vecteur rural_buffer avec le raster aspect_slope_rainfall. Pour les combiner, nous devrons modifier le format des données de l’une des couches. Dans ce cas, vous vectoriserez le raster, car les couches vecteur sont plus pratiques lorsque nous voulons calculer des surfaces.
+
+8.4.18. Vectoriser le raster
+Cliquez sur l’élément de menu Raster ► Conversion ► Polygoniser (Raster to Vector)…
+
+Sélectionnez le raster aspect_slope_rainfall comme Couche d’entrée.
+
+Définissez Nom du champ à créer`à ``suitable` (le nom du champ par défaut est DN - Digital number data)
+
+Sauvegardez le résultat. Sous vectorisé, sélectionnez sauvegarder fichier sous. Définissez l’emplacement à Rasterprac et nommez le fichier aspect_slope_rainfall_all.shp.
+
+Assurez-vous que la case checkbox ouvrir le fichier après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+Fermer le dialogue lorsque le traitement est terminé
+
+../../../_images/vectorized.png
+Fig. 8.42 De raster à vecteur
+
+Toutes les zones raster ont été vectorisées, vous devez donc sélectionner uniquement les zones qui ont une valeur de 1 dans le champ suitable. (Nombre numérique).
+
+Ouvrez le dialogue constructeur requete (clic droit - Filtre…) pour la nouvelle couche vecteur
+
+Construisez cette requête : :
+
+"suitable" = 1
+Cliquez sur OK
+
+Après vous être assuré que la requête est complète (et que seules les zones qui répondent aux trois critères, c’est-à-dire avec une valeur de 1, sont visibles), créez un nouveau fichier vecteur à partir des résultats, en utilisant la commande Exporter ► Sauvegarder les entités sous… dans le menu contextuel de la couche
+
+Enregistrez le fichier dans le répertoire Rasterprac.
+
+Nommez le fichier aspect_slope_rainfall_1.shp
+
+Supprimez la couche aspect_slope_rainfall_all de votre carte
+
+Sauvegardez votre projet
+
+When we use an algorithm to vectorize a raster, sometimes the algorithm yields what is called « Invalid geometries », i.e. there are empty polygons, or polygons with mistakes in them, that will be difficult to analyze in the future. So, we need to use the Fix Geometry tool.
+
+8.4.19. Réparation de géométrie
+In the Processing Toolbox, search for Fix geometries, and Execute… it
+
+Pour la Couche d’entrée, sélectionnez aspect_slope_rainfall_1
+
+Sous reparer geometries, sélectionnez sauveharder fichier sous, et enregistrez la sortie dans Rasterprac et nommez le fichier fixed_aspect_slope_rainfall.shp.
+
+Assurez-vous que la case checkbox ouvrir le fichier après exécution de l’algorithme est cochée
+
+Cliquez sur Exécuter
+
+Fermer le dialogue lorsque le traitement est terminé
+
+Maintenant que vous avez vectorisé le raster et fixé la géométrie résultante, vous pouvez combiner les critères d’aspect, de pente et de précipitations avec la distance par rapport aux critères d’établissement humain en trouvant l’intersection de la couche fixed_aspect_slope_rainfall et de la couche rural_buffer.
+
+8.4.20. Déterminer l’intersection des vecteurs
+Cliquez sur l’élément de menu vecteur ► outils géoprocessing ► Intersection…
+
+Dans le dialogue qui apparaît, sélectionnez la couche rural_buffer comme Couche d’entrée
+
+Pour la couche Overlay, sélectionnez la couche fixed_aspect_slope_rainfall.
+
+Dans Intersection, placez le fichier de sortie dans le répertoire Rasterprac.
+
+Nommez le fichier de sortie rural_aspect_slope_rainfall.shp
+
+Cliquez sur sauver.
+
+Cliquez sur executer et attendez que le traitement soit terminé
+
+Fermez le dialogue Intersection.
+
+Assurez-vous que votre intersection a fonctionné correctement en notant que seules les zones de chevauchement subsistent.
+
+Sauvegarder le projet
+
+Le prochain critère de la liste est que la zone doit être supérieure à 6000 ㎡. Vous allez maintenant calculer les zones de polygone afin d’identifier les zones qui ont la taille appropriée pour ce projet.
+
+8.4.21. Calcul de l’aire pour chaque polygone
+Ouvrez le menu contextuel de la nouvelle couche vecteur
+
+Sélectionnez ouvrir la table attributs.
+
+Cliquez sur le bouton toggleEditing basculer mode edition ` dans le coin supérieur gauche de la table, ou appuyez sur :kbd:`Ctrl+e.
+
+Cliquez sur le bouton calculateField ouvrir calculateur de champ dans la barre d’outils en haut de la table, ou appuyez sur Ctrl+i.
+
+Dans la boîte de dialogue qui apparaît, assurez-vous que la case checkbox créer un nouveau champ est cochée, et définissez le nom du champ en sortie à area Le type de champ de sortie doit être un nombre décimal (réel). Définissez Precision à 1 (une décimale).
+
+Dans la zone Expression, tapez: :
+
+$area
+Cela signifie que le calculateur de terrain va calculer l’aire de chaque polygone dans la couche vectorielle et va ensuite remplir une nouvelle colonne d’entier (appelée area) avec la valeur calculée.
+
+../../../_images/field_calculator_area.png
+Fig. 8.43 Calculatrice de champs
+
+Cliquez sur OK
+
+Faites la même chose pour un autre nouveau champ appelé id. Dans Expression de la calculatrice de champ, tapez: :
+
+$id
+Cela garantit que chaque polygone a un identifiant unique à des fins d’identification.
+
+Cliquez sur toggleEditing basculer mode édition à nouveau, et enregistrez vos modifications si vous y êtes invité
+
+../../../_images/attribute_table.png
+Fig. 8.44 Table d’attributs avec surface et colonnes id
+
+8.4.22. Sélectionnez des surfaces d’une taille donnée
+Maintenant que les surfaces sont connues :
+
+Construisez une requête (comme d’habitude) pour sélectionner uniquement les polygones qui sont plus grands que 6000 ㎡. La requête est: :
+
+"area" > 6000
+Enregistrez la sélection dans le répertoire Rasterprac comme une nouvelle couche vecteur appelée suitable_areas.shp.
+
+Vous disposez maintenant des surfaces appropriées qui répondent à tous les critères d’habitat pour la plante rare qu’est le fynbos, parmi lesquelles vous choisirez les quatre les plus proches de l’Université du Cap.
+
+8.4.23. Numériser l’Université du Cap
+Créer une nouvelle couche vecteur dans le dossier Rasterprac comme précédemment, mais cette fois, utiliser Point comme Type de géométrie et la nommer university.shp.
+
+Assurez-vous qu’il se trouve dans le SCR correct (Project CRS:EPSG:32733 - WGS 84 / UTM zone 33S)
+
+Terminez la création de la nouvelle couche (cliquez sur OK)
+
+Cachez toutes les couches sauf la nouvelle couche university et la couche Streets.
+
+Ajouter un fond de carte (OSM) :
+
+Allez dans le panneau navigateur et naviguez jusqu’à tuiles XYZ ► OpenStreetMap.
+
+Glissez et déposez l’entrée OpenStreetMap au bas du panneau couches
+
+À l’aide de votre navigateur Internet, recherchez l’emplacement de l’université du Cap. Compte tenu de la topographie unique du Cap, l’université se trouve dans un endroit très reconnaissable. Avant de retourner à QGIS, prenez note de l’endroit où se trouve l’université et de ce qui se trouve à proximité.
+
+Assurez-vous que la couche Streets a été cliquée et que la couche University est en surbrillance dans le panneau couches
+
+Allez dans le menu vue ► barres outils et assurez-vous que numerisation est sélectionné. Vous devriez alors voir une icône de barre d’outils avec un crayon (toggleEditing basculer mode edition). C’est le bouton basculer mode edition.
+
+Cliquez sur le bouton basculer en mode édition pour entrer dans le mode edition. Cela vous permet d’éditer une couche vecteur
+
+Cliquez sur le bouton capturePoint ajouter un point, qui doit se trouver à proximité du bouton toggleEditing basculer mode edition.
+
+Lorsque l’outil Ajouter une entité est activé, cliquez avec le bouton gauche de la souris sur votre meilleure estimation de l’emplacement de l’université du Cap
+
+Fournir un nombre entier arbitraire lorsqu’on demande l “ id.
+
+Cliquez sur OK
+
+Cliquez sur le bouton saveEdits sauver modif.
+
+Cliquez sur le bouton basculer en mode edition pour arrêter votre session d’édition
+
+Sauvegarder le projet
+
+8.4.24. Trouvez les lieux les plus proches de l’Université du Cap
+Allez dans la Boîte à outils de traitement, localisez l’algorithme Joindre les attributs par le plus proche (Outils généraux pour les vecteurs ► Joindre les attributs par le plus proche) et exécutez-le
+
+Couche d’entrée devrait être university, et Couche d’entrée 2` suitable_areas.
+
+Set an appropriate output location and name (Joined layer)
+
+Réglez le Maximum des plus proches voisins à 4.
+
+Assurez-vous que la case checkbox ouvrir le fichier après exécution de l’algorithme est cochée
+
+Laissez les autres paramètres avec leurs valeurs par défaut
+
+Cliquez sur Exécuter
+
+La couche de points qui en résultera contiendra quatre entités - elles auront toutes l’emplacement de l’université et ses attributs, et en plus, les attributs des zones appropriées à proximité (y compris l”id), et la distance à cet emplacement.
+
+Ouvrez la table d’attributs du résultat de la jointure
+
+Notez l”id des quatre zones appropriées les plus proches, puis fermez la table d’attributs
+
+Ouvrez la table d’attributs de la couche Suitable_areas
+
+Construire une requête pour sélectionner les quatre zones appropriées les plus proches de l’université (en les sélectionnant à l’aide du champ id)
+
+C’est la réponse finale à la question de recherche.
+
+Pour votre soumission, créez une mise en page entièrement étiquetée qui inclut la couche semi-transparente « hillshade » sur un raster attrayant de votre choix (comme le DEM ou le raster de pente, par exemple). Incluez également l’université et la couche suitable_areas, avec les quatre zones appropriées les plus proches de l’université mises en évidence. Suivez toutes les bonnes pratiques en matière de cartographie pour créer votre carte de sortie.
+

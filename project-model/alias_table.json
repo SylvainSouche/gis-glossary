@@ -1,0 +1,452 @@
+{
+  "ai-assisted-translation-two-resources": {
+    "active": true,
+    "id": "0f87-6af1-f500-87b4",
+    "status": "proposed",
+    "type": "ai"
+  },
+  "ai-audit-before-harvest": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-71c3",
+    "status": "proposed",
+    "type": "ai"
+  },
+  "ai-concept-keyed-sqlite": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-45de",
+    "status": "proposed",
+    "type": "ai"
+  },
+  "ai-glossary-schema-v1": {
+    "active": true,
+    "id": "0f87-6af1-f704-dd0e",
+    "status": "proposed",
+    "type": "ai"
+  },
+  "ai-route-segments-before-translation": {
+    "active": true,
+    "id": "0f87-6af1-f5e4-7ad6",
+    "status": "proposed",
+    "type": "ai"
+  },
+  "cand-9b-for-reading-into-english": {
+    "active": true,
+    "id": "0f87-6af2-5766-b3d3",
+    "status": "open",
+    "type": "cand"
+  },
+  "cand-glossary-licence": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-2c8c",
+    "status": "open",
+    "type": "cand"
+  },
+  "cand-huggingface-dataset": {
+    "active": true,
+    "id": "0f87-6af5-daab-bd25",
+    "status": "open",
+    "type": "cand"
+  },
+  "cand-norwegian-written-standard": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-38d0",
+    "status": "accepted",
+    "type": "cand"
+  },
+  "dec-acceptance-two-verdicts": {
+    "active": true,
+    "id": "0f87-6af3-25d6-fb14",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-attach-only-general-sources": {
+    "active": true,
+    "id": "0f87-6af5-e7e6-d18e",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-document-distribution-classes": {
+    "active": true,
+    "id": "0f87-6af1-c5c3-8c89",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-glossary-vs-corpus-licensing": {
+    "active": true,
+    "id": "0f87-6af1-7e2b-3600",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-language-tiers": {
+    "active": true,
+    "id": "0f87-6af1-7e2b-9fe9",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-mlgt-published-extract": {
+    "active": true,
+    "id": "0f87-6af1-d0d3-8249",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-mlgt-terms-usable": {
+    "active": true,
+    "id": "0f87-6af1-d013-d342",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-norwegian-both-standards": {
+    "active": true,
+    "id": "0f87-6af1-85d1-16b7",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-quality-target-search": {
+    "active": true,
+    "id": "0f87-6af1-f704-f574",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-repository-layout": {
+    "active": true,
+    "id": "0f87-6af1-e82d-4f09",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-search-direction": {
+    "active": true,
+    "id": "0f87-6af2-4f4e-79e3",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-snorre-licence-cleared": {
+    "active": true,
+    "id": "0f87-6af5-d3c8-7864",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-takeover-from-sigate": {
+    "active": true,
+    "id": "0f87-6af1-7e2b-2769",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-translation-github-action": {
+    "active": true,
+    "id": "0f87-6af2-0c0e-e435",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-vocabulary-vectors": {
+    "active": true,
+    "id": "0f87-6af2-5139-3a7b",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-wiki-sources-candidate-only": {
+    "active": true,
+    "id": "0f87-6af1-d142-cdb1",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "obs-1-8b-all-languages-test": {
+    "active": true,
+    "id": "0f87-6af2-0e31-78fe",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-acceptance-first-run": {
+    "active": true,
+    "id": "0f87-6af3-1663-329f",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-acceptance-hybrid": {
+    "active": true,
+    "id": "0f87-6af3-3d50-878f",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-arnastofnun-dictionaries": {
+    "active": true,
+    "id": "0f87-6af5-d9e2-2e47",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-arnastofnun-extracted": {
+    "active": true,
+    "id": "0f87-6af5-db26-04a2",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-assisted-translation-result": {
+    "active": true,
+    "id": "0f87-6af2-0c0e-5aa5",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-eurovoc-ceos-software-wiki": {
+    "active": true,
+    "id": "0f87-6af1-d2a1-d60e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-final-pass": {
+    "active": true,
+    "id": "0f87-6af1-e4cb-11d8",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-grass-qgis": {
+    "active": true,
+    "id": "0f87-6af1-b9b3-6b85",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-iate-export": {
+    "active": true,
+    "id": "0f87-6af1-ea94-e258",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-kartverket-pdfs": {
+    "active": true,
+    "id": "0f87-6af1-c121-c066",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-national-first-pass": {
+    "active": true,
+    "id": "0f87-6af1-d78b-d5a6",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-ogc-codesets": {
+    "active": true,
+    "id": "0f87-6af1-cd63-a0f0",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-audit-priorities-1-3": {
+    "active": true,
+    "id": "0f87-6af1-871a-d118",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-embedding-tests-first-results": {
+    "active": true,
+    "id": "0f87-6af2-c7ec-ff52",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-en-is-glossary-vs-lisa": {
+    "active": true,
+    "id": "0f87-6af5-e4ab-308c",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-ensk-is-coverage": {
+    "active": true,
+    "id": "0f87-6af5-d811-5603",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-first-glossary-build": {
+    "active": true,
+    "id": "0f87-6af1-f704-a5a0",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-geonorge-harvest": {
+    "active": true,
+    "id": "0f87-6af5-7c53-31c4",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-greek-bulgarian-no-gis-glossary": {
+    "active": true,
+    "id": "0f87-6af1-db8c-c303",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-gui-labels-loaded": {
+    "active": true,
+    "id": "0f87-6af1-f8b2-eae3",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-hf-1-8b-missing-stop-token": {
+    "active": true,
+    "id": "0f87-6af2-10a9-27a8",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-hy-mt-faster-on-mac": {
+    "active": true,
+    "id": "0f87-6af1-fa8d-8ecb",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-icelandic-pivot": {
+    "active": true,
+    "id": "0f87-6af5-e148-dd2f",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-index-2b-all-languages-test": {
+    "active": true,
+    "id": "0f87-6af2-4fab-50f5",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-index-9b-all-languages-test": {
+    "active": true,
+    "id": "0f87-6af2-4e55-f01e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-inventory-unaudited": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-5e1a",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-lexicon-licence-dependencies": {
+    "active": false,
+    "id": "0f87-6af5-d04b-6768",
+    "status": "superseded",
+    "type": "obs"
+  },
+  "obs-lexicon-licence-dependencies-2": {
+    "active": true,
+    "id": "0f87-6af5-d3c8-4a40",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-lisa-and-snorre-loaded": {
+    "active": true,
+    "id": "0f87-6af2-cb86-4a91",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-lookup-fixes-results": {
+    "active": true,
+    "id": "0f87-6af2-cde7-28d5",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-mt-non-source-language-segments": {
+    "active": true,
+    "id": "0f87-6af1-f5e4-90fd",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-mt-qgis-lesson-test": {
+    "active": true,
+    "id": "0f87-6af1-f500-30cb",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-mt-test-source-html-artifacts": {
+    "active": true,
+    "id": "0f87-6af1-f624-443d",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-mt-trap-scores": {
+    "active": true,
+    "id": "0f87-6af1-f565-5311",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-nllb-all-languages-test": {
+    "active": true,
+    "id": "0f87-6af2-29c5-4f19",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-norwegian-theme-search": {
+    "active": true,
+    "id": "0f87-6af5-a863-3e17",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-polish-danish-romanian": {
+    "active": true,
+    "id": "0f87-6af1-e056-c802",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-qgis-docs-licence-conflict": {
+    "active": false,
+    "id": "0f87-6af1-7e2c-ed12",
+    "status": "superseded",
+    "type": "obs"
+  },
+  "obs-qgis-docs-licence-resolved": {
+    "active": true,
+    "id": "0f87-6af1-b9b3-14de",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-quickosm-assisted-comparison": {
+    "active": true,
+    "id": "0f87-6af2-3544-28a1",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-quickosm-human-comparison": {
+    "active": true,
+    "id": "0f87-6af2-3339-aa51",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-sense-keyed-need": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-be5e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-theme-search-codelists": {
+    "active": true,
+    "id": "0f87-6af5-b760-ba00",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-translation-training-material": {
+    "active": true,
+    "id": "0f87-6af5-8a2e-fbea",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-vector-db-built": {
+    "active": true,
+    "id": "0f87-6af2-debe-165e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "req-gather-sources": {
+    "active": true,
+    "id": "0f87-6af1-7e2b-654d",
+    "status": "confirmed",
+    "type": "req"
+  },
+  "req-phase-one-glossary": {
+    "active": true,
+    "id": "0f87-6af1-7e2c-699e",
+    "status": "confirmed",
+    "type": "req"
+  },
+  "t-embedding-alignment-lookup": {
+    "active": true,
+    "id": "0f87-6af2-5766-05c3",
+    "status": "proposed",
+    "type": "test"
+  },
+  "t-search-acceptance": {
+    "active": true,
+    "id": "0f87-6af2-cf6c-ebcd",
+    "status": "proposed",
+    "type": "test"
+  }
+}

@@ -1,0 +1,429 @@
+id,code,nb,en,code_list
+https://register.geonorge.no/metadata-kodelister/gml-versjoner,,GML-versjoner,GML versions,code list
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/2.0,2.0,2.0,2.0,GML versions
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/1.0,1.0,1.0,1.0,GML versions
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/3.2,3.2,3.2,3.2,GML versions
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/3.3,3.3,3.3,3.3,GML versions
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/3.1,3.1,3.1,3.1,GML versions
+https://register.geonorge.no/metadata-kodelister/gml-versjoner/2.1,2.1,2.1,2.1,GML versions
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform,,Tjenesteplattform,Distributed Computing Platforms,code list
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/XML,XML,XML,XML,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/JAVA,JAVA,JAVA,JAVA,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/COM,COM,COM,COM,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/WebServices,WebServices,Webtjeneste,Web Service,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/CORBA,CORBA,CORBA,CORBA,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/tjenesteplattform/SQL,SQL,SQL,SQL,Distributed Computing Platforms
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner,,Inspire tilgangsrestriksjoner,Inspire Limitations on Public Access,code list
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1b,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1b,Skjermede data,Restricted data,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1h,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1h,Tilgang begrenses på grunn av miljømessige forhold,public access limited according to Article 13(1)(h) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1e,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1e,Tilgang begrenses på grunn av muligheter for brudd på immaterielle rettigheter - opphavsrett,public access limited according to Article 13(1)(e) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1c,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1c,Tilgang begrenses på grunn av fare for ikke å ivareta rettssikkerhet,public access limited according to Article 13(1)(c) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1d,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1d,Norge digitalt begrenset,Norway Digital restricted,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1a,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1a,Tilgang begrenses på grunn av fare for å påvirke konfidensialitet der taushetsplikt er fastsatt i lov,public access limited according to Article 13(1)(a) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1f,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1f,Personvern begrenset,public access limited according to Article 13(1)(f) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations,http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations,Åpne data,Open data,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1g,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1g,Tilgang begrenses på grunn av fare for at sine oppgitte opplysninger kan bli brukt mot en,public access limited according to Article 13(1)(g) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspire-tilgangsrestriksjoner/https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1b,https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1b,Tilgang begrenses på grunn av fare for rikets sikkerhet,public access limited according to Article 13(1)(b) of the INSPIRE Directive,Inspire Limitations on Public Access
+https://register.geonorge.no/metadata-kodelister/inspiretema,,Inspiretema,Inspire themes,code list
+https://register.geonorge.no/metadata-kodelister/inspiretema/Oceanographic geographical features,Oceanographic geographical features,Oseanografiske geografiske forhold,Oceanographic geographical features,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Land use,Land use,Arealbruk,Land use,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Population distribution — demography,Population distribution — demography,Befolkningsfordeling,Population distribution - demography,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Geographical names,Geographical names,Stedsnavn,Geographical names,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Buildings,Buildings,Bygninger,Buildings,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Atmospheric conditions,Atmospheric conditions,Atmosfæriske forhold,Atmospheric conditions,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Geographical grid systems,Geographical grid systems,Geografiske rutenettsystemer,Geographical grid systems,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Utility and governmental services,Utility and governmental services,Allmennyttige og offentlige tjenester,Utility and governmental services,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Statistical units,Statistical units,Statistiske enheter,Statistical units,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Environmental monitoring facilities,Environmental monitoring facilities,Anlegg for miljøovervåking,Environmental monitoring facilities,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Elevation,Elevation,Høyde,Elevation,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Agricultural and aquaculture facilities,Agricultural and aquaculture facilities,Anlegg for landbruk og akvakultur,Agricultural and aquaculture facilities,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Meteorological geographical features,Meteorological geographical features,Meteorologiske geografiske forhold,Meteorological geographical features,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Protected sites,Protected sites,Vernede områder,Protected sites,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Addresses,Addresses,Adresser,Addresses,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Transport networks,Transport networks,Transportnett,Transport networks,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Coordinate reference systems,Coordinate reference systems,Koordinatbasert referansesystem,Coordinate reference systems,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Cadastral parcels,Cadastral parcels,Eiendomsteiger,Cadastral parcels,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Administrative units,Administrative units,Administrative enheter,Administrative Units,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Area management/restriction/regulation zones and reporting units,Area management/restriction/regulation zones and reporting units,Rapporteringsenheter og områder med særlig forvaltning eller restriksjoner,Area management/restriction/regulation zones and reporting units,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Hydrography,Hydrography,Hydrografi,Hydrography,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Sea regions,Sea regions,Havområder,Sea regions,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Natural risk zones,Natural risk zones,Områder med naturbetingede farer,Natural risk zones,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Land cover,Land cover,Arealdekke,Land cover,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Bio-geographical regions,Bio-geographical regions,Biogeografiske områder,Bio-geographical regions,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Mineral resources,Mineral resources,Mineralressurser,Mineral resources,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Production and industrial facilities,Production and industrial facilities,Produksjons- og industrianlegg,Production and industrial facilities,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Species distribution,Species distribution,Artsfordeling,Species distribution,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Soil,Soil,Jordarter,Soil,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Energy resources,Energy resources,Energiressurser,Energy resources,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Human health and safety,Human health and safety,Menneskers helse og sikkerhet,Human health and safety,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Orthoimagery,Orthoimagery,Ortofoto,Orthoimagery,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Geology,Geology,Geologi,Geology,Inspire themes
+https://register.geonorge.no/metadata-kodelister/inspiretema/Habitats and biotopes,Habitats and biotopes,Habitater og biotoper,Habitats and biotopes,Inspire themes
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling,,Nasjonal temainndeling,National topic category,code list
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Samfunnssikkerhet,Samfunnssikkerhet,Samfunnssikkerhet,Crisis management,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Høydedata,Høydedata,Høydedata,Elevation,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Befolkning,Befolkning,Befolkning,Demography,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Natur,Natur,Natur,Nature,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Energi,Energi,Energi,Energy,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Kulturminner,Kulturminner,Kulturminner,Cultural heritage,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Kyst og fiskeri,Kyst og fiskeri,Kyst og fiskeri,Marine activities,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Basis geodata,Basis geodata,Basis geodata,Base maps,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Flyfoto,Flyfoto,Flyfoto,Aerial photography,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Geologi,Geologi,Geologi,Geology,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Vær og klima,Vær og klima,Vær og klima,Weather and climate,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Forurensning,Forurensning,Forurensning,Pollution,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Landbruk,Landbruk,Landbruk,Agriculture,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Landskap,Landskap,Landskap,Landscape,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Eiendom,Eiendom,Eiendom,Property,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Samferdsel,Samferdsel,Samferdsel,Transportation,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Friluftsliv,Friluftsliv,Friluftsliv,Outdoor activities,National topic category
+https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling/Plan,Plan,Plan,Planning,National topic category
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper,,Distribusjonstyper,Distribution Types,code list
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/GEONORGE:FILEDOWNLOAD,GEONORGE:FILEDOWNLOAD,Geonorge filnedlastning,Geonorge file download,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:WFS,OGC:WFS,WFS-tjeneste,WFS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Coverages,OGC:API-Coverages,OGC API-Coverages,OGC API-Coverages,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:WMTS,OGC:WMTS,WMTS-tjeneste,WMTS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/W3C:REST,W3C:REST,REST-API,REST-API,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Processes,OGC:API-Processes,OGC API-Processes,OGC API-Processes,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:CSW,OGC:CSW,OGC Catalogue Service for the Web,OGC Catalogue Service for the Web,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Styles,OGC:API-Styles,OGC API-Styles,OGC API-Styles,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/W3C:WS,W3C:WS,Webservice,Web service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/WMS-C,WMS-C,WMS-C tjeneste,WMS-C service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-EDR,OGC:API-EDR,OGC API-EDR,OGC API-EDR,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:SOS,OGC:SOS,SOS-tjeneste,SOS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:WPS,OGC:WPS,WPS-tjeneste,WPS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Features,OGC:API-Features,OGC API-Features,OGC API-Features,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:WCS,OGC:WCS,WCS-tjeneste,WCS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/WWW:LINK-1.0-http--link,WWW:LINK-1.0-http--link,Webside,Website,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Tiles,OGC:API-Tiles,OGC API-Tiles,OGC API-Tiles,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/GEONORGE:DOWNLOAD,GEONORGE:DOWNLOAD,Geonorge nedlastning,Geonorge download,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/WWW:DOWNLOAD-1.0-http--download,WWW:DOWNLOAD-1.0-http--download,Egen nedlastningsside,External download site,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/W3C:AtomFeed,W3C:AtomFeed,Atom Feed,Atom Feed,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:API-Maps,OGC:API-Maps,OGC API-Maps,OGC API-Maps,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/GEONORGE:OFFLINE,GEONORGE:OFFLINE,Ingen online tilgang,No online access,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OPENDAP:OPENDAP,OPENDAP:OPENDAP,OPeNDAP,OPeNDAP,Distribution Types
+https://register.geonorge.no/metadata-kodelister/distribusjonstyper/OGC:WMS,OGC:WMS,WMS-tjeneste,WMS service,Distribution Types
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder,,Tjenestestandarder,Tjenestestandarder,code list
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.iso.org/standard/42136.html,https://www.iso.org/standard/42136.html,ISO 19142:2010 Geographic information -- Web Feature Service,ISO 19142:2010 Geographic information -- Web Feature Service,Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.ogc.org/standards/wcs,https://www.ogc.org/standards/wcs,OGC Web Coverage Service (WCS),OGC Web Coverage Service (WCS),Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.iso.org/standard/32546.html,https://www.iso.org/standard/32546.html,ISO 19128:2005 Geographic information -- Web map server interface,ISO 19128:2005 Geographic information -- Web map server interface,Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.ogc.org/standards/wps,https://www.ogc.org/standards/wps,OGC Web Processing Service (WPS),OGC Web Processing Service (WPS),Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.ogc.org/standards/wmts,https://www.ogc.org/standards/wmts,OpenGIS Web Map Tile Service Implementation Standard (WMTS),OpenGIS Web Map Tile Service Implementation Standard (WMTS),Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/tjenestestandarder/https://www.ogc.org/standards/cat,https://www.ogc.org/standards/cat,OGC Catalogue Service (CSW),OGC Catalogue Service (CSW),Tjenestestandarder
+https://register.geonorge.no/metadata-kodelister/datasettvarsel,,Datasettvarsel,Datasettvarsel,code list
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyttTestDatasett,nyttTestDatasett,Nytt test-datasett,New test dataset,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/avvikletTestDatasett,avvikletTestDatasett,Avviklet test-datasett,Discontinued test dataset,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endringerTittel,endringerTittel,Endringer i tittel,Changes in title,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/feilProduksjon,feilProduksjon,Feil i dataproduksjon,Errors in data,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyÅrsversjon,nyÅrsversjon,Ny årsversjon,New annual edition,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyttDatasett,nyttDatasett,Nytt datasett,New dataset,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endretFormat,endretFormat,Endringer i format,Format changes,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyeTegneregler,nyeTegneregler,Datasettet har fått nye tegneregler,Datasettet har fått nye tegneregler,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endretDatakvalitet,endretDatakvalitet,Endringer i datakvalitet,The quality of the data has changed,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/mangelfullOppdatering,mangelfullOppdatering,Mangelfull oppdatering av data,Inadequate updating of data,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endretMetadataURL,endretMetadataURL,Endret metadataoppføring (ny URL),Altered metadata record (new URL),Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/avvikletDatasett,avvikletDatasett,Avviklet datasett,Discontinued dataset,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyVersjonUML,nyVersjonUML,Ny versjon av UML-modell,New version of UML-model,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endretDistribusjon,endretDistribusjon,Distribusjon av datasettet er endret,Distribusjon av datasettet er endret,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/endringEksterneKodelister,endringEksterneKodelister,Endring i eksterne kodelister,Change in external code lists,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/datasettvarsel/nyAdministrativInndeling,nyAdministrativInndeling,Ny administrativ inndeling,New administrative divisions,Datasettvarsel
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype,,Romlig representasjonstype,Spatial Representastion Type Code,code list
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/textTable,textTable,Teksttabell,Text table,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/vector,vector,Vektor,Vector,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/stereoModel,stereoModel,Stereomodell,Stereo model,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/video,video,Video,Video,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/tin,tin,TIN,TIN,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/romlig-representasjonstype/grid,grid,Rasterbilde/digital terrengmodell,Grid,Spatial Representastion Type Code
+https://register.geonorge.no/metadata-kodelister/lisenser,,Lisenser,Licenses,code list
+https://register.geonorge.no/metadata-kodelister/lisenser/https://data.norge.no/nlod/no/2.0,https://data.norge.no/nlod/no/2.0,Norsk lisens for offentlige data (NLOD) 2.0,Norwegian Licence for Open Government Data (NLOD) 2.0,Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/http://creativecommons.org/licenses/by/3.0/no/,http://creativecommons.org/licenses/by/3.0/no/,Creative Commons BY 3.0 (CC BY 3.0),Creative Commons BY 3.0 (CC BY 3.0),Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/https://creativecommons.org/licenses/by/4.0/,https://creativecommons.org/licenses/by/4.0/,Creative Commons BY 4.0 (CC BY 4.0),Creative Commons BY 4.0 (CC BY 4.0),Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/http://data.norge.no/nlod/no/1.0,http://data.norge.no/nlod/no/1.0,Norsk lisens for offentlige data (NLOD),Norwegian Licence for Open Government Data (NLOD),Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/https://creativecommons.org/licenses/by-nc/4.0/,https://creativecommons.org/licenses/by-nc/4.0/,Creative Commons BY-NC 4.0 (CC BY-NC 4.0),Creative Commons BY-NC 4.0 (CC BY-NC 4.0),Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/https://creativecommons.org/publicdomain/zero/1.0/,https://creativecommons.org/publicdomain/zero/1.0/,Creative Commons 0,Creative Commons 0,Licenses
+https://register.geonorge.no/metadata-kodelister/lisenser/https://www.kartverket.no/geodataarbeid/norge-digitalt/partsinformasjon/avtaler-og-vilkar/norge-digitalt-lisens,https://www.kartverket.no/geodataarbeid/norge-digitalt/partsinformasjon/avtaler-og-vilkar/norge-digitalt-lisens,Norge digitalt-lisens,Norway digital license,Licenses
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover,,Samarbeid og lover,Cooperation and Laws,code list
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Norge digitalt,Norge digitalt,Norge digitalt,Norway Digital,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/beredskapsbase,beredskapsbase,Beredskapsbase,Beredskapsbase,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Barentswatch,Barentswatch,Barentswatch,Barentswatch,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Åpne data,Åpne data,Åpne data,Open data,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/modellbaserteVegprosjekter,modellbaserteVegprosjekter,Modellbaserte vegprosjekter,Modellbaserte vegprosjekter,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Det offentlige kartgrunnlaget,Det offentlige kartgrunnlaget,Det offentlige kartgrunnlaget,NSDI data,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Arctic SDI,Arctic SDI,Arctic SDI,Arctic SDI,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Geodataloven,Geodataloven,Geodataloven,Geodata Act,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Nautisk informasjon,Nautisk informasjon,Nautisk informasjon,Nautisk informasjon,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/Inspire,Inspire,Inspire,Inspire,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/fellesDatakatalog,fellesDatakatalog,Felles datakatalog,National public data catalog,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/arealplanerPBL,arealplanerPBL,Arealplaner underlagt PBL,Planning data underlaying law,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/European Location Framework,European Location Framework,European Location Framework,European Location Framework,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/samarbeid-og-lover/mareano,mareano,Mareano,Mareano,Cooperation and Laws
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier,,HVD-kategorier,High-value dataset categories,code list
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_b79e35eb,http://data.europa.eu/bna/c_b79e35eb,Mobilitet,Mobility,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_a9135398,http://data.europa.eu/bna/c_a9135398,Selskaps- og eierskapsdata,Companies and company ownership,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_e1da4e07,http://data.europa.eu/bna/c_e1da4e07,Statistikk,Statistics,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_dd313021,http://data.europa.eu/bna/c_dd313021,Jordobservasjon og miljø,Earth observation and environment,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_ac64a52d,http://data.europa.eu/bna/c_ac64a52d,Geodata,Geospatial,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/hvd-kategorier/http://data.europa.eu/bna/c_164e0bf5,http://data.europa.eu/bna/c_164e0bf5,Meteorologi,Meteorological,High-value dataset categories
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder,,Restriksjonskoder,Restriction Code,code list
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/trademark,trademark,Varemerke,Trademark,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/patentPending,patentPending,Påvente av patent,Patent pending,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/patent,patent,Patentbeskyttet,Patent,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/copyright,copyright,Kopibeskyttet,Copyright,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/otherRestrictions,otherRestrictions,Andre restriksjoner,Other restrictions,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/restricted,restricted,Beskyttet,Restricted,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/intellectualPropertyRights,intellectualPropertyRights,Åndsverk,Intellectual property rights,Restriction Code
+https://register.geonorge.no/metadata-kodelister/restriksjonskoder/license,license,Lisens,License,Restriction Code
+https://register.geonorge.no/metadata-kodelister/metadataniva,,Metadatanivå,Hierarchy Level,code list
+https://register.geonorge.no/metadata-kodelister/metadataniva/feature,feature,Objekt,Feature,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/fieldSession,fieldSession,Gruppering av kolonner,Field Session,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/software,software,Programvare,Software,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/model,model,Modell,Model,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/title,title,Tittel,Title,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/service,service,Tjenester,Service,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/featureType,featureType,ObjektType,Feature Type,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/collectionHardware,collectionHardware,Maskinvare,Collection Hardware,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/dataset,dataset,Datasett,Dataset,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/series,series,Datasettserie,Dataset serie,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/attributeType,attributeType,EgenskapType,Attribute Type,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/nonGeographicDataset,nonGeographicDataset,Ikke-stedfestede data,Non Geographic Dataset,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/propertyType,propertyType,EieforholdType,Property Type,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/attribute,attribute,Egenskap,Attribute,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/collectionSession,collectionSession,DataInnsamling,Collection session,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/metadataniva/dimensionGroup,dimensionGroup,Gruppe,Dimension Group,Hierarchy Level
+https://register.geonorge.no/metadata-kodelister/formal,,Formål,Purpose,code list
+https://register.geonorge.no/metadata-kodelister/formal/plansjøkonfliktområder,plansjøkonfliktområder,Planlegging sjø - konfliktområder,Planning sea - conflict areas,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/overvåkning,overvåkning,Overvåkning,Surveillance,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/tekoginnovasjon,tekoginnovasjon,Teknologi og innovasjon,Technology and innovation,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/planlandogeiendombygg,planlandogeiendombygg,Planlegging land og eiendom - bygg,Planning land and property - buildings,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/transporttrafikknavigasjon,transporttrafikknavigasjon,Transport - trafikk - navigasjon,Transportation - traffic - navigation,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/fritid,fritid,Fritidsaktiviteter,Leisure activities,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/planlandogeiendomareal,planlandogeiendomareal,Planlegging land og eiendom - areal,Planning land and property - area,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/kyst,kyst,Kystnære aktiviteter,Coastal activities,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/plansjøletevirksomhet,plansjøletevirksomhet,Planlegging sjø - letevirksomhet,Planning sea - exploration,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/forskning,forskning,Forskning,Research,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/plansjøforvaltning,plansjøforvaltning,Planlegging sjø - forvaltning,Planning sea - administration,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/søknadogdokumentasjon,søknadogdokumentasjon,Søknad og dokumentasjon,Application and documentation,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/plansjøinfrastruktur,plansjøinfrastruktur,Planlegging sjø - infrastruktur,Planning sea - infrastructure,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/plansjøplassering,plansjøplassering,Planlegging sjø - plassering,Planning sea - placement,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/videreformidling,videreformidling,Videreformidling,Dissemination,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/planlandogeiendomforvaltning,planlandogeiendomforvaltning,Planlegging land og eiendom - forvaltning,Planning land and property - administration,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/kunnskapkompetanse,kunnskapkompetanse,Kunnskap og kompetanse,Knowledge and expertise,Purpose
+https://register.geonorge.no/metadata-kodelister/formal/beredskap,beredskap,Beredskapsaktiviteter,Preparedness activities,Purpose
+https://register.geonorge.no/metadata-kodelister/datasettserietype,,Datasettserietype,Dataset Serie Type,code list
+https://register.geonorge.no/metadata-kodelister/datasettserietype/series_collection,series_collection,Gruppeserie,Collection data set series,Dataset Serie Type
+https://register.geonorge.no/metadata-kodelister/datasettserietype/series_time,series_time,Tidsserie,Time series,Dataset Serie Type
+https://register.geonorge.no/metadata-kodelister/datasettserietype/series_thematic,series_thematic,Tematisk datasettserie,Thematic data set series,Dataset Serie Type
+https://register.geonorge.no/metadata-kodelister/datasettserietype/series_historic,series_historic,Historisk tidsserie,Historical time series,Dataset Serie Type
+https://register.geonorge.no/metadata-kodelister/datasettserietype/series_geographic,series_geographic,Geografisk datasettserie,Geographical data series,Dataset Serie Type
+https://register.geonorge.no/metadata-kodelister/tilgangsrestriksjoner,,Tilgangsrestriksjoner,Access restrictions,code list
+https://register.geonorge.no/metadata-kodelister/tilgangsrestriksjoner/restricted,restricted,Skjermede data,Restricted data,Access restrictions
+https://register.geonorge.no/metadata-kodelister/tilgangsrestriksjoner/norway digital restricted,norway digital restricted,Norge digitalt-begrenset,Norway Digital restricted,Access restrictions
+https://register.geonorge.no/metadata-kodelister/tilgangsrestriksjoner/no restrictions,no restrictions,Åpne data,Open data,Access restrictions
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori,,Tematisk hovedkategori,Topic Category Code,code list
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/farming,farming,Landbruk og havbruk,Farming,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/biota,biota,Biologisk mangfold,Biota,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/boundaries,boundaries,Administrative grenser,boundaries,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/climatologyMeteorologyAtmosphere,climatologyMeteorologyAtmosphere,"Klima, meteorologi og atmosfære",Climatology / Meteorology / Atmosphere,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/economy,economy,Økonomi,Economy,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/elevation,elevation,Høydedata,Elevation,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/environment,environment,Miljødata,Environment,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/geoscientificInformation,geoscientificInformation,Geovitenskapelig informasjon,Geoscientific Information,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/health,health,Helse,Health,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/imageryBaseMapsEarthCover,imageryBaseMapsEarthCover,Basisdata,Imagery / Base Maps / Earth Cover,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/intelligenceMilitary,intelligenceMilitary,Militære data,Intelligence / Military,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/inlandWaters,inlandWaters,Innsjø og vassdrag,Inland Waters,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/location,location,Stedsangivelse,Location,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/oceans,oceans,Kyst og sjø,Oceans,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/planningCadastre,planningCadastre,Plan og eiendom,Planning / Cadastre,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/society,society,Samfunn og kultur,Society,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/structure,structure,Konstruksjoner,Structure,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/transportation,transportation,Transport,Transportation,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/tematisk-hovedkategori/utilitiesCommunication,utilitiesCommunication,Ledningsinformasjon,Utilities / Communication,Topic Category Code
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling,,Geografisk distribusjonsinndeling,Geographical units of distribution,code list
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/cellevis,cellevis,Celle,Celle,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/kommunevis,kommunevis,Kommune,Municipality,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/fylkesvis,fylkesvis,Fylke,County,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/landsfiler,landsfiler,Hele landet,Country,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/regional inndeling,regional inndeling,Region,Region,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/geografisk-distribusjonsinndeling/kartbladvis,kartbladvis,Kartblad,Map sheet,Geographical units of distribution
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet,,Oppdateringshyppighet,Maintenance Frequency Code,code list
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/fortnightly,fortnightly,Hver fjortende dag,Fortnightly,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/continual,continual,Kontinuerlig,Continual,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/daily,daily,Daglig,Daily,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/weekly,weekly,Ukentlig,Weekly,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/monthly,monthly,Månedlig,Monthly,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/quarterly,quarterly,Hvert kvartal,Quarterly,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/biannually,biannually,Hvert halvår,Biannually,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/annually,annually,Årlig,Annually,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/asNeeded,asNeeded,Etter behov,As needed,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/irregular,irregular,Ujevnt,Irregular,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/notPlanned,notPlanned,Ikke planlagt,Not planned,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/oppdateringshyppighet/unknown,unknown,Ukjent,Unknown,Maintenance Frequency Code
+https://register.geonorge.no/metadata-kodelister/status,,Status,Status,code list
+https://register.geonorge.no/metadata-kodelister/status/completed,completed,Fullført,Completed,Status
+https://register.geonorge.no/metadata-kodelister/status/historicalArchive,historicalArchive,Arkivert,Historical archive,Status
+https://register.geonorge.no/metadata-kodelister/status/obsolete,obsolete,Utdatert,Obsolete,Status
+https://register.geonorge.no/metadata-kodelister/status/onGoing,onGoing,Kontinuerlig oppdatert,Ongoing,Status
+https://register.geonorge.no/metadata-kodelister/status/planned,planned,Planlagt,Planned,Status
+https://register.geonorge.no/metadata-kodelister/status/required,required,Må oppdateres,Required,Status
+https://register.geonorge.no/metadata-kodelister/status/underDevelopment,underDevelopment,Under arbeid,Under development,Status
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva,,Sikkerhetsnivå,Classification Code,code list
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva/unclassified,unclassified,Ugradert,Unclassified,Classification Code
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva/restricted,restricted,Begrenset,Restricted,Classification Code
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva/confidential,confidential,Konfidensielt,Confidential,Classification Code
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva/secret,secret,Hemmelig,Secret,Classification Code
+https://register.geonorge.no/metadata-kodelister/sikkerhetsniva/topSecret,topSecret,Topp hemmelig,Top secret,Classification Code
+https://register.geonorge.no/metadata-kodelister/brukergrupper,,Brukergrupper,Consumer groups,code list
+https://register.geonorge.no/metadata-kodelister/brukergrupper/miljø,miljø,Miljø,Natural environment,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/utdanningogforskning,utdanningogforskning,Utdanning og forskning,Education and research,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/turogfriluft,turogfriluft,Tur og friluft,Outdoor activities,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/beredskap,beredskap,Beredskap,Preparedness,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/offshore,offshore,Offshore,Offshore,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/fylkeskommune,fylkeskommune,Fylkeskommune,County municipality,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/stat,stat,Stat,State agency,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/kommune,kommune,Kommune,Municipality,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/media,media,Media,Media,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/internasjonaltsamarbeid,internasjonaltsamarbeid,Internasjonalt samarbeid,International cooperation,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/akvakultur,akvakultur,Akvakultur,Aquaculture,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/næringsliv,næringsliv,Næringsliv,Private business,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/forhandler,forhandler,Forhandler,Reseller,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/navigasjon,navigasjon,Navigasjon,Navigation,Consumer groups
+https://register.geonorge.no/metadata-kodelister/brukergrupper/samarbeidspartner,samarbeidspartner,Samarbeidspartner,Collaborator,Consumer groups
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger,,Driftsmeldinger,Service and maintainance announcements,code list
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/midlertidigeDriftsproblemer,midlertidigeDriftsproblemer,Midlertidige driftsproblemer,Temporary operational problems,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/endretDatakvalitet,endretDatakvalitet,Endret datakvalitet,Changed data quality,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/informasjon,informasjon,Informasjon,Information,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/systemAvvikles,systemAvvikles,Systemet avvikles,The system are closed down permanently,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/systemUteAvDrift,systemUteAvDrift,Systemet er midlertidig ute av drift,The system is temporarily out of service,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/statusmelding,statusmelding,Statusmelding,Status message,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/planlagtNedetid,planlagtNedetid,Planlagt nedetid,Scheduled downtime,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/driftsmeldinger/systemOperativt,systemOperativt,Systemet er operativt igjen,The system has been restored,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel,,Tjenestevarsel,Service and maintainance announcements,code list
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endretUrl,endretUrl,Endret URL,Changed URL,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/utilgjengeligTjeneste,utilgjengeligTjeneste,Utilgjengelig tjeneste,Unavailable service,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endretDatastruktur,endretDatastruktur,Endret datastruktur,Changed data structure,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endretDatakvalitet,endretDatakvalitet,Endret datakvalitet,Changed level of quality of data,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/newService,newService,Ny tjeneste,New service,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/erstattet,erstattet,Erstattet,Substituted,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endretDatainnhold,endretDatainnhold,Endret datainnhold,Changed content in data,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endredeKodelister,endredeKodelister,Endrede kodelister,Changed code lists,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/mangelfullOppdatering,mangelfullOppdatering,Mangelfull oppdatering av datakilde,Inadequate updating of data source,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/fjernetTjeneste,fjernetTjeneste,Fjernet tjeneste,Removed service,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/forbedretFunksjonalitet,forbedretFunksjonalitet,Ny eller forbedret funksjonalitet,Ny eller forbedret funksjonalitet,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/tjenestevarsel/endretTilgang,endretTilgang,Endret tilgangsnivå,Endret tilgangsnivå,Service and maintainance announcements
+https://register.geonorge.no/metadata-kodelister/norge-digitalt-tjenesteerklaering,,Norge digitalt tjenesteerklæring,Norway digital service declaration,code list
+https://register.geonorge.no/metadata-kodelister/norge-digitalt-tjenesteerklaering/A,A,Norge digitalt tjenesteerklæring A,Norway digital service declaration A,Norway digital service declaration
+https://register.geonorge.no/metadata-kodelister/norge-digitalt-tjenesteerklaering/C,C,Norge digitalt tjenesteerklæring C,Norway digital service declaration C,Norway digital service declaration
+https://register.geonorge.no/metadata-kodelister/norge-digitalt-tjenesteerklaering/B,B,Norge digitalt tjenesteerklæring B,Norway digital service declaration B,Norway digital service declaration
+https://register.geonorge.no/metadata-kodelister/rasterformater,,Rasterformater,Gridded data formats,code list
+https://register.geonorge.no/metadata-kodelister/rasterformater/GRASS,GRASS,GRASS raster,GRASS raster,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/GRIB,GRIB,GRIB,GRIB,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/BAG,BAG,BAG,BAG,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/PPT,PPT,PPT,PPT,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/NetCDF-CF,NetCDF-CF,NetCDF - CF,NetCDF - CF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/AI,AI,AI,AI,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/AAIGrid,AAIGrid,Arc/Info ASCII Grid,Arc/Info ASCII Grid,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/BIN,BIN,BIN,BIN,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/PDF,PDF,PDF,PDF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/SDE,SDE,ArcSDE Raster,ArcSDE Raster,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/NED,NED,NED,NED,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/BMP,BMP,BMP,BMP,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/EMF,EMF,EMF,EMF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/NetCDF,NetCDF,NetCDF,NetCDF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/JPEG2000,JPEG2000,JPEG2000,JPEG2000,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/XYZ,XYZ,"ASCII x,y,z","ASCII x,y,z",Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/HDF5,HDF5,HDF5,HDF5,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/MrSID,MrSID,MrSID,MrSID,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/AIG,AIG,Arc/Info Binary Grid,Arc/Info Binary Grid,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/JPEG,JPEG,JPEG,JPEG,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/ENH,ENH,ENH,ENH,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/DTED,DTED,DTED,DTED,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/SAFE,SAFE,SAFE,SAFE,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/GeoTIFF,GeoTIFF,GeoTIFF,GeoTIFF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/TIFF,TIFF,TIFF,TIFF,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/HFA,HFA,Erdas IMG,Erdas IMG,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/ECW,ECW,ERDAS ECW,ERDAS ECW,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/USGSDEM,USGSDEM,USGS DEM,USGS DEM,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/rasterformater/PNG,PNG,PNG,PNG,Gridded data formats
+https://register.geonorge.no/metadata-kodelister/tegnsettkode,,Tegnsettkode,Character Set Code,code list
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/utf16,utf16,utf16,utf16,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/eucKR,eucKR,eucKR,eucKR,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part6,8859part6,8859part6,8859part6,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/ucs4,ucs4,ucs4,ucs4,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part4,8859part4,8859part4,8859part4,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/ebcdic,ebcdic,ebcdic,ebcdic,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part15,8859part15,8859part15,8859part15,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part2,8859part2,8859part2,8859part2,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/eucJP,eucJP,eucJP,eucJP,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/jis,jis,jis,jis,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part13,8859part13,8859part13,8859part13,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part5,8859part5,8859part5,8859part5,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part14,8859part14,8859part14,8859part14,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/utf7,utf7,utf7,utf7,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/ucs2,ucs2,ucs2,ucs2,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/big5,big5,big5,big5,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/shiftJIS,shiftJIS,shiftJIS,shiftJIS,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part3,8859part3,8859part3,8859part3,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part9,8859part9,8859part9,8859part9,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/usAscii,usAscii,usAscii,usAscii,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part10,8859part10,8859part10,8859part10,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/utf8,utf8,utf8,utf8,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part8,8859part8,8859part8,8859part8,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part16,8859part16,8859part16,8859part16,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/GB2312,GB2312,GB2312,GB2312,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part7,8859part7,8859part7,8859part7,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part1,8859part1,8859part1,8859part1,Character Set Code
+https://register.geonorge.no/metadata-kodelister/tegnsettkode/8859part11,8859part11,8859part11,8859part11,Character Set Code
+https://register.geonorge.no/metadata-kodelister/kataloger,,Kataloger,Cataloges,code list
+https://register.geonorge.no/metadata-kodelister/kataloger/Inspire,Inspire,Inspire,Inspire,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/Mareano,Mareano,Mareano,Mareano,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/modellbaserteVegprosjekter,modellbaserteVegprosjekter,Modellbaserte vegprosjekter,Modellbaserte vegprosjekter,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/arcticSDI,arcticSDI,Arctic SDI,Arctic SDI,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/Barentswatch,Barentswatch,Barentswatch,Barentswatch,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/ØkologiskGrunnkart,ØkologiskGrunnkart,Økologisk grunnkart,Økologisk grunnkart,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/Norsk klimaservicesenter,Norsk klimaservicesenter,Norsk klimaservicesenter,Norwegian Centre for Climate Services,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/dataNorgeNo,dataNorgeNo,Data Norge no,National Open Data Portal,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/beredskapsbase,beredskapsbase,Beredskapsbase,Emergency database,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/MarineGrunnkart,MarineGrunnkart,Marine grunnkart,Marine base maps,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/Nautisk informasjon,Nautisk informasjon,Nautisk informasjon,Nautisk informasjon,Cataloges
+https://register.geonorge.no/metadata-kodelister/kataloger/fellesDatakatalog,fellesDatakatalog,Felles datakatalog,National data catalog,Cataloges
+https://register.geonorge.no/metadata-kodelister/vektorformater,,Vektorformater,Vector formats,code list
+https://register.geonorge.no/metadata-kodelister/vektorformater/DwC-A,DwC-A,Darwin Core Archive,Darwin Core Archive,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/JSON,JSON,JSON,JSON,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/FlatGeobuf,FlatGeobuf,FlatGeobuf,FlatGeobuf,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GeoJSON,GeoJSON,GeoJSON,GeoJSON,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GDB,GDB,ESRI Geodatabase,ESRI Geodatabase,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/Shape,Shape,ESRI Shape,ESRI Shape,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/LAS,LAS,LAS,LAS,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GPKG,GPKG,GeoPackage,GeoPackage,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GML,GML,GML,GML,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GRI,GRI,GRI,GRI,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/SOSI,SOSI,SOSI,SOSI,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/SpatiaLite,SpatiaLite,SQLite/SpatiaLite,SQLite/SpatiaLite,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/PDF,PDF,PDF,PDF,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/AI,AI,AI,AI,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/V7DGN,V7DGN,Intergraph DGN,Intergraph DGN,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/PostGIS,PostGIS,PostGIS,PostGIS,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/BIN,BIN,BIN,Binary,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/Parquet,Parquet,Apache Parquet,Apache Parquet,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/FGDB,FGDB,ESRI Filgeodatabase,ESRI Filgeodatabase,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/DWG,DWG,DWG,DWG,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/V8DGN,V8DGN,Microstation DGN,Microstation DGN,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GPX,GPX,GPX,GPX,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/EMF,EMF,EMF,EMF,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/RDF,RDF,RDF,RDF,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/TopoJSON,TopoJSON,TopoJSON,TopoJSON,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/LAZ,LAZ,LAZ,LAZ,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/DXF,DXF,DXF,DXF,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/Access,Access,Microsoft Access,Microsoft Access,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/S57,S57,S57,S57,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/KML,KML,KML,KML,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/TAB,TAB,MapInfo (TAB),MapInfo (TAB),Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/MIF,MIF,MapInfo (MIF/MID),MapInfo (MIF/MID),Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/ZLAS,ZLAS,zLAS,zLAS,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GDF,GDF,GDF,GDF,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/GeoSuite,GeoSuite,GeoSuite,GeoSuite,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/KMZ,KMZ,KMZ,KMZ,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/3ds,3ds,Autodesk 3DS Max,Autodesk 3DS Max,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/XML,XML,XML,XML,Vector formats
+https://register.geonorge.no/metadata-kodelister/vektorformater/CSV,CSV,CSV,CSV,Vector formats
