@@ -372,3 +372,29 @@ Norwegian theme search is unchanged: hybrid 0.59, BGE-M3 0.57.
   the spread seen across samples (0.83 to 0.90); Bokmål stays usable.
 - The EU languages remain not usable on INSPIRE concepts; a test on real catalogue records in
   those languages, as for Norwegian, is still missing.
+
+## Results, public build without LÍSA (2026-11-12)
+
+Run 43271325425, the first from `main`: the glossary is built on the runner from the public
+repository, so without LÍSA (held back, see `published/lisa/`) and with the English-Icelandic
+glossary 21.09. 40,891 concepts; with no LÍSA terms the Icelandic pivot links nothing, so the
+Árni Magnússon dictionaries add no Danish, Swedish or Polish terms here.
+
+| Test | Without LÍSA, with 21.09 | With LÍSA, without 21.09 (run 43254602987) | BGE-M3 |
+|---|---:|---:|---:|
+| Icelandic theme search, hybrid P@10 | **0.28** | 0.11 | 0.11 |
+| Icelandic theme search, + concepts P@10 | 0.17 | 0.00 | |
+| Norwegian theme search, hybrid P@10 | 0.58 | 0.59 | 0.57 |
+| Bokmål known-item, hybrid R@10 | 0.89 (151 records) | 0.89 (208) | 0.95 |
+| Danish / Swedish / Polish, hybrid R@10 | 0.50 / 0.52 / 0.47 | 0.51 / 0.51 / 0.46 | |
+
+**Reading:**
+
+- The public build works end to end on a fresh checkout, and its verdicts match the full
+  build: Bokmål usable, EU languages on INSPIRE concepts not usable.
+- On Icelandic themes the general English-Icelandic glossary does better than LÍSA alone
+  (0.28 against 0.11, above BGE-M3), because the theme names are common words (*geology*,
+  *elevation*, *transport*) it covers and LÍSA words differently. The sample is small: three
+  themes, 14 tagged records out of 240. Both together have not been tested yet.
+- Danish, Swedish and Polish are unchanged with or without the dictionaries' terms, which
+  confirms that the INSPIRE test does not reach them.

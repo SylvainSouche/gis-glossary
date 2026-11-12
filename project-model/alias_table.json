@@ -179,6 +179,12 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-acceptance-public-build": {
+    "active": true,
+    "id": "0f87-6af6-020e-d691",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-arnastofnun-dictionaries": {
     "active": true,
     "id": "0f87-6af5-d9e2-2e47",
