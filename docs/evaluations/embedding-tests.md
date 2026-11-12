@@ -341,3 +341,34 @@ Crisis management (0.3), Aerial photography (0.3).
   vocabulary quality.
 - The catalogue sample differs between runs (2,127 then 2,047 datasets), so per-theme numbers move
   a little for every method; Base maps fell for potion itself, which does not use the lexicon.
+
+## Results, with the Árni Magnússon dictionaries (2026-11-12)
+
+Run 43254602987: lexicon regenerated after the ISLEX, Icelandic-French and Icelandic-Polish
+dictionaries were linked to LÍSA concepts through Icelandic (Danish 416 → 1,290 concepts,
+Swedish 823 → 1,661, Polish 245 → 1,253). The English-Icelandic glossary 21.09 was loaded
+after this run and is not in it.
+
+**Known-item search** (hybrid R@10, previous run in brackets):
+
+| Language | hybrid | BGE-M3 | Ratio | Verdict |
+|---|---:|---:|---:|---|
+| da | 0.51 (0.51) | 0.61 | 0.83 | not usable |
+| sv | 0.51 (0.52) | 0.62 | 0.84 | not usable |
+| pl | 0.46 (0.47) | 0.57 | 0.80 | not usable |
+| fr | 0.55 (0.56) | 0.61 | 0.90 | not usable |
+| nb | 0.89 (0.83) | 0.93 | 0.96 | usable |
+
+Norwegian theme search is unchanged: hybrid 0.59, BGE-M3 0.57.
+
+**Reading:**
+
+- The new Danish, Swedish and Polish terms do not move the INSPIRE test. Its 346 concepts are
+  feature types (*Hydrographic network*, *Administrative unit*) whose names are mostly
+  multi-word phrases; the dictionaries add single general words, linked through LÍSA's GIS
+  vocabulary. The test measures the hard end of the problem, and the dictionaries do not
+  reach it.
+- The Bokmål rise (0.83 → 0.89) comes with a different sample of 208 records and is within
+  the spread seen across samples (0.83 to 0.90); Bokmål stays usable.
+- The EU languages remain not usable on INSPIRE concepts; a test on real catalogue records in
+  those languages, as for Norwegian, is still missing.

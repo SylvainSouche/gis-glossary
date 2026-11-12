@@ -101,6 +101,12 @@
     "status": "recorded",
     "type": "dec"
   },
+  "dec-public-repo-without-lisa": {
+    "active": true,
+    "id": "0f87-6af5-f145-c9fb",
+    "status": "recorded",
+    "type": "dec"
+  },
   "dec-quality-target-search": {
     "active": true,
     "id": "0f87-6af1-f704-f574",
@@ -152,6 +158,12 @@
   "obs-1-8b-all-languages-test": {
     "active": true,
     "id": "0f87-6af2-0e31-78fe",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-acceptance-arnastofnun": {
+    "active": true,
+    "id": "0f87-6af5-f1be-7e3b",
     "status": "recorded",
     "type": "obs"
   },
