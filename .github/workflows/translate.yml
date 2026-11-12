@@ -1,0 +1,84 @@
+name: Translate
+
+on:
+  workflow_dispatch:
+    inputs:
+      input:
+        description: Text to translate, as a path in this repository
+        default: sources/open/qgis-training-lesson-8.4/lesson_fr.txt
+        required: true
+      mode:
+        description: routed sends clean source text; assisted also supplies labels and terms
+        type: choice
+        options: [assisted, routed]
+        default: assisted
+      reference:
+        description: Optional human translation to score against
+        default: sources/open/qgis-training-lesson-8.4/lesson_en.txt
+        required: false
+
+permissions:
+  contents: read
+
+env:
+  OLLAMA_VERSION: "0.40.13"
+  MODEL: hf.co/tencent/Hy-MT2-1.8B-GGUF:Q4_K_M
+  OLLAMA_MODELS: ${{ github.workspace }}/.ollama-models
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore the model from the cache
+        id: model-cache
+        uses: actions/cache@v4
+        with:
+          path: .ollama-models
+          key: ollama-hy-mt2-1.8b-q4-v1
+
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+
+      - name: Start Ollama
+        run: |
+          sudo systemctl stop ollama || true
+          nohup ollama serve > ollama.log 2>&1 &
+          for attempt in $(seq 1 60); do
+            curl -fs http://localhost:11434/api/tags > /dev/null && exit 0
+            sleep 1
+          done
+          cat ollama.log
+          exit 1
+
+      - name: Download the model
+        if: steps.model-cache.outputs.cache-hit != 'true'
+        run: ollama pull "$MODEL"
+
+      - name: Build the glossary
+        run: python3 tools/build_glossary.py
+
+      - name: Translate
+        env:
+          INPUT_PATH: ${{ inputs.input }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          mkdir -p output
+          python3 tools/assisted_translate.py --mode "$MODE" --model "$MODEL" \
+            --input "$INPUT_PATH" --output output/translation.txt
+
+      - name: Score against the reference
+        if: inputs.reference != ''
+        env:
+          REFERENCE_PATH: ${{ inputs.reference }}
+        run: |
+          python3 tools/score_translation.py "$REFERENCE_PATH" output=output/translation.txt \
+            | tee output/score.md
+          cat output/score.md >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: translation
+          path: output/

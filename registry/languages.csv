@@ -1,0 +1,17 @@
+tier,code,language,note
+1,en,English,
+1,fr,French,
+1,es,Spanish,
+1,de,German,
+1,it,Italian,
+2,nb,Norwegian Bokmål,One of two written standards of Norwegian
+2,nn,Norwegian Nynorsk,One of two written standards of Norwegian
+2,is,Icelandic,
+2,da,Danish,
+2,pl,Polish,
+2,sl,Slovenian,
+3,el,Greek,
+3,ro,Romanian,
+3,bg,Bulgarian,
+3,sk,Slovak,
+3,sv,Swedish,

@@ -1,0 +1,44 @@
+french	SemanticCollocation	fr 5289
+french	SemanticIdiomaticity	fr 4355
+french	Sense	fr 73626
+french	SenseExample	fr 29289
+french	VerbPhrase	fr 4499
+french	entries	 44949
+islex	SemanticCollocation	da 7019
+islex	SemanticCollocation	fi 5877
+islex	SemanticCollocation	fo 5797
+islex	SemanticCollocation	nb 6545
+islex	SemanticCollocation	nn 6551
+islex	SemanticCollocation	sv 6559
+islex	SemanticIdiomaticity	da 5602
+islex	SemanticIdiomaticity	fi 4599
+islex	SemanticIdiomaticity	fo 4622
+islex	SemanticIdiomaticity	nb 5344
+islex	SemanticIdiomaticity	nn 5335
+islex	SemanticIdiomaticity	sv 5126
+islex	Sense	da 97848
+islex	Sense	fi 79775
+islex	Sense	fo 75782
+islex	Sense	nb 97498
+islex	Sense	nn 97357
+islex	Sense	sv 93402
+islex	SenseExample	da 35262
+islex	SenseExample	fi 33286
+islex	SenseExample	fo 33251
+islex	SenseExample	nb 23523
+islex	SenseExample	nn 23485
+islex	SenseExample	sv 34227
+islex	VerbPhrase	da 6025
+islex	VerbPhrase	fi 4737
+islex	VerbPhrase	fo 4954
+islex	VerbPhrase	nb 5642
+islex	VerbPhrase	nn 5628
+islex	VerbPhrase	sv 5312
+islex	entries	 54393
+polish	SemanticCollocation	pl 5806
+polish	SemanticIdiomaticity	pl 4566
+polish	Sense	pl 95862
+polish	SenseExample	pl 34429
+polish	VerbPhrase	pl 4623
+polish	entries	 52325
+subject fields: []
