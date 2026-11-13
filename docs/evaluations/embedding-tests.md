@@ -398,3 +398,41 @@ glossary 21.09. 40,891 concepts; with no LÍSA terms the Icelandic pivot links n
   themes, 14 tagged records out of 240. Both together have not been tested yet.
 - Danish, Swedish and Polish are unchanged with or without the dictionaries' terms, which
   confirms that the INSPIRE test does not reach them.
+
+## Results, with GEMET (2026-11-13)
+
+Run 43415579509 on `main` (commit 5bdbb97): public build, so without LÍSA, now with GEMET
+(15 languages) and the Norwegian CORINE nomenclature. GEMET Icelandic also feeds the Icelandic
+pivot, which now links 3,372 dictionary senses without LÍSA.
+
+**INSPIRE concepts, hybrid R@10** (previous public build, run 43271325425, in brackets):
+
+| Language | hybrid | BGE-M3 | Ratio | Ratio ≥ 0.85 |
+|---|---:|---:|---:|---|
+| de | 0.55 (0.51) | 0.58 | 0.94 | yes |
+| es | 0.59 (0.58) | 0.63 | 0.94 | yes |
+| fr | 0.57 (0.54) | 0.61 | 0.93 | yes |
+| ro | 0.55 (0.54) | 0.61 | 0.91 | yes |
+| sv | 0.54 (0.52) | 0.62 | 0.88 | yes |
+| it | 0.55 (0.52) | 0.63 | 0.87 | yes |
+| el | 0.45 (0.42) | 0.52 | 0.86 | yes |
+| da | 0.52 (0.50) | 0.61 | 0.85 | yes |
+| pl | 0.49 (0.47) | 0.57 | 0.85 | yes |
+| bg | 0.49 (0.47) | 0.62 | 0.79 | no |
+| sl | 0.43 (0.41) | 0.58 | 0.74 | no |
+| sk | 0.40 (0.40) | 0.60 | 0.67 | no |
+
+Bokmål known-item search stays usable (0.89, ratio 0.95); Norwegian theme search 0.58
+(unchanged); Icelandic theme search 0.28 (unchanged).
+
+**Reading:**
+
+- GEMET is the first source to move the INSPIRE test: every language except Slovak gains 0.01
+  to 0.04, and nine of twelve now keep at least 85 % of BGE-M3, the ratio half of the pass mark.
+- No language passes, because the other half, R@10 ≥ 0.70, is out of reach on this set for
+  every method: BGE-M3 itself scores 0.52 to 0.63. The INSPIRE set (feature-type names against
+  their definitions) is harder than real search. Real catalogue records in the EU languages, as
+  for Norway, are needed before the verdict for those languages can mean "not usable" rather than
+  "not measured on realistic data".
+- Slovak (0.67 ratio), Slovenian and Bulgarian remain the weakest; their GEMET labels are present,
+  so the gap is in potion's own vocabulary for these languages.

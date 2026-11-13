@@ -173,6 +173,12 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-acceptance-gemet": {
+    "active": true,
+    "id": "0f87-6af7-017f-490f",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-acceptance-hybrid": {
     "active": true,
     "id": "0f87-6af3-3d50-878f",
