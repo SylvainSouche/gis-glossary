@@ -15,3 +15,4 @@ points to them.
 | `asro` | ASRO (Romania) | <https://www.asro.ro/> | National standards normally sold under copyright; terms not read individually |
 | `bds` | BDS (Bulgaria) | <https://bds-bg.org/> | National standards normally sold under copyright; terms not read individually |
 | `unms-sr` | UNMS SR (Slovakia) | <https://www.normoff.gov.sk/> | National standards normally sold under copyright; terms not read individually |
+| `iho-int1-en` | INT 1 English edition (UKHO, distributed by IHO) | <https://iho.int> | Reported as UKHO internal use only, and an IHO restrictive licence; texts not yet read |

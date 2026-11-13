@@ -23,9 +23,10 @@ sources, with the origin and licence of every term recorded.
 
 ## Where it stands
 
-- **Sources:** 81 sources audited ([registry](registry/sources.csv)); eight loaded into the
-  public glossary build (nine with LÍSA), which links them into about 46,600 concepts by English term or, for the
-  Icelandic dictionaries, by Icelandic term ([data model](docs/data-model.md)).
+- **Sources:** 84 sources audited ([registry](registry/sources.csv)); ten loaded into the
+  public glossary build (eleven with LÍSA), which links them into about 47,400 concepts by
+  English term, by Icelandic term for the Icelandic dictionaries, and by code where a source
+  has one ([data model](docs/data-model.md)).
 - **Search test:** an [acceptance test](tests/acceptance/README.md) asks whether an English
   query finds records in another language well enough to be usable. On real Norwegian
   catalogue records (Geonorge) the answer is yes; on the EU languages, measured on INSPIRE
@@ -42,7 +43,9 @@ has an `ATTRIBUTION.md`.
 | Source | Languages | Licence |
 |---|---|---|
 | SNORRE word list, Standard Norge (Språkbanken) | nb, nn, en, fr, de | CC BY 4.0 |
+| GEMET, European Environment Agency | 15 of the 16 (no Nynorsk) | CC BY 4.0 |
 | IATE, European Union (GIS selection) | EU languages | reuse allowed, with acknowledgement |
+| CORINE Land Cover nomenclature, NIBIO | nb, en | NLOD 1.0 (dataset legend) |
 | ISO/TC 211 Multi-Lingual Glossary of Terms | en and 6 others | © ISO/TC 211; term equivalents only |
 | ISLEX, Icelandic-French and Icelandic-Polish dictionaries, Árni Magnússon Institute | is, da, nb, nn, sv, fo, fi, fr, pl | CC BY-SA 4.0 |
 | English-Icelandic glossary 21.09, Árni Magnússon Institute | en, is | CC BY 4.0 |

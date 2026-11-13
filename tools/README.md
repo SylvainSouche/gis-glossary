@@ -17,6 +17,8 @@ Run from any directory.
 | `extract_iate.py` | Selects GIS-related terms from the stored IATE export |
 | `extract_qgis_headings.py` | Aligns QGIS manual headings across languages |
 | `extract_geonorge.py codelists\|resources` | Publishes Geonorge metadata code lists (nb/en) or Geonorge application strings from pinned commits |
+| `extract_gemet.py PATH` | Publishes GEMET labels for the target languages from `gemet.rdf.gz` (7.4 MB, CC BY 4.0) |
+| `extract_int1.py` | Extracts the symbol rows of Kartverket's INT 1 (restricted copy) by position and font; output kept out of git; needs pdfplumber |
 | `extract_arnastofnun.py` | Downloads and flattens the Árni Magnússon dictionaries from CLARIN-IS; run on GitHub Actions (about 43 MB download) |
 
 `extract_mlgt.py` needs PyYAML (see `requirements.txt`). The project model is

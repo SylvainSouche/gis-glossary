@@ -46,12 +46,14 @@ Counts from the build of 2026-11-12.
 | SNORRE (Standard Norge) | CC BY 4.0; credit Standard Norge | 50,616 | 39,292 | English |
 | LÍSA glossary | none stated; term pairs only | 7,365 | 7,004 | English |
 | Geonorge metadata code lists | none stated; names and codes only | 272 | 259 | English |
+| GEMET (EEA) | CC BY 4.0 | 5,609 | 5,570 | English; Icelandic pivot |
+| CORINE Land Cover nomenclature (NIBIO) | NLOD 1.0 (dataset legend) | 64 | 63 | English; keyed by CLC code |
 | ISLEX (is → da nb nn sv fo fi) | CC BY-SA 4.0 | 80,489 | 910 | Icelandic |
 | Icelandic-French dictionary | CC BY-SA 4.0 | 51,094 | 916 | Icelandic |
 | Icelandic-Polish dictionary | CC BY-SA 4.0 | 57,876 | 1,036 | Icelandic |
 | English-Icelandic glossary 21.09 | CC BY 4.0 | 113,566 | 11,205 | English, attach-only |
 
-Totals: 46,570 concepts, of which 5,897 ambiguous. Most dictionary entries reach no concept:
+Totals (build of 2026-11-13): 47,439 concepts, of which 6,098 ambiguous. Most dictionary entries reach no concept:
 they are general vocabulary, kept for later linking.
 
 ## Linking
@@ -62,7 +64,7 @@ Two automatic methods, both recorded in `concept_entry.method`; both give candid
   union-find. A group is marked ambiguous when one source has several entries in it, since
   that source distinguishes senses the English word merges.
 - **`icelandic-pivot`:** the Árni Magnússon dictionaries have no English. A dictionary sense
-  attaches to a concept that holds the same Icelandic term (from LÍSA). A headword with one
+  attaches to a concept that holds the same Icelandic term (from LÍSA or GEMET, both curated per concept). A headword with one
   sense links directly; with several senses (counted across homograph entries), only a sense
   whose Icelandic gloss is itself a term of the concept links (*kort*, gloss *landakort* →
   map). Otherwise nothing links: *lag* is layer, song and manner, and linking all senses put

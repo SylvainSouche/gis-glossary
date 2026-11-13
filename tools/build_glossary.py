@@ -141,6 +141,45 @@ def load_geonorge_codelists(db):
                        (entry, language, row[language], normalize(row[language]), "preferred"))
 
 
+CORINE_NO = ROOT / "published" / "corine-land-cover-no" / "clc_nomenclature_nb_en.csv"
+
+
+def load_corine_no(db):
+    """Load the CORINE Land Cover classes, one entry per CLC code, Bokmål and English names.
+
+    The CLC code is the source key: other national nomenclatures join on it, not on words.
+    """
+    db.execute("INSERT INTO source VALUES (?,?,?,?,?)", (
+        "corine-land-cover-no", "CORINE Land Cover nomenclature, Norwegian (NIBIO)",
+        "https://register.geonorge.no/tegneregler/clc-corine-land-cover",
+        "NLOD 1.0 (dataset legend); class names and codes only", "2026-11-13"))
+    for row in read(CORINE_NO):
+        entry = db.execute("INSERT INTO entry (source_id, source_key, subject) VALUES (?,?,?)",
+                           ("corine-land-cover-no", f"clc:{row['code']}", f"CLC level {row['level']}")).lastrowid
+        for language in ("nb", "en"):
+            db.execute("INSERT INTO term (entry_id, language, text, normalized, status) VALUES (?,?,?,?,?)",
+                       (entry, language, row[language], normalize(row[language]), "preferred"))
+
+
+GEMET = ROOT / "published" / "gemet" / "gemet_labels.csv.xz"
+
+
+def load_gemet(db):
+    """Load GEMET concepts and groups: one entry per GEMET id, labels in the target languages."""
+    db.execute("INSERT INTO source VALUES (?,?,?,?,?)", (
+        "gemet", "GEMET, General Multilingual Environmental Thesaurus, EEA",
+        "https://www.eionet.europa.eu/gemet/", "CC BY 4.0; credit the EEA", "2026-11-13"))
+    entries = {}
+    with lzma.open(GEMET, "rt", encoding="utf8", newline="") as f:
+        for row in csv.DictReader(f):
+            if row["id"] not in entries:
+                entries[row["id"]] = db.execute(
+                    "INSERT INTO entry (source_id, source_key, subject) VALUES (?,?,?)",
+                    ("gemet", row["id"], row["kind"])).lastrowid
+            db.execute("INSERT INTO term (entry_id, language, text, normalized, status) VALUES (?,?,?,?,?)",
+                       (entries[row["id"]], row["language"], row["label"], normalize(row["label"]), row["status"]))
+
+
 def load_geonorge_resources(db):
     """Load Geonorge interface strings as GUI labels, English source and Bokmål translation."""
     commits = dict(line.split("\t")[:2] for line in
@@ -258,9 +297,9 @@ def load_en_is_glossary(db):
 
 
 def link_icelandic_pivot(db, loaded):
-    """Attach dictionary senses to concepts that hold the same Icelandic term from LÍSA.
+    """Attach dictionary senses to concepts that hold the same Icelandic term from LÍSA or GEMET.
 
-    Only LÍSA terms are used as the pivot: the English-Icelandic glossary mixes senses under one
+    Only LÍSA and GEMET terms, curated per concept, are used as the pivot: the English-Icelandic glossary mixes senses under one
     English word, and its Icelandic would carry them into every Nordic language.
 
     A headword with one sense links directly. With several senses, only a sense whose Icelandic
@@ -271,7 +310,7 @@ def link_icelandic_pivot(db, loaded):
     icelandic = defaultdict(set)
     for concept_id, normalized in db.execute(
             "SELECT ce.concept_id, t.normalized FROM concept_entry ce JOIN term t ON t.entry_id = ce.entry_id"
-            " JOIN entry e ON e.id = ce.entry_id WHERE t.language = 'is' AND e.source_id = 'lisa-glossary'"):
+            " JOIN entry e ON e.id = ce.entry_id WHERE t.language = 'is' AND e.source_id IN ('lisa-glossary', 'gemet')"):
         icelandic[normalized].add(concept_id)
     concept_terms = defaultdict(set)
     for normalized, concepts in icelandic.items():
@@ -399,6 +438,8 @@ def main():
     load_snorre(db)
     load_lisa(db)
     load_geonorge_codelists(db)
+    load_corine_no(db)
+    load_gemet(db)
     load_en_is_glossary(db)
     link_exact_english(db)
     loaded = load_arnastofnun(db)
