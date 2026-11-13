@@ -1,0 +1,740 @@
+key,language,label,section,act
+CrossReference,is,Millivísun,5.1.1,32010R1089
+GeneralisedLink,is,Alhæfður hlekkur,5.1.2,32010R1089
+GradeSeparatedCrossing,is,Þverun mislægra flata,5.1.3,32010R1089
+Link,is,Hlekkur,5.1.4,32010R1089
+LinkSequence,is,Röð hlekkja,5.1.5,32010R1089
+LinkSet,is,Hlekkjamengi,5.1.6,32010R1089
+Network,is,Netkerfi,5.1.7,32010R1089
+NetworkArea,is,Netsvæði,5.1.8,32010R1089
+NetworkConnection,is,Tenging netkerfa,5.1.9,32010R1089
+NetworkElement,is,Netstak,5.1.10,32010R1089
+NetworkProperty,is,Eiginleiki netkerfis,5.1.11,32010R1089
+Node,is,Hnúta,5.1.12,32010R1089
+DirectedLink,is,Stefnuhlekkur,5.2.1,32010R1089
+LinkReference,is,Miðun við hlekk,5.2.2,32010R1089
+NetworkReference,is,Netkerfisviðmiðun,5.2.3,32010R1089
+SimpleLinearReference,is,"Einföld, línuleg viðmiðun",5.2.4,32010R1089
+SimplePointReference,is,Einföld punktviðmiðun,5.2.5,32010R1089
+ConnectionTypeValue,is,Tegund tengingar,5.3.1,32010R1089
+LinkDirectionValue,is,Stefna hlekks,5.3.2,32010R1089
+NamedPlace,is,Nefndur staður,3.1.1,32010R1089
+GeographicalName,is,Örnefni,3.2.1,32010R1089
+PronunciationOfName,is,Framburður heitis,3.2.2,32010R1089
+SpellingOfName,is,Stafsetning heitis,3.2.3,32010R1089
+GrammaticalGenderValue,is,Málfræðilegt kyn,3.3.1,32010R1089
+GrammaticalNumberValue,is,Málfræðileg tala,3.3.2,32010R1089
+NameStatusValue,is,Staða nafns,3.3.3,32010R1089
+NamedPlaceTypeValue,is,Tegund nefnds staðar,3.3.4,32010R1089
+NativenessValue,is,Upprunaleiki,3.3.5,32010R1089
+AdministrativeBoundary,is,Stjórnsýslumörk,4.1.1,32010R1089
+AdministrativeUnit,is,Stjórnsýslueining,4.1.2,32010R1089
+Condominium,is,Sameiginlegt yfirráðasvæði,4.1.3,32010R1089
+NUTSRegion,is,Svæði samkvæmt flokkun hagskýrslusvæða,4.1.4,32010R1089
+ResidenceOfAuthority,is,Aðsetur yfirvalds,4.2.1,32010R1089
+LegalStatusValue,is,Réttarstaða,4.3.1,32010R1089
+TechnicalStatusValue,is,Tæknileg staða,4.3.2,32010R1089
+AdministrativeHierarchyLevel,is,Stjórnsýslustig,4.4.1,32010R1089
+Address,is,Staðfang,5.2.1,32010R1089
+AddressAreaName,is,Heiti staðfangssvæðis,5.2.2,32010R1089
+AddressComponent,is,Staðfangshluti,5.2.3,32010R1089
+AdminUnitName,is,Heiti stjórnsýslueiningar,5.2.4,32010R1089
+PostalDescriptor,is,Póstlýsir,5.2.5,32010R1089
+ThoroughfareName,is,Heiti umferðaræðar,5.2.6,32010R1089
+AddressLocator,is,Staðgreinir staðfangs,5.3.1,32010R1089
+AddressRepresentation,is,Birting staðfangs,5.3.2,32010R1089
+GeographicPosition,is,Landfræðileg staðsetning,5.3.3,32010R1089
+LocatorDesignator,is,Kennimerki staðgreinis,5.3.4,32010R1089
+LocatorName,is,Heiti staðgreinis,5.3.5,32010R1089
+PartOfName,is,Hluti af heiti,5.3.6,32010R1089
+ThoroughfareNameValue,is,Gildi heitis umferðaræðar,5.3.7,32010R1089
+GeometryMethodValue,is,Rúmfræðiaðferð,5.4.1,32010R1089
+GeometrySpecificationValue,is,Rúmfræðilýsing,5.4.2,32010R1089
+LocatorDesignatorTypeValue,is,Tegund kennimerkis staðgreinis,5.4.3,32010R1089
+LocatorLevelValue,is,Staðgreinisstig,5.4.4,32010R1089
+LocatorNameTypeValue,is,Tegund heitis staðgreinis,5.4.5,32010R1089
+PartTypeValue,is,Tegund hluta,5.4.6,32010R1089
+StatusValue,is,Staða,5.4.7,32010R1089
+BasicPropertyUnit,is,Eining grundvallareignar,6.1.1,32010R1089
+CadastralBoundary,is,Lóðamörk,6.1.2,32010R1089
+CadastralParcel,is,Lóðaspildur,6.1.3,32010R1089
+CadastralZoning,is,Lóðaskipulag lóðaspilda,6.1.4,32010R1089
+CadastralZoningLevelValue,is,Stig lóðaskipulags,6.2.1,32010R1089
+AccessRestriction,is,Aðgangstakmarkanir,7.3.1.1,32010R1089
+ConditionOfFacility,is,Ástand búnaðar,7.3.1.2,32010R1089
+MaintenanceAuthority,is,Yfirvald sem ber ábyrgð á viðhaldi,7.3.1.3,32010R1089
+MarkerPost,is,Vegstika,7.3.1.4,32010R1089
+OwnerAuthority,is,Eigandayfirvald,7.3.1.5,32010R1089
+RestrictionForVehicles,is,Ökutækjatakmarkanir,7.3.1.6,32010R1089
+TrafficFlowDirection,is,Átt umferðarflæðis,7.3.1.7,32010R1089
+TransportArea,is,Flutningasvæði,7.3.1.8,32010R1089
+TransportLink,is,Flutningahlekkur,7.3.1.9,32010R1089
+TransportLinkSequence,is,Flutningahlekkjaröð,7.3.1.10,32010R1089
+TransportLinkSet,is,Flutningahlekkjamengi,7.3.1.11,32010R1089
+TransportNetwork,is,Flutninganet,7.3.1.12,32010R1089
+TransportNode,is,Flutningahnúta,7.3.1.13,32010R1089
+TransportObject,is,Flutningshlutur,7.3.1.14,32010R1089
+TransportPoint,is,Flutningapunktur,7.3.1.15,32010R1089
+TransportProperty,is,Flutningaeiginleiki,7.3.1.16,32010R1089
+VerticalPosition,is,Lóðrétt staða,7.3.1.17,32010R1089
+TransportTypeValue,is,Flutningstegund,7.3.2.1,32010R1089
+AccessRestrictionValue,is,Aðgangstakmarkanir,7.3.3.1,32010R1089
+RestrictionTypeValue,is,Tegund aðgangstakmörkunar,7.3.3.2,32010R1089
+AerodromeArea,is,Flugvallarsvæði,7.4.1.1,32010R1089
+AerodromeCategory,is,Flugvallarflokkur,7.4.1.2,32010R1089
+AerodromeNode,is,Flugvallarhnúta,7.4.1.3,32010R1089
+AerodromeType,is,Tegund flugvallar,7.4.1.4,32010R1089
+AirLink,is,Flughlekkur,7.4.1.5,32010R1089
+AirLinkSequence,is,Flughlekkjaröð,7.4.1.6,32010R1089
+AirNode,is,Flughnúta,7.4.1.7,32010R1089
+AirRoute,is,Flugleið,7.4.1.8,32010R1089
+AirRouteLink,is,Flugleiðarhlekkur,7.4.1.9,32010R1089
+AirspaceArea,is,Loftrýmissvæði,7.4.1.10,32010R1089
+ApronArea,is,Hlaðsvæði,7.4.1.11,32010R1089
+ConditionOfAirFacility,is,Ástand flugbúnaðar,7.4.1.12,32010R1089
+DesignatedPoint,is,Tiltekinn punktur,7.4.1.13,32010R1089
+ElementLength,is,Lengd þáttar,7.4.1.14,32010R1089
+ElementWidth,is,Breidd þáttar,7.4.1.15,32010R1089
+FieldElevation,is,Hæð vallar,7.4.1.16,32010R1089
+InstrumentApproachProcedure,is,Verklagsreglur um blindaðflug,7.4.1.17,32010R1089
+LowerAltitudeLimit,is,Neðri hæðarmörk,7.4.1.18,32010R1089
+Navaid,is,Flugleiðsögn,7.4.1.19,32010R1089
+ProcedureLink,is,Verklagsregluhlekkur,7.4.1.20,32010R1089
+RunwayArea,is,Flugbrautarsvæði,7.4.1.21,32010R1089
+RunwayCentrelinePoint,is,Miðlínupunktur flugbrautar,7.4.1.22,32010R1089
+StandardInstrumentArrival,is,Staðlað blindaðflug,7.4.1.23,32010R1089
+StandardInstrumentDeparture,is,Stöðluð blindflugsbrottför,7.4.1.24,32010R1089
+SurfaceComposition,is,Samsetning yfirborðs,7.4.1.25,32010R1089
+TaxiwayArea,is,Akbrautarsvæði loftfara,7.4.1.26,32010R1089
+UpperAltitudeLimit,is,Efri hæðarmörk,7.4.1.28,32010R1089
+UseRestriction,is,Notkunartakmarkanir,7.4.1.29,32010R1089
+AerodromeCategoryValue,is,Flugvallarflokkur,7.4.2.1,32010R1089
+AerodromeTypeValue,is,Tegund flugvallar,7.4.2.2,32010R1089
+AirRouteLinkClassValue,is,Flokkur flugleiðarhlekks,7.4.2.3,32010R1089
+AirRouteTypeValue,is,Tegund flugleiðar,7.4.2.4,32010R1089
+AirUseRestrictionValue,is,Notkunartakmarkanir vegna flugs,7.4.2.5,32010R1089
+AirspaceAreaTypeValue,is,Tegund loftrýmissvæðis,7.4.2.6,32010R1089
+NavaidTypeValue,is,Tegund flugleiðsögu,7.4.2.7,32010R1089
+PointRoleValue,is,Hlutverk punkts,7.4.2.8,32010R1089
+RunwayTypeValue,is,Tegund flugbrautar,7.4.2.9,32010R1089
+SurfaceCompositionValue,is,Samsetning yfirborðs,7.4.2.10,32010R1089
+CablewayLink,is,Togbrautarhlekkur,7.5.1.1,32010R1089
+CablewayLinkSequence,is,Togbrautarhlekkjaröð,7.5.1.2,32010R1089
+CablewayLinkSet,is,Togbrautarhlekkjamengi,7.5.1.3,32010R1089
+CablewayNode,is,Togbrautarhnúta,7.5.1.4,32010R1089
+CablewayTypeValue,is,Tegund togbrautar,7.5.2.1,32010R1089
+DesignSpeed,is,Hönnunarhraði,7.6.1.1,32010R1089
+NominalTrackGauge,is,Nafnvídd spors,7.6.1.2,32010R1089
+NumberOfTracks,is,Fjöldi teina,7.6.1.3,32010R1089
+RailwayArea,is,Járnbrautarsvæði,7.6.1.4,32010R1089
+RailwayElectrification,is,Rafvæðing járnbrautar,7.6.1.5,32010R1089
+RailwayLine,is,Járnbrautarspor,7.6.1.6,32010R1089
+RailwayLink,is,Járnbrautarhlekkur,7.6.1.7,32010R1089
+RailwayLinkSequence,is,Járnbrautarhlekkjaröð,7.6.1.8,32010R1089
+RailwayNode,is,Járnbrautarhnúta,7.6.1.9,32010R1089
+RailwayStationArea,is,Járnbrautarstöðvarsvæði,7.6.1.10,32010R1089
+RailwayStationCode,is,Járnbrautarstöðvarkóði,7.6.1.11,32010R1089
+RailwayStationNode,is,Járnbrautarstöðvarhnúta,7.6.1.12,32010R1089
+RailwayType,is,Tegund járnbrautar,7.6.1.13,32010R1089
+RailwayUse,is,Notkun járnbrautar,7.6.1.14,32010R1089
+RailwayYardArea,is,Athafnasvæði brautarstöðvar,7.6.1.15,32010R1089
+RailwayYardNode,is,Hnúta athafnasvæðis brautarstöðvar,7.6.1.16,32010R1089
+MinMaxTrackValue,is,Lágmarkseða hámarksfjöldi teina,7.6.2.1,32010R1089
+TrackGaugeCategoryValue,is,Sporvíddarflokkur,7.6.2.2,32010R1089
+FormOfRailwayNodeValue,is,Gerð járnbrautarhnútu,7.6.3.1,32010R1089
+RailwayTypeValue,is,Tegund járnbrautar,7.6.3.2,32010R1089
+RailwayUseValue,is,Notkun járnbrautar,7.6.3.3,32010R1089
+ERoad,is,Evrópuvegur,7.7.1.1,32010R1089
+FormOfWay,is,Gerð vegar,7.7.1.2,32010R1089
+FunctionalRoadClass,is,Hlutverksflokkur vegar,7.7.1.3,32010R1089
+NumberOfLanes,is,Fjölda akreina,7.7.1.4,32010R1089
+Road,is,Vegur,7.7.1.5,32010R1089
+RoadArea,is,Vegsvæði,7.7.1.6,32010R1089
+RoadLink,is,Veghlekkur,7.7.1.7,32010R1089
+RoadLinkSequence,is,Veghlekkjaröð,7.7.1.8,32010R1089
+RoadName,is,Vegheiti,7.7.1.9,32010R1089
+RoadNode,is,Vegahnúta,7.7.1.10,32010R1089
+RoadServiceArea,is,Vegaþjónustusvæði,7.7.1.11,32010R1089
+RoadServiceType,is,Vegaþjónustutegund,7.7.1.12,32010R1089
+RoadSurfaceCategory,is,Flokkur vegyfirborðs,7.7.1.13,32010R1089
+RoadWidth,is,Vegbreidd,7.7.1.14,32010R1089
+SpeedLimit,is,Hraðatakmörkun,7.7.1.15,32010R1089
+VehicleTrafficArea,is,Umferðarsvæði farartækja,7.7.1.16,32010R1089
+FunctionalRoadClassValue,is,Hlutverksflokkur vegar,7.7.2.1,32010R1089
+MinMaxLaneValue,is,Lágmarkseða hámarksfjöldi akreina,7.7.2.2,32010R1089
+SpeedLimitMinMaxValue,is,Eðli hraðatakmarkana,7.7.2.3,32010R1089
+AreaConditionValue,is,Svæðisskilyrði,7.7.3.1,32010R1089
+FormOfRoadNodeValue,is,Gerð vegahnútu,7.7.3.2,32010R1089
+FormOfWayValue,is,Gerð vegar,7.7.3.3,32010R1089
+RoadPartValue,is,Veghluti,7.7.3.4,32010R1089
+RoadServiceTypeValue,is,Vegaþjónustutegund,7.7.3.5,32010R1089
+RoadSurfaceCategoryValue,is,Flokkur vegyfirborðs,7.7.3.6,32010R1089
+ServiceFacilityValue,is,Þjónustubúnaður,7.7.3.7,32010R1089
+SpeedLimitSourceValue,is,Upptök hraðatakmarkana,7.7.3.8,32010R1089
+VehicleTypeValue,is,Tegund ökutækis,7.7.3.9,32010R1089
+WeatherConditionValue,is,Veðurskilyrði,7.7.3.10,32010R1089
+Beacon,is,Sjómerki,7.8.1.1,32010R1089
+Buoy,is,Bauja,7.8.1.2,32010R1089
+CEMTClass,is,CEMT-flokkur,7.8.1.3,32010R1089
+ConditionOfWaterFacility,is,Ástand vatnabúnaðar,7.8.1.4,32010R1089
+FairwayArea,is,Merkt siglingaleið,7.8.1.5,32010R1089
+FerryCrossing,is,Ferjustaður,7.8.1.6,32010R1089
+FerryUse,is,Ferjunotkun,7.8.1.7,32010R1089
+InlandWaterway,is,Skipgengar vatnaleiðir,7.8.1.8,32010R1089
+MarineWaterway,is,Siglingaleið á sjó,7.8.1.9,32010R1089
+PortArea,is,Hafnarsvæði,7.8.1.10,32010R1089
+PortNode,is,Hafnarhnúta,7.8.1.11,32010R1089
+RestrictionForWaterVehicles,is,Takmarkanir vegna farartækja á vatni,7.8.1.12,32010R1089
+TrafficSeparationScheme,is,Kerfi fyrir aðskildar siglingaleiðir,7.8.1.13,32010R1089
+TrafficSeparationSchemeArea,is,Svæði kerfis fyrir aðskildar siglingaleiðir,7.8.1.14,32010R1089
+TrafficSeparationSchemeCrossing,is,Aðskildar siglingaleiðir sem skerast,7.8.1.15,32010R1089
+TrafficSeparationSchemeLane,is,Leið í kerfi fyrir aðskildar siglingaleiðir,7.8.1.16,32010R1089
+TrafficSeparationSchemeRoundabout,is,Aðskildar siglingaleiðir – hringleið,7.8.1.17,32010R1089
+TrafficSeparationSchemeSeparator,is,Svæði sem skilur að einstefnuleiðir aðskildra siglingaleiða,7.8.1.18,32010R1089
+WaterLinkSequence,is,Vatnahlekkjaröð,7.8.1.19,32010R1089
+WaterNode,is,Vatnahnúta,7.8.1.20,32010R1089
+WaterTrafficFlowDirection,is,Umferðarstefna á vatnaleið,7.8.1.21,32010R1089
+Waterway,is,Vatnaleið,7.8.1.22,32010R1089
+WaterwayLink,is,Vatnaleiðarhlekkur,7.8.1.23,32010R1089
+WaterwayNode,is,Vatnaleiðarhnúta,7.8.1.24,32010R1089
+CEMTClassValue,is,CEMT-flokkur,7.8.2.1,32010R1089
+FerryUseValue,is,Ferjunotkun,7.8.3.1,32010R1089
+FormOfWaterwayNodeValue,is,Gerð vatnaleiðarhnútu,7.8.3.2,32010R1089
+HydroObject,is,Vatnahlutur,8.3.1.1,32010R1089
+HydroIdentifier,is,Vatnakennimerki,8.3.2.1,32010R1089
+HydroNode,is,Vatnahnúta,8.4.1.1,32010R1089
+WatercourseLink,is,Vatnsfallshlekkur,8.4.1.2,32010R1089
+WatercourseLinkSequence,is,Vatnsfallshlekkjaröð,8.4.1.3,32010R1089
+WatercourseSeparatedCrossing,is,Mislæg þverun á vatnsfalli,8.4.1.4,32010R1089
+HydroNodeCategoryValue,is,Vatnahnútuflokkur,8.4.2.1,32010R1089
+Crossing,is,Þverun,8.5.1.1,32010R1089
+DamOrWeir,is,Stífla eða stíflugarður,8.5.1.2,32010R1089
+DrainageBasin,is,Vatnasvið,8.5.1.3,32010R1089
+Embankment,is,Varnargarður,8.5.1.4,32010R1089
+Falls,is,Fossar,8.5.1.5,32010R1089
+FluvialPoint,is,Straumpunktur,8.5.1.6,32010R1089
+Ford,is,Vað,8.5.1.7,32010R1089
+HydroPointOfInterest,is,Mikilvægur vatnapunktur,8.5.1.8,32010R1089
+HydroPowerPlant,is,Vatnsorkustöð,8.5.1.9,32010R1089
+InundatedLand,is,Flæðiland,8.5.1.10,32010R1089
+LandWaterBoundary,is,Mörk lands og vatns,8.5.1.11,32010R1089
+Lock,is,Skipastigi,8.5.1.12,32010R1089
+ManMadeObject,is,Manngerður hlutur,8.5.1.13,32010R1089
+OceanRegion,is,Úthafssvæði,8.5.1.14,32010R1089
+Pipe,is,Rör,8.5.1.15,32010R1089
+PumpingStation,is,Dælustöð,8.5.1.16,32010R1089
+Rapids,is,Flúðir,8.5.1.17,32010R1089
+RiverBasin,is,Vatnasvið ár,8.5.1.18,32010R1089
+Shore,is,Strönd,8.5.1.19,32010R1089
+ShorelineConstruction,is,Mannvirki á strandlengju,8.5.1.20,32010R1089
+Sluice,is,Gáttarstífla,8.5.1.21,32010R1089
+StandingWater,is,Kyrrstætt vatn,8.5.1.22,32010R1089
+SurfaceWater,is,Yfirborðsvatn,8.5.1.23,32010R1089
+Watercourse,is,Vatnsfall,8.5.1.24,32010R1089
+Wetland,is,Votlendi,8.5.1.25,32010R1089
+HydroOrderCode,is,Vatnaraðkóði,8.5.2.1,32010R1089
+WidthRange,is,Breiddarsvið,8.5.2.2,32010R1089
+OriginValue,is,Uppruni,8.5.3.1,32010R1089
+CrossingTypeValue,is,Þverunartegund,8.5.4.1,32010R1089
+HydrologicalPersistenceValue,is,Vatnsfræðileg seigla,8.5.4.2,32010R1089
+InundationValue,is,Flóð,8.5.4.3,32010R1089
+ShoreTypeValue,is,Tegund strandar,8.5.4.4,32010R1089
+WaterLevelValue,is,Vatnshæð,8.5.4.5,32010R1089
+WFDCoastalWater,is,Strandsær samkvæmt rammatilskipun um vatn,8.6.1.1,32010R1089
+WFDGroundWaterBody,is,Grunnvatnshlot samkvæmt rammatilskipun um vatn,8.6.1.2,32010R1089
+WFDLake,is,Stöðuvatn samkvæmt rammatilskipun um vatn,8.6.1.3,32010R1089
+WFDRiver,is,Á samkvæmt rammatilskipun um vatn,8.6.1.4,32010R1089
+WFDRiverOrLake,is,Á eða stöðuvatn samkvæmt rammatilskipun um vatn,8.6.1.5,32010R1089
+WFDSurfaceWaterBody,is,Yfirborðsvatnshlot samkvæmt rammatilskipun um vatn,8.6.1.6,32010R1089
+WFDTransitionalWater,is,Árósavatn samkvæmt rammatilskipun um vatn,8.6.1.7,32010R1089
+WFDWaterBody,is,Vatnshlot samkvæmt rammatilskipun um vatn,8.6.1.8,32010R1089
+ProtectedSite,is,Verndaður staður,9.1.1,32010R1089
+DesignationType,is,Tegund merkingar,9.2.1,32010R1089
+ProtectionClassificationValue,is,Flokkun verndar,9.3.1,32010R1089
+DesignationSchemeValue,is,Merkingarkerfi,9.4.1,32010R1089
+DesignationValue,is,Merking,9.4.2,32010R1089
+IUCNDesignationValue,is,Merking Alþjóðanáttúruverndarsambandsins,9.4.3,32010R1089
+NationalMonumentsRecordDesignationValue,is,Merking þjóðminjaskrár,9.4.4,32010R1089
+Natura2000DesignationValue,is,Merking Evrópunets verndarsvæða,9.4.5,32010R1089
+RamsarDesignationValue,is,Merking vegna Ramsar,9.4.6,32010R1089
+UNESCOWorldHeritageDesignationValue,is,Merking vegna Heimsarfleifðar Menningarmálastofnunar SÞ,9.4.8,32010R1089
+Contact,is,Tengiliður,2.3,32013R1253
+DocumentCitation,is,Vísun í skjal,2.4,32013R1253
+LegislationCitation,is,Vísun í löggjöf,2.5,32013R1253
+OfficialJournalInformation,is,Upplýsingar um stjórnartíðindin,2.6,32013R1253
+ThematicIdentifier,is,Þematískt kennimerki,2.7,32013R1253
+PartyRoleValue,is,Hlutverk aðila,4.4,32013R1253
+CFStandardNamesValue,is,Stöðluð loftslags- og spárheiti,4.5,32013R1253
+GenderValue,is,Kyn,4.6,32013R1253
+Coverage,is,Þekja,6.1.1.1,32013R1253
+CoverageByDomainAndRange,is,Þekja (birting óðals og sviðs),6.2.1.1,32013R1253
+RectifiedGridCoverage,is,Þekja leiðrétts reitanets,6.2.1.2,32013R1253
+ReferenceableGridCoverage,is,Þekja viðmiðunarreitanets,6.2.1.3,32013R1253
+CoverageFunction,is,Þekjufall,6.2.2.1,32013R1253
+GridFunction,is,Reitanetsfall,6.2.2.2,32013R1253
+ObservationSet,is,Athugunarmengi,7.1.1.1,32013R1253
+Process,is,Ferli,7.2.1.1,32013R1253
+ProcessParameter,is,Ferlisstiki,7.2.2.1,32013R1253
+ProcessParameterNameValue,is,Heiti ferlisstika,7.2.3.1,32013R1253
+Constraint,is,Skorða,7.3.1.1,32013R1253
+CategoryConstraint,is,Flokksskorða,7.3.1.2,32013R1253
+RangeConstraint,is,Sviðsskorða,7.3.1.3,32013R1253
+RangeBounds,is,Sviðsmörk,7.3.1.4,32013R1253
+ScalarConstraint,is,Kverðuskorða,7.3.1.5,32013R1253
+OtherConstraint,is,Önnur skorða,7.3.1.6,32013R1253
+StatisticalMeasure,is,Tölfræðileg mæling,7.3.1.7,32013R1253
+ComparisonOperatorValue,is,Samanburðarvirkir,7.3.2.1,32013R1253
+PhenomenonTypeValue,is,Tegund fyrirbæris,7.3.3.1,32013R1253
+StatisticalFunctionTypeValue,is,Tegund tölfræðifalls,7.3.3.2,32013R1253
+GridObservation,is,Reitanetsathugun,7.4.1.1,32013R1253
+GridSeriesObservation,is,Reitanetsraðathugun,7.4.1.2,32013R1253
+PointObservation,is,Punktaathugun,7.4.1.3,32013R1253
+PointObservationCollection,is,Punktaathugunarsafn,7.4.1.4,32013R1253
+MultiPointObservation,is,Fjölpunktaathugun,7.4.1.5,32013R1253
+PointTimeSeriesObservation,is,Punktaathugun í tímaröð,7.4.1.6,32013R1253
+ProfileObservation,is,Þversniðsathugun,7.4.1.7,32013R1253
+TrajectoryObservation,is,Brautarathugun,7.4.1.8,32013R1253
+TimeLocationValueTriple,is,Þrískipt tímastaðsetningargildi,7.4.2.1,32013R1253
+ActivityComplex,is,Starfsemisamstæða,8.1.1.1,32013R1253
+Function,is,Hlutverk,8.1.2.1,32013R1253
+Capacity,is,Afkastageta,8.1.2.2,32013R1253
+InputOutputAmount,is,Magn ílags eða frálags,8.1.2.3,32013R1253
+Permission,is,Leyfi,8.1.2.4,32013R1253
+ActivityComplexDescription,is,Lýsing starfsemisamstæðu,8.1.2.5,32013R1253
+EconomicActivityValue,is,Atvinnugrein,8.1.3.1,32013R1253
+InputOutputValue,is,Ílag eða frálag,8.1.3.2,32013R1253
+AdministrativeHierarchyLevel,is,Stig stjórnvaldsstigskiptingar,4.2.4.1,32013R1253
+Baseline,is,Grunnlína,4.3.1.1,32013R1253
+MaritimeBoundary,is,Hafræn mörk,4.3.1.2,32013R1253
+MaritimeZone,is,Hafsvæði,4.3.1.3,32013R1253
+BaselineSegment,is,Grunnlínubútur,4.3.2.1,32013R1253
+BaselineSegmentTypeValue,is,Tegund grunnlínubúts,4.3.3.1,32013R1253
+MaritimeZoneTypeValue,is,Tegund hafsvæðis,4.3.3.2,32013R1253
+ElevationPropertyTypeValue,is,Tegund hæðareiginleika,1.3.1.1,32013R1253
+SurfaceTypeValue,is,Yfirborðstegund,1.3.1.2,32013R1253
+ElevationGridCoverage,is,Þekja landhæðarreitanets,1.4.1.1,32013R1253
+ElevationGridCoverageAggregation,is,Þekjusafn landhæðarreitaneta,1.4.2.1,32013R1253
+ElevationVectorObject,is,Hæðarvigurhlutur,1.5.1.1,32013R1253
+SpotElevation,is,Hæðarpunktur,1.5.1.2,32013R1253
+ContourLine,is,Hæðarlína,1.5.1.3,32013R1253
+BreakLine,is,Brotlína,1.5.1.4,32013R1253
+VoidArea,is,Gagnagat,1.5.1.5,32013R1253
+IsolatedArea,is,Einangraður flötur,1.5.1.6,32013R1253
+ChartDatum,is,Kortaviðmið,1.5.2.1,32013R1253
+ContourLineTypeValue,is,Tegund hæðarlínu,1.5.3.1,32013R1253
+BreakLineTypeValue,is,Brotlínutegund,1.5.4.1,32013R1253
+SpotElevationClassValue,is,Flokkun hæðarpunkts,1.5.4.2,32013R1253
+SpotElevationTypeValue,is,Tegund hæðarpunkts,1.5.4.3,32013R1253
+TIN,is,Landhæð – þríhyrnunet,1.6,32013R1253
+ElevationTIN,is,Landhæðarþríhyrnunet,1.6.1.1,32013R1253
+TINs,is,Kröfur vegna landhæðarhyrnuneta,1.7.4,32013R1253
+LandCoverNomenclature,is,Nafnakerfi fyrir landgerðir,2.3.1.1,32013R1253
+LandCoverClassValue,is,Landgerðarflokkur,2.3.2.1,32013R1253
+LandCoverDataset,is,Landgerðargagnasafn,2.4.1.1,32013R1253
+LandCoverUnit,is,Landgerðareining,2.4.1.2,32013R1253
+LandCoverObservation,is,Landgerðarathugun,2.4.2.1,32013R1253
+LandCoverValue,is,Landgerð,2.4.2.2,32013R1253
+LandCoverGridCoverage,is,Landgerðarreitanetsþekja,2.5.1.1,32013R1253
+OrthoimageCoverage,is,Þekja réttmyndar,3.2.1,32013R1253
+MosaicElement,is,Brotamyndarstak,3.2.2,32013R1253
+SingleMosaicElement,is,Stakt brotamyndarstak,3.2.3,32013R1253
+AggregatedMosaicElement,is,Hópað brotamyndarstak,3.2.4,32013R1253
+OrthoimageAggregation,is,Hópun réttmynda,3.3.1,32013R1253
+InterpolationMethodValue,is,Brúunaraðferð,3.4.1,32013R1253
+AnthropogenicGeomorphologicFeature,is,Manngerð landmótunarfræðileg fitja,4.2.1.1,32013R1253
+Borehole,is,Borhola,4.2.1.2,32013R1253
+Fold,is,Felling,4.2.1.3,32013R1253
+GeologicCollection,is,Jarðfræðilegt safn,4.2.1.4,32013R1253
+GeologicEvent,is,Jarðfræðilegt atvik,4.2.1.5,32013R1253
+GeologicFeature,is,Jarðfræðileg fitja,4.2.1.6,32013R1253
+GeologicStructure,is,Jarðform,4.2.1.7,32013R1253
+GeologicUnit,is,Jarðfræðileg eining,4.2.1.8,32013R1253
+GeomorphologicFeature,is,Landmótunarfræðileg fitja,4.2.1.9,32013R1253
+MappedFeature,is,Kortlögð fitja,4.2.1.10,32013R1253
+MappedInterval,is,Kortað bil,4.2.1.11,32013R1253
+NaturalGeomorphologicFeature,is,Náttúruleg landmótunarfræðileg fitja,4.2.1.12,32013R1253
+ShearDisplacementStructure,is,Formgerð mynduð við skúffærslu,4.2.1.13,32013R1253
+CompositionPart,is,Efnisþáttur,4.2.2.1,32013R1253
+ThematicClass,is,Þematískur flokkur,4.2.2.2,32013R1253
+AnthropogenicGeomorphologicFeatureTypeValue,is,Tegund manngerðrar landmótunarfræðilegrar fitju,4.2.3.1,32013R1253
+BoreholePurposeValue,is,Tilgangur með borholu,4.2.3.2,32013R1253
+CollectionTypeValue,is,Tegund safns,4.2.3.3,32013R1253
+CompositionPartRoleValue,is,Hlutverk efnisþáttar,4.2.3.4,32013R1253
+EventEnvironmentValue,is,Umhverfi atviks,4.2.3.5,32013R1253
+EventProcessValue,is,Atvikaferli,4.2.3.6,32013R1253
+FaultTypeValue,is,Misgengistegund,4.2.3.7,32013R1253
+FoldProfileTypeValue,is,Tegund fellingarþversniðs,4.2.3.8,32013R1253
+GeochronologicEraValue,is,Jarðsögulegt tímabil,4.2.3.9,32013R1253
+GeologicUnitTypeValue,is,Tegund jarðfræðilegrar einingar,4.2.3.10,32013R1253
+GeomorphologicActivityValue,is,Landmótunarfræðileg virkni,4.2.3.11,32013R1253
+LithologyValue,is,Berggerð,4.2.3.12,32013R1253
+MappingFrameValue,is,Kortunarrammi,4.2.3.13,32013R1253
+NaturalGeomorphologicFeatureTypeValue,is,Náttúrulegar landmótunarfræðilegar fitjugerðir,4.2.3.14,32013R1253
+ThematicClassValue,is,Þematískur flokkur,4.2.3.15,32013R1253
+ThematicClassificationValue,is,Þematísk flokkun,4.2.3.16,32013R1253
+Campaign,is,Rannsóknaátak,4.3.1.1,32013R1253
+GeophObject,is,Jarðeðlisfræðilegur hlutur,4.3.1.2,32013R1253
+GeophMeasurement,is,Jarðeðlisfræðileg mæling,4.3.1.3,32013R1253
+GeophObjectSet,is,Mengi jarðeðlisfræðilegra hluta,4.3.1.4,32013R1253
+GeophProfile,is,Jarðeðlisfræðilegt þversnið,4.3.1.5,32013R1253
+GeophStation,is,Jarðeðlisfræðileg stöð,4.3.1.6,32013R1253
+GeophSwath,is,Skári í jarðeðlisfræðilegum mælingum,4.3.1.7,32013R1253
+CampaignTypeValue,is,Tegund rannsóknaátaks,4.3.2.1,32013R1253
+NetworkNameValue,is,Netheiti,4.3.2.2,32013R1253
+PlatformTypeValue,is,Tegund verkvangs,4.3.2.3,32013R1253
+ProfileTypeValue,is,Tegund þversniðs,4.3.2.4,32013R1253
+StationRankValue,is,Staða stöðvar,4.3.2.5,32013R1253
+StationTypeValue,is,Tegund stöðvar,4.3.2.6,32013R1253
+SurveyTypeValue,is,Tegund mælingar,4.3.2.7,32013R1253
+SwathTypeValue,is,Tegund skára,4.3.2.8,32013R1253
+ActiveWell,is,Virkur brunnur,4.4.1.1,32013R1253
+Aquiclude,is,Stemmir,4.4.1.2,32013R1253
+Aquifer,is,Veitir,4.4.1.3,32013R1253
+AquiferSystem,is,Veitakerfi,4.4.1.4,32013R1253
+Aquitard,is,Vatnstálmi,4.4.1.5,32013R1253
+GroundWaterBody,is,Grunnvatnshlot,4.4.1.6,32013R1253
+HydrogeologicalObject,is,Vatnajarðfræðilegur hlutur,4.4.1.7,32013R1253
+HydrogeologicalObjectManMade,is,Manngerður vatnajarðfræðilegur hlutur,4.4.1.8,32013R1253
+HydrogeologicalObjectNatural,is,Náttúrulegur vatnajarðfræðilegur hlutur,4.4.1.9,32013R1253
+HydrogeologicalUnit,is,Vatnajarðfræðileg eining,4.4.1.10,32013R1253
+HydrogeologicalSurface,is,Vatnajarðfræðilegt yfirborð,4.4.2.1,32013R1253
+PiezometricState,is,Þrýstistaða,4.4.2.2,32013R1253
+QuantityValue,is,Magngildi,4.4.2.3,32013R1253
+ActiveWellTypeValue,is,Tegund virks brunns,4.4.3.1,32013R1253
+AquiferMediaTypeValue,is,Tegund veitismiðils,4.4.3.2,32013R1253
+AquiferTypeValue,is,Tegund veitis,4.4.3.3,32013R1253
+ConditionOfGroundwaterValue,is,Ástand grunnvatns,4.4.3.4,32013R1253
+HydroGeochemicalRockTypeValue,is,Vatnsjarðefnafræðileg bergtegund,4.4.3.5,32013R1253
+NaturalObjectTypeValue,is,Tegund náttúrulegs hlutar,4.4.3.6,32013R1253
+StatusCodeTypeValue,is,Stöðukóðategund,4.4.3.7,32013R1253
+WaterPersistenceValue,is,Stöðugleikastig vatns,4.4.3.8,32013R1253
+WaterSalinityValue,is,Selta vatns,4.4.3.9,32013R1253
+StatisticalUnit,is,Tölfræðileg eining,1.2.1.1,32013R1253
+VectorStatisticalUnit,is,Tölfræðileg vigureining,1.3.1.1,32013R1253
+AreaStatisticalUnit,is,Tölfræðileg flatareining,1.3.1.2,32013R1253
+StatisticalTessellation,is,Tölfræðileg tíglun,1.3.1.3,32013R1253
+Evolution,is,Þróun,1.3.1.4,32013R1253
+VectorStatisticalUnitGeometry,is,Rúmfræði tölfræðilegrar vigureiningar,1.3.2.1,32013R1253
+GeometryDescriptor,is,Rúmfræðilýsir,1.3.2.2,32013R1253
+GeometryTypeValue,is,Tegund rúmfræði,1.3.3.1,32013R1253
+EvolutionTypeValue,is,Tegund þróunar,1.3.3.2,32013R1253
+StatisticalGridCell,is,Tölfræðilegur netreitur,1.4.1.1,32013R1253
+StatisticalGrid,is,Tölfræðilegt reitanet,1.4.1.2,32013R1253
+GridPosition,is,Staðsetning í reitaneti,1.4.2.1,32013R1253
+StatisticalGridResolution,is,Upplausn tölfræðilega reitanetsins,1.4.2.2,32013R1253
+AbstractConstruction,is,Hugrænt mannvirki,2.3.1.1,32013R1253
+AbstractBuilding,is,Hugræn bygging,2.3.1.2,32013R1253
+Building,is,Bygging,2.3.1.3,32013R1253
+BuildingPart,is,Byggingarhluti,2.3.1.4,32013R1253
+CurrentUse,is,Núverandi notkun,2.3.2.1,32013R1253
+DateOfEvent,is,Dagsetning atburðar,2.3.2.2,32013R1253
+Elevation,is,Hæð,2.3.2.3,32013R1253
+ExternalReference,is,Ytri tilvísun,2.3.2.4,32013R1253
+HeightAboveGround,is,Hæð yfir jörðu,2.3.2.5,32013R1253
+BuildingGeometry2D,is,Tvívíð rúmfræði byggingar,2.3.2.6,32013R1253
+BuildingNatureValue,is,Eðli byggingar,2.3.3.1,32013R1253
+ConditionOfConstructionValue,is,Ástand mannvirkis,2.3.3.2,32013R1253
+CurrentUseValue,is,Núverandi notkun,2.3.3.3,32013R1253
+ElevationReferenceValue,is,Hæðartilvísun,2.3.3.4,32013R1253
+HeightStatusValue,is,Hæðarstaða,2.3.3.5,32013R1253
+HorizontalGeometryReferenceValue,is,Lárétt rúmfræðitilvísun,2.3.3.6,32013R1253
+BuildingGeometry3DLoD,is,Nákvæmnistig þrívíðrar rúmfræði byggingar,2.5.2.1,32013R1253
+BuildingGeometry3DLoD1,is,Þrívíð rúmfræði byggingar: 1. nákvæmnistig,2.5.2.2,32013R1253
+BuildingGeometry3DLoD2,is,Þrívíð rúmfræði byggingar: 2. nákvæmnistig,2.5.2.3,32013R1253
+DerivedSoilProfile,is,Afleitt jarðvegsþversnið,3.1.1,32013R1253
+ObservedSoilProfile,is,Athugað jarðvegsþversnið,3.1.2,32013R1253
+ProfileElement,is,Þversniðsstak,3.1.3,32013R1253
+SoilBody,is,Jarðvegshlot,3.1.4,32013R1253
+SoilDerivedObject,is,Jarðvegsafleiddur hlutur,3.1.5,32013R1253
+SoilHorizon,is,Leiðarlag,3.1.6,32013R1253
+SoilLayer,is,Jarðvegslag,3.1.7,32013R1253
+SoilPlot,is,Jarðvegsskiki,3.1.8,32013R1253
+SoilProfile,is,Jarðvegsþversnið,3.1.9,32013R1253
+SoilSite,is,Jarðvegssýnatökustaður,3.1.10,32013R1253
+SoilThemeCoverage,is,Jarðvegsþemaþekja,3.1.11,32013R1253
+SoilThemeDescriptiveCoverage,is,Lýsandi jarðvegsþemaþekja,3.1.12,32013R1253
+DerivedProfilePresenceInSoilBody,is,Tilvist afleidds þversniðs í jarðvegshloti,3.2.1,32013R1253
+OtherHorizonNotationType,is,Önnur táknunartegund fyrir leiðarlag,3.2.3,32013R1253
+OtherSoilNameType,is,Önnur tegund jarðvegsheitis,3.2.4,32013R1253
+ParticleSizeFractionType,is,Tegund stærðarbrota agna,3.2.5,32013R1253
+RangeType,is,Tegund sviðs,3.2.6,32013R1253
+SoilThemeDescriptiveParameterType,is,Tegund lýsandi stika fyrir jarðvegsþema,3.2.7,32013R1253
+SoilThemeParameterType,is,Stikategund fyrir jarðvegsþema,3.2.8,32013R1253
+WRBQualifierGroupType,is,WRB sérgreinishópstegund,3.2.9,32013R1253
+OtherSoilNameType,is,WRB-tegund jarðvegsheitis,3.2.10,32013R1253
+FAOHorizonMasterValue,is,Meginleiðarlag samkvæmt Matvæla- og landbúnaðarstofnun Sameinuðu þjóðanna,3.3.1,32013R1253
+FAOPrimeValue,is,FAO-högg,3.3.3,32013R1253
+OtherHorizonNotationTypeValue,is,Önnur táknunartegund fyrir leiðarlag,3.3.4,32013R1253
+OtherSoilNameTypeValue,is,Önnur tegund jarðvegsheitis,3.3.5,32013R1253
+LayerTypeValue,is,Tegund lags,3.3.7,32013R1253
+ProfileElementParameterNameValue,is,Heiti stika fyrir þversniðsstak,3.3.8,32013R1253
+SoilDerivedObjectParameterNameValue,is,Heiti stika fyrir jarðvegsafleiddan hlut,3.3.9,32013R1253
+SoilInvestigationPurposeValue,is,Tilgangur með jarðvegsrannsókn,3.3.10,32013R1253
+SoilPlotTypeValue,is,Tegund jarðvegsskika,3.3.11,32013R1253
+SoilSiteParameterNameValue,is,Heiti stika fyrir jarðvegssýnatökustað,3.3.13,32013R1253
+WRBQualifierPlaceValue,is,WRB-sérgreinisstaðsetning,3.3.14,32013R1253
+WRBQualifierValue,is,WRB-sérgreinar,3.3.15,32013R1253
+WRBReferenceSoilGroupValue,is,WRB viðmiðunarjarðvegshópur,3.3.16,32013R1253
+WRBSpecifierValue,is,WRB-tilgreinar,3.3.17,32013R1253
+HILUCSPercentage,is,HILUCS-hundraðshluti,4.3.1.1,32013R1253
+HILUCSPresence,is,HILUCS-tilvist,4.3.1.2,32013R1253
+SpecificPercentage,is,Sértækur hundraðshluti,4.3.1.3,32013R1253
+SpecificPresence,is,Sértæk tilvist,4.3.1.4,32013R1253
+HILUCSValue,is,HILUCS,4.3.2.1,32013R1253
+LandUseClassificationValue,is,Flokkun landnotkunar,4.3.2.2,32013R1253
+ExistingLandUseDataSet,is,Gagnasafn um fyrirliggjandi landnotkun,4.4.1.1,32013R1253
+ExistingLandUseObject,is,Fyrirliggjandi landnotkunarhlutur,4.4.1.2,32013R1253
+ExistingLandUseGrid,is,Reitanet fyrirliggjandi landnotkunar,4.5.1.1,32013R1253
+ExistingLandUseSample,is,Fyrirliggjandi landnotkunarúrtak,4.6.1.1,32013R1253
+SampledExistingLandUseDataSet,is,Gagnasafn um úrtak fyrirliggjandi landnotkunar,4.6.1.2,32013R1253
+OfficialDocumentation,is,Opinber gögn,4.7.1.1,32013R1253
+SpatialPlan,is,Landáætlun,4.7.1.2,32013R1253
+SupplementaryRegulation,is,Viðbótarregla,4.7.1.3,32013R1253
+ZoningElement,is,Svæðisskipulagsstak,4.7.1.4,32013R1253
+BackgroundMapValue,is,Bakgrunnskort,4.7.2.1,32013R1253
+DimensioningIndicationCharacterValue,is,Málsetningarábending á grunni stafagildis,4.7.2.2,32013R1253
+DimensioningIndicationIntegerValue,is,Málsetningarábending á grunni heiltölugildis,4.7.2.3,32013R1253
+DimensioningIndicationMeasureValue,is,Málsetningarábending á grunni mælingargildis,4.7.2.4,32013R1253
+DimensioningIndicationRealValue,is,Málsetningarábending á grunni raungildis,4.7.2.5,32013R1253
+DimensioningIndicationValue,is,Málsetningarábending,4.7.2.6,32013R1253
+OrdinanceValue,is,Reglugerð,4.7.2.7,32013R1253
+LevelOfSpatialPlanValue,is,Stig landáætlunar,4.7.3.1,32013R1253
+ProcessStepGeneralValue,is,Almennt þrep í ferli,4.7.3.2,32013R1253
+RegulationNatureValue,is,Eðli reglugerðar,4.7.3.3,32013R1253
+PlanTypeNameValue,is,Tegundarheiti áætlunar,4.7.3.4,32013R1253
+SpecificSupplementaryRegulationValue,is,Sértæk viðbótarregla,4.7.3.5,32013R1253
+SupplementaryRegulationValue,is,Viðbótarregla,4.7.3.6,32013R1253
+HealthStatisticalData,is,Tölfræðileg gögn um heilbrigði,5.1.1,32013R1253
+Biomarker,is,Lífmerki,5.1.2,32013R1253
+Disease,is,Sjúkdómur,5.1.3,32013R1253
+GeneralHealthStatistics,is,Tölfræðilegar upplýsingar um almennt heilbrigði,5.1.4,32013R1253
+HealthServicesStatistic,is,Tölfræðilegar upplýsingar um heilbrigðisþjónustu,5.1.5,32013R1253
+EnvHealthDeterminantMeasure,is,Mæling á ákvörðunarþætti umhverfisheilbrigðis,5.1.6,32013R1253
+EnvHealthDeterminantStatisticalData,is,Tölfræðileg gögn um ákvörðunarþátt umhverfisheilbrigðis,5.1.7,32013R1253
+Age,is,Aldur,5.2.1,32013R1253
+AgeRangeType,is,Aldurssvið,5.2.2,32013R1253
+BiomarkerStatisticalParameterType,is,Tölfræðilegur stiki lífmerkis,5.2.3,32013R1253
+BiomarkerThematicMetadata,is,Þematísk lýsigögn lífmerkis,5.2.4,32013R1253
+BiomarkerType,is,Tegund lífmerkis,5.2.5,32013R1253
+DiseaseMeasure,is,Sjúkdómsmæling,5.2.6,32013R1253
+ReferencePeriodType,is,Viðmiðunartímabil,5.2.7,32013R1253
+Concentration,is,Mæling á styrk,5.2.8,32013R1253
+UomConcentration,is,Mælieining fyrir styrk,5.2.9,32013R1253
+NoiseMeasure,is,Hávaðamæling,5.2.10,32013R1253
+UomNoise,is,Mælieining fyrir hávaða,5.2.11,32013R1253
+CODValue,is,Dánarorsök,5.3.1,32013R1253
+ChemicalValue,is,Íðefni,5.3.2,32013R1253
+ComponentTypeValue,is,Tegund umhverfisheilsuþáttar,5.3.3,32013R1253
+DiseaseMeasureTypeValue,is,Tegund sjúkdómsmælinga,5.3.4,32013R1253
+ComponentTypeValue,is,Tegund ákvörðunarþáttar umhverfisheilbrigðis,5.3.5,32013R1253
+GeneralHealthTypeValue,is,Tegund almenns heilbrigðis,5.3.6,32013R1253
+HealthServicesTypeValue,is,Tegund heilbrigðisþjónustu,5.3.7,32013R1253
+ICDValue,is,Alþjóðleg sjúkdóma- og dánarmeinaskrá,5.3.8,32013R1253
+MatrixValue,is,Sýnagerð,5.3.9,32013R1253
+MediaTypeValue,is,Tegund umhverfisheilbrigðismiðils,5.3.10,32013R1253
+NoiseSourceTypeValue,is,Tegund hávaðavalds,5.3.11,32013R1253
+StatisticalAggregationMethodValue,is,Aðferðir við tölfræðilega hópun,5.3.12,32013R1253
+UtilityNetwork,is,Veitunet,6.2.1.1,32013R1253
+UtilityNetworkElement,is,Veitunetsstak,6.2.1.2,32013R1253
+UtilityLinkSet,is,Veituhlekkjamengi,6.2.1.3,32013R1253
+UtilityLink,is,Veituhlekkur,6.2.1.4,32013R1253
+UtilityLinkSequence,is,Veituhlekkjaröð,6.2.1.5,32013R1253
+UtilityNode,is,Veituhnúta,6.2.1.6,32013R1253
+Appurtenance,is,Fylgikvöð,6.2.1.8,32013R1253
+Cabinet,is,Kassi,6.2.1.9,32013R1253
+Cable,is,Kapall,6.2.1.10,32013R1253
+Duct,is,Lögn,6.2.1.11,32013R1253
+Manhole,is,Mannop,6.2.1.12,32013R1253
+Pole,is,Staur,6.2.1.14,32013R1253
+Tower,is,Turn,6.2.1.15,32013R1253
+AppurtenanceTypeValue,is,Tegund fylgikvaðar,6.2.2.1,32013R1253
+UtilityDeliveryTypeValue,is,Tegund afhendingar frá veitu,6.2.2.3,32013R1253
+UtilityNetworkTypeValue,is,Tegund veitunets,6.2.2.4,32013R1253
+WarningTypeValue,is,Tegund viðvörunar,6.2.2.5,32013R1253
+ElectricityCable,is,Rafmagnskapall,6.3.1.1,32013R1253
+ElectricityAppurtenanceTypeValue,is,Tegund rafmagnsfylgikvaðar,6.3.2.1,32013R1253
+OilGasChemicalsPipe,is,"Olíu-, gas- og íðefnaleiðsla",6.4.1.1,32013R1253
+OilGasChemicalsAppurtenanceTypeValue,is,"Tegund olíu-, gas- og íðefnafylgikvaðar",6.4.2.1,32013R1253
+OilGasChemicalsProductTypeValue,is,"Tegund olíu-, gas- og íðefnavöru",6.4.2.2,32013R1253
+SewerPipe,is,Fráveiturör,6.5.1.1,32013R1253
+SewerAppurtenanceTypeValue,is,Tegund fráveitufylgikvaðar,6.5.2.1,32013R1253
+SewerWaterTypeValue,is,Tegund skólps,6.5.2.2,32013R1253
+ThermalPipe,is,Varmaveiturör,6.6.1.1,32013R1253
+ThermalAppurtenanceTypeValue,is,Tegund varmaveitufylgikvaðar,6.6.2.1,32013R1253
+ThermalProductTypeValue,is,Tegund varmaafurðar,6.6.2.2,32013R1253
+WaterPipe,is,Vatnsrör,6.7.1.1,32013R1253
+WaterAppurtenanceTypeValue,is,Tegund vatnsfylgikvaðar,6.7.2.1,32013R1253
+WaterTypeValue,is,Tegund vatns,6.7.2.2,32013R1253
+EnvironmentalManagementFacility,is,Starfsstöð umhverfisstjórnunar,6.8.1.1,32013R1253
+EnvironmentalManagementFacilityTypeValue,is,Flokkun starfsstöðva umhverfisstjórnunar,6.8.2.1,32013R1253
+GovernmentalService,is,Þjónusta á vegum stjórnvalda,6.9.1.1,32013R1253
+AreaOfResponsibilityType,is,Tegund ábyrgðarsviðs,6.9.2.1,32013R1253
+ServiceLocationType,is,Tegund staðsetningar þjónustu,6.9.2.2,32013R1253
+ServiceTypeValue,is,Þjónustutegund,6.9.3.1,32013R1253
+AbstractMonitoringFeature,is,Hugræn vöktunarfitja,7.1.1,32013R1253
+AbstractMonitoringObject,is,Hugrænn vöktunarhlutur,7.1.2,32013R1253
+EnvironmentalMonitoringActivity,is,Umhverfisvöktunarstarfsemi,7.1.3,32013R1253
+EnvironmentalMonitoringFacility,is,Umhverfisvöktunarvirki,7.1.4,32013R1253
+EnvironmentalMonitoringNetwork,is,Umhverfisvöktunarnet,7.1.5,32013R1253
+EnvironmentalMonitoringProgramme,is,Umhverfisvöktunaráætlun,7.1.6,32013R1253
+ObservingCapability,is,Eftirlitsgeta,7.1.7,32013R1253
+AnyDomainLink,is,Sérhver tengill á óðal,7.2.1,32013R1253
+Hierarchy,is,Stigskipting,7.2.2,32013R1253
+NetworkFacility,is,Netvirki,7.2.3,32013R1253
+ReportToLegalAct,is,Skýrsla tengd réttargerð,7.2.4,32013R1253
+MeasurementRegimeValue,is,Mælikerfi,7.3.1,32013R1253
+MediaValue,is,Miðlar,7.3.2,32013R1253
+ProcessTypeValue,is,Tegund ferlis,7.3.3,32013R1253
+PurposeOfCollectionValue,is,Tilgangur með söfnun,7.3.4,32013R1253
+ResultAcquisitionSourceValue,is,Uppspretta fenginna niðurstaðna,7.3.5,32013R1253
+ResultNatureValue,is,Eðli niðurstaðna,7.3.6,32013R1253
+SpecialisedEMFTypeValue,is,Sérhæfð tegund umhverfisvöktunarvirkis,7.3.7,32013R1253
+ProductionFacility,is,Framleiðsluaðstaða,8.2.1,32013R1253
+ProductionInstallation,is,Framleiðslumannvirki,8.2.2,32013R1253
+ProductionInstallationPart,is,Hluti framleiðslumannvirkis,8.2.3,32013R1253
+ProductionSite,is,Framleiðslustaður,8.2.4,32013R1253
+ProductionPlot,is,Framleiðslulóð,8.2.5,32013R1253
+ProductionBuilding,is,Framleiðslubygging,8.2.6,32013R1253
+StatusType,is,Tegund stöðu,8.3.1,32013R1253
+PollutionAbatementTechniqueValue,is,Tækni til að draga úr mengun,8.4.1,32013R1253
+InstallationTypeValue,is,Tegund mannvirkis,8.4.2,32013R1253
+InstallationTypeValue,is,Tegund mannvirkishluta,8.4.3,32013R1253
+RiverBasinDistrictValue,is,Vatnasviðaumdæmi,8.4.4,32013R1253
+TypeOfProductionBuildingValue,is,Tegund framleiðslubyggingar,8.4.5,32013R1253
+Holding,is,Bú,9.2.1,32013R1253
+Site,is,Staður,9.2.1.1,32013R1253
+FarmAnimalSpecies,is,Tegundir húsdýra,9.3.1,32013R1253
+LivestockSpeciesValue,is,Tegund búfjár,9.4.1,32013R1253
+AquacultureSpeciesValue,is,Lagareldistegund,9.4.2,32013R1253
+StatisticalDistribution,is,Tölfræðileg dreifing,10.1.1,32013R1253
+Classification,is,Flokkun,10.2.1,32013R1253
+ClassificationItem,is,Flokkunarliður,10.2.2,32013R1253
+StatisticalValue,is,Tölfræðilegt gildi,10.2.3,32013R1253
+Dimensions,is,Víddir,10.2.4,32013R1253
+ClassificationTypeValue,is,Tegund flokkunar,10.3.1,32013R1253
+ClassificationItemTypeValue,is,Tegund flokkunarliðar,10.3.2,32013R1253
+VariableValue,is,Breyta,10.3.3,32013R1253
+StatisticsMeasurementMethodValue,is,Tölfræðileg mæliaðferð,10.3.4,32013R1253
+StatisticalDataStatusValue,is,Staða tölfræðilegra gagna,10.3.5,32013R1253
+SpecialValue,is,Sérstakt gildi,10.3.6,32013R1253
+ManagementRestrictionOrRegulationZone,is,Svæði sem lýtur stjórnun eða reglugerðum,11.2.1,32013R1253
+ZoneTypeCode,is,Kóði fyrir svæðistegund,11.3.1,32013R1253
+SpecialisedZoneTypeCode,is,Kóði fyrir sérhæfða svæðistegund,11.3.2,32013R1253
+EnvironmentalDomain,is,Umhverfisóðal,11.3.3,32013R1253
+AbstractExposedElement,is,Hugrænn þáttur sem verður fyrir váhrifum,12.2.1,32013R1253
+AbstractHazardArea,is,Hugrænt hættusvæði,12.2.2,32013R1253
+AbstractObservedEvent,is,Hugrænt athugað atvik,12.2.3,32013R1253
+AbstractRiskZone,is,Hugrænt áhættusvæði,12.2.4,32013R1253
+ExposedElementCoverage,is,Þekja þáttar sem verður fyrir váhrifum,12.2.5,32013R1253
+ExposedElement,is,Þáttur sem verður fyrir váhrifum,12.2.6,32013R1253
+HazardArea,is,Hættusvæði,12.2.7,32013R1253
+HazardCoverage,is,Hættuþekja,12.2.8,32013R1253
+ObservedEventCoverage,is,Þekja athugaðs atviks,12.2.9,32013R1253
+ObservedEvent,is,Athugað atvik,12.2.10,32013R1253
+RiskCoverage,is,Áhættuþekja,12.2.11,32013R1253
+RiskZone,is,Áhættusvæði,12.2.12,32013R1253
+ExposedElementClassification,is,Flokkun þáttar sem verður fyrir váhrifum,12.3.1,32013R1253
+LevelOrIntensity,is,Stig eða styrkur,12.3.2,32013R1253
+LikelihoodOfOccurrence,is,Líkindi á atburði,12.3.3,32013R1253
+NaturalHazardClassification,is,Flokkun hættu af náttúrulegum uppruna,12.3.4,32013R1253
+QuantitativeLikelihood,is,Megindleg líkindi,12.3.5,32013R1253
+VulnerabilityAssessment,is,Mat á veikleika,12.3.6,32013R1253
+DeterminationMethodValue,is,Ákvörðunaraðferð,12.4.1,32013R1253
+ExposedElementCategoryValue,is,Flokkur þáttar sem verður fyrir váhrifum,12.5.1,32013R1253
+NaturalHazardCategoryValue,is,Flokkur hættu af náttúrulegum uppruna,12.5.2,32013R1253
+SpecificExposedElementTypeValue,is,Sértæk tegund þáttar sem verður fyrir váhrifum,12.5.3,32013R1253
+SpecificHazardTypeValue,is,Sértæk tegund hættu,12.5.4,32013R1253
+SeaArea,is,Hafsvæði,15.1.1,32013R1253
+Sea,is,Haf,15.1.2,32013R1253
+MarineCirculationZone,is,Straumasvæði í hafi,15.1.3,32013R1253
+InterTidalArea,is,Sjávarfallasvæði,15.1.4,32013R1253
+Shoreline,is,Strandlengja,15.1.5,32013R1253
+ShoreSegment,is,Strandbútur,15.1.6,32013R1253
+Coastline,is,Strandlína,15.1.7,32013R1253
+MarineContour,is,Hafræn jafngildislína,15.1.8,32013R1253
+MarineLayer,is,Hafrænt lag,15.1.9,32013R1253
+SeaBedArea,is,Svæði á hafsbotni,15.1.10,32013R1253
+SeaSurfaceArea,is,Yfirborðsflötur á hafi,15.1.11,32013R1253
+MarineExtent,is,Hafrænt umfang,15.2.1,32013R1253
+MarineIsoline,is,Hafræn jafngildislína,15.2.2,32013R1253
+ParameterValuePair,is,Stikagildispar,15.2.3,32013R1253
+SeaAreaTypeClassificationValue,is,Tegundaflokkun fyrir hafsvæði,15.3.1,32013R1253
+SeaBedCoverValue,is,Þekja á hafsbotni,15.3.2,32013R1253
+SeaSurfaceClassificationValue,is,Flokkun yfirborðs sjávar,15.3.3,32013R1253
+ShoreStabilityValue,is,Stöðugleiki strandar,15.3.4,32013R1253
+ShoreTypeClassificationValue,is,Flokkun á tegund strandar,15.3.5,32013R1253
+ZoneTypeValue,is,Tegund svæðis,15.3.6,32013R1253
+RegionClassificationLevelValue,is,Flokkunarstig landsvæðis,16.2.1,32013R1253
+RegionClassificationSchemeValue,is,Landssvæðaflokkunaráætlun,16.2.2,32013R1253
+RegionClassificationValue,is,Landsvæðaflokkun,16.2.3,32013R1253
+Habitat,is,Búsvæði,17.2.1,32013R1253
+HabitatSpeciesType,is,Tegundir á búsvæði,17.3.1,32013R1253
+HabitatTypeCoverType,is,Þekjutegundir vistgerðar,17.3.2,32013R1253
+HabitatVegetationType,is,Gróðurgerð á búsvæði,17.3.3,32013R1253
+LocalNameType,is,Tegund staðbundins heitis,17.3.4,32013R1253
+QualifierLocalNameValue,is,Staðbundið heiti sérgreinis,17.4.1,32013R1253
+ReferenceHabitatTypeCodeValue,is,Kóði fyrir viðmiðunarvistgerðir,17.4.2,32013R1253
+ReferenceHabitatTypeSchemeValue,is,Kerfi fyrir viðmiðunarvistgerðir,17.4.3,32013R1253
+LocalNameCodeValue,is,Kóði fyrir staðbundið heiti,17.4.4,32013R1253
+SpeciesDistributionDataSet,is,Gagnasafn um útbreiðslu tegunda,18.2.1,32013R1253
+SpeciesDistributionUnit,is,Tegundardreifingareining,18.2.2,32013R1253
+DistributionInfoType,is,Dreifingarupplýsingategund,18.3.1,32013R1253
+PopulationSizeType,is,Stofnstærðartegund,18.3.2,32013R1253
+RangeType,is,Sviðstegund,18.3.3,32013R1253
+SpeciesNameType,is,Tegund tegundarheitis,18.3.4,32013R1253
+CountingMethodValue,is,Talningaraðferð,18.4.1,32013R1253
+CountingUnitValue,is,Talningareining,18.4.2,32013R1253
+LocalNameCodeValue,is,Kóði fyrir staðbundið tegundarheiti,18.4.3,32013R1253
+OccurrenceCategoryValue,is,Tilvikaflokkur,18.4.4,32013R1253
+PopulationTypeValue,is,Stofntegund,18.4.5,32013R1253
+QualifierValue,is,Sérgreinir,18.4.6,32013R1253
+ReferenceSpeciesCodeValue,is,Kóði tilvísunartegundar,18.4.7,32013R1253
+ReferenceSpeciesSchemeValue,is,Tilvísunartegundakerfi,18.4.8,32013R1253
+ResidencyStatusValue,is,Dvalarstaða,18.4.9,32013R1253
+VerticalExtentRangeType,is,Tegund lóðrétts umfangs sviðs,19.3.1.1,32013R1253
+VerticalExtentType,is,Tegund lóðrétts umfangs,19.3.1.2,32013R1253
+VerticalExtentValue,is,Gildi lóðrétts umfangs,19.3.1.3,32013R1253
+ClassificationAndQuantificationFrameworkValue,is,Flokkunar- og magnákvörðunarrammi,19.3.2.1,32013R1253
+FossilFuelClassValue,is,Jarðefnaeldsneytisflokkur,19.3.2.2,32013R1253
+RenewableAndWasteValue,is,Endurnýjanleg orka og úrgangsorka,19.3.2.3,32013R1253
+FossilFuelValue,is,Jarðefnaeldsneyti,19.3.2.4,32013R1253
+VerticalReferenceValue,is,Lóðrétt tilvísun,19.3.2.5,32013R1253
+VectorEnergyResource,is,Vigur fyrir orkuauðlind,19.4.1.1,32013R1253
+FossilFuelResource,is,Jarðefnaeldsneytisauðlind,19.4.1.2,32013R1253
+RenewableAndWasteResource,is,Endurnýjanleg auðlind og úrgangsauðlind,19.4.1.3,32013R1253
+CalorificRangeType,is,Tegund varmagildissviðs,19.4.2.1,32013R1253
+CalorificValueType,is,Tegund varmagildis,19.4.2.2,32013R1253
+ExploitationPeriodType,is,Tegund hagnýtingartíma,19.4.2.3,32013R1253
+FossilFuelMeasure,is,Mæling á jarðefnaeldsneyti,19.4.2.4,32013R1253
+FossilFuelResourceType,is,Tegund jarðefnaeldsneytisauðlindar,19.4.2.5,32013R1253
+PotentialTypeValue,is,Tegund möguleika,19.5.2.1,32013R1253
+EarthResource,is,Auðlind í jörðu,20.3.1.1,32013R1253
+MineralOccurrence,is,Fyrirkoma jarðefnis,20.3.1.2,32013R1253
+Commodity,is,Hrávara,20.3.1.3,32013R1253
+ExplorationActivity,is,Leitarstarfsemi,20.3.1.4,32013R1253
+MiningFeature,is,Námufitja,20.3.1.5,32013R1253
+MiningFeatureOccurrence,is,Fyrirkoma námufitju,20.3.1.6,32013R1253
+Mine,is,Náma,20.3.1.7,32013R1253
+MiningActivity,is,Námuvinnsla,20.3.1.8,32013R1253
+CommodityMeasure,is,Mæling hrávöru,20.3.2.1,32013R1253
+EarthResourceDimension,is,Mál jarðauðlindarinnar,20.3.2.2,32013R1253
+Endowment,is,Framleiðslugeta,20.3.2.3,32013R1253
+MineName,is,Heiti námu,20.3.2.4,32013R1253
+MineralDepositModel,is,Líkan af jarðefnamyndun,20.3.2.5,32013R1253
+OreMeasure,is,Mæling á málmgrýti,20.3.2.6,32013R1253
+Reserve,is,Forði,20.3.2.7,32013R1253
+Resource,is,Auðlind,20.3.2.8,32013R1253
+ClassificationMethodUsedValue,is,Flokkunaraðferð sem er notuð,20.3.3.1,32013R1253
+CommodityCodeValue,is,Hrávörukóði,20.3.3.2,32013R1253
+EndusePotentialValue,is,Möguleg endanleg notkun,20.3.3.3,32013R1253
+ExplorationActivityTypeValue,is,Tegund leitarstarfsemi,20.3.3.4,32013R1253
+ExplorationResultValue,is,Niðurstöður leitar,20.3.3.5,32013R1253
+ImportanceValue,is,Mikilvægi,20.3.3.6,32013R1253
+MineStatusValue,is,Staða námu,20.3.3.7,32013R1253
+MineralDepositGroupValue,is,Hópur jarðefnamyndana,20.3.3.8,32013R1253
+MineralDepositTypeValue,is,Tegund jarðefnamyndana,20.3.3.9,32013R1253
+MineralOccurrenceTypeValue,is,Tegund jarðefnafyrirkomu,20.3.3.10,32013R1253
+MiningActivityTypeValue,is,Tegund námuvinnslu,20.3.3.11,32013R1253
+ProcessingActivityTypeValue,is,Tegund vinnslustarfsemi,20.3.3.12,32013R1253
+ReserveCategoryValue,is,Forðaflokkur,20.3.3.13,32013R1253
+ResourceCategoryValue,is,Auðlindaflokkur,20.3.3.14,32013R1253

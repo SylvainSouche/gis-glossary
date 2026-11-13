@@ -1,0 +1,737 @@
+key,language,label,section,act
+Identifier,sk,Identifikátor,2.1,02010R1089-20231119
+RelatedParty,sk,Súvisiaca strana,2.2,02010R1089-20231119
+Contact,sk,Kontakt,2.3,02010R1089-20231119
+DocumentCitation,sk,Citácia dokumentu,2.4,02010R1089-20231119
+LegislationCitation,sk,Citácia legislatívy,2.5,02010R1089-20231119
+OfficialJournalInformation,sk,Informácie o Úradnom vestníku,2.6,02010R1089-20231119
+ThematicIdentifier,sk,Tematický identifikátor,2.7,02010R1089-20231119
+VerticalPositionValue,sk,Vertikálna poloha,4.1,02010R1089-20231119
+ConditionOfFacilityValue,sk,Stav zariadenia,4.2,02010R1089-20231119
+CountryCode,sk,Kód krajiny,4.3,02010R1089-20231119
+LegislationLevelValue,sk,Úroveň legislatívy,4.4,02010R1089-20231119
+PartyRoleValue,sk,Rola strany,4.5,02010R1089-20231119
+CFStandardNamesValue,sk,Štandardné názvy v oblasti klímy a predpovedí,4.6,02010R1089-20231119
+GenderValue,sk,Pohlavie,4.7,02010R1089-20231119
+CrossReference,sk,Krížový odkaz,5.1.1,02010R1089-20231119
+GeneralisedLink,sk,Univerzálne spojenie,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,sk,Mimoúrovňové križovanie,5.1.3,02010R1089-20231119
+Link,sk,Spojenie,5.1.4,02010R1089-20231119
+LinkSequence,sk,Postupnosť spojenia,5.1.5,02010R1089-20231119
+LinkSet,sk,Súbor spojení,5.1.6,02010R1089-20231119
+Network,sk,Sieť,5.1.7,02010R1089-20231119
+NetworkArea,sk,Oblasť siete,5.1.8,02010R1089-20231119
+NetworkConnection,sk,Sieťové spojenie,5.1.9,02010R1089-20231119
+NetworkElement,sk,Sieťový prvok,5.1.10,02010R1089-20231119
+NetworkProperty,sk,Vlastnosť siete,5.1.11,02010R1089-20231119
+Node,sk,Uzol,5.1.12,02010R1089-20231119
+DirectedLink,sk,Nasmerované spojenie,5.2.1,02010R1089-20231119
+LinkReference,sk,Odkaz na spojenie,5.2.2,02010R1089-20231119
+NetworkReference,sk,Sieťový odkaz,5.2.3,02010R1089-20231119
+SimpleLinearReference,sk,Jednoduchý lineárny odkaz,5.2.4,02010R1089-20231119
+SimplePointReference,sk,Jednoduchý odkaz na bod,5.2.5,02010R1089-20231119
+ConnectionTypeValue,sk,Typ spojenia,5.3.1,02010R1089-20231119
+LinkDirectionValue,sk,Smer spojenia,5.3.2,02010R1089-20231119
+Coverage,sk,Pokrytie,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,sk,Pokrytie (reprezentácia domény a rozsahu),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,sk,Pokrytie rektifikovanou sieťou,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,sk,Pokrytie referencovateľnou sieťou,6.2.1.3,02010R1089-20231119
+CoverageFunction,sk,Funkcia pokrytia,6.2.2.1,02010R1089-20231119
+GridFunction,sk,Funkcia siete,6.2.2.2,02010R1089-20231119
+ObservationSet,sk,Súbor pozorovaní,7.1.1.1,02010R1089-20231119
+Process,sk,Proces,7.2.1.1,02010R1089-20231119
+ProcessParameter,sk,Parameter procesu,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,sk,Názov parametra procesu,7.2.3.1,02010R1089-20231119
+Constraint,sk,Obmedzenie,7.3.1.1,02010R1089-20231119
+CategoryConstraint,sk,Obmedzenie kategórie,7.3.1.2,02010R1089-20231119
+RangeConstraint,sk,Obmedzenie rozsahu,7.3.1.3,02010R1089-20231119
+RangeBounds,sk,Hranice rozsahu,7.3.1.4,02010R1089-20231119
+ScalarConstraint,sk,Skalárne obmedzenie,7.3.1.5,02010R1089-20231119
+OtherConstraint,sk,Iné obmedzenie,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,sk,Štatistická miera,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,sk,Abstraktná pozorovateľná vlastnosť,7.3.1.8,02010R1089-20231119
+CompositeObservableProperty,sk,Súhrnná pozorovateľná vlastnosť,7.3.1.9,02010R1089-20231119
+ObservableProperty,sk,Pozorovateľná vlastnosť,7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,sk,Typ javu,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,sk,Typ štatistickej funkcie,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,sk,Operátor porovnania,7.3.3.3,02010R1089-20231119
+GridObservation,sk,Pozorovanie siete,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,sk,Pozorovanie sérií sietí,7.4.1.2,02010R1089-20231119
+PointObservation,sk,Bodové pozorovanie,7.4.1.3,02010R1089-20231119
+PointObservationCollection,sk,Súbor bodových pozorovaní,7.4.1.4,02010R1089-20231119
+MultiPointObservation,sk,Viac bodové pozorovanie,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,sk,Bodové pozorovanie v časovom rade,7.4.1.6,02010R1089-20231119
+ProfileObservation,sk,Pozorovanie profilu,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,sk,Pozorovanie trajektórie,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,sk,Trojica čas miesto hodnota,7.4.2.1,02010R1089-20231119
+ActivityComplex,sk,Komplex činností,8.1.1.1,02010R1089-20231119
+Function,sk,Funkcia,8.1.2.1,02010R1089-20231119
+Capacity,sk,Kapacita,8.1.2.2,02010R1089-20231119
+InputOutputAmount,sk,Množstvo vstupu alebo výstupu,8.1.2.3,02010R1089-20231119
+Permission,sk,Povolenie,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,sk,Opis komplexu činností,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,sk,Hospodárska činnosť,8.1.3.1,02010R1089-20231119
+InputOutputValue,sk,Vstup alebo výstup,8.1.3.2,02010R1089-20231119
+NamedPlace,sk,Pomenované miesto,3.1.1,02010R1089-20231119
+GeographicalName,sk,Zemepisný názov,3.2.1,02010R1089-20231119
+PronunciationOfName,sk,Výslovnosť názvu,3.2.2,02010R1089-20231119
+SpellingOfName,sk,Hláskovanie názvu,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,sk,Gramatický rod,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,sk,Gramatické číslo,3.3.2,02010R1089-20231119
+NameStatusValue,sk,Status názvu,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,sk,Typ pomenovaného miesta,3.3.4,02010R1089-20231119
+NativenessValue,sk,Miestny charakter,3.3.5,02010R1089-20231119
+AdministrativeBoundary,sk,Správna hranica,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,sk,Správna jednotka,4.2.1.2,02010R1089-20231119
+Condominium,sk,Kondomínium,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,sk,Sídlo orgánu,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,sk,Úroveň hierarchie správy,4.2.4.1,02010R1089-20231119
+LegalStatusValue,sk,Právne postavenie,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,sk,Technický stav,4.2.4.3,02010R1089-20231119
+Baseline,sk,Základná línia,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,sk,Námorná hranica,4.3.1.2,02010R1089-20231119
+MaritimeZone,sk,Námorná zóna,4.3.1.3,02010R1089-20231119
+BaselineSegment,sk,Segment základnej línie,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,sk,Typ segmentu základnej línie,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,sk,Typ námornej zóny,4.3.3.2,02010R1089-20231119
+Address,sk,Adresa,5.2.1,02010R1089-20231119
+AddressAreaName,sk,Názov oblasti adresy,5.2.2,02010R1089-20231119
+AddressComponent,sk,Komponent adresy,5.2.3,02010R1089-20231119
+AdminUnitName,sk,Názov správnej jednotky,5.2.4,02010R1089-20231119
+PostalDescriptor,sk,Poštové smerovacie číslo,5.2.5,02010R1089-20231119
+ThoroughfareName,sk,Názov prejazdnej cesty,5.2.6,02010R1089-20231119
+AddressLocator,sk,Lokátor adresy,5.3.1,02010R1089-20231119
+AddressRepresentation,sk,Reprezentácia adresy,5.3.2,02010R1089-20231119
+GeographicPosition,sk,Geografická poloha,5.3.3,02010R1089-20231119
+LocatorDesignator,sk,Kód lokátora,5.3.4,02010R1089-20231119
+LocatorName,sk,Meno lokátora,5.3.5,02010R1089-20231119
+PartOfName,sk,Časť názvu,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,sk,Hodnota názvu prejazdnej cesty,5.3.7,02010R1089-20231119
+GeometryMethodValue,sk,Geometrická metóda,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,sk,Geometrická špecifikácia,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,sk,Typ kódu lokátora,5.4.3,02010R1089-20231119
+LocatorLevelValue,sk,Úroveň lokátora,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,sk,Typ názvu lokátora,5.4.5,02010R1089-20231119
+PartTypeValue,sk,Typ časti,5.4.6,02010R1089-20231119
+StatusValue,sk,Stav,5.4.7,02010R1089-20231119
+BasicPropertyUnit,sk,Základná jednotka nehnuteľnosti,6.1.1,02010R1089-20231119
+CadastralBoundary,sk,Katastrálna hranica,6.1.2,02010R1089-20231119
+CadastralParcel,sk,Katastrálna parcela,6.1.3,02010R1089-20231119
+CadastralZoning,sk,Katastrálne rozdelenie na zóny,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,sk,Úroveň katastrálneho rozdelenia na zóny,6.2.1,02010R1089-20231119
+AccessRestriction,sk,Obmedzenie prístupu,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,sk,Stav zariadenia,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,sk,Orgán zodpovedný za údržbu,7.3.1.3,02010R1089-20231119
+MarkerPost,sk,Kilometrovník,7.3.1.4,02010R1089-20231119
+OwnerAuthority,sk,Vlastnícka organizácia,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,sk,Obmedzenie pre vozidlá,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,sk,Smer dopravného prúdu,7.3.1.7,02010R1089-20231119
+TransportArea,sk,Dopravná oblasť,7.3.1.8,02010R1089-20231119
+TransportLink,sk,Dopravné spojenie,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,sk,Postupnosť dopravných spojení,7.3.1.10,02010R1089-20231119
+TransportLinkSet,sk,Súbor dopravných spojení,7.3.1.11,02010R1089-20231119
+TransportNetwork,sk,Dopravná sieť,7.3.1.12,02010R1089-20231119
+TransportNode,sk,Dopravný uzol,7.3.1.13,02010R1089-20231119
+TransportObject,sk,Dopravný objekt,7.3.1.14,02010R1089-20231119
+TransportPoint,sk,Dopravný bod,7.3.1.15,02010R1089-20231119
+TransportProperty,sk,Dopravná vlastnosť,7.3.1.16,02010R1089-20231119
+VerticalPosition,sk,Zvislá poloha,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,sk,Obmedzenie prístupu,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,sk,Typ obmedzenia,7.3.3.2,02010R1089-20231119
+TransportTypeValue,sk,Typ dopravy,7.3.3.3,02010R1089-20231119
+AerodromeArea,sk,Oblasť letiska,7.4.1.1,02010R1089-20231119
+AerodromeCategory,sk,Kategória letiska,7.4.1.2,02010R1089-20231119
+AerodromeNode,sk,Uzol letiska,7.4.1.3,02010R1089-20231119
+AerodromeType,sk,Typ letiska,7.4.1.4,02010R1089-20231119
+AirLink,sk,Letecké spojenie,7.4.1.5,02010R1089-20231119
+AirLinkSequence,sk,Postupnosť leteckých spojení,7.4.1.6,02010R1089-20231119
+AirNode,sk,Letecký uzol,7.4.1.7,02010R1089-20231119
+AirRoute,sk,Letová trasa,7.4.1.8,02010R1089-20231119
+AirRouteLink,sk,Spojenie letových trás,7.4.1.9,02010R1089-20231119
+AirspaceArea,sk,Oblasť vzdušného priestoru,7.4.1.10,02010R1089-20231119
+ApronArea,sk,Oblasť odbavovacej plochy,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,sk,Stav leteckého zariadenia,7.4.1.12,02010R1089-20231119
+DesignatedPoint,sk,Určený bod,7.4.1.13,02010R1089-20231119
+ElementLength,sk,Dĺžka prvku,7.4.1.14,02010R1089-20231119
+ElementWidth,sk,Šírka prvku,7.4.1.15,02010R1089-20231119
+FieldElevation,sk,Nadmorská výška letiska,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,sk,Postup priblíženia podľa prístrojov,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,sk,Dolná medzná hodnota výšky,7.4.1.18,02010R1089-20231119
+Navaid,sk,Navigačný prostriedok,7.4.1.19,02010R1089-20231119
+ProcedureLink,sk,Spojenie postupov,7.4.1.20,02010R1089-20231119
+RunwayArea,sk,Oblasť vzletovej a pristávacej dráhy,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,sk,Bod osi vzletovej a pristávacej dráhy,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,sk,Štandardný prílet podľa prístrojov,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,sk,Štandardný odlet podľa prístrojov,7.4.1.24,02010R1089-20231119
+SurfaceComposition,sk,Zloženie povrchu,7.4.1.25,02010R1089-20231119
+TaxiwayArea,sk,Oblasť rolovacej dráhy,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,sk,Oblasť dotyku so zemou a vzletu,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,sk,Horná medzná hodnota absolútnej výšky,7.4.1.28,02010R1089-20231119
+UseRestriction,sk,Obmedzenie používania,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,sk,Kategória letiska,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,sk,Typ letiska,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,sk,Trieda spojení letových trás,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,sk,Typ letovej trasy,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,sk,Obmedzenie používania v leteckej doprave,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,sk,Typ oblasti vzdušného priestoru,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,sk,Typ navigačného prostriedku,7.4.2.7,02010R1089-20231119
+PointRoleValue,sk,Rola bodu,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,sk,Typ vzletovej a pristávacej dráhy,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,sk,Zloženie povrchu,7.4.2.10,02010R1089-20231119
+CablewayLink,sk,Spojenie lanovej dráhy,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,sk,Postupnosť spojení lanovej dráhy,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,sk,Súbor spojení lanovej dráhy,7.5.1.3,02010R1089-20231119
+CablewayNode,sk,Uzol lanovej dráhy,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,sk,Typ lanovej dráhy,7.5.2.1,02010R1089-20231119
+DesignSpeed,sk,Konštrukčná rýchlosť,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,sk,Menovitý rozchod koľaje,7.6.1.2,02010R1089-20231119
+NumberOfTracks,sk,Počet koľají,7.6.1.3,02010R1089-20231119
+RailwayArea,sk,Oblasť železnice,7.6.1.4,02010R1089-20231119
+RailwayElectrification,sk,Elektrifikácia železníc,7.6.1.5,02010R1089-20231119
+RailwayLine,sk,Železničná trať,7.6.1.6,02010R1089-20231119
+RailwayLink,sk,Železničné spojenie,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,sk,Postupnosť železničných spojení,7.6.1.8,02010R1089-20231119
+RailwayNode,sk,Železničný uzol,7.6.1.9,02010R1089-20231119
+RailwayStationArea,sk,Oblasť železničnej stanice,7.6.1.10,02010R1089-20231119
+RailwayStationCode,sk,Kód železničnej stanice,7.6.1.11,02010R1089-20231119
+RailwayStationNode,sk,Uzol železničnej stanice,7.6.1.12,02010R1089-20231119
+RailwayType,sk,Druh železnice,7.6.1.13,02010R1089-20231119
+RailwayUse,sk,Používanie železnice,7.6.1.14,02010R1089-20231119
+RailwayYardArea,sk,Oblasť nákladnej stanice,7.6.1.15,02010R1089-20231119
+RailwayYardNode,sk,Uzol nákladnej stanice,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,sk,Druh železničného uzla,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,sk,Typ železnice,7.6.3.2,02010R1089-20231119
+RailwayUseValue,sk,Použitie železnice,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,sk,Minimálny alebo maximálny počet koľají,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,sk,Kategória rozchodu koľaje,7.6.3.5,02010R1089-20231119
+ERoad,sk,Cesta E,7.7.1.1,02010R1089-20231119
+FormOfWay,sk,Druh cesty,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,sk,Funkčosť triedy ciest,7.7.1.3,02010R1089-20231119
+NumberOfLanes,sk,Počet jazdných pruhov,7.7.1.4,02010R1089-20231119
+Road,sk,Cesta,7.7.1.5,02010R1089-20231119
+RoadArea,sk,Oblasť cesty,7.7.1.6,02010R1089-20231119
+RoadLink,sk,Cestné spojenie,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,sk,Postupnosť cestných spojení,7.7.1.8,02010R1089-20231119
+RoadName,sk,Názov cesty,7.7.1.9,02010R1089-20231119
+RoadNode,sk,Cestný uzol,7.7.1.10,02010R1089-20231119
+RoadServiceArea,sk,Oblasť cestných služieb,7.7.1.11,02010R1089-20231119
+RoadServiceType,sk,Druh cestných služieb,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,sk,Kategória povrchu cesty,7.7.1.13,02010R1089-20231119
+RoadWidth,sk,Šírka cesty,7.7.1.14,02010R1089-20231119
+SpeedLimit,sk,Obmedzenie rýchlosti,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,sk,Oblasť premávky vozidiel,7.7.1.16,02010R1089-20231119
+AreaConditionValue,sk,Podmienky týkajúce sa oblasti,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,sk,Druh cestného uzla,7.7.3.2,02010R1089-20231119
+FormOfWayValue,sk,Druh cesty,7.7.3.3,02010R1089-20231119
+RoadPartValue,sk,Časť cesty,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,sk,Typ cestných služieb,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,sk,Kategória povrchu cesty,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,sk,Zariadenie služieb,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,sk,Zdroj obmedzenia rýchlosti,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,sk,Typ vozidla,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,sk,Poveternostné podmienky,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,sk,Funkčná trieda cesty,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,sk,Minimálny alebo maximálny počet jazdných pruhov,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,sk,Charakter obmedzenia rýchlosti,7.7.3.13,02010R1089-20231119
+Beacon,sk,Maják,7.8.1.1,02010R1089-20231119
+Buoy,sk,Bója,7.8.1.2,02010R1089-20231119
+CEMTClass,sk,Trieda CEMT,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,sk,Stav vodného zariadenia,7.8.1.4,02010R1089-20231119
+FairwayArea,sk,Oblasť plavebnej dráhy,7.8.1.5,02010R1089-20231119
+FerryCrossing,sk,Trajektová preprava,7.8.1.6,02010R1089-20231119
+FerryUse,sk,Používanie trajektov,7.8.1.7,02010R1089-20231119
+InlandWaterway,sk,Vnútrozemská vodná cesta,7.8.1.8,02010R1089-20231119
+MarineWaterway,sk,Námorná cesta,7.8.1.9,02010R1089-20231119
+PortArea,sk,Oblasť prístavu,7.8.1.10,02010R1089-20231119
+PortNode,sk,Prístavný uzol,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,sk,Obmedzenie pre plavidlá,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,sk,Schéma rozdelenia plavby,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,sk,Oblasť schémy rozdelenia plavby,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,sk,Križovanie schémy rozdelenia plavby,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,sk,Dopravný pruh schémy rozdelenia plavby,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,sk,Kruhový objazd schémy rozdelenia plavby,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,sk,Deliaci pás schémy rozdelenia plavby,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,sk,Postupnosť spojení vodnej dopravy,7.8.1.19,02010R1089-20231119
+WaterNode,sk,Vodný uzol,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,sk,Smer dopravného prúdu vodnej dopravy,7.8.1.21,02010R1089-20231119
+Waterway,sk,Vodná cesta,7.8.1.22,02010R1089-20231119
+WaterwayLink,sk,Spojenie vodných ciest,7.8.1.23,02010R1089-20231119
+WaterwayNode,sk,Uzol vodnej cesty,7.8.1.24,02010R1089-20231119
+FerryUseValue,sk,Používanie trajektov,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,sk,Druh uzla vodnej cesty,7.8.3.2,02010R1089-20231119
+CEMTClassValue,sk,Trieda CEMT,7.8.3.3,02010R1089-20231119
+HydroObject,sk,Hydrografický objekt,8.3.1.1,02010R1089-20231119
+HydroIdentifier,sk,Hydrografický identifikátor,8.3.2.1,02010R1089-20231119
+HydroNode,sk,Hydrografický uzol,8.4.1.1,02010R1089-20231119
+WatercourseLink,sk,Spojenie vodných tokov,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,sk,Postupnosť spojení vodných tokov,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,sk,Oddelené križovanie vodných tokov,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,sk,Kategória hydrografického uzla,8.4.2.1,02010R1089-20231119
+Crossing,sk,Križovanie,8.5.1.1,02010R1089-20231119
+DamOrWeir,sk,Priehrada alebo hať,8.5.1.2,02010R1089-20231119
+DrainageBasin,sk,Povodie,8.5.1.3,02010R1089-20231119
+Embankment,sk,Násyp,8.5.1.4,02010R1089-20231119
+Falls,sk,Vodopády,8.5.1.5,02010R1089-20231119
+FluvialPoint,sk,Riečny bod,8.5.1.6,02010R1089-20231119
+Ford,sk,Brod,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,sk,Hydrografický bod záujmu,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,sk,Hranica zem – voda,8.5.1.11,02010R1089-20231119
+Lock,sk,Plavebná komora,8.5.1.12,02010R1089-20231119
+ManMadeObject,sk,Umelý objekt,8.5.1.13,02010R1089-20231119
+Rapids,sk,Kaskády,8.5.1.17,02010R1089-20231119
+RiverBasin,sk,Povodie rieky,8.5.1.18,02010R1089-20231119
+Shore,sk,Pobrežie,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,sk,Pobrežná konštrukcia,8.5.1.20,02010R1089-20231119
+Sluice,sk,Priepust,8.5.1.21,02010R1089-20231119
+StandingWater,sk,Stojatá voda,8.5.1.22,02010R1089-20231119
+SurfaceWater,sk,Povrchová voda,8.5.1.23,02010R1089-20231119
+Watercourse,sk,Vodný tok,8.5.1.24,02010R1089-20231119
+Wetland,sk,Mokraď,8.5.1.25,02010R1089-20231119
+HydroOrderCode,sk,Kód hydrologického poradia,8.5.2.1,02010R1089-20231119
+WidthRange,sk,Rozsah šírky,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,sk,Typ križovania,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,sk,Hydrologická perzistencia,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,sk,Typ pobrežia,8.5.4.4,02010R1089-20231119
+WaterLevelValue,sk,Hladina vody,8.5.4.5,02010R1089-20231119
+OriginValue,sk,Pôvod,8.5.4.6,02010R1089-20231119
+ProtectedSite,sk,Chránené územie,9.1.1,02010R1089-20231119
+DesignationType,sk,Typ označenia,9.2.1,02010R1089-20231119
+DesignationSchemeValue,sk,Systém označenia,9.4.1,02010R1089-20231119
+DesignationValue,sk,Označenie,9.4.2,02010R1089-20231119
+IUCNDesignationValue,sk,Označenie IUCN,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,sk,Označenie záznamov o národných pamiatkach,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,sk,Označenie Natura 2000,9.4.5,02010R1089-20231119
+RamsarDesignationValue,sk,Označenie Ramsar,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,sk,Označenie podľa programu Unesco Človek a biosféra,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,sk,Označenie svetového dedičstva Unesco,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,sk,Klasifikácia ochrany,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,sk,Typ vlastnosti výšky,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,sk,Typ povrchu,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,sk,Pokrytie siete výšky,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,sk,Agregácia pokrytia siete výšky,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,sk,Vektorový objekt výšky,1.5.1.1,02010R1089-20231119
+SpotElevation,sk,Výšková kóta,1.5.1.2,02010R1089-20231119
+ContourLine,sk,Vrstevnica,1.5.1.3,02010R1089-20231119
+BreakLine,sk,Zlomová čiara,1.5.1.4,02010R1089-20231119
+VoidArea,sk,Prázdna oblasť,1.5.1.5,02010R1089-20231119
+IsolatedArea,sk,Izolovaná oblasť,1.5.1.6,02010R1089-20231119
+ChartDatum,sk,Nulová plocha,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,sk,Typ zlomovej čiary,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,sk,Klasifikácia bodovej výšky,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,sk,Typ bodovej výšky,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,sk,Typ vrstevnice,1.5.4.4,02010R1089-20231119
+ElevationTIN,sk,Výška TIN,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,sk,Nomenklatúra krajinnej pokrývky,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,sk,Trieda krajinnej pokrývky,2.3.2.1,02010R1089-20231119
+LandCoverDataset,sk,Súbor údajov o krajinnej pokrývke,2.4.1.1,02010R1089-20231119
+LandCoverUnit,sk,Jednotka krajinnej pokrývky,2.4.1.2,02010R1089-20231119
+LandCoverObservation,sk,Pozorovanie krajinnej pokrývky,2.4.2.1,02010R1089-20231119
+LandCoverValue,sk,Krajinná pokrývka,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,sk,Pokrytie krajinnej pokrývky v sieti,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,sk,Ortometrické pokrytie,3.2.1,02010R1089-20231119
+MosaicElement,sk,Prvok mozaiky,3.2.2,02010R1089-20231119
+SingleMosaicElement,sk,Jeden prvok mozaiky,3.2.3,02010R1089-20231119
+AggregatedMosaicElement,sk,Agregovaný prvok mozaiky,3.2.4,02010R1089-20231119
+OrthoimageAggregation,sk,Ortometrická agregácia,3.3.1,02010R1089-20231119
+InterpolationMethodValue,sk,Metóda interpolácie,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,sk,Antropogénny geomorfologický prvok,4.2.1.1,02010R1089-20231119
+Borehole,sk,Vrt,4.2.1.2,02010R1089-20231119
+Fold,sk,Vrása,4.2.1.3,02010R1089-20231119
+GeologicCollection,sk,Geologická zbierka,4.2.1.4,02010R1089-20231119
+GeologicEvent,sk,Geologická udalosť,4.2.1.5,02010R1089-20231119
+GeologicFeature,sk,Geologický prvok,4.2.1.6,02010R1089-20231119
+GeologicStructure,sk,Geologická štruktúra,4.2.1.7,02010R1089-20231119
+GeologicUnit,sk,Geologická jednotka,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,sk,Geomorfologický prvok,4.2.1.9,02010R1089-20231119
+MappedFeature,sk,Mapovaný prvok,4.2.1.10,02010R1089-20231119
+MappedInterval,sk,Mapovaný interval,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,sk,Prírodný geomorfologický prvok,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,sk,Štruktúra šmykového posunu,4.2.1.13,02010R1089-20231119
+CompositionPart,sk,Časť zloženia,4.2.2.1,02010R1089-20231119
+ThematicClass,sk,Tematická trieda,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,sk,Typ antropogénneho geomorfologického prvku,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,sk,Účel vrtu,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,sk,Typ zbierky,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,sk,Rola časti zloženia,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,sk,Prostredie udalosti,4.2.3.5,02010R1089-20231119
+EventProcessValue,sk,Priebeh udalosti,4.2.3.6,02010R1089-20231119
+FaultTypeValue,sk,Typ zlomu,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,sk,Typ profilu vrásy,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,sk,Geochronologická éra,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,sk,Typ geologickej jednotky,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,sk,Geomorfologická aktivita,4.2.3.11,02010R1089-20231119
+LithologyValue,sk,Litológia,4.2.3.12,02010R1089-20231119
+MappingFrameValue,sk,Mapovací rámec,4.2.3.13,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,sk,Typ prírodného geomorfologického prvku,4.2.3.14,02010R1089-20231119
+ThematicClassValue,sk,Tematická trieda,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,sk,Tematická klasifikácia,4.2.3.16,02010R1089-20231119
+Campaign,sk,Kampaň,4.3.1.1,02010R1089-20231119
+GeophObject,sk,Geofyzikálny objekt,4.3.1.2,02010R1089-20231119
+GeophMeasurement,sk,Geofyzikálne meranie,4.3.1.3,02010R1089-20231119
+GeophObjectSet,sk,Súbor geofyzikálnych objektov,4.3.1.4,02010R1089-20231119
+GeophProfile,sk,Geofyzikálny profil,4.3.1.5,02010R1089-20231119
+GeophStation,sk,Geofyzikálna stanica,4.3.1.6,02010R1089-20231119
+GeophSwath,sk,Geofyzikálny pás,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,sk,Typ kampane,4.3.2.1,02010R1089-20231119
+NetworkNameValue,sk,Názov siete,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,sk,Typ platformy,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,sk,Typ profilu,4.3.2.4,02010R1089-20231119
+StationRankValue,sk,Trieda stanice,4.3.2.5,02010R1089-20231119
+StationTypeValue,sk,Typ stanice,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,sk,Typ prieskumu,4.3.2.7,02010R1089-20231119
+SwathTypeValue,sk,Typ pásu,4.3.2.8,02010R1089-20231119
+ActiveWell,sk,Aktívna studňa,4.4.1.1,02010R1089-20231119
+Aquiclude,sk,Izolátor,4.4.1.2,02010R1089-20231119
+Aquifer,sk,Kolektor podzemnej vody,4.4.1.3,02010R1089-20231119
+AquiferSystem,sk,Systém vedenia podzemnej vody,4.4.1.4,02010R1089-20231119
+Aquitard,sk,Poloizolátor,4.4.1.5,02010R1089-20231119
+GroundWaterBody,sk,Útvar podzemnej vody,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,sk,Hydrogeologický objekt,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,sk,Človekom vytvorený hydrogeologický objekt,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,sk,Prírodný hydrogeologický objekt,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,sk,Hydrogeologická jednotka,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,sk,Hydrogeologický povrch,4.4.2.1,02010R1089-20231119
+PiezometricState,sk,Piezometrický stav,4.4.2.2,02010R1089-20231119
+QuantityValue,sk,Hodnota množstva,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,sk,Typ aktívnej studne,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,sk,Typ média kolektora podzemnej vody,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,sk,Typ kolektora podzemnej vody,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,sk,Stav podzemnej vody,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,sk,Hydrogeochemický typ horniny,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,sk,Typ prírodného objektu,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,sk,Typ stavového kódu,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,sk,Perzistencia vody,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,sk,Salinita vody,4.4.3.9,02010R1089-20231119
+StatisticalUnit,sk,Štatistická jednotka,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,sk,Štatistická jednotka vektora,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,sk,Štatistická jednotka plochy,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,sk,Štatistické mozaikovanie,1.3.1.3,02010R1089-20231119
+Evolution,sk,Evolúcia,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,sk,Vektorová štatistická jednotka geometrie,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,sk,Deskriptor geometrie,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,sk,Typ geometrie,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,sk,Typ evolúcie,1.3.3.2,02010R1089-20231119
+StatisticalFunctionTypeValue,sk,Typ štatistickej jednotky,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,sk,Bunka štatistickej siete,1.4.1.1,02010R1089-20231119
+StatisticalGrid,sk,Štatistická sieť,1.4.1.2,02010R1089-20231119
+GridPosition,sk,Poloha v sieti,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,sk,Rozlíšenie štatistickej siete,1.4.2.2,02010R1089-20231119
+AbstractConstruction,sk,Abstraktná stavba,2.3.1.1,02010R1089-20231119
+AbstractBuilding,sk,Abstraktná budova,2.3.1.2,02010R1089-20231119
+Building,sk,Budova,2.3.1.3,02010R1089-20231119
+BuildingPart,sk,Časť budovy,2.3.1.4,02010R1089-20231119
+CurrentUse,sk,Aktuálne použitie,2.3.2.1,02010R1089-20231119
+DateOfEvent,sk,Dátum udalosti,2.3.2.2,02010R1089-20231119
+Elevation,sk,Výška,2.3.2.3,02010R1089-20231119
+ExternalReference,sk,Externá referencia,2.3.2.4,02010R1089-20231119
+HeightAboveGround,sk,Výška nad povrchom,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,sk,Geometria budovy 2D,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,sk,Charakter budovy,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,sk,Stav konštrukcie,2.3.3.2,02010R1089-20231119
+CurrentUseValue,sk,Aktuálne použitie,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,sk,Referencia na výšku,2.3.3.4,02010R1089-20231119
+HeightStatusValue,sk,Stav výšky,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,sk,Referencia na horizontálnu geometriu,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,sk,Geometria budovy 3D LoD,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,sk,Geometria budovy 3D LoD1,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DLoD2,sk,Geometria budovy 3D LoD2,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,sk,Odvodený pôdny profil,3.1.1,02010R1089-20231119
+ObservedSoilProfile,sk,Pozorovaný pôdny profil,3.1.2,02010R1089-20231119
+ProfileElement,sk,Prvok profilu,3.1.3,02010R1089-20231119
+SoilBody,sk,Pôdna jednotka,3.1.4,02010R1089-20231119
+SoilDerivedObject,sk,Objekt odvodený z vlastností pôdy,3.1.5,02010R1089-20231119
+SoilHorizon,sk,Pôdny horizont,3.1.6,02010R1089-20231119
+SoilLayer,sk,Pôdna vrstva,3.1.7,02010R1089-20231119
+SoilPlot,sk,Pôdna sonda,3.1.8,02010R1089-20231119
+SoilProfile,sk,Pôdny profil,3.1.9,02010R1089-20231119
+SoilSite,sk,Pôdne stanovište,3.1.10,02010R1089-20231119
+SoilThemeCoverage,sk,Pokrytie témy pôdy,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,sk,Deskriptívne pokrytie témy pôdy,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,sk,Výskyt odvodeného profilu v pôdnej jednotke,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,sk,Typ zápisu horizontu podľa FAO,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,sk,Iný typ zápisu horizontu,3.2.3,02010R1089-20231119
+OtherSoilNameType,sk,Iný typ názvu pôdy,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,sk,Typ zrnitosti,3.2.5,02010R1089-20231119
+RangeType,sk,Typ rozsahu,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,sk,Typ deskriptívneho parametra témy Pôda,3.2.7,02010R1089-20231119
+SoilThemeParameterType,sk,Typ parametra témy pôdy,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,sk,Typ skupiny kvalifikátora WRB,3.2.9,02010R1089-20231119
+WRBSoilNameType,sk,Typ názvu pôdy WRB,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,sk,Hlavný horizont podľa systému FAO,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,sk,Vedľajší horizont podľa systému FAO,3.3.2,02010R1089-20231119
+FAOPrimeValue,sk,Použitie symbolu pre minúty pri klasifikácii FAO,3.3.3,02010R1089-20231119
+OtherHorizonNotationTypeValue,sk,Iný typ zápisu horizontu,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,sk,Iný typ názvu pôdy,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,sk,Stav procesu genézy vrstvy,3.3.6,02010R1089-20231119
+LayerTypeValue,sk,Typ vrstvy,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,sk,Názov parametra prvku profilu,3.3.8,02010R1089-20231119
+SoilDerivedObjectParameterNameValue,sk,Názov parametra objektu odvodeného z vlastností pôdy,3.3.9,02010R1089-20231119
+SoilInvestigationPurposeValue,sk,Účel prieskumu pôdy,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,sk,Typ miesta pozorovania pôdy,3.3.11,02010R1089-20231119
+SoilProfileParameterNameValue,sk,Názov parametra pôdneho profilu,3.3.12,02010R1089-20231119
+SoilSiteParameterNameValue,sk,Názov parametra pôdneho stanovišťa,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,sk,Miesto kvalifikátora WRB,3.3.14,02010R1089-20231119
+WRBQualifierValue,sk,Kvalifikátory WRB,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,sk,Referenčná skupina pôd (RSG) bázy WRB,3.3.16,02010R1089-20231119
+WRBSpecifierValue,sk,Špecifikátory WRB,3.3.17,02010R1089-20231119
+HILUCSPercentage,sk,Percentuálny podiel HILUCS,4.3.1.1,02010R1089-20231119
+HILUCSPresence,sk,Výskyt HILUCS,4.3.1.2,02010R1089-20231119
+SpecificPercentage,sk,Špecifický percentuálny podiel,4.3.1.3,02010R1089-20231119
+SpecificPresence,sk,Špecifický výskyt,4.3.1.4,02010R1089-20231119
+HILUCSValue,sk,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,sk,Klasifikácia využitia územia,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,sk,Súbor údajov existujúceho využitia územia,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,sk,Objekt existujúceho využitia územia,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,sk,Sieť existujúceho využitia územia,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,sk,Vzorka existujúceho využitia územia,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,sk,Vzorkový súbor údajov existujúceho využitia územia,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,sk,Oficiálna dokumentácia,4.7.1.1,02010R1089-20231119
+SpatialPlan,sk,Priestorový plán,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,sk,Doplňujúca regulácia,4.7.1.3,02010R1089-20231119
+ZoningElement,sk,Prvok územného členenia,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,sk,Podkladová mapa,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,sk,Označenie priestorového usporiadania textovými hodnotami,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,sk,Označenie priestorového usporiadania celočíselnými hodnotami,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,sk,Označenie priestorového usporiadania hodnotami merania,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,sk,Označenie priestorového usporiadania s reálnou hodnotou,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,sk,Označenie priestorového usporiadania,4.7.2.6,02010R1089-20231119
+OrdinanceValue,sk,Výnos,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,sk,Úroveň priestorového plánu,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,sk,Všeobecný krok procesu,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,sk,Povaha regulácie,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,sk,Názov typu plánu,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,sk,Špecifická doplňujúca regulácia,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,sk,Doplňujúca regulácia,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,sk,Štatistické údaje o zdraví,5.1.1,02010R1089-20231119
+Biomarker,sk,Biomarker,5.1.2,02010R1089-20231119
+Disease,sk,Choroba,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,sk,Všeobecná zdravotná štatistika,5.1.4,02010R1089-20231119
+HealthServicesStatistic,sk,Štatistika zdravotníckych služieb,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,sk,Meranie determinantu environmentálneho zdravia,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,sk,Štatistické údaje o determinantoch environmentálneho zdravia,5.1.7,02010R1089-20231119
+Age,sk,Vek,5.2.1,02010R1089-20231119
+AgeRangeType,sk,Vekové rozpätie,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,sk,Štatistický parameter biomarkera,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,sk,Tematické metaúdaje biomarkera,5.2.4,02010R1089-20231119
+BiomarkerType,sk,Typ biomarkera,5.2.5,02010R1089-20231119
+DiseaseMeasure,sk,Miera chorobnosti,5.2.6,02010R1089-20231119
+ReferencePeriodType,sk,Referenčné obdobie,5.2.7,02010R1089-20231119
+CODValue,sk,Príčina smrti,5.3.1,02010R1089-20231119
+ChemicalValue,sk,Chemická látka,5.3.2,02010R1089-20231119
+ComponentTypeValue,sk,Typ zložky environmentálneho zdravia,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,sk,Typ miery chorobnosti,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,sk,Typ determinantu environmentálneho zdravia,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,sk,Typ všeobecného zdravia,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,sk,Typ zdravotníckych služieb,5.3.7,02010R1089-20231119
+ICDValue,sk,Medzinárodná klasifikácia chorôb,5.3.8,02010R1089-20231119
+MatrixValue,sk,Matrica,5.3.9,02010R1089-20231119
+MediaTypeValue,sk,Typ média environmentálneho zdravia,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,sk,Typ zdroja hluku,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,sk,Metóda štatistického agregovania,5.3.12,02010R1089-20231119
+UtilityNetwork,sk,Sieť verejných služieb,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,sk,Prvok siete verejných služieb,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,sk,Súbor spojení verejných služieb,6.2.1.3,02010R1089-20231119
+UtilityLink,sk,Spojenie verejných služieb,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,sk,Sled spojení verejných služieb,6.2.1.5,02010R1089-20231119
+UtilityNode,sk,Uzol verejných služieb,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,sk,Kontajner uzla verejných služieb,6.2.1.7,02010R1089-20231119
+Appurtenance,sk,Príslušenstvo,6.2.1.8,02010R1089-20231119
+Cabinet,sk,Rozvodná skriňa,6.2.1.9,02010R1089-20231119
+Cable,sk,Kábel,6.2.1.10,02010R1089-20231119
+Duct,sk,Vedenie/kábelovod,6.2.1.11,02010R1089-20231119
+Manhole,sk,Prielez,6.2.1.12,02010R1089-20231119
+Pipe,sk,Potrubie,6.2.1.13,02010R1089-20231119
+Pole,sk,Stĺp,6.2.1.14,02010R1089-20231119
+Tower,sk,Veža,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,sk,Typ príslušenstva,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,sk,Špecifický typ príslušenstva,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,sk,Typ dodávky verejných služieb,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,sk,Typ siete verejných služieb,6.2.2.4,02010R1089-20231119
+WarningTypeValue,sk,Typ výstrahy,6.2.2.5,02010R1089-20231119
+ElectricityCable,sk,Elektrický kábel,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,sk,Typ elektrického príslušenstva,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,sk,"Ropovod, plynovod a potrubie pre chemikálie",6.4.1.1,02010R1089-20231119
+OilGasChemicalsAppurtenanceTypeValue,sk,"Typ ropného, plynového a chemického príslušenstva",6.4.2.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,sk,"Typ ropného, plynového a chemického produktu",6.4.2.2,02010R1089-20231119
+SewerPipe,sk,Kanalizačné potrubie,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,sk,Typ kanalizačného príslušenstva,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,sk,Typ odpadovej vody,6.5.2.2,02010R1089-20231119
+ThermalPipe,sk,Tepelné potrubie,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,sk,Typ tepelného príslušenstva,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,sk,Typ tepelného produktu,6.6.2.2,02010R1089-20231119
+WaterPipe,sk,Vodné potrubie,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,sk,Typ vodovodného príslušenstva,6.7.2.1,02010R1089-20231119
+WaterTypeValue,sk,Typ vody,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,sk,Zariadenie environmentálneho manažmentu,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,sk,Klasifikácia environmentálneho zariadenia,6.8.2.1,02010R1089-20231119
+GovernmentalService,sk,Služba verejnej správy,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,sk,Typ oblasti zodpovednosti,6.9.2.1,02010R1089-20231119
+ServiceLocationType,sk,Typ miesta poskytovanej služby,6.9.2.2,02010R1089-20231119
+ServiceTypeValue,sk,Typ služby,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,sk,Abstraktný monitorovací prvok,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,sk,Abstraktný monitorovací objekt,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,sk,Environmentálna monitorovacia činnosť,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,sk,Environmentálne monitorovacie zariadenie,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,sk,Environmentálna monitorovacia sieť,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,sk,Environmentálny monitorovací program,7.1.6,02010R1089-20231119
+ObservingCapability,sk,Pozorovacia schopnosť,7.1.7,02010R1089-20231119
+AnyDomainLink,sk,Akýkoľvek odkaz domény,7.2.1,02010R1089-20231119
+Hierarchy,sk,Hierarchia,7.2.2,02010R1089-20231119
+NetworkFacility,sk,Sieťové zariadenie,7.2.3,02010R1089-20231119
+ReportToLegalAct,sk,Správa podľa právneho aktu,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,sk,Režim merania,7.3.1,02010R1089-20231119
+MediaValue,sk,Médiá,7.3.2,02010R1089-20231119
+ProcessTypeValue,sk,Typ procesu,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,sk,Účel zbierky,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,sk,Zdroj získania výsledkov,7.3.5,02010R1089-20231119
+ResultNatureValue,sk,Povaha výsledku,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,sk,Špecializovaný typ environmentálneho monitorovacieho zariadenia,7.3.7,02010R1089-20231119
+ProductionFacility,sk,Výrobné zariadenie,8.2.1,02010R1089-20231119
+ProductionInstallation,sk,Výrobná inštalácia,8.2.2,02010R1089-20231119
+ProductionInstallationPart,sk,Časť výrobnej inštalácie,8.2.3,02010R1089-20231119
+ProductionSite,sk,Výrobňa,8.2.4,02010R1089-20231119
+ProductionPlot,sk,Výrobný pozemok,8.2.5,02010R1089-20231119
+ProductionBuilding,sk,Výrobná budova,8.2.6,02010R1089-20231119
+StatusType,sk,Typ stavu,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,sk,Technika odlučovania znečistenia,8.4.1,02010R1089-20231119
+InstallationTypeValue,sk,Typ inštalácie,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,sk,Typ časti inštalácie,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,sk,Oblasť povodia rieky,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,sk,Typ výrobnej budovy,8.4.5,02010R1089-20231119
+Holding,sk,Poľnohospodársky podnik,9.2.1,02010R1089-20231119
+Site,sk,Miesto,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,sk,Druhy hospodárskych zvierat,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,sk,Druhy hospodárskych zvierat,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,sk,Akvakultúrne druhy,9.4.2,02010R1089-20231119
+StatisticalDistribution,sk,Štatistická distribúcia,10.1.1,02010R1089-20231119
+Classification,sk,Klasifikácia,10.2.1,02010R1089-20231119
+ClassificationItem,sk,Položka klasifikácie,10.2.2,02010R1089-20231119
+StatisticalValue,sk,Štatistická hodnota,10.2.3,02010R1089-20231119
+Dimensions,sk,Rozmery,10.2.4,02010R1089-20231119
+ClassificationTypeValue,sk,Typ klasifikácie,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,sk,Typ položky klasifikácie,10.3.2,02010R1089-20231119
+VariableValue,sk,Premenná,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,sk,Metóda štatistického merania,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,sk,Stav štatistických údajov,10.3.5,02010R1089-20231119
+SpecialValue,sk,Špeciálna hodnota,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,sk,"Spravovaná, obmedzená alebo regulovaná zóna",11.2.1,02010R1089-20231119
+ZoneTypeCode,sk,Kód typu zóny,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,sk,Kód špecializovaného typu zóny,11.3.2,02010R1089-20231119
+EnvironmentalDomain,sk,Environmentálna doména,11.3.3,02010R1089-20231119
+AbstractExposedElement,sk,Abstraktný vystavený prvok,12.2.1,02010R1089-20231119
+AbstractHazardArea,sk,Abstraktná oblasť nebezpečenstva,12.2.2,02010R1089-20231119
+AbstractObservedEvent,sk,Abstraktná pozorovaná udalosť,12.2.3,02010R1089-20231119
+AbstractRiskZone,sk,Abstraktná riziková zóna,12.2.4,02010R1089-20231119
+ExposedElementCoverage,sk,Pokrytie vystaveného prvku,12.2.5,02010R1089-20231119
+ExposedElement,sk,Vystavený prvok,12.2.6,02010R1089-20231119
+HazardArea,sk,Oblasť nebezpečenstva,12.2.7,02010R1089-20231119
+RiskCoverage,sk,Pokrytie nebezpečenstva,12.2.8,02010R1089-20231119
+ObservedEventCoverage,sk,Pokrytie pozorovanej udalosti,12.2.9,02010R1089-20231119
+ObservedEvent,sk,Pozorovaná udalosť,12.2.10,02010R1089-20231119
+RiskCoverage,sk,Pokrytie rizika,12.2.11,02010R1089-20231119
+RiskZone,sk,Riziková zóna,12.2.12,02010R1089-20231119
+ExposedElementClassification,sk,Klasifikácia vystaveného prvku,12.3.1,02010R1089-20231119
+LevelOrIntensity,sk,Úroveň alebo intenzita,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,sk,Pravdepodobnosť výskytu,12.3.3,02010R1089-20231119
+NaturalHazardClassification,sk,Klasifikácia prírodných nebezpečenstiev,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,sk,Kvantitatívna pravdepodobnosť,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,sk,Posúdenie zraniteľnosti,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,sk,Kategória vystaveného prvku,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,sk,Kategória prírodného nebezpečenstva,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,sk,Špecifický typ vystaveného prvku,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,sk,Špecifický typ nebezpečenstva,12.5.4,02010R1089-20231119
+DeterminationMethodValue,sk,Determinačná metóda,12.5.5,02010R1089-20231119
+SeaArea,sk,Morská oblasť,15.1.1,02010R1089-20231119
+Sea,sk,More,15.1.2,02010R1089-20231119
+MarineCirculationZone,sk,Zóna morskej cirkulácie,15.1.3,02010R1089-20231119
+InterTidalArea,sk,Oblasť prílivu a odlivu,15.1.4,02010R1089-20231119
+Shoreline,sk,Pobrežná čiara,15.1.5,02010R1089-20231119
+Coastline,sk,Pobrežie,15.1.7,02010R1089-20231119
+MarineContour,sk,Morská vrstevnica,15.1.8,02010R1089-20231119
+MarineLayer,sk,Morská vrstva,15.1.9,02010R1089-20231119
+SeaBedArea,sk,Oblasť morského dna,15.1.10,02010R1089-20231119
+SeaSurfaceArea,sk,Oblasť morského povrchu,15.1.11,02010R1089-20231119
+MarineExtent,sk,Morská veľkosť,15.2.1,02010R1089-20231119
+MarineIsoline,sk,Morská izočiara,15.2.2,02010R1089-20231119
+ParameterValuePair,sk,Dvojica hodnôt parametrov,15.2.3,02010R1089-20231119
+ShoreSegment,sk,Segment pobrežia,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,sk,Klasifikácia typov morských oblastí,15.3.1,02010R1089-20231119
+SeaBedCoverValue,sk,Pokrývka morského dna,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,sk,Klasifikácia morských povrchov,15.3.3,02010R1089-20231119
+ShoreStabilityValue,sk,Stabilita pobrežia,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,sk,Klasifikácia typov pobreží,15.3.5,02010R1089-20231119
+ZoneTypeValue,sk,Typ zóny,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,sk,Úroveň klasifikácie regiónov,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,sk,Systém klasifikácie regiónov,16.2.2,02010R1089-20231119
+RegionClassificationValue,sk,Klasifikácia regiónov,16.2.3,02010R1089-20231119
+Habitat,sk,Habitat,17.2.1,02010R1089-20231119
+HabitatSpeciesType,sk,Typ druhov habitatu,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,sk,Typ krytia typu habitatu,17.3.2,02010R1089-20231119
+HabitatVegetationType,sk,Vegetačný typ habitatu,17.3.3,02010R1089-20231119
+LocalNameType,sk,Typ miestneho názvu,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,sk,Kvalifikátor miestneho názvu,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,sk,Kód typu referenčného habitatu,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,sk,Referenčný systém typu habitatu,17.4.3,02010R1089-20231119
+LocalNameCodeValue,sk,Kód miestneho názvu,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,sk,Súbor údajov výskytu druhov,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,sk,Jednotka výskytu druhov,18.2.2,02010R1089-20231119
+DistributionInfoType,sk,Typ informácií o distribúcii,18.3.1,02010R1089-20231119
+PopulationSizeType,sk,Typ veľkosti populácie,18.3.2,02010R1089-20231119
+SpeciesNameType,sk,Typ názvu druhu,18.3.4,02010R1089-20231119
+CountingMethodValue,sk,Metóda sčítania,18.4.1,02010R1089-20231119
+CountingUnitValue,sk,Sčítacia jednotka,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,sk,Kód miestneho názvu druhu,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,sk,Kategória výskytu,18.4.4,02010R1089-20231119
+PopulationTypeValue,sk,Typ populácie,18.4.5,02010R1089-20231119
+QualifierValue,sk,Kvalifikátor,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,sk,Kód referenčného druhu,18.4.7,02010R1089-20231119
+ReferenceSpeciesSchemeValue,sk,Systém referenčných druhov,18.4.8,02010R1089-20231119
+ResidencyStatusValue,sk,Stav rezidencie,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,sk,Typ vertikálneho rozsahu hodnôt,19.3.1.1,02010R1089-20231119
+VerticalExtentType,sk,Typ vertikálneho rozsahu,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,sk,Hodnota vertikálneho rozsahu,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,sk,Klasifikačný a kvantifikačný rámec,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,sk,Trieda fosílnych palív,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,sk,Obnoviteľné zdroje a odpad,19.3.2.3,02010R1089-20231119
+FossilFuelValue,sk,Fosílne palivo,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,sk,Vertikálna referencia,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,sk,Energetický zdroj - Vektor,19.4.1.1,02010R1089-20231119
+FossilFuelResource,sk,Zdroj fosílneho paliva,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,sk,Zdroj obnoviteľnej energie a zdroj z odpadu,19.4.1.3,02010R1089-20231119
+CalorificRangeType,sk,Typ rozsahu výhrevnosti,19.4.2.1,02010R1089-20231119
+CalorificValueType,sk,Typ hodnoty výhrevnosti,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,sk,Typ obdobia využívania,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,sk,Množstvo fosílneho paliva,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,sk,Typ zdroja fosílneho paliva,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,sk,Pokrytie potenciálu obnoviteľných zdrojov a zdrojov z odpadu,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,sk,Typ potenciálu,19.5.2.1,02010R1089-20231119
+EarthResource,sk,Zemský zdroj,20.3.1.1,02010R1089-20231119
+MineralOccurrence,sk,Výskyt nerastov,20.3.1.2,02010R1089-20231119
+Commodity,sk,Komodita,20.3.1.3,02010R1089-20231119
+ExplorationActivity,sk,Prieskumná činnosť,20.3.1.4,02010R1089-20231119
+MiningFeature,sk,Charakter ťažby,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,sk,Výskyt charakteru ťažby,20.3.1.6,02010R1089-20231119
+Mine,sk,Baňa,20.3.1.7,02010R1089-20231119
+MiningActivity,sk,Banská činnosť,20.3.1.8,02010R1089-20231119
+CommodityMeasure,sk,Meranie komodity,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,sk,Rozmer zemského zdroja,20.3.2.2,02010R1089-20231119
+Endowment,sk,Nerastné bohatstvo,20.3.2.3,02010R1089-20231119
+MineName,sk,Názov bane,20.3.2.4,02010R1089-20231119
+MineralDepositModel,sk,Model nerastného ložiska,20.3.2.5,02010R1089-20231119
+OreMeasure,sk,Množstvo rudy,20.3.2.6,02010R1089-20231119
+Reserve,sk,Zásoba,20.3.2.7,02010R1089-20231119
+Resource,sk,Zdroj,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,sk,Použitá klasifikačná metóda,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,sk,Kód komodity,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,sk,Potenciál konečného využitia,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,sk,Typ prieskumnej činnosti,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,sk,Výsledok prieskumu,20.3.3.5,02010R1089-20231119
+ImportanceValue,sk,Význam,20.3.3.6,02010R1089-20231119
+MineStatusValue,sk,Stav bane,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,sk,Skupina nerastných ložísk,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,sk,Typ nerastného ložiska,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,sk,Typ výskytu nerastu,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,sk,Typ banskej činnosti,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,sk,Typ spracovateľskej činnosti,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,sk,Kategória zásoby,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,sk,Kategória zdroja,20.3.3.14,02010R1089-20231119

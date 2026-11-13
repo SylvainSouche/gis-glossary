@@ -1,0 +1,26 @@
+name: Extract INSPIRE regulation (EU languages)
+
+# Downloads the consolidated Regulation (EU) No 1089/2010 in the 13 EU target languages through
+# the Publications Office Cellar API (about 35 MB) and extracts the names keyed by technical name.
+# The result is attached to the run; copy it to published/inspire-regulation/.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/extract_inspire_reg.py cellar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inspire-regulation
+          path: published/inspire-regulation/

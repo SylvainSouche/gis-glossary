@@ -1,0 +1,739 @@
+key,language,label,section,act
+Identifier,sl,Identifikator,2.1,02010R1089-20231119
+RelatedParty,sl,Povezana stranka,2.2,02010R1089-20231119
+Contact,sl,Stik,2.3,02010R1089-20231119
+DocumentCitation,sl,Navedba dokumenta,2.4,02010R1089-20231119
+LegislationCitation,sl,Navedba zakonodaje,2.5,02010R1089-20231119
+OfficialJournalInformation,sl,Informacije o uradnem listu,2.6,02010R1089-20231119
+ThematicIdentifier,sl,Tematski identifikator,2.7,02010R1089-20231119
+VerticalPositionValue,sl,Vertikalni položaj,4.1,02010R1089-20231119
+ConditionOfFacilityValue,sl,Stanje objekta,4.2,02010R1089-20231119
+CountryCode,sl,Oznaka države,4.3,02010R1089-20231119
+LegislationLevelValue,sl,Zakonodajna raven,4.4,02010R1089-20231119
+PartyRoleValue,sl,Vloga stranke,4.5,02010R1089-20231119
+CFStandardNamesValue,sl,Standardna imena za podnebje in napovedi,4.6,02010R1089-20231119
+GenderValue,sl,Spol,4.7,02010R1089-20231119
+CrossReference,sl,Navzkrižna referenca,5.1.1,02010R1089-20231119
+GeneralisedLink,sl,Generalizirani odsek,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,sl,Izvennivojsko križanje,5.1.3,02010R1089-20231119
+Link,sl,Odsek,5.1.4,02010R1089-20231119
+LinkSequence,sl,Zaporedje odsekov,5.1.5,02010R1089-20231119
+LinkSet,sl,Nabor odsekov,5.1.6,02010R1089-20231119
+Network,sl,Omrežje,5.1.7,02010R1089-20231119
+NetworkArea,sl,Območje omrežja,5.1.8,02010R1089-20231119
+NetworkConnection,sl,Povezava omrežja,5.1.9,02010R1089-20231119
+NetworkElement,sl,Element omrežja,5.1.10,02010R1089-20231119
+NetworkProperty,sl,Lastnost omrežja,5.1.11,02010R1089-20231119
+Node,sl,Vozlišče,5.1.12,02010R1089-20231119
+DirectedLink,sl,Usmerjeni odsek,5.2.1,02010R1089-20231119
+LinkReference,sl,Referenca odseka,5.2.2,02010R1089-20231119
+NetworkReference,sl,Omrežna referenca,5.2.3,02010R1089-20231119
+SimpleLinearReference,sl,Enostavna linearna referenca,5.2.4,02010R1089-20231119
+SimplePointReference,sl,Enostavna točkovna referenca,5.2.5,02010R1089-20231119
+ConnectionTypeValue,sl,Tip povezave,5.3.1,02010R1089-20231119
+LinkDirectionValue,sl,Smer odseka,5.3.2,02010R1089-20231119
+Coverage,sl,Podatkovni sloj,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,sl,Podatkovni sloj (prikaz zaloge in razpona),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,sl,Rektificiran mrežni podatkovni sloj,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,sl,Referenciabilen mrežni podatkovni sloj,6.2.1.3,02010R1089-20231119
+CoverageFunction,sl,Funkcija podatkovnega sloja,6.2.2.1,02010R1089-20231119
+GridFunction,sl,Funkcija mreže,6.2.2.2,02010R1089-20231119
+ObservationSet,sl,Zbirka opazovanj,7.1.1.1,02010R1089-20231119
+Process,sl,Postopek,7.2.1.1,02010R1089-20231119
+ProcessParameter,sl,Parameter postopka,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,sl,Ime parametra postopka,7.2.3.1,02010R1089-20231119
+Constraint,sl,Omejitev,7.3.1.1,02010R1089-20231119
+CategoryConstraint,sl,Omejitev kategorije,7.3.1.2,02010R1089-20231119
+RangeConstraint,sl,Omejitev razpona,7.3.1.3,02010R1089-20231119
+RangeBounds,sl,Meje razpona,7.3.1.4,02010R1089-20231119
+ScalarConstraint,sl,Omejitev skalarja,7.3.1.5,02010R1089-20231119
+OtherConstraint,sl,Druge omejitve,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,sl,Statistična mera,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,sl,"Abstraktna značilnost, ki jo je mogoče opazovati",7.3.1.8,02010R1089-20231119
+CompositeObservableProperty,sl,"Sestavljena značilnost, ki jo je mogoče opazovati",7.3.1.9,02010R1089-20231119
+ObservableProperty,sl,"Značilnost, ki jo je mogoče opazovati",7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,sl,Tip pojava,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,sl,Tip statistične funkcije,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,sl,Primerjalni operator,7.3.3.3,02010R1089-20231119
+GridObservation,sl,Opazovanje mreže,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,sl,Opazovanje skupin mrež,7.4.1.2,02010R1089-20231119
+PointObservation,sl,Opazovanje točke,7.4.1.3,02010R1089-20231119
+PointObservationCollection,sl,Zbirka opazovanja točk,7.4.1.4,02010R1089-20231119
+MultiPointObservation,sl,Opazovanje več točk,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,sl,Opazovanje točk v časovnem nizu,7.4.1.6,02010R1089-20231119
+ProfileObservation,sl,Opazovanje profila,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,sl,Opazovanje poti,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,sl,"Trojica vrednost, čas in lokacija",7.4.2.1,02010R1089-20231119
+ActivityComplex,sl,Kompleks za izvajanje dejavnosti,8.1.1.1,02010R1089-20231119
+Function,sl,Funkcija,8.1.2.1,02010R1089-20231119
+Capacity,sl,Zmogljivost,8.1.2.2,02010R1089-20231119
+InputOutputAmount,sl,Količina vhodnih ali izhodnih podatkov,8.1.2.3,02010R1089-20231119
+Permission,sl,Dovoljenje,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,sl,Opis kompleksa za izvajanje dejavnosti,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,sl,Gospodarska dejavnost,8.1.3.1,02010R1089-20231119
+InputOutputValue,sl,Vhodni ali izhodni podatki,8.1.3.2,02010R1089-20231119
+NamedPlace,sl,Kraj z imenom,3.1.1,02010R1089-20231119
+GeographicalName,sl,Zemljepisno ime,3.2.1,02010R1089-20231119
+PronunciationOfName,sl,Izgovorjava imena,3.2.2,02010R1089-20231119
+SpellingOfName,sl,Črkovanje imena,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,sl,Slovnični spol,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,sl,Slovnično število,3.3.2,02010R1089-20231119
+NameStatusValue,sl,Status imena,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,sl,Tip zemljepisnega imena,3.3.4,02010R1089-20231119
+NativenessValue,sl,Izvor,3.3.5,02010R1089-20231119
+AdministrativeBoundary,sl,Upravna meja,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,sl,Upravna enota,4.2.1.2,02010R1089-20231119
+Condominium,sl,Kondominij,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,sl,Sedež organa,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,sl,Raven administrativne hierarhije,4.2.4.1,02010R1089-20231119
+LegalStatusValue,sl,Pravni status,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,sl,Tehnični status,4.2.4.3,02010R1089-20231119
+Baseline,sl,Temeljna črta,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,sl,Morska meja,4.3.1.2,02010R1089-20231119
+MaritimeZone,sl,Morsko območje,4.3.1.3,02010R1089-20231119
+BaselineSegment,sl,Segment temeljne črte,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,sl,Tip segmenta temeljne črte,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,sl,Tip morskega območja,4.3.3.2,02010R1089-20231119
+Address,sl,Naslov,5.2.1,02010R1089-20231119
+AddressAreaName,sl,Ime naslovnega območja,5.2.2,02010R1089-20231119
+AddressComponent,sl,Komponenta naslova,5.2.3,02010R1089-20231119
+AdminUnitName,sl,Ime upravne enote,5.2.4,02010R1089-20231119
+PostalDescriptor,sl,Poštni deskriptor,5.2.5,02010R1089-20231119
+ThoroughfareName,sl,Ime prometnice,5.2.6,02010R1089-20231119
+AddressLocator,sl,Lokator naslova,5.3.1,02010R1089-20231119
+AddressRepresentation,sl,Ponazoritev naslova,5.3.2,02010R1089-20231119
+GeographicPosition,sl,Geografski položaj,5.3.3,02010R1089-20231119
+LocatorDesignator,sl,Označevalec lokatorja,5.3.4,02010R1089-20231119
+LocatorName,sl,Ime lokatorja,5.3.5,02010R1089-20231119
+PartOfName,sl,Del imena,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,sl,Vrednost imena prometnice,5.3.7,02010R1089-20231119
+GeometryMethodValue,sl,Geometrična metoda,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,sl,Podroben opis geometrije,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,sl,Tip označevalca lokatorja,5.4.3,02010R1089-20231119
+LocatorLevelValue,sl,Raven lokatorja,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,sl,Tip imena lokatorja,5.4.5,02010R1089-20231119
+PartTypeValue,sl,Tip dela,5.4.6,02010R1089-20231119
+StatusValue,sl,Status,5.4.7,02010R1089-20231119
+BasicPropertyUnit,sl,Osnovna zemljiška nepremičninska enota,6.1.1,02010R1089-20231119
+CadastralBoundary,sl,Katastrska meja,6.1.2,02010R1089-20231119
+CadastralParcel,sl,Katastrska parcela,6.1.3,02010R1089-20231119
+CadastralZoning,sl,Delitev na katastrske enote,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,sl,Delitev na katastrske enote,6.2.1,02010R1089-20231119
+AccessRestriction,sl,Omejitev dostopa,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,sl,Stanje objekta,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,sl,Vzdrževalni organ,7.3.1.3,02010R1089-20231119
+MarkerPost,sl,Označevalni stebriček,7.3.1.4,02010R1089-20231119
+OwnerAuthority,sl,Lastniški organ,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,sl,Omejitev za vozila,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,sl,Smer toka prometa,7.3.1.7,02010R1089-20231119
+TransportArea,sl,Območje prometa,7.3.1.8,02010R1089-20231119
+TransportLink,sl,Prometni odsek,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,sl,Zaporedje prometnih odsekov,7.3.1.10,02010R1089-20231119
+TransportLinkSet,sl,Nabor prometnih odsekov,7.3.1.11,02010R1089-20231119
+TransportNetwork,sl,Prometno omrežje,7.3.1.12,02010R1089-20231119
+TransportNode,sl,Prometno vozlišče,7.3.1.13,02010R1089-20231119
+TransportObject,sl,Prometni objekt,7.3.1.14,02010R1089-20231119
+TransportPoint,sl,Prometna točka,7.3.1.15,02010R1089-20231119
+TransportProperty,sl,Lastnost prometa,7.3.1.16,02010R1089-20231119
+VerticalPosition,sl,Vertikalni položaj,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,sl,Omejitev dostopa,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,sl,Tip omejitve,7.3.3.2,02010R1089-20231119
+TransportTypeValue,sl,Tip prometa,7.3.3.3,02010R1089-20231119
+AerodromeArea,sl,Območje aerodroma,7.4.1.1,02010R1089-20231119
+AerodromeCategory,sl,Kategorija aerodroma,7.4.1.2,02010R1089-20231119
+AerodromeNode,sl,Vozlišče aerodroma,7.4.1.3,02010R1089-20231119
+AerodromeType,sl,Tip aerodroma,7.4.1.4,02010R1089-20231119
+AirLink,sl,Zračni odsek,7.4.1.5,02010R1089-20231119
+AirLinkSequence,sl,Zaporedje zračnih odsekov,7.4.1.6,02010R1089-20231119
+AirNode,sl,Zračno vozlišče,7.4.1.7,02010R1089-20231119
+AirRoute,sl,Zračna pot,7.4.1.8,02010R1089-20231119
+AirRouteLink,sl,Odsek zračne poti,7.4.1.9,02010R1089-20231119
+AirspaceArea,sl,Območje zračnega prostora,7.4.1.10,02010R1089-20231119
+ApronArea,sl,Območje ploščadi,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,sl,Stanje zračnega objekta,7.4.1.12,02010R1089-20231119
+DesignatedPoint,sl,Določena točka,7.4.1.13,02010R1089-20231119
+ElementLength,sl,Dolžina elementa,7.4.1.14,02010R1089-20231119
+ElementWidth,sl,Širina elementa,7.4.1.15,02010R1089-20231119
+FieldElevation,sl,Nadmorska višina letališča,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,sl,Instrumentni prilet,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,sl,Spodnja meja nadmorske višine,7.4.1.18,02010R1089-20231119
+Navaid,sl,Pomoč pri navigaciji,7.4.1.19,02010R1089-20231119
+ProcedureLink,sl,Postopkovni odsek,7.4.1.20,02010R1089-20231119
+RunwayArea,sl,Območje vzletno-pristajalne steze,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,sl,Točka središčnice vzletno-pristajalne steze,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,sl,Standardni instrumentalni prihod,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,sl,Standardni instrumentalni odhod,7.4.1.24,02010R1089-20231119
+SurfaceComposition,sl,Sestava površine,7.4.1.25,02010R1089-20231119
+TaxiwayArea,sl,Območje vozne steze,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,sl,Območje pristanka in vzleta,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,sl,Zgornja meja nadmorske višine,7.4.1.28,02010R1089-20231119
+UseRestriction,sl,Omejitev uporabe,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,sl,Kategorija aerodroma,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,sl,Tip aerodroma,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,sl,Razred odseka zračne poti,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,sl,Tip zračne poti,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,sl,Omejitev zračne uporabe,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,sl,Tip območja zračnega prostora,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,sl,Tip pomoči pri navigaciji,7.4.2.7,02010R1089-20231119
+PointRoleValue,sl,Vloga točke,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,sl,Tip vzletno-pristajalne steze,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,sl,Sestava površine,7.4.2.10,02010R1089-20231119
+CablewayLink,sl,Žičnični odsek,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,sl,Zaporedje žičničnih odsekov,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,sl,Nabor žičničnih odsekov,7.5.1.3,02010R1089-20231119
+CablewayNode,sl,Žičnično vozlišče,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,sl,Tip žičnice,7.5.2.1,02010R1089-20231119
+DesignSpeed,sl,Računska hitrost,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,sl,Nazivna tirna širina,7.6.1.2,02010R1089-20231119
+NumberOfTracks,sl,Število tirov,7.6.1.3,02010R1089-20231119
+RailwayArea,sl,Območje železnice,7.6.1.4,02010R1089-20231119
+RailwayElectrification,sl,Elektrifikacija železnice,7.6.1.5,02010R1089-20231119
+RailwayLine,sl,Železniška proga,7.6.1.6,02010R1089-20231119
+RailwayLink,sl,Železniški odsek,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,sl,Zaporedje železniških odsekov,7.6.1.8,02010R1089-20231119
+RailwayNode,sl,Železniško vozlišče,7.6.1.9,02010R1089-20231119
+RailwayStationArea,sl,Območje železniške postaje,7.6.1.10,02010R1089-20231119
+RailwayStationCode,sl,Oznaka železniške postaje,7.6.1.11,02010R1089-20231119
+RailwayStationNode,sl,Vozlišče železniške postaje,7.6.1.12,02010R1089-20231119
+RailwayType,sl,Tip železnice,7.6.1.13,02010R1089-20231119
+RailwayUse,sl,Uporaba železnice,7.6.1.14,02010R1089-20231119
+RailwayYardArea,sl,Območje ranžirne postaje,7.6.1.15,02010R1089-20231119
+RailwayYardNode,sl,Vozlišče ranžirne postaje,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,sl,Oblika železniškega vozlišča,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,sl,Tip železnice,7.6.3.2,02010R1089-20231119
+RailwayUseValue,sl,Uporaba železnice,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,sl,Najmanjše ali največje število tirov,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,sl,Kategorija tirne širine,7.6.3.5,02010R1089-20231119
+ERoad,sl,Evropska pot,7.7.1.1,02010R1089-20231119
+FormOfWay,sl,Oblika ceste,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,sl,Kategorija ceste,7.7.1.3,02010R1089-20231119
+NumberOfLanes,sl,Število pasov,7.7.1.4,02010R1089-20231119
+Road,sl,Cesta,7.7.1.5,02010R1089-20231119
+RoadArea,sl,Cestni svet,7.7.1.6,02010R1089-20231119
+RoadLink,sl,Cestni odsek,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,sl,Zaporedje cestnih odsekov,7.7.1.8,02010R1089-20231119
+RoadName,sl,Ime ceste,7.7.1.9,02010R1089-20231119
+RoadNode,sl,Cestno vozlišče,7.7.1.10,02010R1089-20231119
+RoadServiceArea,sl,Cestno počivališče,7.7.1.11,02010R1089-20231119
+RoadServiceType,sl,Tip cestnega počivališča,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,sl,Kategorija cestne površine,7.7.1.13,02010R1089-20231119
+RoadWidth,sl,Širina ceste,7.7.1.14,02010R1089-20231119
+SpeedLimit,sl,Omejitev hitrosti,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,sl,Vozišče,7.7.1.16,02010R1089-20231119
+AreaConditionValue,sl,Krajevni pogoj,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,sl,Oblika cestnega vozlišča,7.7.3.2,02010R1089-20231119
+FormOfWayValue,sl,Oblika ceste,7.7.3.3,02010R1089-20231119
+RoadPartValue,sl,Del ceste,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,sl,Tip cestnega počivališča,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,sl,Kategorija cestne površine,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,sl,Storitve na počivališču,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,sl,Vir omejitve hitrosti,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,sl,Tip vozila,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,sl,Vremenske razmere,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,sl,Kategorija ceste,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,sl,Najmanjše ali največje število pasov,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,sl,Vrsta omejitve hitrosti,7.7.3.13,02010R1089-20231119
+Beacon,sl,Navigacijska oznaka,7.8.1.1,02010R1089-20231119
+Buoy,sl,Boja,7.8.1.2,02010R1089-20231119
+CEMTClass,sl,Razred CEMT,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,sl,Stanje vodnega objekta,7.8.1.4,02010R1089-20231119
+FairwayArea,sl,Območje plovne poti,7.8.1.5,02010R1089-20231119
+FerryCrossing,sl,Trajektna povezava,7.8.1.6,02010R1089-20231119
+FerryUse,sl,Uporaba trajekta,7.8.1.7,02010R1089-20231119
+InlandWaterway,sl,Notranja plovna pot,7.8.1.8,02010R1089-20231119
+MarineWaterway,sl,Pomorska plovna pot,7.8.1.9,02010R1089-20231119
+PortArea,sl,Pristaniško območje,7.8.1.10,02010R1089-20231119
+PortNode,sl,Pristaniško vozlišče,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,sl,Omejitev za plovila,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,sl,Shema ločene plovbe,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,sl,Območje sheme ločene plovbe,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,sl,Povezava sheme ločene plovbe,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,sl,Pot sheme ločene plovbe,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,sl,Krožišče sheme ločene plovbe,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,sl,Separator sheme ločene plovbe,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,sl,Zaporedje vodnih odsekov,7.8.1.19,02010R1089-20231119
+WaterNode,sl,Vodno vozlišče,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,sl,Smer pretoka vodnega prometa,7.8.1.21,02010R1089-20231119
+Waterway,sl,Plovna pot,7.8.1.22,02010R1089-20231119
+WaterwayLink,sl,Odsek plovne poti,7.8.1.23,02010R1089-20231119
+WaterwayNode,sl,Vozlišče plovne poti,7.8.1.24,02010R1089-20231119
+FerryUseValue,sl,Uporaba trajekta,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,sl,Oblika vozlišča plovne poti,7.8.3.2,02010R1089-20231119
+CEMTClassValue,sl,Razred CEMT,7.8.3.3,02010R1089-20231119
+HydroObject,sl,Hidrografski objekt,8.3.1.1,02010R1089-20231119
+HydroIdentifier,sl,Hidrografski identifikator,8.3.2.1,02010R1089-20231119
+HydroNode,sl,Hidrografsko vozlišče,8.4.1.1,02010R1089-20231119
+WatercourseLink,sl,Odsek vodotoka,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,sl,Zaporedje odsekov vodotoka,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,sl,Izvennivojsko križanje vodotoka,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,sl,Kategorija hidrografskega vozlišča,8.4.2.1,02010R1089-20231119
+Crossing,sl,Prehod,8.5.1.1,02010R1089-20231119
+DamOrWeir,sl,Jez,8.5.1.2,02010R1089-20231119
+DrainageBasin,sl,Prispevno območje,8.5.1.3,02010R1089-20231119
+Embankment,sl,Nasip,8.5.1.4,02010R1089-20231119
+Falls,sl,Slap,8.5.1.5,02010R1089-20231119
+FluvialPoint,sl,Točka vodnega toka,8.5.1.6,02010R1089-20231119
+Ford,sl,Brod,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,sl,Hidrografska pomembna točka,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,sl,Meja kopnega,8.5.1.11,02010R1089-20231119
+Lock,sl,Splavnica,8.5.1.12,02010R1089-20231119
+ManMadeObject,sl,Umetni objekt,8.5.1.13,02010R1089-20231119
+Rapids,sl,Brzice,8.5.1.17,02010R1089-20231119
+RiverBasin,sl,Povodje,8.5.1.18,02010R1089-20231119
+Shore,sl,Obala,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,sl,Obalna konstrukcija,8.5.1.20,02010R1089-20231119
+Sluice,sl,Zapornica,8.5.1.21,02010R1089-20231119
+StandingWater,sl,Stoječa voda,8.5.1.22,02010R1089-20231119
+SurfaceWater,sl,Površinska voda,8.5.1.23,02010R1089-20231119
+Watercourse,sl,Vodotok,8.5.1.24,02010R1089-20231119
+Wetland,sl,Mokrišče,8.5.1.25,02010R1089-20231119
+HydroOrderCode,sl,Hidrografska oznaka ravni,8.5.2.1,02010R1089-20231119
+WidthRange,sl,Razred širine,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,sl,Tip prehoda,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,sl,Hidrološka stalnost,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,sl,Tip obale,8.5.4.4,02010R1089-20231119
+WaterLevelValue,sl,Vodostaj,8.5.4.5,02010R1089-20231119
+OriginValue,sl,Izvor,8.5.4.6,02010R1089-20231119
+ProtectedSite,sl,Zavarovano območje,9.1.1,02010R1089-20231119
+DesignationType,sl,Tip oznake,9.2.1,02010R1089-20231119
+DesignationSchemeValue,sl,Označevalna shema,9.4.1,02010R1089-20231119
+DesignationValue,sl,Oznaka,9.4.2,02010R1089-20231119
+IUCNDesignationValue,sl,Oznaka IUCN,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,sl,Oznaka območja zavarovanih spomenikov po predpisih državah članice,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,sl,Oznaka Natura2000,9.4.5,02010R1089-20231119
+RamsarDesignationValue,sl,Oznaka Ramsar,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,sl,Oznaka po Unescovem programu „Človek in biosfera“,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,sl,Oznaka po Unescovem programu svetovne dediščine,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,sl,Razvrstitev varovanja,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,sl,Tip višinske značilnosti,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,sl,Tip površine,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,sl,Mrežni podatkovni sloj nadmorske višine,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,sl,Agregacija mrežnega podatkovnega sloja nadmorske višine,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,sl,Višinski vektorski objekt,1.5.1.1,02010R1089-20231119
+SpotElevation,sl,Višinska točka,1.5.1.2,02010R1089-20231119
+ContourLine,sl,Plastnica,1.5.1.3,02010R1089-20231119
+BreakLine,sl,Lomna linija,1.5.1.4,02010R1089-20231119
+VoidArea,sl,Prazno območje,1.5.1.5,02010R1089-20231119
+IsolatedArea,sl,Izolirano območje,1.5.1.6,02010R1089-20231119
+ChartDatum,sl,Hidrografska ničla,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,sl,Tip lomne linije,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,sl,Razvrstitev višinske točke,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,sl,Tip višinske točke,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,sl,Tip plastnice,1.5.4.4,02010R1089-20231119
+ElevationTIN,sl,Nadmorska višina TIN,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,sl,Nomenklatura pokrovnosti tal,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,sl,Razred pokrovnosti tal,2.3.2.1,02010R1089-20231119
+LandCoverDataset,sl,Podatkovna zbirka pokrovnosti tal,2.4.1.1,02010R1089-20231119
+LandCoverUnit,sl,Enota pokrovnosti tal,2.4.1.2,02010R1089-20231119
+LandCoverObservation,sl,Opazovanje pokrovnosti tal,2.4.2.1,02010R1089-20231119
+LandCoverValue,sl,Pokrovnost tal,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,sl,Mrežni podatkovni sloj pokrovnosti tal,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,sl,Podatkovni sloj ortofota,3.2.1,02010R1089-20231119
+MosaicElement,sl,Mozaični element,3.2.2,02010R1089-20231119
+SingleMosaicElement,sl,Posamezni mozaični element,3.2.3,02010R1089-20231119
+AggregatedMosaicElement,sl,Razvrščeni mozaični element,3.2.4,02010R1089-20231119
+OrthoimageAggregation,sl,Združevanje ortofota,3.3.1,02010R1089-20231119
+InterpolationMethodValue,sl,Interpolacijska metoda,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,sl,Antropogeni geomorfološki pojav,4.2.1.1,02010R1089-20231119
+Borehole,sl,Vrtina,4.2.1.2,02010R1089-20231119
+Fold,sl,Pregib,4.2.1.3,02010R1089-20231119
+GeologicCollection,sl,Geološka zbirka,4.2.1.4,02010R1089-20231119
+GeologicEvent,sl,Geološki dogodek,4.2.1.5,02010R1089-20231119
+GeologicFeature,sl,Geološki pojav,4.2.1.6,02010R1089-20231119
+GeologicStructure,sl,Geološka struktura,4.2.1.7,02010R1089-20231119
+GeologicUnit,sl,Geološka enota,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,sl,Geomorfološki pojav,4.2.1.9,02010R1089-20231119
+MappedFeature,sl,Preslikan pojav,4.2.1.10,02010R1089-20231119
+MappedInterval,sl,Preslikan interval,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,sl,Naraven geomorfološki pojav,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,sl,Struktura strižne deformacije,4.2.1.13,02010R1089-20231119
+CompositionPart,sl,Sestavni del,4.2.2.1,02010R1089-20231119
+ThematicClass,sl,Tematski razred,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,sl,Tip antropogenega geomorfološkega pojava,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,sl,Namen vrtin,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,sl,Tip zbiranja,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,sl,Vloga sestavnega dela,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,sl,Okolje dogodka,4.2.3.5,02010R1089-20231119
+EventProcessValue,sl,Proces dogodka,4.2.3.6,02010R1089-20231119
+FaultTypeValue,sl,Tip preloma,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,sl,Tip pregibnega profila,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,sl,Geokronološka doba,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,sl,Tip geološke enote,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,sl,Geomorfološka dejavnost,4.2.3.11,02010R1089-20231119
+LithologyValue,sl,Litologija,4.2.3.12,02010R1089-20231119
+MappingFrameValue,sl,Okvir preslikovanja,4.2.3.13,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,sl,Tip naravnega geomorfološkega pojava,4.2.3.14,02010R1089-20231119
+ThematicClassValue,sl,Tematski razred,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,sl,Tematska razvrstitev,4.2.3.16,02010R1089-20231119
+Geophysics,sl,Geofizika,4.3,02010R1089-20231119
+Campaign,sl,Sistematične meritve,4.3.1.1,02010R1089-20231119
+GeophObject,sl,Geofizikalni objekt,4.3.1.2,02010R1089-20231119
+GeophMeasurement,sl,Geofizikalne meritve,4.3.1.3,02010R1089-20231119
+GeophObjectSet,sl,Zbirka geofizikalnih objektov,4.3.1.4,02010R1089-20231119
+GeophProfile,sl,Geofizikalni profil,4.3.1.5,02010R1089-20231119
+GeophStation,sl,Geofizikalna postaja,4.3.1.6,02010R1089-20231119
+GeophSwath,sl,Geofizikalna linijska meritev,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,sl,Tip sistematičnih meritev,4.3.2.1,02010R1089-20231119
+NetworkNameValue,sl,Ime omrežja,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,sl,Tip platforme,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,sl,Tip profila,4.3.2.4,02010R1089-20231119
+StationRankValue,sl,Stopnja postaje,4.3.2.5,02010R1089-20231119
+StationTypeValue,sl,Tip postaje,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,sl,Tip raziskave,4.3.2.7,02010R1089-20231119
+SwathTypeValue,sl,Tip linijske meritve,4.3.2.8,02010R1089-20231119
+Hydrogeology,sl,Hidrogeologija,4.4,02010R1089-20231119
+ActiveWell,sl,Delujoča vrtina,4.4.1.1,02010R1089-20231119
+Aquiclude,sl,Akviklud,4.4.1.2,02010R1089-20231119
+Aquifer,sl,Vodonosnik,4.4.1.3,02010R1089-20231119
+AquiferSystem,sl,Vodonosni sistem,4.4.1.4,02010R1089-20231119
+Aquitard,sl,Akvitard,4.4.1.5,02010R1089-20231119
+GroundWaterBody,sl,Telo podzemne vode,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,sl,Hidrogeološki objekt,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,sl,Umetni hidrogeološki objekt,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,sl,Naravni hidrogeološki objekt,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,sl,Hidrogeološka enota,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,sl,Hidrogeološka površina,4.4.2.1,02010R1089-20231119
+PiezometricState,sl,Piezometrično stanje,4.4.2.2,02010R1089-20231119
+QuantityValue,sl,Količinska vrednost,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,sl,Tip delujoče vrtine,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,sl,Tip vodonosnega medija,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,sl,Tip vodonosnika,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,sl,Stanje podzemne vode,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,sl,Hidrogeokemijski tip kamnine,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,sl,Tip naravnega objekta,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,sl,Tip šifre statusa,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,sl,Stalnost vode,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,sl,Slanost vode,4.4.3.9,02010R1089-20231119
+StatisticalUnit,sl,Statistični okoliš,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,sl,Vektorski statistični okoliš,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,sl,Območni statistični okoliš,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,sl,Statistično mozaičenje,1.3.1.3,02010R1089-20231119
+Evolution,sl,Razvoj,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,sl,Geometrija vektorskega statističnega okoliša,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,sl,Deskriptor geometrije,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,sl,Tip geometrije,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,sl,Tip razvoja,1.3.3.2,02010R1089-20231119
+StatisticalUnitTypeValue,sl,Tip statističnega okoliša,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,sl,Celica statistične mreže,1.4.1.1,02010R1089-20231119
+StatisticalGrid,sl,Statistična mreža,1.4.1.2,02010R1089-20231119
+GridPosition,sl,Položaj v mreži,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,sl,Ločljivost statistične mreže,1.4.2.2,02010R1089-20231119
+AbstractConstruction,sl,Abstraktna konstrukcija,2.3.1.1,02010R1089-20231119
+AbstractBuilding,sl,Abstraktna stavba,2.3.1.2,02010R1089-20231119
+Building,sl,Stavba,2.3.1.3,02010R1089-20231119
+BuildingPart,sl,Del stavbe,2.3.1.4,02010R1089-20231119
+CurrentUse,sl,Trenutna uporaba,2.3.2.1,02010R1089-20231119
+DateOfEvent,sl,Datum dogodka,2.3.2.2,02010R1089-20231119
+Elevation,sl,Nadmorska višina,2.3.2.3,02010R1089-20231119
+ExternalReference,sl,Zunanja referenca,2.3.2.4,02010R1089-20231119
+HeightAboveGround,sl,Višina nad tlemi,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,sl,Dvodimenzionalna geometrija stavbe,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,sl,Vrsta stavbe,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,sl,Stanje konstrukcije,2.3.3.2,02010R1089-20231119
+CurrentUseValue,sl,Trenutna uporaba,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,sl,Referenca nadmorske višine,2.3.3.4,02010R1089-20231119
+HeightStatusValue,sl,Status višine,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,sl,Horizontalna geometrična referenca,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,sl,Tridimenzionalna geometrija stavbe na ravni podrobnosti LoD,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,sl,Tridimenzionalna geometrija stavbe na ravni podrobnosti LoD1,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DloD2,sl,Tridimenzionalna geometrija stavbe na ravni podrobnosti LoD2,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,sl,Izpeljan talni profil,3.1.1,02010R1089-20231119
+ObservedSoilProfile,sl,Opazovan talni profil,3.1.2,02010R1089-20231119
+ProfileElement,sl,Profilni element,3.1.3,02010R1089-20231119
+SoilBody,sl,Talno telo,3.1.4,02010R1089-20231119
+SoilDerivedObject,sl,Izpeljan talni objekt,3.1.5,02010R1089-20231119
+SoilHorizon,sl,Talni horizont,3.1.6,02010R1089-20231119
+SoilLayer,sl,Talni sloj,3.1.7,02010R1089-20231119
+SoilPlot,sl,Mesto opazovanja tal,3.1.8,02010R1089-20231119
+SoilProfile,sl,Talni profil,3.1.9,02010R1089-20231119
+SoilSite,sl,Talno območje,3.1.10,02010R1089-20231119
+SoilThemeCoverage,sl,Podatkovni sloj za temo tal,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,sl,Opisni podatkovni sloj za temo tal,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,sl,Prisotnost izpeljanega profila v talnem telesu,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,sl,Tip oznake horizonta po FAO,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,sl,Drugi tip oznake horizonta,3.2.3,02010R1089-20231119
+OtherSoilNameType,sl,Drugi tip naziva tal,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,sl,Tip frakcije delcev glede na velikost,3.2.5,02010R1089-20231119
+RangeType,sl,Tip razpona,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,sl,Tip opisnega parametra za temo tal,3.2.7,02010R1089-20231119
+SoilThemeParameterType,sl,Tip parametra za temo tal,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,sl,Tip skupine kvalifikatorja WRB,3.2.9,02010R1089-20231119
+WRBSoilNameType,sl,Tip naziva tal po WRB,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,sl,Glavni horizont FAO,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,sl,Podrejeni horizont FAO,3.3.2,02010R1089-20231119
+FAOPrimeValue,sl,Izhodišče FAO,3.3.3,02010R1089-20231119
+OtherHorizonNotationTypeValue,sl,Drugi tip oznake horizonta,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,sl,Drugi tip imena tal,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,sl,Stanje procesa nastajanja slojev,3.3.6,02010R1089-20231119
+LayerTypeValue,sl,Tip sloja,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,sl,Ime parametra elementa profila,3.3.8,02010R1089-20231119
+SoilDerivedObjectParameterNameValue,sl,Ime parametra izpeljanega talnega objekta,3.3.9,02010R1089-20231119
+SoilInvestigationPurposeValue,sl,Namen ugotavljanja značilnosti tal,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,sl,Tip mesta opazovanja tal,3.3.11,02010R1089-20231119
+SoilProfileParameterNameValue,sl,Ime parametra talnega profila,3.3.12,02010R1089-20231119
+SoilSiteParameterNameValue,sl,Ime parametra talnega območja,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,sl,Postavitev kvalifikatorja WRB,3.3.14,02010R1089-20231119
+WRBQualifierValue,sl,Kvalifikatorji WRB,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,sl,Referenčna skupina tal (RSG) WRB,3.3.16,02010R1089-20231119
+WRBSpecifierValue,sl,Določevalniki WRB,3.3.17,02010R1089-20231119
+HILUCSPercentage,sl,Delež HILUCS,4.3.1.1,02010R1089-20231119
+HILUCSPresence,sl,Prisotnost HILUCS,4.3.1.2,02010R1089-20231119
+SpecificPercentage,sl,Posebni delež,4.3.1.3,02010R1089-20231119
+SpecificPresence,sl,Posebna prisotnost,4.3.1.4,02010R1089-20231119
+HILUCSValue,sl,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,sl,Razvrstitev rabe tal,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,sl,Zbirka podatkov o obstoječi rabi tal,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,sl,Objekt obstoječe rabe tal,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,sl,Mreža obstoječe rabe tal,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,sl,Vzorec obstoječe rabe tal,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,sl,Zbirka podatkov o vzorčeni obstoječi rabi tal,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,sl,Uradna dokumentacija,4.7.1.1,02010R1089-20231119
+SpatialPlan,sl,Prostorski načrt,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,sl,Dodatni predpisi,4.7.1.3,02010R1089-20231119
+ZoningElement,sl,Element coniranja,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,sl,Osnovna karta,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,sl,Znakovna navedba dimenzioniranja,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,sl,Celoštevilska navedba dimenzioniranja,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,sl,Merska navedba dimenzioniranja,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,sl,Navedba dimenzioniranja z dejansko vrednostjo,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,sl,Navedba dimenzioniranja,4.7.2.6,02010R1089-20231119
+OrdinanceValue,sl,Odlok,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,sl,Raven prostorskega načrta,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,sl,Splošna faza postopka,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,sl,Vrsta predpisa,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,sl,Ime tipa načrta,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,sl,Posebni dodatni predpisi,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,sl,Dodatni predpisi,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,sl,Statistični podatki o zdravju,5.1.1,02010R1089-20231119
+Biomarker,sl,Biomarker,5.1.2,02010R1089-20231119
+Disease,sl,Bolezen,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,sl,Statistični podatki o splošnem zdravju,5.1.4,02010R1089-20231119
+HealthServicesStatistic,sl,Statistični podatki o zdravstvenih storitvah,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,sl,Meritev okoljskih dejavnikov zdravja,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,sl,Statistični podatki o okoljskih dejavnikih zdravja,5.1.7,02010R1089-20231119
+Age,sl,Starost,5.2.1,02010R1089-20231119
+AgeRangeType,sl,Starostni razpon,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,sl,Statistični parameter biomarkerja,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,sl,Tematski metapodatki o biomarkerju,5.2.4,02010R1089-20231119
+BiomarkerType,sl,Tip biomarkerja,5.2.5,02010R1089-20231119
+DiseaseMeasure,sl,Meritev bolezni,5.2.6,02010R1089-20231119
+ReferencePeriodType,sl,Referenčno obdobje,5.2.7,02010R1089-20231119
+CODValue,sl,Vzrok smrti,5.3.1,02010R1089-20231119
+ChemicalValue,sl,Kemikalija,5.3.2,02010R1089-20231119
+ComponentTypeValue,sl,Tip okoljskega elementa zdravja,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,sl,Tip meritve bolezni,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,sl,Tip okoljskega dejavnika zdravja,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,sl,Tip splošnega zdravja,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,sl,Tip zdravstvenih storitev,5.3.7,02010R1089-20231119
+ICDValue,sl,Mednarodna klasifikacija bolezni,5.3.8,02010R1089-20231119
+MatrixValue,sl,Matriks,5.3.9,02010R1089-20231119
+MediaTypeValue,sl,Tip medija okoljskega zdravja,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,sl,Tip vira hrupa,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,sl,Metoda statistične agregacije,5.3.12,02010R1089-20231119
+UtilityNetwork,sl,Komunalno omrežje,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,sl,Element komunalnega omrežja,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,sl,Nabor komunalnih odsekov,6.2.1.3,02010R1089-20231119
+UtilityLink,sl,Komunalni odsek,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,sl,Zaporedje komunalnih odsekov,6.2.1.5,02010R1089-20231119
+UtilityNode,sl,Komunalno vozlišče,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,sl,Objekt na komunalnem vozlišču,6.2.1.7,02010R1089-20231119
+Appurtenance,sl,Druga oprema,6.2.1.8,02010R1089-20231119
+Cabinet,sl,Omarica,6.2.1.9,02010R1089-20231119
+Cable,sl,Kabel,6.2.1.10,02010R1089-20231119
+Duct,sl,Vod,6.2.1.11,02010R1089-20231119
+Manhole,sl,Vstopni jašek,6.2.1.12,02010R1089-20231119
+Pipe,sl,Cev,6.2.1.13,02010R1089-20231119
+Pole,sl,Drog,6.2.1.14,02010R1089-20231119
+Tower,sl,Stolp,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,sl,Tip opreme,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,sl,Tip specifične opreme,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,sl,Tip komunalne dostave,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,sl,Tip komunalnega omrežja,6.2.2.4,02010R1089-20231119
+WarningTypeValue,sl,Tip opozorila,6.2.2.5,02010R1089-20231119
+ElectricityCable,sl,Električni kabel,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,sl,Tip električne opreme,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,sl,"Cev za nafto, plin in kemikalije",6.4.1.1,02010R1089-20231119
+OilGasChemicalsAppurtenanceTypeValue,sl,"Tip opreme za nafto, plin in kemikalije",6.4.2.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,sl,"Tip naftnih, plinskih in kemičnih izdelkov",6.4.2.2,02010R1089-20231119
+SewerPipe,sl,Kanalizacijska cev,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,sl,Tip opreme za kanalizacijo,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,sl,Tip kanalizacijske vode,6.5.2.2,02010R1089-20231119
+ThermalPipe,sl,Toplotna cev,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,sl,Tip opreme za toploto,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,sl,Tip toplotnega izdelka,6.6.2.2,02010R1089-20231119
+WaterPipe,sl,Vodovodna cev,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,sl,Tip opreme za vodovod,6.7.2.1,02010R1089-20231119
+WaterTypeValue,sl,Tip vode,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,sl,Objekt za ravnanje z okoljem,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,sl,Razvrstitev okoljskega objekta,6.8.2.1,02010R1089-20231119
+GovernmentalService,sl,Javne storitve,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,sl,Tip območja odgovornosti,6.9.2.1,02010R1089-20231119
+ServiceLocationType,sl,Tip lokacije storitve,6.9.2.2,02010R1089-20231119
+ServiceTypeValue,sl,Tip storitve,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,sl,Abstraktna značilnost monitoringa,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,sl,Abstraktni objekt monitoringa,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,sl,Dejavnost monitoringa okolja,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,sl,Naprave in objekti za monitoring okolja,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,sl,Omrežje za monitoring okolja,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,sl,Program za monitoring okolja,7.1.6,02010R1089-20231119
+ObservingCapability,sl,Zmogljivost opazovanja,7.1.7,02010R1089-20231119
+AnyDomainLink,sl,Poljubna povezava z zalogo,7.2.1,02010R1089-20231119
+Hierarchy,sl,Hierarhija,7.2.2,02010R1089-20231119
+NetworkFacility,sl,Omrežni objekt,7.2.3,02010R1089-20231119
+ReportToLegalAct,sl,Poročanje po pravnemu aktu,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,sl,Režim meritve,7.3.1,02010R1089-20231119
+MediaValue,sl,Mediji,7.3.2,02010R1089-20231119
+ProcessTypeValue,sl,Tip postopka,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,sl,Namen zbiranja,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,sl,Vir pridobivanja rezultatov,7.3.5,02010R1089-20231119
+ResultNatureValue,sl,Vrsta rezultatov,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,sl,Specializiran tip naprav in objektov za monitoring okolja,7.3.7,02010R1089-20231119
+ProductionFacility,sl,Proizvodni obrat,8.2.1,02010R1089-20231119
+ProductionInstallation,sl,Proizvodni obrat,8.2.2,02010R1089-20231119
+ProductionInstallationPart,sl,Del proizvodnega objekta,8.2.3,02010R1089-20231119
+ProductionSite,sl,Proizvodno območje,8.2.4,02010R1089-20231119
+ProductionPlot,sl,Proizvodna parcela,8.2.5,02010R1089-20231119
+ProductionBuilding,sl,Proizvodna stavba,8.2.6,02010R1089-20231119
+StatusType,sl,Tip statusa,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,sl,Tehnika za zmanjšanje onesnaženja,8.4.1,02010R1089-20231119
+InstallationTypeValue,sl,Tip obrata,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,sl,Tip dela obrata,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,sl,Vodno območje,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,sl,Tip proizvodne stavbe,8.4.5,02010R1089-20231119
+Holding,sl,Gospodarstvo,9.2.1,02010R1089-20231119
+Site,sl,Proizvodna enota,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,sl,Vrste gojenih živali,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,sl,Vrste za živinorejo,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,sl,Vrste za akvakulturo,9.4.2,02010R1089-20231119
+StatisticalDistribution,sl,Statistična porazdelitev,10.1.1,02010R1089-20231119
+Classification,sl,Razvrstitev,10.2.1,02010R1089-20231119
+ClassificationItem,sl,Element razvrstitve,10.2.2,02010R1089-20231119
+StatisticalValue,sl,Statistična vrednost,10.2.3,02010R1089-20231119
+Dimensions,sl,Dimenzije,10.2.4,02010R1089-20231119
+ClassificationTypeValue,sl,Tip razvrstitve,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,sl,Tip elementa razvrstitve,10.3.2,02010R1089-20231119
+VariableValue,sl,Spremenljivka,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,sl,Metoda statističnega merjenja,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,sl,Status statističnih podatkov,10.3.5,02010R1089-20231119
+SpecialValue,sl,Posebna vrednost,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,sl,Območje upravljanja ali zaprto ali regulirano območje,11.2.1,02010R1089-20231119
+ZoneTypeCode,sl,Šifra tipa območja,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,sl,Šifra specializiranega tipa območja,11.3.2,02010R1089-20231119
+EnvironmentalDomain,sl,Okoljsko področje,11.3.3,02010R1089-20231119
+AbstractExposedElement,sl,Abstrakten izpostavljen element,12.2.1,02010R1089-20231119
+AbstractHazardArea,sl,Abstraktno območje nevarnosti,12.2.2,02010R1089-20231119
+AbstractObservedEvent,sl,Abstrakten opažen dogodek,12.2.3,02010R1089-20231119
+AbstractRiskZone,sl,Abstraktno območje tveganja,12.2.4,02010R1089-20231119
+ExposedElementCoverage,sl,Podatkovni sloj izpostavljenega elementa,12.2.5,02010R1089-20231119
+ExposedElement,sl,Izpostavljeni element,12.2.6,02010R1089-20231119
+HazardArea,sl,Območje nevarnosti,12.2.7,02010R1089-20231119
+HazardCoverage,sl,Podatkovni sloj tveganja,12.2.8,02010R1089-20231119
+ObservedEventCoverage,sl,Podatkovni sloj opaženega dogodka,12.2.9,02010R1089-20231119
+ObservedEvent,sl,Opažen dogodek,12.2.10,02010R1089-20231119
+RiskCoverage,sl,Podatkovni sloj tveganja,12.2.11,02010R1089-20231119
+RiskZone,sl,Območje tveganja,12.2.12,02010R1089-20231119
+ExposedElementClassification,sl,Razvrstitev izpostavljenega elementa,12.3.1,02010R1089-20231119
+LevelOrIntensity,sl,Stopnja ali intenziteta,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,sl,Verjetnost pojavljanja,12.3.3,02010R1089-20231119
+NaturalHazardClassification,sl,Razvrstitev naravne nevarnosti,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,sl,Kvantitativna verjetnost,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,sl,Ocena ranljivosti,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,sl,Kategorija izpostavljenega elementa,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,sl,Kategorija naravne nevarnosti,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,sl,Poseben tip izpostavljenega elementa,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,sl,Poseben tip nevarnosti,12.5.4,02010R1089-20231119
+DeterminationMethodValue,sl,Metoda določanja,12.5.5,02010R1089-20231119
+SeaArea,sl,Morsko območje,15.1.1,02010R1089-20231119
+Sea,sl,Morje,15.1.2,02010R1089-20231119
+MarineCirculationZone,sl,Območje morskega kroženja,15.1.3,02010R1089-20231119
+InterTidalArea,sl,Območje plimovanja,15.1.4,02010R1089-20231119
+Shoreline,sl,Obrežje,15.1.5,02010R1089-20231119
+Coastline,sl,Obala,15.1.7,02010R1089-20231119
+MarineContour,sl,Plastnica morja,15.1.8,02010R1089-20231119
+MarineLayer,sl,Plast morja,15.1.9,02010R1089-20231119
+SeaBedArea,sl,Območje morskega dna,15.1.10,02010R1089-20231119
+SeaSurfaceArea,sl,Površina morja,15.1.11,02010R1089-20231119
+MarineExtent,sl,Obseg morja,15.2.1,02010R1089-20231119
+MarineIsoline,sl,Morska izolinija,15.2.2,02010R1089-20231119
+ParameterValuePair,sl,Dvojica parameter-vrednost,15.2.3,02010R1089-20231119
+ShoreSegment,sl,Segment obale,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,sl,Razvrstitev tipa morskega območja,15.3.1,02010R1089-20231119
+SeaBedCoverValue,sl,Vrhnja plast morskega dna,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,sl,Razvrstitev površine morja,15.3.3,02010R1089-20231119
+ShoreStabilityValue,sl,Stabilnost obale,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,sl,Razvrstitev tipa obale,15.3.5,02010R1089-20231119
+ZoneTypeValue,sl,Tip območja,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,sl,Raven razvrščanja regije,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,sl,Razvrstitvena shema regij,16.2.2,02010R1089-20231119
+RegionClassificationValue,sl,Razvrstitev regije,16.2.3,02010R1089-20231119
+Habitat,sl,Habitat,17.2.1,02010R1089-20231119
+HabitatSpeciesType,sl,Tip habitatnih vrst,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,sl,Tip pokritosti habitatnega tipa,17.3.2,02010R1089-20231119
+HabitatVegetationType,sl,Tip habitatne vegetacije,17.3.3,02010R1089-20231119
+LocalNameType,sl,Tip lokalnega imena,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,sl,Kvalifikator lokalnega imena,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,sl,Referenčna šifra habitatnega tipa,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,sl,Referenčna shema habitatnega tipa,17.4.3,02010R1089-20231119
+LocalNameCodeValue,sl,Šifra lokalnega imena,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,sl,Zbirka podatkov o porazdelitvi vrst,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,sl,Enota porazdelitve vrst,18.2.2,02010R1089-20231119
+DistributionInfoType,sl,Tip informacij o porazdelitvi,18.3.1,02010R1089-20231119
+PopulationSizeType,sl,Tip velikosti populacije,18.3.2,02010R1089-20231119
+SpeciesNameType,sl,Tip imena vrste,18.3.4,02010R1089-20231119
+CountingMethodValue,sl,Metoda štetja,18.4.1,02010R1089-20231119
+CountingUnitValue,sl,Enota štetja,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,sl,Šifra lokalnega imena vrste,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,sl,Kategorija pojavljanja,18.4.4,02010R1089-20231119
+PopulationTypeValue,sl,Tip populacije,18.4.5,02010R1089-20231119
+QualifierValue,sl,Kvalifikator,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,sl,Referenčna šifra vrste,18.4.7,02010R1089-20231119
+ReferenceSpeciesSchemeValue,sl,Referenčna shema vrste,18.4.8,02010R1089-20231119
+ResidencyStatusValue,sl,Rezidenčni status,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,sl,Tip razpona vertikalnega obsega,19.3.1.1,02010R1089-20231119
+VerticalExtentType,sl,Tip vertikalnega obsega,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,sl,Vrednost vertikalnega obsega,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,sl,Okvir razvrstitve in količinske opredelitve,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,sl,Razred fosilnega goriva,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,sl,Obnovljivi viri in odpadki,19.3.2.3,02010R1089-20231119
+FossilFuelValue,sl,Fosilno gorivo,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,sl,Vertikalno izhodišče,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,sl,Vektorski energetski vir,19.4.1.1,02010R1089-20231119
+FossilFuelResource,sl,Vir fosilnega goriva,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,sl,Obnovljiv vir in odpadek,19.4.1.3,02010R1089-20231119
+CalorificRangeType,sl,Tip razpona kalorične vrednosti,19.4.2.1,02010R1089-20231119
+CalorificValueType,sl,Tip kalorične vrednosti,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,sl,Tip obdobja izkoriščanja,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,sl,Mera fosilnega goriva,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,sl,Tip vira fosilnega goriva,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,sl,Podatkovni sloj potenciala obnovljivih virov in odpadkov,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,sl,Tip potenciala,19.5.2.1,02010R1089-20231119
+EarthResource,sl,Zemeljski vir,20.3.1.1,02010R1089-20231119
+MineralOccurrence,sl,Pojavljanje mineralne surovine,20.3.1.2,02010R1089-20231119
+Commodity,sl,Surovina,20.3.1.3,02010R1089-20231119
+ExplorationActivity,sl,Raziskovalna dejavnost,20.3.1.4,02010R1089-20231119
+MiningFeature,sl,Rudarska značilnost,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,sl,Pojavljanje rudarske značilnosti,20.3.1.6,02010R1089-20231119
+Mine,sl,Rudnik,20.3.1.7,02010R1089-20231119
+MiningActivity,sl,Rudarjenje,20.3.1.8,02010R1089-20231119
+CommodityMeasure,sl,Merjenje surovine,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,sl,Razsežnost zemeljskega vira,20.3.2.2,02010R1089-20231119
+Endowment,sl,Zaloga,20.3.2.3,02010R1089-20231119
+MineName,sl,Ime rudnika,20.3.2.4,02010R1089-20231119
+MineralDepositModel,sl,Model nahajališča mineralne surovine,20.3.2.5,02010R1089-20231119
+OreMeasure,sl,Merjenje rude,20.3.2.6,02010R1089-20231119
+Reserve,sl,Rezerva,20.3.2.7,02010R1089-20231119
+Resource,sl,Vir,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,sl,Uporabljena metoda razvrstitve,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,sl,Šifra surovine,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,sl,Potencial končne uporabe,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,sl,Tip raziskovalne dejavnosti,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,sl,Rezultat raziskav,20.3.3.5,02010R1089-20231119
+ImportanceValue,sl,Pomembnost,20.3.3.6,02010R1089-20231119
+MineStatusValue,sl,Status rudnika,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,sl,Skupina nahajališč mineralnih surovin,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,sl,Tip nahajališča mineralnih surovin,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,sl,Tip pojavljanja mineralne surovine,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,sl,Tip rudarjenja,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,sl,Tip dejavnosti obdelave,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,sl,Kategorija rezerve,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,sl,Kategorija vira,20.3.3.14,02010R1089-20231119

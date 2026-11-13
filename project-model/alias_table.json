@@ -77,6 +77,12 @@
     "status": "recorded",
     "type": "dec"
   },
+  "dec-inspire-regulation-holdout": {
+    "active": true,
+    "id": "0f87-6af7-1e4e-0fa2",
+    "status": "recorded",
+    "type": "dec"
+  },
   "dec-language-tiers": {
     "active": true,
     "id": "0f87-6af1-7e2b-9fe9",
@@ -344,6 +350,12 @@
   "obs-index-9b-all-languages-test": {
     "active": true,
     "id": "0f87-6af2-4e55-f01e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-inspire-regulation-source": {
+    "active": true,
+    "id": "0f87-6af7-18a5-effb",
     "status": "recorded",
     "type": "obs"
   },

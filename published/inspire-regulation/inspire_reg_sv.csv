@@ -1,0 +1,738 @@
+key,language,label,section,act
+Identifier,sv,Identifierare,2.1,02010R1089-20231119
+RelatedParty,sv,Ansvarig part,2.2,02010R1089-20231119
+Contact,sv,Kontakt,2.3,02010R1089-20231119
+DocumentCitation,sv,Dokumentreferens,2.4,02010R1089-20231119
+LegislationCitation,sv,Lagstiftningsreferens,2.5,02010R1089-20231119
+OfficialJournalInformation,sv,Information i författningssamlingen,2.6,02010R1089-20231119
+ThematicIdentifier,sv,Tematisk identifierare,2.7,02010R1089-20231119
+VerticalPositionValue,sv,Vertikal position,4.1,02010R1089-20231119
+ConditionOfFacilityValue,sv,Anläggnings status,4.2,02010R1089-20231119
+CountryCode,sv,Landskod,4.3,02010R1089-20231119
+LegislationLevelValue,sv,Lagstiftningsnivå,4.4,02010R1089-20231119
+PartyRoleValue,sv,Partsroll,4.5,02010R1089-20231119
+CFStandardNamesValue,sv,Standardnamn för klimat och prognoser,4.6,02010R1089-20231119
+GenderValue,sv,Kön,4.7,02010R1089-20231119
+CrossReference,sv,Korsreferens,5.1.1,02010R1089-20231119
+GeneralisedLink,sv,Generaliserad länk,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,sv,Planskild korsning,5.1.3,02010R1089-20231119
+Link,sv,Länk,5.1.4,02010R1089-20231119
+LinkSequence,sv,Länksekvens,5.1.5,02010R1089-20231119
+LinkSet,sv,Länkmängd,5.1.6,02010R1089-20231119
+Network,sv,Nät,5.1.7,02010R1089-20231119
+NetworkArea,sv,Nätområde,5.1.8,02010R1089-20231119
+NetworkConnection,sv,Nätförbindelse,5.1.9,02010R1089-20231119
+NetworkElement,sv,Nätelement,5.1.10,02010R1089-20231119
+NetworkProperty,sv,Nätegenskap,5.1.11,02010R1089-20231119
+Node,sv,Nod,5.1.12,02010R1089-20231119
+DirectedLink,sv,Riktad länk,5.2.1,02010R1089-20231119
+LinkReference,sv,Länkreferens,5.2.2,02010R1089-20231119
+NetworkReference,sv,Nätreferens,5.2.3,02010R1089-20231119
+SimpleLinearReference,sv,Enkel linjär referens,5.2.4,02010R1089-20231119
+SimplePointReference,sv,Enkel punktreferens,5.2.5,02010R1089-20231119
+ConnectionTypeValue,sv,Förbindelsetyp,5.3.1,02010R1089-20231119
+LinkDirectionValue,sv,Länkriktning,5.3.2,02010R1089-20231119
+Coverage,sv,Yttäcke,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,sv,Yttäcke (domän och värdemängdsrepresentation),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,sv,Rektifierat yttäcke i rutnät,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,sv,Referensyttäcke i rutnät,6.2.1.3,02010R1089-20231119
+CoverageFunction,sv,Yttäckesfunktion,6.2.2.1,02010R1089-20231119
+GridFunction,sv,Rutnätsfunktion,6.2.2.2,02010R1089-20231119
+ObservationSet,sv,Observationsuppsättning,7.1.1.1,02010R1089-20231119
+Process,sv,Process,7.2.1.1,02010R1089-20231119
+ProcessParameter,sv,Processparameter,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,sv,Processparameterns namn,7.2.3.1,02010R1089-20231119
+Constraint,sv,Restriktion,7.3.1.1,02010R1089-20231119
+CategoryConstraint,sv,Kategorirestriktion,7.3.1.2,02010R1089-20231119
+RangeConstraint,sv,Värdemängdsrestriktion,7.3.1.3,02010R1089-20231119
+RangeBounds,sv,Värdemängdsgränser,7.3.1.4,02010R1089-20231119
+ScalarConstraint,sv,Skalär restriktion,7.3.1.5,02010R1089-20231119
+OtherConstraint,sv,Övrig restriktion,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,sv,Statistiskt mätvärde,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,sv,Abstrakt observerbar egenskap,7.3.1.8,02010R1089-20231119
+ObservableProperty,sv,Observerbar egenskap,7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,sv,Företeelsetyp,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,sv,Statistisk funktionstyp,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,sv,Jämförelseoperator,7.3.3.3,02010R1089-20231119
+GridObservation,sv,Rutnätsobservation,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,sv,Rutnätsserieobservation,7.4.1.2,02010R1089-20231119
+PointObservation,sv,Punktobservation,7.4.1.3,02010R1089-20231119
+PointObservationCollection,sv,Punktobservation samling,7.4.1.4,02010R1089-20231119
+MultiPointObservation,sv,Flerpunktsobservation,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,sv,Punkt-tidsserieobservation,7.4.1.6,02010R1089-20231119
+ProfileObservation,sv,Profilobservation,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,sv,Trajectory observation,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,sv,Trippel tid – lokalisering – värde,7.4.2.1,02010R1089-20231119
+ActivityComplex,sv,Verksamhetskomplex,8.1.1.1,02010R1089-20231119
+Function,sv,Funktion,8.1.2.1,02010R1089-20231119
+Capacity,sv,Kapacitet,8.1.2.2,02010R1089-20231119
+InputOutputAmount,sv,Mängd indata eller utdata,8.1.2.3,02010R1089-20231119
+Permission,sv,Tillstånd,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,sv,Beskrivning av verksamhetskomplex,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,sv,Näringsgren,8.1.3.1,02010R1089-20231119
+InputOutputValue,sv,Indata eller utdata,8.1.3.2,02010R1089-20231119
+NamedPlace,sv,Namngiven plats,3.1.1,02010R1089-20231119
+GeographicalName,sv,Ortnamn,3.2.1,02010R1089-20231119
+PronunciationOfName,sv,Uttal av namnet,3.2.2,02010R1089-20231119
+SpellingOfName,sv,Stavning av namnet,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,sv,Grammatiskt genus,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,sv,Grammatiskt numerus,3.3.2,02010R1089-20231119
+NameStatusValue,sv,Namnstatus,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,sv,Namngiven platstyp,3.3.4,02010R1089-20231119
+NativenessValue,sv,Genuinitet,3.3.5,02010R1089-20231119
+AdministrativeBoundary,sv,Administrativ gräns,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,sv,Administrativ enhet,4.2.1.2,02010R1089-20231119
+Condominium,sv,Condominium,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,sv,Myndighetssäte,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,sv,Administrativ hierarkisk nivå,4.2.4.1,02010R1089-20231119
+LegalStatusValue,sv,Rättslig status,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,sv,Teknisk status,4.2.4.3,02010R1089-20231119
+Baseline,sv,Baslinje,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,sv,Marin gräns,4.3.1.2,02010R1089-20231119
+MaritimeZone,sv,Marin zon,4.3.1.3,02010R1089-20231119
+BaselineSegment,sv,Baslinjesegment,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,sv,Typ av baslinjesegment,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,sv,Typ av marin zon,4.3.3.2,02010R1089-20231119
+Address,sv,Adress,5.2.1,02010R1089-20231119
+AddressAreaName,sv,Adressområdesnamn,5.2.2,02010R1089-20231119
+AddressComponent,sv,Adresskomponent,5.2.3,02010R1089-20231119
+AdminUnitName,sv,Namn på administrativ enhet,5.2.4,02010R1089-20231119
+PostalDescriptor,sv,Postal beskrivning,5.2.5,02010R1089-20231119
+ThoroughfareName,sv,Vägnamn,5.2.6,02010R1089-20231119
+AddressLocator,sv,Adresslokator,5.3.1,02010R1089-20231119
+AddressRepresentation,sv,Adressrepresentation,5.3.2,02010R1089-20231119
+GeographicPosition,sv,Geografisk position,5.3.3,02010R1089-20231119
+LocatorDesignator,sv,Lokatorbeteckning,5.3.4,02010R1089-20231119
+LocatorName,sv,Lokatornamn,5.3.5,02010R1089-20231119
+PartOfName,sv,Del av namn,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,sv,Vägnamnsvärde,5.3.7,02010R1089-20231119
+GeometryMethodValue,sv,Geometrimetod,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,sv,Geometrispecifikation,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,sv,Lokatorbeteckningstyp,5.4.3,02010R1089-20231119
+LocatorLevelValue,sv,Lokatornivå,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,sv,Lokatornamntyp,5.4.5,02010R1089-20231119
+PartTypeValue,sv,Deltyp,5.4.6,02010R1089-20231119
+StatusValue,sv,Status,5.4.7,02010R1089-20231119
+BasicPropertyUnit,sv,Fastighet,6.1.1,02010R1089-20231119
+CadastralBoundary,sv,Fastighetsgräns,6.1.2,02010R1089-20231119
+CadastralParcel,sv,Fastighetsområde,6.1.3,02010R1089-20231119
+CadastralZoning,sv,Fastighetsindelning,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,sv,Fastighetsindelningsnivå,6.2.1,02010R1089-20231119
+AccessRestriction,sv,Tillträdesbegränsning,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,sv,Anläggnings status,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,sv,Underhållsmyndighet,7.3.1.3,02010R1089-20231119
+MarkerPost,sv,Markeringsstolpe,7.3.1.4,02010R1089-20231119
+OwnerAuthority,sv,Ägarmyndighet,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,sv,Begränsning för fordon,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,sv,Riktning för trafikflödet,7.3.1.7,02010R1089-20231119
+TransportArea,sv,Transportyta,7.3.1.8,02010R1089-20231119
+TransportLink,sv,Transportlänk,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,sv,Transportlänksekvens,7.3.1.10,02010R1089-20231119
+TransportLinkSet,sv,Transportlänkmängd,7.3.1.11,02010R1089-20231119
+TransportNetwork,sv,Transportnät,7.3.1.12,02010R1089-20231119
+TransportNode,sv,Transportnod,7.3.1.13,02010R1089-20231119
+TransportObject,sv,Transportobjekt,7.3.1.14,02010R1089-20231119
+TransportPoint,sv,Transportpunkt,7.3.1.15,02010R1089-20231119
+TransportProperty,sv,Transportegenskap,7.3.1.16,02010R1089-20231119
+VerticalPosition,sv,Vertikal position,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,sv,Tillträdesbegränsning,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,sv,Begränsningstyp,7.3.3.2,02010R1089-20231119
+TransportTypeValue,sv,Transporttyp,7.3.3.3,02010R1089-20231119
+AerodromeArea,sv,Flygplatsområde,7.4.1.1,02010R1089-20231119
+AerodromeCategory,sv,Flygplatskategori,7.4.1.2,02010R1089-20231119
+AerodromeNode,sv,Flygplatsnod,7.4.1.3,02010R1089-20231119
+AerodromeType,sv,Flygplatstyp,7.4.1.4,02010R1089-20231119
+AirLink,sv,Flyglänk,7.4.1.5,02010R1089-20231119
+AirLinkSequence,sv,Flyglänksekvens,7.4.1.6,02010R1089-20231119
+AirNode,sv,Luftrumsnod,7.4.1.7,02010R1089-20231119
+AirRoute,sv,Flygväg,7.4.1.8,02010R1089-20231119
+AirRouteLink,sv,Flygvägslänk,7.4.1.9,02010R1089-20231119
+AirspaceArea,sv,Luftrumsområde,7.4.1.10,02010R1089-20231119
+ApronArea,sv,Platta,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,sv,Luftfartsanläggnings status,7.4.1.12,02010R1089-20231119
+DesignatedPoint,sv,Angiven punkt,7.4.1.13,02010R1089-20231119
+ElementLength,sv,Elementlängd,7.4.1.14,02010R1089-20231119
+ElementWidth,sv,Elementbredd,7.4.1.15,02010R1089-20231119
+FieldElevation,sv,Flygplatsens höjd,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,sv,Instrumentinflygningsprocedur,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,sv,Lägsta tillåtna höjd över havet,7.4.1.18,02010R1089-20231119
+Navaid,sv,Navigeringshjälpmedel,7.4.1.19,02010R1089-20231119
+ProcedureLink,sv,Förfarandelänk,7.4.1.20,02010R1089-20231119
+RunwayArea,sv,Startoch landningsområde,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,sv,Centrumlinje på starteller landningsbana,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,sv,Standardflygväg för ankommande IFR-trafik – STAR,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,sv,Standardflygväg för avgående IFR-trafik – SID,7.4.1.24,02010R1089-20231119
+SurfaceComposition,sv,Ytsammansättning,7.4.1.25,02010R1089-20231119
+TaxiwayArea,sv,Taxibaneområde,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,sv,Startoch landningsplats för helikopter,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,sv,Högsta tillåtna höjd över havet,7.4.1.28,02010R1089-20231119
+UseRestriction,sv,Restriktion för användning,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,sv,Flygplatskategori,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,sv,Flygplatstyp,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,sv,Flygvägslänksklass,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,sv,Flygvägstyp,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,sv,Luftanvändningsrestriktion,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,sv,Luftrumsområdestyp,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,sv,Typ av navigeringshjälpmedel,7.4.2.7,02010R1089-20231119
+PointRoleValue,sv,Punktrollvärde,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,sv,Typ av startoch landningsbana,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,sv,Ytsammansättning,7.4.2.10,02010R1089-20231119
+CablewayLink,sv,Linbanelänk,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,sv,Linbanelänksekvens,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,sv,Linbanelänkmängd,7.5.1.3,02010R1089-20231119
+CablewayNode,sv,Linbanenod,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,sv,Linbanetyp,7.5.2.1,02010R1089-20231119
+DesignSpeed,sv,Konstruktionshastighet,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,sv,Nominell spårvidd,7.6.1.2,02010R1089-20231119
+NumberOfTracks,sv,Antal spår,7.6.1.3,02010R1089-20231119
+RailwayArea,sv,Järnvägsområde,7.6.1.4,02010R1089-20231119
+RailwayElectrification,sv,Järnvägselektrifiering,7.6.1.5,02010R1089-20231119
+RailwayLine,sv,Järnvägslinje,7.6.1.6,02010R1089-20231119
+RailwayLink,sv,Järnvägslänk,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,sv,Järnvägslänksekvens,7.6.1.8,02010R1089-20231119
+RailwayNode,sv,Järnvägsnod,7.6.1.9,02010R1089-20231119
+RailwayStationArea,sv,Järnvägsstationsområde,7.6.1.10,02010R1089-20231119
+RailwayStationCode,sv,Järnvägsstationskod,7.6.1.11,02010R1089-20231119
+RailwayStationNode,sv,Järnvägsstationsnod,7.6.1.12,02010R1089-20231119
+RailwayType,sv,Järnvägstyp,7.6.1.13,02010R1089-20231119
+RailwayUse,sv,Järnvägsanvändning,7.6.1.14,02010R1089-20231119
+RailwayYardArea,sv,Bangårdsområde,7.6.1.15,02010R1089-20231119
+RailwayYardNode,sv,Bangårdsnod,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,sv,Järnvägsnodtyp,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,sv,Järnvägstyp,7.6.3.2,02010R1089-20231119
+RailwayUseValue,sv,Järnvägsanvändning,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,sv,Lägsta eller högsta antal spår,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,sv,Spårviddskategori,7.6.3.5,02010R1089-20231119
+ERoad,sv,Europaväg,7.7.1.1,02010R1089-20231119
+FormOfWay,sv,Vägtyp,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,sv,Funktionell vägklass,7.7.1.3,02010R1089-20231119
+NumberOfLanes,sv,Antal körfält,7.7.1.4,02010R1089-20231119
+Road,sv,Väg,7.7.1.5,02010R1089-20231119
+RoadArea,sv,Vägområde,7.7.1.6,02010R1089-20231119
+RoadLink,sv,Väglänk,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,sv,Väglänksekvens,7.7.1.8,02010R1089-20231119
+RoadName,sv,Vägnamn,7.7.1.9,02010R1089-20231119
+RoadNode,sv,Vägnod,7.7.1.10,02010R1089-20231119
+RoadServiceArea,sv,Vägserviceområde,7.7.1.11,02010R1089-20231119
+RoadServiceType,sv,Vägservicetyp,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,sv,Vägytekategori,7.7.1.13,02010R1089-20231119
+RoadWidth,sv,Vägbredd,7.7.1.14,02010R1089-20231119
+SpeedLimit,sv,Hastighetsgräns,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,sv,Fordonstrafikområde,7.7.1.16,02010R1089-20231119
+AreaConditionValue,sv,Områdesförutsättningar,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,sv,Vägnodtyp,7.7.3.2,02010R1089-20231119
+FormOfWayValue,sv,Vägtyp,7.7.3.3,02010R1089-20231119
+RoadPartValue,sv,Vägdel,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,sv,Vägservicetyp,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,sv,Vägytekategori,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,sv,Serviceanläggning,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,sv,Källa till hastighetsgränsen,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,sv,Fordonstyp,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,sv,Väderförhållande,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,sv,Funktionell vägklass,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,sv,Lägsta eller högsta antal körfält,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,sv,Hastighetsgränsens karaktär,7.7.3.13,02010R1089-20231119
+Beacon,sv,Fyr,7.8.1.1,02010R1089-20231119
+Buoy,sv,Boj,7.8.1.2,02010R1089-20231119
+CEMTClass,sv,CEMT-klass,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,sv,Status för vattenanläggning,7.8.1.4,02010R1089-20231119
+FairwayArea,sv,Farledsområde,7.8.1.5,02010R1089-20231119
+FerryCrossing,sv,Färjeöverfart,7.8.1.6,02010R1089-20231119
+FerryUse,sv,Färjeanvändning,7.8.1.7,02010R1089-20231119
+InlandWaterway,sv,Inre vattenväg,7.8.1.8,02010R1089-20231119
+MarineWaterway,sv,Marin vattenväg,7.8.1.9,02010R1089-20231119
+PortArea,sv,Hamnområde,7.8.1.10,02010R1089-20231119
+PortNode,sv,Hamnnod,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,sv,Begränsning för vattenfordon,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,sv,Trafiksepareringssystem,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,sv,Område för trafiksepareringssystem,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,sv,Korsning i trafiksepareringssystem,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,sv,Trafikstråk i trafiksepareringssystem,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,sv,Cirkulationsplats i trafiksepareringssystem,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,sv,Separeringszon i trafiksepareringssystem,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,sv,Vattenlänksekvens,7.8.1.19,02010R1089-20231119
+WaterNode,sv,Vattennod,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,sv,Riktning för sjötrafikflödet,7.8.1.21,02010R1089-20231119
+Waterway,sv,Vattenväg,7.8.1.22,02010R1089-20231119
+WaterwayLink,sv,Vattenvägslänk,7.8.1.23,02010R1089-20231119
+WaterwayNode,sv,Vattenvägsnod,7.8.1.24,02010R1089-20231119
+FerryUseValue,sv,Färjeanvändning,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,sv,Vattenvägsnodtyp,7.8.3.2,02010R1089-20231119
+CEMTClassValue,sv,CEMT-klass,7.8.3.3,02010R1089-20231119
+HydroObject,sv,Hydroobjekt,8.3.1.1,02010R1089-20231119
+HydroIdentifier,sv,Hydroidentifierare,8.3.2.1,02010R1089-20231119
+HydroNode,sv,Hydronod,8.4.1.1,02010R1089-20231119
+WatercourseLink,sv,Vattendragslänk,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,sv,Vattendragslänksekvens,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,sv,Vattendrag med planskild korsning,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,sv,Hydronodkategori,8.4.2.1,02010R1089-20231119
+Crossing,sv,Korsning,8.5.1.1,02010R1089-20231119
+DamOrWeir,sv,Damm eller fördämning,8.5.1.2,02010R1089-20231119
+DrainageBasin,sv,Avrinningsområde,8.5.1.3,02010R1089-20231119
+Embankment,sv,Vall,8.5.1.4,02010R1089-20231119
+Falls,sv,Vattenfall,8.5.1.5,02010R1089-20231119
+FluvialPoint,sv,Flödespåverkande plats,8.5.1.6,02010R1089-20231119
+Ford,sv,Vad,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,sv,Hydrografiskt intressant plats,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,sv,Strandlinje,8.5.1.11,02010R1089-20231119
+Lock,sv,Sluss,8.5.1.12,02010R1089-20231119
+ManMadeObject,sv,Konstgjort objekt,8.5.1.13,02010R1089-20231119
+Rapids,sv,Fors,8.5.1.17,02010R1089-20231119
+RiverBasin,sv,Huvudavrinningsområde,8.5.1.18,02010R1089-20231119
+Shore,sv,Strand,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,sv,Strandlinjekonstruktion,8.5.1.20,02010R1089-20231119
+Sluice,sv,Ränna,8.5.1.21,02010R1089-20231119
+StandingWater,sv,Sjö,8.5.1.22,02010R1089-20231119
+SurfaceWater,sv,Ytvatten,8.5.1.23,02010R1089-20231119
+Watercourse,sv,Vattendrag,8.5.1.24,02010R1089-20231119
+Wetland,sv,Våtmark,8.5.1.25,02010R1089-20231119
+HydroOrderCode,sv,Hydrologisk kod,8.5.2.1,02010R1089-20231119
+WidthRange,sv,Breddintervall,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,sv,Korsningstyp,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,sv,Hydrologisk beständighet,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,sv,Strandtyp,8.5.4.4,02010R1089-20231119
+WaterLevelValue,sv,Vattennivå,8.5.4.5,02010R1089-20231119
+OriginValue,sv,Ursprung,8.5.4.6,02010R1089-20231119
+ProtectedSite,sv,Skyddat område,9.1.1,02010R1089-20231119
+DesignationType,sv,Beteckningstyp,9.2.1,02010R1089-20231119
+DesignationSchemeValue,sv,Beteckningsschema,9.4.1,02010R1089-20231119
+DesignationValue,sv,Beteckning,9.4.2,02010R1089-20231119
+IUCNDesignationValue,sv,IUCN-beteckning,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,sv,Beteckning i det nationella monumentregistret,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,sv,Natura 2000-beteckning,9.4.5,02010R1089-20231119
+RamsarDesignationValue,sv,Ramsarbeteckning,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,sv,Beteckning enligt Unescos Man And Biosphere Programme,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,sv,Unescos världsarvsbeteckning,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,sv,Skyddsklassificering,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,sv,Typ av höjdegenskap,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,sv,Yttyp,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,sv,Rutnät för höjdyttäcke,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,sv,Aggregering av rutnät för höjdyttäcke,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,sv,Vektorobjekt höjd,1.5.1.1,02010R1089-20231119
+SpotElevation,sv,Höjdpunkt,1.5.1.2,02010R1089-20231119
+ContourLine,sv,Konturlinje,1.5.1.3,02010R1089-20231119
+BreakLine,sv,Brytlinje,1.5.1.4,02010R1089-20231119
+VoidArea,sv,Tomt område,1.5.1.5,02010R1089-20231119
+IsolatedArea,sv,Isolerat område,1.5.1.6,02010R1089-20231119
+ChartDatum,sv,Sjökortets referensyta,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,sv,Typ av brytlinje,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,sv,Klassificering av höjdpunkt,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,sv,Typ av höjdpunkt,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,sv,Typ av konturlinje,1.5.4.4,02010R1089-20231119
+ElevationTIN,sv,Höjd TIN,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,sv,Landtäckesnomenklatur,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,sv,Landtäckesklass,2.3.2.1,02010R1089-20231119
+LandCoverDataset,sv,Landtäckesdatamängd,2.4.1.1,02010R1089-20231119
+LandCoverUnit,sv,Landtäckesenhet,2.4.1.2,02010R1089-20231119
+LandCoverObservation,sv,Landtäckesobservation,2.4.2.1,02010R1089-20231119
+LandCoverValue,sv,Landtäcke,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,sv,Landtäckets rutnätsyttäcke,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,sv,Ortofotoyttäcke,3.2.1,02010R1089-20231119
+MosaicElement,sv,Mosaikbildselement,3.2.2,02010R1089-20231119
+SingleMosaicElement,sv,Enskilt mosaikbildselement,3.2.3,02010R1089-20231119
+AggregatedMosaicElement,sv,Aggregerat mosaikbildselement,3.2.4,02010R1089-20231119
+OrthoimageAggregation,sv,Ortofotoaggregering,3.3.1,02010R1089-20231119
+InterpolationMethodValue,sv,Interpoleringsmetod,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,sv,Antropogen geomorfologisk företeelse,4.2.1.1,02010R1089-20231119
+Borehole,sv,Borrhål,4.2.1.2,02010R1089-20231119
+Fold,sv,Veck,4.2.1.3,02010R1089-20231119
+GeologicCollection,sv,Geologisk samling,4.2.1.4,02010R1089-20231119
+GeologicEvent,sv,Geologisk händelse,4.2.1.5,02010R1089-20231119
+GeologicFeature,sv,Geologisk företeelse,4.2.1.6,02010R1089-20231119
+GeologicStructure,sv,Geologisk struktur,4.2.1.7,02010R1089-20231119
+GeologicUnit,sv,Geologisk enhet,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,sv,Geomorfologisk företeelse,4.2.1.9,02010R1089-20231119
+MappedFeature,sv,Kartlagd företeelse,4.2.1.10,02010R1089-20231119
+MappedInterval,sv,Kartlagt intervall,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,sv,Naturlig geomorfologisk företeelse,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,sv,Förkastning eller skjuvzon,4.2.1.13,02010R1089-20231119
+CompositionPart,sv,Beståndsdel,4.2.2.1,02010R1089-20231119
+ThematicClass,sv,Tematisk klass,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,sv,Typ av antropogen geomorfologisk företeelse,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,sv,Borrhålets syfte,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,sv,Samlingstyp,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,sv,Beståndsdel,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,sv,Händelsemiljö,4.2.3.5,02010R1089-20231119
+EventProcessValue,sv,Händelseprocess,4.2.3.6,02010R1089-20231119
+FaultTypeValue,sv,Typ av förkastning eller skjuvzon,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,sv,Vecktyp,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,sv,Geokronologisk era,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,sv,Typ av geologisk enhet,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,sv,Geomorfologisk aktivitet,4.2.3.11,02010R1089-20231119
+LithologyValue,sv,Litologi,4.2.3.12,02010R1089-20231119
+MappingFrameValue,sv,Karteringsram,4.2.3.13,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,sv,Typ av naturlig geomorfologisk företeelse,4.2.3.14,02010R1089-20231119
+ThematicClassValue,sv,Tematisk klass,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,sv,Tematisk klassificering,4.2.3.16,02010R1089-20231119
+Geophysics,sv,Geofysik,4.3,02010R1089-20231119
+Campaign,sv,Kampanj,4.3.1.1,02010R1089-20231119
+GeophObject,sv,Geofysiskt objekt,4.3.1.2,02010R1089-20231119
+GeophMeasurement,sv,Geofysisk mätning,4.3.1.3,02010R1089-20231119
+GeophObjectSet,sv,Geofysisk objektmängd,4.3.1.4,02010R1089-20231119
+GeophProfile,sv,Geofysisk profil,4.3.1.5,02010R1089-20231119
+GeophStation,sv,Geofysisk station,4.3.1.6,02010R1089-20231119
+GeophSwath,sv,Geofysiskt svep,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,sv,Kampanjtyp,4.3.2.1,02010R1089-20231119
+NetworkNameValue,sv,Nätnamn,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,sv,Typ av plattform,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,sv,Profiltyp,4.3.2.4,02010R1089-20231119
+StationRankValue,sv,Stationsklassificering,4.3.2.5,02010R1089-20231119
+StationTypeValue,sv,Stationstyp,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,sv,Undersökningstyp,4.3.2.7,02010R1089-20231119
+SwathTypeValue,sv,Sveptyp,4.3.2.8,02010R1089-20231119
+Hydrogeology,sv,Hydrogeologi,4.4,02010R1089-20231119
+ActiveWell,sv,Aktiv brunn,4.4.1.1,02010R1089-20231119
+Aquiclude,sv,Akviklud,4.4.1.2,02010R1089-20231119
+Aquifer,sv,Akvifer,4.4.1.3,02010R1089-20231119
+AquiferSystem,sv,Akvifersystem,4.4.1.4,02010R1089-20231119
+Aquitard,sv,Akvitard,4.4.1.5,02010R1089-20231119
+GroundWaterBody,sv,Grundvattenförekomst,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,sv,Hydrogeologiskt objekt,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,sv,Konstgjort hydrogeologiskt objekt,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,sv,Naturligt hydrogeologiskt objekt,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,sv,Hydrogeologisk enhet,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,sv,Hydrogeologisk yta,4.4.2.1,02010R1089-20231119
+PiezometricState,sv,Piezometriskt tryck,4.4.2.2,02010R1089-20231119
+QuantityValue,sv,Kvantitetsvärde,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,sv,Typ av aktiv brunn,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,sv,Typ av akvifert medium,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,sv,Akvifertyp,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,sv,Grundvattnets status,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,sv,Typ av hydrogeokemisk bergart,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,sv,Naturlig objekttyp,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,sv,Typ av statuskod,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,sv,Vattnets beständighet,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,sv,Vattnets salthalt,4.4.3.9,02010R1089-20231119
+StatisticalUnit,sv,Statistisk enhet,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,sv,Statistisk vektorenhet,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,sv,Statistisk områdesenhet,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,sv,Statistisk tessellation,1.3.1.3,02010R1089-20231119
+Evolution,sv,Förändring,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,sv,Statistisk vektorenhet geometri,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,sv,Geometrisk deskriptor,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,sv,Geometrityp,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,sv,Förändringstyp,1.3.3.2,02010R1089-20231119
+StatisticalUnitTypeValue,sv,Typ av statistisk enhet,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,sv,Statistisk rutnätscell,1.4.1.1,02010R1089-20231119
+StatisticalGrid,sv,Statistiskt rutnät,1.4.1.2,02010R1089-20231119
+GridPosition,sv,Rutnätsposition,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,sv,Statistisk rutnätsupplösning,1.4.2.2,02010R1089-20231119
+AbstractConstruction,sv,Abstrakt konstruktion,2.3.1.1,02010R1089-20231119
+AbstractBuilding,sv,Abstrakt byggnad,2.3.1.2,02010R1089-20231119
+Building,sv,Byggnad,2.3.1.3,02010R1089-20231119
+BuildingPart,sv,Byggnadsdel,2.3.1.4,02010R1089-20231119
+CurrentUse,sv,Nuvarande användning,2.3.2.1,02010R1089-20231119
+DateOfEvent,sv,Datum för händelse,2.3.2.2,02010R1089-20231119
+Elevation,sv,Höjd,2.3.2.3,02010R1089-20231119
+ExternalReference,sv,Extern referens,2.3.2.4,02010R1089-20231119
+HeightAboveGround,sv,Höjd över marken,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,sv,Byggnadsgeometri 2D,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,sv,Byggnadens natur,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,sv,Konstruktionens status,2.3.3.2,02010R1089-20231119
+CurrentUseValue,sv,Nuvarande användning,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,sv,Höjdreferens,2.3.3.4,02010R1089-20231119
+HeightStatusValue,sv,Höjdstatus,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,sv,Horisontell geometrisk referens,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,sv,Byggnads geometri3D LoD,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,sv,Byggnads geometri3D LoD1,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DLoD2,sv,Byggnads geometri 3D LoD2,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,sv,Härledd markprofil,3.1.1,02010R1089-20231119
+ObservedSoilProfile,sv,Observerad markprofil,3.1.2,02010R1089-20231119
+ProfileElement,sv,Profilelement,3.1.3,02010R1089-20231119
+SoilBody,sv,Markenhet,3.1.4,02010R1089-20231119
+SoilDerivedObject,sv,Härlett markobjekt,3.1.5,02010R1089-20231119
+SoilHorizon,sv,Markhorisont,3.1.6,02010R1089-20231119
+SoilLayer,sv,Markskikt,3.1.7,02010R1089-20231119
+SoilPlot,sv,Markundersökningspunkt,3.1.8,02010R1089-20231119
+SoilProfile,sv,Markprofil,3.1.9,02010R1089-20231119
+SoilSite,sv,Markundersökningsplats,3.1.10,02010R1089-20231119
+SoilThemeCoverage,sv,Yttäcke marktema,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,sv,Yttäcke beskrivande marktema,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,sv,Närvaro av härledd profil i markenhet,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,sv,FAO:s Notationstyp för horisonter,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,sv,Annan horisontnotationstyp,3.2.3,02010R1089-20231119
+OtherSoilNameType,sv,Annan marknamnstyp,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,sv,Typ av partikelstorlek,3.2.5,02010R1089-20231119
+RangeType,sv,Värdemängdstyp,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,sv,Typ av beskrivande parameter för marktema,3.2.7,02010R1089-20231119
+SoilThemeParameterType,sv,Typ av parameter för marktema,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,sv,Grupptyp av kvalificerare enligt WRB,3.2.9,02010R1089-20231119
+WRBSoilNameType,sv,Jordmånsnamntyp i WRB,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,sv,FAO Horisont master,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,sv,FAO Horisont underordnad,3.3.2,02010R1089-20231119
+FAOPrimeValue,sv,FAO primtecken,3.3.3,02010R1089-20231119
+OtherHorizonNotationTypeValue,sv,Annan horisontnotationstyp,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,sv,Annan marknamntyp,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,sv,Skiktets bildningsstatus,3.3.6,02010R1089-20231119
+LayerTypeValue,sv,Skikttyp,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,sv,Parameternamn på profilelement,3.3.8,02010R1089-20231119
+SoilDerivedObjectParameterNameValue,sv,Parameternamn för härledda markobjekt,3.3.9,02010R1089-20231119
+SoilInvestigationPurposeValue,sv,Syfte med markundersökningen,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,sv,Typ av markundersökningspunkt,3.3.11,02010R1089-20231119
+SoilProfileParameterNameValue,sv,Parameternamn på markprofil,3.3.12,02010R1089-20231119
+SoilSiteParameterNameValue,sv,Parameternamn på en markundersökningsplats,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,sv,WRB-kvalifierares plats,3.3.14,02010R1089-20231119
+WRBQualifierValue,sv,WRB-kvalificerare,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,sv,WRB Reference Soil Group (RSG),3.3.16,02010R1089-20231119
+WRBSpecifierValue,sv,WRB specificerare,3.3.17,02010R1089-20231119
+HILUCSPercentage,sv,HILUCS-procentsats,4.3.1.1,02010R1089-20231119
+HILUCSPresence,sv,HILUCS-förekomst,4.3.1.2,02010R1089-20231119
+SpecificPercentage,sv,Specifik procentsats,4.3.1.3,02010R1089-20231119
+SpecificPresence,sv,Specifik förekomst,4.3.1.4,02010R1089-20231119
+HILUCSValue,sv,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,sv,Användningsklassificering av mark,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,sv,Datamängd gällande markanvändning,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,sv,Objekt gällande markanvändning,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,sv,Rutnät för gällande markanvändning,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,sv,Undersökt gällande markanvändning,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,sv,Datamängd för undersökt gällande markanvändning,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,sv,Officiell dokumentation,4.7.1.1,02010R1089-20231119
+SpatialPlan,sv,Fysisk plan,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,sv,Kompletterande reglering,4.7.1.3,02010R1089-20231119
+ZoningElement,sv,Zonindelningselement,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,sv,Bakgrundskarta,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,sv,Dimensioneringsangivelse i karaktärer,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,sv,Dimensioneringsangivelse i heltal,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,sv,Dimensioneringsangivelse i mätvärde,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,sv,Dimensioneringsangivelse i verkligheten,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,sv,Dimensioneringsangivelse,4.7.2.6,02010R1089-20231119
+OrdinanceValue,sv,Föreskrift,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,sv,Nivå av fysisk plan,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,sv,Processens skede allmänt,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,sv,Regleringens karaktär,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,sv,Plantypsnamn,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,sv,Specifik kompletterande reglering,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,sv,Kompletterande reglering,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,sv,Statistiska hälsodata,5.1.1,02010R1089-20231119
+Biomarker,sv,Biomarkör,5.1.2,02010R1089-20231119
+Disease,sv,Sjukdom,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,sv,Allmän hälsostatistik,5.1.4,02010R1089-20231119
+HealthServicesStatistic,sv,Vårdstatistik,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,sv,Mätvärde för miljörelaterad hälsodeterminant,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,sv,Statistiska data för miljörelaterad hälsodeterminant,5.1.7,02010R1089-20231119
+Age,sv,Ålder,5.2.1,02010R1089-20231119
+AgeRangeType,sv,Åldersintervall,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,sv,Statistisk biomarkörparameter,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,sv,Biomarkörens tematiska metadata,5.2.4,02010R1089-20231119
+BiomarkerType,sv,Biomarkörtyp,5.2.5,02010R1089-20231119
+DiseaseMeasure,sv,Sjukdomsmått,5.2.6,02010R1089-20231119
+ReferencePeriodType,sv,Referensperiod,5.2.7,02010R1089-20231119
+CODValue,sv,Dödsorsak,5.3.1,02010R1089-20231119
+ChemicalValue,sv,Kemikalie,5.3.2,02010R1089-20231119
+ComponentTypeValue,sv,Typ av miljörelaterad hälsokomponent,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,sv,Typ av sjukdomsmått,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,sv,Typ av miljörelaterad hälsodeterminant,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,sv,Hälsoindikator,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,sv,Vårdindikator,5.3.7,02010R1089-20231119
+ICDValue,sv,Internationella sjukdomsklassifikationen,5.3.8,02010R1089-20231119
+MatrixValue,sv,Matrix,5.3.9,02010R1089-20231119
+MediaTypeValue,sv,Typ av miljörelaterat hälsomedium,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,sv,Typ av bullerkälla,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,sv,Statistisk aggregeringsmetod,5.3.12,02010R1089-20231119
+UtilityNetwork,sv,Allmännyttigt nät,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,sv,Element i allmännyttigt nät,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,sv,Länkmängd för allmännyttig tjänst,6.2.1.3,02010R1089-20231119
+UtilityLink,sv,Länk för allmännyttig tjänst,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,sv,Länksekvens för allmännyttig tjänst,6.2.1.5,02010R1089-20231119
+UtilityNode,sv,Nod för allmännyttig tjänst,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,sv,Nodbehållare för allmännyttig tjänst,6.2.1.7,02010R1089-20231119
+Appurtenance,sv,Tillbehör,6.2.1.8,02010R1089-20231119
+Cabinet,sv,Skåp,6.2.1.9,02010R1089-20231119
+Cable,sv,Kabel,6.2.1.10,02010R1089-20231119
+Duct,sv,Trumma,6.2.1.11,02010R1089-20231119
+Manhole,sv,Manhål,6.2.1.12,02010R1089-20231119
+Pipe,sv,Rörledning,6.2.1.13,02010R1089-20231119
+Pole,sv,Stolpe,6.2.1.14,02010R1089-20231119
+Tower,sv,Torn,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,sv,Tillbehörstyp,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,sv,Specifik tillbehörstyp,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,sv,Allmännyttig leveranstyp,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,sv,Typ av allmännyttigt nät,6.2.2.4,02010R1089-20231119
+WarningTypeValue,sv,Varningstyp,6.2.2.5,02010R1089-20231119
+ElectricityCable,sv,Elkabel,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,sv,Eltillbehörstyp,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,sv,"Olje-, gasoch kemikalieledning",6.4.1.1,02010R1089-20231119
+OilGasChemicalsAppurtenanceTypeValue,sv,"Tillbehörstyp för olja, gas och kemikalier",6.4.2.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,sv,"Produktionstyp för olja, gas och kemikalier",6.4.2.2,02010R1089-20231119
+SewerPipe,sv,Avloppsledning,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,sv,Avloppstillbehörstyp,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,sv,Avloppsvattentyp,6.5.2.2,02010R1089-20231119
+ThermalPipe,sv,Termisk ledning,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,sv,Termisk tillbehörstyp,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,sv,Termisk produkttyp,6.6.2.2,02010R1089-20231119
+WaterPipe,sv,Vattenledning,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,sv,Vattentillbehörstyp,6.7.2.1,02010R1089-20231119
+WaterTypeValue,sv,Vattentyp,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,sv,Miljöförvaltningsanläggning,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,sv,Miljöanläggningsklassificering,6.8.2.1,02010R1089-20231119
+GovernmentalService,sv,Offentlig tjänst,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,sv,Ansvarsområdestyp,6.9.2.1,02010R1089-20231119
+ServiceLocationType,sv,Tjänstens lokaliseringstyp,6.9.2.2,02010R1089-20231119
+ServiceTypeValue,sv,Tjänstetyp,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,sv,Abstrakt övervakningsföreteelse,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,sv,Abstrakt övervakningsobjekt,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,sv,Verksamhet för miljöövervakning,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,sv,Anläggning för miljöövervakning,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,sv,Nät för miljöövervakning,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,sv,Program för miljöövervakning,7.1.6,02010R1089-20231119
+ObservingCapability,sv,Observationskapacitet,7.1.7,02010R1089-20231119
+AnyDomainLink,sv,Domänlänk,7.2.1,02010R1089-20231119
+Hierarchy,sv,Hierarki,7.2.2,02010R1089-20231119
+NetworkFacility,sv,Nätanläggning,7.2.3,02010R1089-20231119
+ReportToLegalAct,sv,Rapport till rättsakt,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,sv,Mätsystem,7.3.1,02010R1089-20231119
+MediaValue,sv,Media,7.3.2,02010R1089-20231119
+ProcessTypeValue,sv,Processtyp,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,sv,Insamlingssyfte,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,sv,Källa för resultatförvärvet,7.3.5,02010R1089-20231119
+ResultNatureValue,sv,Resultatets karaktär,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,sv,Specialiserad typ av anläggningar för miljöövervakning,7.3.7,02010R1089-20231119
+ProductionFacility,sv,Produktionsanläggning,8.2.1,02010R1089-20231119
+ProductionInstallation,sv,Produktionsinstallation,8.2.2,02010R1089-20231119
+ProductionInstallationPart,sv,Del av produktionsinstallation,8.2.3,02010R1089-20231119
+ProductionSite,sv,Produktionsplats,8.2.4,02010R1089-20231119
+ProductionPlot,sv,Produktionsyta,8.2.5,02010R1089-20231119
+ProductionBuilding,sv,Produktionsbyggnad,8.2.6,02010R1089-20231119
+StatusType,sv,Statustyp,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,sv,Teknik för att minska föroreningar,8.4.1,02010R1089-20231119
+InstallationTypeValue,sv,Installationstyp,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,sv,Installationsdelstyp,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,sv,Avrinningsdistrikt,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,sv,Typ av produktionsbyggnad,8.4.5,02010R1089-20231119
+Holding,sv,Företag,9.2.1,02010R1089-20231119
+Site,sv,Anläggningsområde,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,sv,Husdjursarter,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,sv,Produktionsdjurarter,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,sv,Vattenbruksarter,9.4.2,02010R1089-20231119
+StatisticalDistribution,sv,Statistisk fördelning,10.1.1,02010R1089-20231119
+Classification,sv,Klassificering,10.2.1,02010R1089-20231119
+ClassificationItem,sv,Klassificeringspost,10.2.2,02010R1089-20231119
+StatisticalValue,sv,Statistiskt värde,10.2.3,02010R1089-20231119
+Dimensions,sv,Dimensioner,10.2.4,02010R1089-20231119
+ClassificationTypeValue,sv,Klassificeringstyp,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,sv,Klassificeringsposttyp,10.3.2,02010R1089-20231119
+VariableValue,sv,Variabel,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,sv,Statistisk mätmetod,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,sv,Status för statistiska data,10.3.5,02010R1089-20231119
+SpecialValue,sv,Specialvärde,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,sv,Område med särskild förvaltning/begränsningar/reglering,11.2.1,02010R1089-20231119
+ZoneTypeCode,sv,Områdestypkod,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,sv,Specialiserad områdestypkod,11.3.2,02010R1089-20231119
+EnvironmentalDomain,sv,Miljödomän,11.3.3,02010R1089-20231119
+AbstractExposedElement,sv,Abstrakt exponerat element,12.2.1,02010R1089-20231119
+AbstractHazardArea,sv,Abstrakt farligt område,12.2.2,02010R1089-20231119
+AbstractObservedEvent,sv,Abstrakt observerad händelse,12.2.3,02010R1089-20231119
+AbstractRiskZone,sv,Abstrakt riskområde,12.2.4,02010R1089-20231119
+ExposedElementCoverage,sv,Yttäcke för exponerat element,12.2.5,02010R1089-20231119
+ExposedElement,sv,Exponerat element,12.2.6,02010R1089-20231119
+HazardArea,sv,Farligt område,12.2.7,02010R1089-20231119
+HazardCoverage,sv,Farans yttäcke,12.2.8,02010R1089-20231119
+ObservedEventCoverage,sv,Yttäcke för observerad händelse,12.2.9,02010R1089-20231119
+ObservedEvent,sv,Observerad händelse,12.2.10,02010R1089-20231119
+RiskCoverage,sv,Riskyttäcke,12.2.11,02010R1089-20231119
+RiskZone,sv,Riskområde,12.2.12,02010R1089-20231119
+ExposedElementClassification,sv,Klassificering av exponerade element,12.3.1,02010R1089-20231119
+LevelOrIntensity,sv,Nivå eller intensitet,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,sv,Förekomstsannolikhet,12.3.3,02010R1089-20231119
+NaturalHazardClassification,sv,Klassificering av naturlig fara,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,sv,Kvantitativ sannolikhet,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,sv,Sårbarhetsbedömning,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,sv,Exponerad elementkategori,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,sv,Kategori av naturlig fara,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,sv,Specifik exponerad elementtyp,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,sv,Specifik farotyp,12.5.4,02010R1089-20231119
+DeterminationMethodValue,sv,Bestämningsmetod,12.5.5,02010R1089-20231119
+SeaArea,sv,Havsområde,15.1.1,02010R1089-20231119
+Sea,sv,Hav,15.1.2,02010R1089-20231119
+MarineCirculationZone,sv,Marint strömningsområde,15.1.3,02010R1089-20231119
+InterTidalArea,sv,Tidvattenområde,15.1.4,02010R1089-20231119
+Shoreline,sv,Strandlinje,15.1.5,02010R1089-20231119
+Coastline,sv,Kustlinje,15.1.7,02010R1089-20231119
+MarineContour,sv,Marin kontur,15.1.8,02010R1089-20231119
+MarineLayer,sv,Marint skikt,15.1.9,02010R1089-20231119
+SeaBedArea,sv,Havsbotten,15.1.10,02010R1089-20231119
+SeaSurfaceArea,sv,Havsytområde,15.1.11,02010R1089-20231119
+MarineExtent,sv,Marin utbredning,15.2.1,02010R1089-20231119
+MarineIsoline,sv,Marin isolinje,15.2.2,02010R1089-20231119
+ParameterValuePair,sv,Parametervärdepar,15.2.3,02010R1089-20231119
+ShoreSegment,sv,Strandremsa,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,sv,Klassificeringstyp av havsområde,15.3.1,02010R1089-20231119
+SeaBedCoverValue,sv,Havsbottenyttäcke,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,sv,Klassificering av havsyta,15.3.3,02010R1089-20231119
+ShoreStabilityValue,sv,Strandstabilitet,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,sv,Klassificering av strandtyp,15.3.5,02010R1089-20231119
+ZoneTypeValue,sv,Områdestyp,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,sv,Regionens klassificeringsnivå,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,sv,Regionens klassificeringssystem,16.2.2,02010R1089-20231119
+RegionClassificationValue,sv,Regionklassificering,16.2.3,02010R1089-20231119
+Habitat,sv,Livsmiljö,17.2.1,02010R1089-20231119
+HabitatSpeciesType,sv,Artförekomst,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,sv,Naturtypens täckning,17.3.2,02010R1089-20231119
+HabitatVegetationType,sv,Vegetationstyp,17.3.3,02010R1089-20231119
+LocalNameType,sv,Lokal namntyp,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,sv,Kvalificerare lokalt namn,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,sv,Referenskod för naturtyp,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,sv,Referenstypschema för naturtyp,17.4.3,02010R1089-20231119
+LocalNameCodeValue,sv,Kod för lokalt namn,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,sv,Datamängd för arters utbredning,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,sv,Enhet för arters utbredning,18.2.2,02010R1089-20231119
+DistributionInfoType,sv,Information om utbredning,18.3.1,02010R1089-20231119
+PopulationSizeType,sv,Populationsstorlekstyp,18.3.2,02010R1089-20231119
+SpeciesNameType,sv,Artnamn,18.3.4,02010R1089-20231119
+CountingMethodValue,sv,Räkningsmetod,18.4.1,02010R1089-20231119
+CountingUnitValue,sv,Räkningsenhet,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,sv,Kod för lokalt artnamn,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,sv,Förekomstkategori,18.4.4,02010R1089-20231119
+PopulationTypeValue,sv,Populationstyp,18.4.5,02010R1089-20231119
+QualifierValue,sv,Kvalificerare,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,sv,Referensartkod,18.4.7,02010R1089-20231119
+ReferenceSpeciesSchemeValue,sv,Värde för referensartschema,18.4.8,02010R1089-20231119
+ResidencyStatusValue,sv,Etableringsstatus,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,sv,Värdemängdstyp vertikal utbredning,19.3.1.1,02010R1089-20231119
+VerticalExtentType,sv,Vertikal utbredningstyp,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,sv,Vertikalt utbredningsvärde,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,sv,Ram för klassificering och kvantifiering,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,sv,Fossilt bränsleklass,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,sv,Förnybara och avfall,19.3.2.3,02010R1089-20231119
+FossilFuelValue,sv,Fossilt bränsle,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,sv,Vertikal referens,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,sv,Vektorenergiresurs,19.4.1.1,02010R1089-20231119
+FossilFuelResource,sv,Fossilt bränsleresurs,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,sv,Förnybara resurser och avfallsresurser,19.4.1.3,02010R1089-20231119
+CalorificRangeType,sv,Typ av värmevärdemängd,19.4.2.1,02010R1089-20231119
+CalorificValueType,sv,Värmevärdetyp,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,sv,Utvinningsperiodstyp,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,sv,Fossilt bränslemätvärde,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,sv,Fossil bränsleresurstyp,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,sv,Yttäcke förnybara resurser och avfallspotential,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,sv,Potentialtyp,19.5.2.1,02010R1089-20231119
+EarthResource,sv,Naturresurs,20.3.1.1,02010R1089-20231119
+MineralOccurrence,sv,Mineralförekomst,20.3.1.2,02010R1089-20231119
+Commodity,sv,Råvara,20.3.1.3,02010R1089-20231119
+ExplorationActivity,sv,Prospektering,20.3.1.4,02010R1089-20231119
+MiningFeature,sv,Gruvföreteelse,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,sv,Förekomst av gruvföreteelse,20.3.1.6,02010R1089-20231119
+Mine,sv,Gruva,20.3.1.7,02010R1089-20231119
+MiningActivity,sv,Gruvdrift,20.3.1.8,02010R1089-20231119
+CommodityMeasure,sv,Råvarumätvärde,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,sv,Naturresursdimension,20.3.2.2,02010R1089-20231119
+Endowment,sv,Ursprunglig förekomst,20.3.2.3,02010R1089-20231119
+MineName,sv,Gruvans namn,20.3.2.4,02010R1089-20231119
+MineralDepositModel,sv,Mineralfyndighetsmodell,20.3.2.5,02010R1089-20231119
+OreMeasure,sv,Malmmätvärde,20.3.2.6,02010R1089-20231119
+Reserve,sv,Reserv,20.3.2.7,02010R1089-20231119
+Resource,sv,Resurs,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,sv,Använd klassificeringsmetod,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,sv,Råvarukod,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,sv,Slutanvändningspotential,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,sv,Prospekteringstyp,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,sv,Prospekteringsresultat,20.3.3.5,02010R1089-20231119
+ImportanceValue,sv,Betydelse,20.3.3.6,02010R1089-20231119
+MineStatusValue,sv,Gruvstatus,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,sv,Mineralfyndighetsgrupp,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,sv,Mineralfyndighetstyp,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,sv,Mineralförekomsttyp,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,sv,Gruvdriftstyp,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,sv,Bearbetningstyp,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,sv,Reservkategori,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,sv,Tillgångskategori,20.3.3.14,02010R1089-20231119
