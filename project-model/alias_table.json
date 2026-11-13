@@ -197,6 +197,12 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-acceptance-inspire-regulation": {
+    "active": true,
+    "id": "0f87-6af7-2e4f-67a4",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-acceptance-public-build": {
     "active": true,
     "id": "0f87-6af6-020e-d691",

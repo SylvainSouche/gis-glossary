@@ -436,3 +436,25 @@ Bokmål known-item search stays usable (0.89, ratio 0.95); Norwegian theme searc
   "not measured on realistic data".
 - Slovak (0.67 ratio), Slovenian and Bulgarian remain the weakest; their GEMET labels are present,
   so the gap is in potion's own vocabulary for these languages.
+
+## Results, with the INSPIRE regulation names (2026-11-13)
+
+Run 43443283003 on `main` (commit c153a7e): public build with the official names from
+Regulation 1089/2010 in 15 languages, exported with the 336 tested INSPIRE feature types held
+out (`export_lexicon.py --holdout`). The OpenStreetMap schema was loaded after this run.
+
+| Test | This run | With GEMET (run 43415579509) | BGE-M3 |
+|---|---:|---:|---:|
+| Norwegian theme search, hybrid P@10 | **0.61** | 0.58 | 0.57 |
+| Norwegian theme search, + concepts P@10 | 0.46 | 0.44 | |
+| Bokmål known-item, hybrid R@10 | 0.90 (162 records) | 0.89 (167) | 0.92 |
+| Icelandic theme search, hybrid P@10 | 0.28 | 0.28 | 0.11 |
+| INSPIRE concepts, hybrid R@10, 12 EU languages | 0.40 to 0.60 | 0.40 to 0.59 | 0.52 to 0.63 |
+
+**Reading:**
+
+- With the tested feature types held out, the INSPIRE scores move by at most 0.01 either way,
+  which is noise: the hold-out works, and the score stays a fair measure.
+- On real Norwegian records the regulation helps: theme search rises to 0.61, 6 % above BGE-M3,
+  mostly through *Base maps* (hybrid 0.4 → 0.7), where official names of transport, address and
+  administrative-unit types meet catalogue wording.
