@@ -9,7 +9,7 @@ test**); it takes about an hour on a GitHub runner.
 | `acceptance.py` | The test: fetches records, embeds them, scores four methods |
 | `corpus.tsv` | INSPIRE feature concepts in the EU languages, English name as query |
 | `themes_no.tsv` | The 18 Geonorge national themes, Norwegian name and English name |
-| `lexicon.tsv.xz` | Not in git: exported by `tools/export_lexicon.py` from the glossary build |
+| `lexicon.tsv.xz` | Not in git: exported by `tools/export_lexicon.py --holdout corpus.tsv`, which leaves out the INSPIRE regulation names of the feature types tested here |
 
 Records come live from Geonorge (Norway) and the LMI catalogue (Iceland). Pass marks and
 results are in [docs/evaluations/embedding-tests.md](../../docs/evaluations/embedding-tests.md):

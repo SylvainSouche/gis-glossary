@@ -1,0 +1,734 @@
+key,language,label,section,act
+Identifier,pl,Identyfikator,2.1,02010R1089-20231119
+RelatedParty,pl,Podmiot powiązany,2.2,02010R1089-20231119
+Contact,pl,Kontakt,2.3,02010R1089-20231119
+DocumentCitation,pl,Cytat z dokumentu,2.4,02010R1089-20231119
+LegislationCitation,pl,Cytat z prawodawstwa,2.5,02010R1089-20231119
+OfficialJournalInformation,pl,Informacje dotyczące dziennika urzędowego,2.6,02010R1089-20231119
+ThematicIdentifier,pl,Identyfikator tematyczny,2.7,02010R1089-20231119
+VerticalPositionValue,pl,Położenie pionowe,4.1,02010R1089-20231119
+ConditionOfFacilityValue,pl,Stan elementu sieci,4.2,02010R1089-20231119
+CountryCode,pl,Kod kraju,4.3,02010R1089-20231119
+LegislationLevelValue,pl,Szczebel prawodawstwa,4.4,02010R1089-20231119
+PartyRoleValue,pl,Rola podmiotu,4.5,02010R1089-20231119
+CFStandardNamesValue,pl,Standardowe nazwy w zakresie klimatu i prognozowania,4.6,02010R1089-20231119
+GenderValue,pl,Płeć,4.7,02010R1089-20231119
+CrossReference,pl,Wzajemne odniesienie,5.1.1,02010R1089-20231119
+GeneralisedLink,pl,Połączenie uogólnione,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,pl,Skrzyżowanie wielopoziomowe,5.1.3,02010R1089-20231119
+Link,pl,Połączenie,5.1.4,02010R1089-20231119
+LinkSequence,pl,Sekwencja połączeń,5.1.5,02010R1089-20231119
+LinkSet,pl,Zbiór połączeń,5.1.6,02010R1089-20231119
+Network,pl,Sieć,5.1.7,02010R1089-20231119
+NetworkArea,pl,Obszar sieci,5.1.8,02010R1089-20231119
+NetworkConnection,pl,Powiązanie sieci,5.1.9,02010R1089-20231119
+NetworkElement,pl,Element sieci,5.1.10,02010R1089-20231119
+NetworkProperty,pl,Własność sieci,5.1.11,02010R1089-20231119
+Node,pl,Węzeł,5.1.12,02010R1089-20231119
+DirectedLink,pl,Połączenie skierowane,5.2.1,02010R1089-20231119
+LinkReference,pl,Odniesienie do połączenia,5.2.2,02010R1089-20231119
+NetworkReference,pl,Odniesienie do sieci,5.2.3,02010R1089-20231119
+SimpleLinearReference,pl,Proste odniesienie liniowe,5.2.4,02010R1089-20231119
+SimplePointReference,pl,Proste odniesienie punktowe,5.2.5,02010R1089-20231119
+ConnectionTypeValue,pl,Typ powiązania,5.3.1,02010R1089-20231119
+LinkDirectionValue,pl,Kierunek połączenia,5.3.2,02010R1089-20231119
+Podstawa,pl,Pokrycia,6.1,02010R1089-20231119
+Coverage,pl,Pokrycie,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,pl,Pokrycie (Reprezentacja dziedziny i zakresu),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,pl,Zrektyfikowane pokrycie siatkowe,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,pl,Transformowalne pokrycie siatkowe,6.2.1.3,02010R1089-20231119
+CoverageFunction,pl,Funkcja pokrycia,6.2.2.1,02010R1089-20231119
+GridFunction,pl,Funkcja siatki,6.2.2.2,02010R1089-20231119
+ObservationSet,pl,Zbiór obserwacji,7.1.1.1,02010R1089-20231119
+Process,pl,Proces,7.2.1.1,02010R1089-20231119
+ProcessParameter,pl,Parametr procesu,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,pl,Nazwa parametru procesu,7.2.3.1,02010R1089-20231119
+Constraint,pl,Ograniczenie,7.3.1.1,02010R1089-20231119
+CategoryConstraint,pl,Ograniczenie kategorii,7.3.1.2,02010R1089-20231119
+RangeConstraint,pl,Ograniczenie zakresu,7.3.1.3,02010R1089-20231119
+RangeBounds,pl,Granice zakresu,7.3.1.4,02010R1089-20231119
+ScalarConstraint,pl,Ograniczenie wielkości skalarnej,7.3.1.5,02010R1089-20231119
+OtherConstraint,pl,Inne ograniczenie,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,pl,Miara statystyczna,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,pl,Abstrakcyjne obserwowalne właściwości,7.3.1.8,02010R1089-20231119
+CompositeObservableProperty,pl,Złożona obserwowalna właściwość,7.3.1.9,02010R1089-20231119
+ObservableProperty,pl,Obserwowalna właściwość,7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,pl,Typ zjawiska,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,pl,Typ funkcji statystycznej,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,pl,Operator porównania,7.3.3.3,02010R1089-20231119
+GridObservation,pl,Obserwacja siatki,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,pl,Obserwacja serii siatek,7.4.1.2,02010R1089-20231119
+PointObservation,pl,Obserwacja punktowa,7.4.1.3,02010R1089-20231119
+PointObservationCollection,pl,Zbiór obserwacji punktowych,7.4.1.4,02010R1089-20231119
+MultiPointObservation,pl,Obserwacja wielopunktowa,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,pl,Obserwacja punktów szeregu czasowego,7.4.1.6,02010R1089-20231119
+ProfileObservation,pl,Obserwacja profilu,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,pl,Obserwacja trajektorii,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,pl,"Trójka czasu, lokalizacji i wartości",7.4.2.1,02010R1089-20231119
+ActivityComplex,pl,Kompleks prowadzenia działalności,8.1.1.1,02010R1089-20231119
+Function,pl,Funkcja,8.1.2.1,02010R1089-20231119
+Capacity,pl,Zdolność,8.1.2.2,02010R1089-20231119
+InputOutputAmount,pl,Wielkość nakładów lub wyników,8.1.2.3,02010R1089-20231119
+Permission,pl,Zezwolenie,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,pl,Opis kompleksu prowadzenia działalności,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,pl,Działalność gospodarcza,8.1.3.1,02010R1089-20231119
+InputOutputValue,pl,Nakłady lub wyniki,8.1.3.2,02010R1089-20231119
+NamedPlace,pl,Nazwane miejsce,3.1.1,02010R1089-20231119
+GeographicalName,pl,Nazwa geograficzna,3.2.1,02010R1089-20231119
+PronunciationOfName,pl,Wymowa nazwy,3.2.2,02010R1089-20231119
+SpellingOfName,pl,Pisownia nazwy,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,pl,Rodzaj gramatyczny,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,pl,Liczba gramatyczna,3.3.2,02010R1089-20231119
+NameStatusValue,pl,Status nazwy,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,pl,Typ nazwanego miejsca,3.3.4,02010R1089-20231119
+NativenessValue,pl,Lokalny charakter,3.3.5,02010R1089-20231119
+AdministrativeBoundary,pl,Granica administracyjna,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,pl,Jednostka administracyjna,4.2.1.2,02010R1089-20231119
+Condominium,pl,Kondominium,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,pl,Siedziba organu,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,pl,Poziomy hierarchii administracyjnej,4.2.4.1,02010R1089-20231119
+LegalStatusValue,pl,Status prawny,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,pl,Status techniczny,4.2.4.3,02010R1089-20231119
+Baseline,pl,Linia podstawowa,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,pl,Granica morska,4.3.1.2,02010R1089-20231119
+MaritimeZone,pl,Obszar morski,4.3.1.3,02010R1089-20231119
+BaselineSegment,pl,Odcinek linii podstawowej,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,pl,Typ odcinka linii podstawowej,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,pl,Typ tego obszaru morskiego,4.3.3.2,02010R1089-20231119
+Address,pl,Adres,5.2.1,02010R1089-20231119
+AddressAreaName,pl,Nazwa obszaru adresowego,5.2.2,02010R1089-20231119
+AddressComponent,pl,Składnik adresu,5.2.3,02010R1089-20231119
+AdminUnitName,pl,Nazwa jednostki administracyjnej,5.2.4,02010R1089-20231119
+PostalDescriptor,pl,Deskryptor pocztowy,5.2.5,02010R1089-20231119
+ThoroughfareName,pl,Nazwa drogi przelotowej,5.2.6,02010R1089-20231119
+AddressLocator,pl,Lokalizator adresu,5.3.1,02010R1089-20231119
+AddressRepresentation,pl,Reprezentacja adresu,5.3.2,02010R1089-20231119
+GeographicPosition,pl,Położenie geograficzne,5.3.3,02010R1089-20231119
+LocatorDesignator,pl,Oznaczenie lokalizatora,5.3.4,02010R1089-20231119
+LocatorName,pl,Nazwa lokalizatora,5.3.5,02010R1089-20231119
+PartOfName,pl,Część nazwy,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,pl,Wartość nazwy drogi przelotowej,5.3.7,02010R1089-20231119
+GeometryMethodValue,pl,Metoda geometrii,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,pl,Specyfikacja geometrii,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,pl,Typ oznaczenia lokalizatora,5.4.3,02010R1089-20231119
+LocatorLevelValue,pl,Poziom lokalizatora,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,pl,Typ nazwy lokalizatora,5.4.5,02010R1089-20231119
+PartTypeValue,pl,Typ części,5.4.6,02010R1089-20231119
+StatusValue,pl,Status,5.4.7,02010R1089-20231119
+BasicPropertyUnit,pl,Podstawowa jednostka własności,6.1.1,02010R1089-20231119
+CadastralBoundary,pl,Granica katastralna,6.1.2,02010R1089-20231119
+CadastralParcel,pl,Działka katastralna,6.1.3,02010R1089-20231119
+CadastralZoning,pl,Obszar katastralny,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,pl,Poziom obszaru katastralnego,6.2.1,02010R1089-20231119
+AccessRestriction,pl,Ograniczenie dostępu,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,pl,Stan elementu sieci,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,pl,Organ utrzymujący,7.3.1.3,02010R1089-20231119
+MarkerPost,pl,Słupek kilometrowy,7.3.1.4,02010R1089-20231119
+OwnerAuthority,pl,Organ właścicielski,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,pl,Ograniczenie dla pojazdów,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,pl,Kierunek przepływu ruchu,7.3.1.7,02010R1089-20231119
+TransportArea,pl,Obszar transportowy,7.3.1.8,02010R1089-20231119
+TransportLink,pl,Połączenie transportowe,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,pl,Sekwencja połączeń transportowych,7.3.1.10,02010R1089-20231119
+TransportLinkSet,pl,Zbiór połączeń transportowych,7.3.1.11,02010R1089-20231119
+TransportNetwork,pl,Sieć transportowa,7.3.1.12,02010R1089-20231119
+TransportNode,pl,Węzeł transportowy,7.3.1.13,02010R1089-20231119
+TransportObject,pl,Obiekt transportowy,7.3.1.14,02010R1089-20231119
+TransportPoint,pl,Punkt transportowy,7.3.1.15,02010R1089-20231119
+TransportProperty,pl,Własność transportu,7.3.1.16,02010R1089-20231119
+VerticalPosition,pl,Położenie pionowe,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,pl,Ograniczenie dostępu,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,pl,Typ ograniczenia,7.3.3.2,02010R1089-20231119
+TransportTypeValue,pl,Typ transportu,7.3.3.3,02010R1089-20231119
+AerodromeArea,pl,Obszar lotniska,7.4.1.1,02010R1089-20231119
+AerodromeCategory,pl,Kategoria lotniska,7.4.1.2,02010R1089-20231119
+AerodromeNode,pl,Węzeł lotniska,7.4.1.3,02010R1089-20231119
+AerodromeType,pl,Typ lotniska,7.4.1.4,02010R1089-20231119
+AirLink,pl,Połączenie lotnicze,7.4.1.5,02010R1089-20231119
+AirLinkSequence,pl,Sekwencja połączeń lotniczych,7.4.1.6,02010R1089-20231119
+AirNode,pl,Węzeł lotniczy,7.4.1.7,02010R1089-20231119
+AirRoute,pl,Trasa lotnicza,7.4.1.8,02010R1089-20231119
+AirRouteLink,pl,Połączenie w trasie lotniczej,7.4.1.9,02010R1089-20231119
+AirspaceArea,pl,Obszar przestrzeni powietrznej,7.4.1.10,02010R1089-20231119
+ApronArea,pl,Obszar płyty postojowej,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,pl,Stan elementu sieci transportu lotniczego,7.4.1.12,02010R1089-20231119
+DesignatedPoint,pl,Punkt wskazany,7.4.1.13,02010R1089-20231119
+ElementLength,pl,Długość elementu,7.4.1.14,02010R1089-20231119
+ElementWidth,pl,Szerokość elementu,7.4.1.15,02010R1089-20231119
+FieldElevation,pl,Wzniesienie lotniska,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,pl,Procedura podejścia według wskazań przyrządów,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,pl,Dolna granica wysokości bezwzględnej,7.4.1.18,02010R1089-20231119
+Navaid,pl,Pomoc nawigacyjna,7.4.1.19,02010R1089-20231119
+ProcedureLink,pl,Połączenie procedury,7.4.1.20,02010R1089-20231119
+RunwayArea,pl,Obszar drogi startowej,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,pl,Punkt linii centralnej drogi startowej,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,pl,Standardowy przylot według wskazań przyrządów,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,pl,Standardowy odlot według wskazań przyrządów,7.4.1.24,02010R1089-20231119
+SurfaceComposition,pl,Rodzaj nawierzchni,7.4.1.25,02010R1089-20231119
+TaxiwayArea,pl,Obszar drogi kołowania,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,pl,Strefa przyziemienia i wzlotu,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,pl,Górna granica wysokości bezwzględnej,7.4.1.28,02010R1089-20231119
+UseRestriction,pl,Ograniczenie wykorzystania,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,pl,Kategoria lotniska,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,pl,Typ lotniska,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,pl,Klasa połączenia w trasie lotniczej,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,pl,Typ trasy lotniczej,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,pl,Ograniczenie wykorzystania,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,pl,Typ obszaru przestrzeni powietrznej,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,pl,Typ pomocy nawigacyjnej,7.4.2.7,02010R1089-20231119
+PointRoleValue,pl,Funkcja punktu,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,pl,Typ drogi startowej,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,pl,Rodzaj nawierzchni,7.4.2.10,02010R1089-20231119
+CablewayLink,pl,Połączenie w sieci kolei linowej,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,pl,Sekwencja połączeń w sieci kolei linowej,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,pl,Zbiór połączeń w sieci kolei linowej,7.5.1.3,02010R1089-20231119
+CablewayNode,pl,Węzeł kolei linowej,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,pl,Typ kolei linowej,7.5.2.1,02010R1089-20231119
+DesignSpeed,pl,Prędkość projektowa,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,pl,Nominalna szerokość toru,7.6.1.2,02010R1089-20231119
+NumberOfTracks,pl,Liczba torów,7.6.1.3,02010R1089-20231119
+RailwayArea,pl,Obszar kolejowy,7.6.1.4,02010R1089-20231119
+RailwayElectrification,pl,Elektryfikacja kolei,7.6.1.5,02010R1089-20231119
+RailwayLine,pl,Linia kolejowa,7.6.1.6,02010R1089-20231119
+RailwayLink,pl,Połączenie kolejowe,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,pl,Sekwencja połączeń kolejowych,7.6.1.8,02010R1089-20231119
+RailwayNode,pl,Węzeł kolejowy,7.6.1.9,02010R1089-20231119
+RailwayStationArea,pl,Obszar dworca kolejowego,7.6.1.10,02010R1089-20231119
+RailwayStationCode,pl,Kod dworca kolejowego,7.6.1.11,02010R1089-20231119
+RailwayStationNode,pl,Węzeł dworca kolejowego,7.6.1.12,02010R1089-20231119
+RailwayType,pl,Typ kolei,7.6.1.13,02010R1089-20231119
+RailwayUse,pl,Wykorzystanie kolei,7.6.1.14,02010R1089-20231119
+RailwayYardArea,pl,Obszar stacji kolejowej,7.6.1.15,02010R1089-20231119
+RailwayYardNode,pl,Węzeł stacji kolejowej,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,pl,Rodzaj węzła kolejowego,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,pl,Typ kolei,7.6.3.2,02010R1089-20231119
+RailwayUseValue,pl,Wykorzystanie kolei,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,pl,Minimalna lub maksymalna liczba torów,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,pl,Kategoria szerokości toru,7.6.3.5,02010R1089-20231119
+ERoad,pl,Droga sieci międzynarodowej E,7.7.1.1,02010R1089-20231119
+FormOfWay,pl,Rodzaj drogi,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,pl,Klasyfikacja funkcjonalna dróg,7.7.1.3,02010R1089-20231119
+NumberOfLanes,pl,Liczba pasów ruchu,7.7.1.4,02010R1089-20231119
+Road,pl,Droga,7.7.1.5,02010R1089-20231119
+RoadArea,pl,Obszar drogi,7.7.1.6,02010R1089-20231119
+RoadLink,pl,Połączenie drogowe,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,pl,Sekwencja połączeń drogowych,7.7.1.8,02010R1089-20231119
+RoadName,pl,Nazwa drogi,7.7.1.9,02010R1089-20231119
+RoadNode,pl,Węzeł drogowy,7.7.1.10,02010R1089-20231119
+RoadServiceArea,pl,Obszar serwisu drogowego,7.7.1.11,02010R1089-20231119
+RoadServiceType,pl,Typ serwisu drogowego,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,pl,Kategoria nawierzchni dróg,7.7.1.13,02010R1089-20231119
+RoadWidth,pl,Szerokość drogi,7.7.1.14,02010R1089-20231119
+SpeedLimit,pl,Ograniczenie prędkości,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,pl,Obszar ruchu pojazdów,7.7.1.16,02010R1089-20231119
+AreaConditionValue,pl,Warunek związany z obszarem,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,pl,Rodzaj węzła drogowego,7.7.3.2,02010R1089-20231119
+FormOfWayValue,pl,Rodzaj drogi,7.7.3.3,02010R1089-20231119
+RoadPartValue,pl,Część drogi,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,pl,Typ serwisu drogowego,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,pl,Kategoria nawierzchni dróg,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,pl,Instalacja serwisowa,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,pl,Przyczyna ograniczenia prędkości,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,pl,Typ pojazdu,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,pl,Warunek pogodowy,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,pl,Klasyfikacja funkcjonalna dróg,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,pl,Minimalna lub maksymalna liczba pasów ruchu,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,pl,Charakter ograniczenia prędkości,7.7.3.13,02010R1089-20231119
+Beacon,pl,Znak nawigacyjny,7.8.1.1,02010R1089-20231119
+Buoy,pl,Boja,7.8.1.2,02010R1089-20231119
+CEMTClass,pl,Klasa EKMT,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,pl,Stan elementu sieci transportu wodnego,7.8.1.4,02010R1089-20231119
+FairwayArea,pl,Obszar toru wodnego,7.8.1.5,02010R1089-20231119
+FerryCrossing,pl,Przeprawa promowa,7.8.1.6,02010R1089-20231119
+FerryUse,pl,Rodzaj transportu promowego,7.8.1.7,02010R1089-20231119
+InlandWaterway,pl,Śródlądowa droga wodna,7.8.1.8,02010R1089-20231119
+MarineWaterway,pl,Morska droga wodna,7.8.1.9,02010R1089-20231119
+PortArea,pl,Obszar portu,7.8.1.10,02010R1089-20231119
+PortNode,pl,Węzeł portu,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,pl,Ograniczenie dla pojazdów wodnych,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,pl,System rozgraniczenia ruchu,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,pl,Obszar objęty systemem rozgraniczenia ruchu,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,pl,Skrzyżowanie w systemie rozgraniczenia ruchu,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,pl,Pas ruchu w systemie rozgraniczenia ruchu,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,pl,Rondo w systemie rozgraniczenia ruchu,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,pl,Separator w systemie rozgraniczenia ruchu,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,pl,Sekwencja połączeń wodnych,7.8.1.19,02010R1089-20231119
+WaterNode,pl,Węzeł wodny,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,pl,Kierunek przepływu transportu wodnego,7.8.1.21,02010R1089-20231119
+Waterway,pl,Droga wodna,7.8.1.22,02010R1089-20231119
+WaterwayLink,pl,Połączenie w drodze wodnej,7.8.1.23,02010R1089-20231119
+WaterwayNode,pl,Węzeł drogi wodnej,7.8.1.24,02010R1089-20231119
+FerryUseValue,pl,Rodzaj transportu promowego,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,pl,Rodzaj węzła drogi wodnej,7.8.3.2,02010R1089-20231119
+CEMTClassValue,pl,Klasa EKMT,7.8.3.3,02010R1089-20231119
+HydroObject,pl,Obiekt hydrograficzny,8.3.1.1,02010R1089-20231119
+HydroIdentifier,pl,Identyfikator hydrograficzny,8.3.2.1,02010R1089-20231119
+HydroNode,pl,Węzeł hydrograficzny,8.4.1.1,02010R1089-20231119
+WatercourseLink,pl,Połączenie w cieku wodnym,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,pl,Sekwencja połączeń w cieku wodnym,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,pl,Skrzyżowanie wielopoziomowe cieków wodnych,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,pl,Kategoria węzła wodnego,8.4.2.1,02010R1089-20231119
+Crossing,pl,Przejście,8.5.1.1,02010R1089-20231119
+DamOrWeir,pl,Zapora lub jaz,8.5.1.2,02010R1089-20231119
+DrainageBasin,pl,Zlewnia powierzchniowa,8.5.1.3,02010R1089-20231119
+Embankment,pl,Obwałowania,8.5.1.4,02010R1089-20231119
+Falls,pl,Wodospad,8.5.1.5,02010R1089-20231119
+FluvialPoint,pl,Punkt zmiany charakterystyki przepływu,8.5.1.6,02010R1089-20231119
+Ford,pl,Bród,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,pl,Istotny punkt hydrograficzny,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,pl,Linia rozgraniczająca wodę od lądu,8.5.1.11,02010R1089-20231119
+Lock,pl,Śluza,8.5.1.12,02010R1089-20231119
+ManMadeObject,pl,Obiekt sztuczny,8.5.1.13,02010R1089-20231119
+Rapids,pl,Bystrza,8.5.1.17,02010R1089-20231119
+RiverBasin,pl,Dorzecze,8.5.1.18,02010R1089-20231119
+Shore,pl,Brzeg,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,pl,Zabudowa linii brzegowej,8.5.1.20,02010R1089-20231119
+Sluice,pl,Przepust,8.5.1.21,02010R1089-20231119
+StandingWater,pl,Wody stojące,8.5.1.22,02010R1089-20231119
+SurfaceWater,pl,Wody powierzchniowe,8.5.1.23,02010R1089-20231119
+Watercourse,pl,Ciek wodny,8.5.1.24,02010R1089-20231119
+Wetland,pl,Teren podmokły,8.5.1.25,02010R1089-20231119
+HydroOrderCode,pl,Hydrograficzny kod porządkowy,8.5.2.1,02010R1089-20231119
+WidthRange,pl,Zakres szerokości,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,pl,Typ skrzyżowania,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,pl,Okresowość hydrologiczna,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,pl,Typ brzegu,8.5.4.4,02010R1089-20231119
+WaterLevelValue,pl,Poziom wody,8.5.4.5,02010R1089-20231119
+OriginValue,pl,Pochodzenie,8.5.4.6,02010R1089-20231119
+ProtectedSite,pl,Obszar chroniony,9.1.1,02010R1089-20231119
+DesignationType,pl,Typ oznaczenia,9.2.1,02010R1089-20231119
+DesignationSchemeValue,pl,Schemat oznaczenia,9.4.1,02010R1089-20231119
+DesignationValue,pl,Oznaczenie,9.4.2,02010R1089-20231119
+IUCNDesignationValue,pl,Oznaczenie IUCN,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,pl,Oznaczenie „National Monuments Record”,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,pl,Oznaczenie „Natura2000”,9.4.5,02010R1089-20231119
+RamsarDesignationValue,pl,Oznaczenie „Ramsar”,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,pl,Oznaczenie programu Unesco „Man And Biosphere”,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,pl,Oznaczenie światowego dziedzictwa Unesco,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,pl,Klasyfikacja obszaru chronionego,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,pl,Typ właściwości ukształtowania terenu,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,pl,Typ powierzchni,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,pl,Pokrycie siatkowe ukształtowania terenu,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,pl,Agregacja pokrycia siatkowego ukształtowania terenu,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,pl,Obiekt wektorowy ukształtowania terenu,1.5.1.1,02010R1089-20231119
+SpotElevation,pl,Punkt wysokościowy,1.5.1.2,02010R1089-20231119
+ContourLine,pl,Warstwica,1.5.1.3,02010R1089-20231119
+BreakLine,pl,Linia nieciągłości,1.5.1.4,02010R1089-20231119
+VoidArea,pl,Obszar wyłączony,1.5.1.5,02010R1089-20231119
+IsolatedArea,pl,Obszar izolowany,1.5.1.6,02010R1089-20231119
+ChartDatum,pl,Poziom odniesienia głębokości,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,pl,Typ linii nieciągłości,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,pl,Klasyfikacja punktów wysokościowych,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,pl,Typ punktu wysokościowego,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,pl,Typ warstwicy,1.5.4.4,02010R1089-20231119
+ElevationTIN,pl,TIN dla ukształtowania terenu,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,pl,Nomenklatura dotycząca pokrycia terenu,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,pl,Klasa pokrycia terenu,2.3.2.1,02010R1089-20231119
+LandCoverDataset,pl,Zbiór danych dotyczących pokrycia terenu,2.4.1.1,02010R1089-20231119
+LandCoverUnit,pl,Jednostka użytkowania terenu,2.4.1.2,02010R1089-20231119
+LandCoverObservation,pl,Obserwacja pokrycia terenu,2.4.2.1,02010R1089-20231119
+LandCoverValue,pl,Pokrycie terenu,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,pl,Pokrycie siatkowe pokrycia terenu,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,pl,Pokrycie ortoobrazowe,3.2.1,02010R1089-20231119
+MosaicElement,pl,Element mozaiki,3.2.2,02010R1089-20231119
+SingleMosaicElement,pl,Pojedynczy element mozaiki,3.2.3,02010R1089-20231119
+OrthoimageAggregation,pl,Agregacja ortoobrazów,3.3.1,02010R1089-20231119
+InterpolationMethodValue,pl,Metoda interpolacji,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,pl,Antropogeniczne wyróżnienie geomorfologiczne,4.2.1.1,02010R1089-20231119
+Borehole,pl,Odwiert,4.2.1.2,02010R1089-20231119
+Fold,pl,Fałd,4.2.1.3,02010R1089-20231119
+GeologicCollection,pl,Kolekcja danych geologicznych,4.2.1.4,02010R1089-20231119
+GeologicEvent,pl,Zdarzenie geologiczne,4.2.1.5,02010R1089-20231119
+GeologicFeature,pl,Wyróżnienie geologiczne,4.2.1.6,02010R1089-20231119
+GeologicStructure,pl,Struktura geologiczna,4.2.1.7,02010R1089-20231119
+GeologicUnit,pl,Jednostka geologiczna,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,pl,Wyróżnienie geomorfologiczne,4.2.1.9,02010R1089-20231119
+MappedFeature,pl,Wyróżnienie skartowane,4.2.1.10,02010R1089-20231119
+MappedInterval,pl,Odcinek zarejestrowany,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,pl,Naturalne wyróżnienie geomorfologiczne,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,pl,Struktura powstała w wyniku przemieszczenia na skutek ścinania,4.2.1.13,02010R1089-20231119
+CompositionPart,pl,Skład skały,4.2.2.1,02010R1089-20231119
+ThematicClass,pl,Klasa tematyczna,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,pl,Typ antropogenicznego obiektu geomorfologicznego,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,pl,Cel odwiertu,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,pl,Typ zbioru,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,pl,Rola części składowej,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,pl,Środowisko zdarzenia,4.2.3.5,02010R1089-20231119
+EventProcessValue,pl,Proces zachodzący w trakcie zdarzenia,4.2.3.6,02010R1089-20231119
+FaultTypeValue,pl,Typ uskoku,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,pl,Typ profilu fałdu,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,pl,Era geochronologiczna,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,pl,Typ jednostki geologicznej,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,pl,Aktywność geomorfologiczna,4.2.3.11,02010R1089-20231119
+LithologyValue,pl,Litologia,4.2.3.12,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,pl,Typ naturalnego obiektu geomorfologicznego,4.2.3.14,02010R1089-20231119
+ThematicClassValue,pl,Klasa tematyczna,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,pl,Klasyfikacja tematyczna,4.2.3.16,02010R1089-20231119
+Campaign,pl,Kampania,4.3.1.1,02010R1089-20231119
+GeophObject,pl,Obiekt geofizyczny,4.3.1.2,02010R1089-20231119
+GeophMeasurement,pl,Pomiar geofizyczny,4.3.1.3,02010R1089-20231119
+GeophObjectSet,pl,Zbiór obiektów geofizycznych,4.3.1.4,02010R1089-20231119
+GeophProfile,pl,Profil geofizyczny,4.3.1.5,02010R1089-20231119
+GeophStation,pl,Stacja geofizyczna,4.3.1.6,02010R1089-20231119
+GeophSwath,pl,Pas geofizyczny,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,pl,Typ kampanii,4.3.2.1,02010R1089-20231119
+NetworkNameValue,pl,Nazwa sieci,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,pl,Typ platformy,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,pl,Typ profilu,4.3.2.4,02010R1089-20231119
+StationRankValue,pl,Ranga stacji,4.3.2.5,02010R1089-20231119
+StationTypeValue,pl,Typ stacji,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,pl,Typ badania,4.3.2.7,02010R1089-20231119
+SwathTypeValue,pl,Typ pasa,4.3.2.8,02010R1089-20231119
+ActiveWell,pl,Studnia aktywna,4.4.1.1,02010R1089-20231119
+Aquiclude,pl,Środowisko nieprzepuszczalne,4.4.1.2,02010R1089-20231119
+Aquifer,pl,Środowisko wodonośne,4.4.1.3,02010R1089-20231119
+AquiferSystem,pl,System wodonośny,4.4.1.4,02010R1089-20231119
+Aquitard,pl,Środowisko słabo przepuszczalne,4.4.1.5,02010R1089-20231119
+GroundWaterBody,pl,Jednostka wód podziemnych,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,pl,Obiekt hydrogeologiczny,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,pl,Sztuczny obiekt hydrogeologiczny,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,pl,Naturalny obiekt hydrogeologiczny,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,pl,Jednostka hydrogeologiczna,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,pl,Powierzchnia hydrogeologiczna,4.4.2.1,02010R1089-20231119
+PiezometricState,pl,Stan piezometryczny,4.4.2.2,02010R1089-20231119
+QuantityValue,pl,Wartość liczbowa,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,pl,Rodzaj aktywnej studni,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,pl,Rodzaj ośrodka wodonośnego,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,pl,Rodzaj warstwy wodonośnej,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,pl,Stan wód podziemnych,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,pl,Hydrogeochemiczny rodzaj skały,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,pl,Rodzaj obiektu naturalnego,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,pl,Typ kodu statusu,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,pl,Okresowość wód,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,pl,Zasolenie wody,4.4.3.9,02010R1089-20231119
+StatisticalUnit,pl,Jednostka statystyczna,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,pl,Wektorowa jednostka statystyczna,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,pl,Powierzchniowa jednostka statystyczna,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,pl,Teselacja statystyczna,1.3.1.3,02010R1089-20231119
+Evolution,pl,Ewolucja,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,pl,Geometria wektorowej jednostki statystycznej,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,pl,Deskryptor geometrii,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,pl,Typ geometrii,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,pl,Typ ewolucji,1.3.3.2,02010R1089-20231119
+StatisticalFunctionTypeValue,pl,Typ jednostki statystycznej,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,pl,Komórka siatki statystycznej,1.4.1.1,02010R1089-20231119
+StatisticalGrid,pl,Siatka statystyczna,1.4.1.2,02010R1089-20231119
+GridPosition,pl,Położenie siatki,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,pl,Rozdzielczość siatki statystycznej,1.4.2.2,02010R1089-20231119
+AbstractConstruction,pl,Konstrukcja abstrakcyjna,2.3.1.1,02010R1089-20231119
+AbstractBuilding,pl,Budynek abstrakcyjny,2.3.1.2,02010R1089-20231119
+Building,pl,Budynek,2.3.1.3,02010R1089-20231119
+BuildingPart,pl,Część budynku,2.3.1.4,02010R1089-20231119
+CurrentUse,pl,Aktualne wykorzystanie,2.3.2.1,02010R1089-20231119
+DateOfEvent,pl,Data wydarzenia,2.3.2.2,02010R1089-20231119
+Elevation,pl,Wysokość,2.3.2.3,02010R1089-20231119
+ExternalReference,pl,Odniesienie zewnętrzne,2.3.2.4,02010R1089-20231119
+HeightAboveGround,pl,Wysokość nad powierzchnią terenu,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,pl,Geometria budynku 2D,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,pl,Charakter budynku,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,pl,Stan budowli,2.3.3.2,02010R1089-20231119
+CurrentUseValue,pl,Aktualne wykorzystanie,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,pl,Odniesienie do ukształtowania terenu,2.3.3.4,02010R1089-20231119
+HeightStatusValue,pl,Status wysokości,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,pl,Odniesienie do geometrii poziomej,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,pl,Geometria budynku 3D LoD,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,pl,Geometria budynku 3D LoD1,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DLoD2,pl,Geometria budynku 3D LoD2,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,pl,Profil referencyjny gleby,3.1.1,02010R1089-20231119
+ObservedSoilProfile,pl,Badany profil glebowy,3.1.2,02010R1089-20231119
+ProfileElement,pl,Fragment profilu,3.1.3,02010R1089-20231119
+SoilBody,pl,Kontur glebowy,3.1.4,02010R1089-20231119
+SoilDerivedObject,pl,Obiekt pochodzący z gleby,3.1.5,02010R1089-20231119
+SoilHorizon,pl,Poziom glebowy,3.1.6,02010R1089-20231119
+SoilLayer,pl,Warstwa gleby,3.1.7,02010R1089-20231119
+SoilPlot,pl,Stanowisko gleby,3.1.8,02010R1089-20231119
+SoilProfile,pl,Profil glebowy,3.1.9,02010R1089-20231119
+SoilSite,pl,Obszar badań gleby,3.1.10,02010R1089-20231119
+SoilThemeCoverage,pl,Parametr tematyczny gleby w formie pokrycia,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,pl,Opisowy parametr tematyczny gleby w formie pokrycia,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,pl,Występowanie referencyjnego profilu w konturze glebowym,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,pl,Typ oznaczenia poziomu genetycznego gleby wg klasyfikacji FAO,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,pl,Inny typ zapisu poziomu glebowego,3.2.3,02010R1089-20231119
+OtherSoilNameType,pl,Inna nazwa typu gleby,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,pl,Frakcja granulometryczna,3.2.5,02010R1089-20231119
+RangeType,pl,Zakres,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,pl,Opisowy parametr tematyczny związany z glebą,3.2.7,02010R1089-20231119
+SoilThemeParameterType,pl,Właściwość obszaru tematycznego gleby,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,pl,G kwalifikatora WRB,3.2.9,02010R1089-20231119
+WRBSoilNameType,pl,Nazwa gleby wg WRB,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,pl,Główny poziom glebowy wg klasyfikacji FAO,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,pl,Cecha towarzysząca wg FAO,3.3.2,02010R1089-20231119
+FAOPrimeValue,pl,Prim FAO,3.3.3,02010R1089-20231119
+OtherHorizonNotationTypeValue,pl,Inne oznaczenie poziomu glebowego,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,pl,Inna nazwa gleby,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,pl,Status procesu genezy warstwy gleby,3.3.6,02010R1089-20231119
+LayerTypeValue,pl,Rodzaj warstwy,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,pl,Nazwa parametru fragmentu profilu,3.3.8,02010R1089-20231119
+SoilInvestigationPurposeValue,pl,Cel badania gleby,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,pl,Typ stanowiska,3.3.11,02010R1089-20231119
+SoilSiteParameterNameValue,pl,Nazwa właściwości obszaru badań gleby,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,pl,Miejsce kwalifikatora WRB,3.3.14,02010R1089-20231119
+WRBQualifierValue,pl,Kwalifikatory WRB,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,pl,Grupy referencyjne gleby (RSG) WRB,3.3.16,02010R1089-20231119
+WRBSpecifierValue,pl,Przedrostki uściślające wg WRB,3.3.17,02010R1089-20231119
+HILUCSPercentage,pl,Odsetek HILUCS,4.3.1.1,02010R1089-20231119
+HILUCSPresence,pl,Występowanie kategorii HILUCS,4.3.1.2,02010R1089-20231119
+SpecificPercentage,pl,Odsetek występowania,4.3.1.3,02010R1089-20231119
+SpecificPresence,pl,Występowanie,4.3.1.4,02010R1089-20231119
+HILUCSValue,pl,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,pl,Klasyfikacja zagospodarowania przestrzennego,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,pl,Zbiór danych „Istniejące zagospodarowanie przestrzenne”,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,pl,Obiekt „Istniejące zagospodarowanie przestrzenne”,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,pl,Siatka istniejącego zagospodarowania przestrzennego,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,pl,Próbka istniejącego zagospodarowania przestrzennego,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,pl,Zbiór danych „Istniejące zagospodarowanie przestrzenne sprawdzone próbą terenową”,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,pl,Dokumentacja urzędowa,4.7.1.1,02010R1089-20231119
+SpatialPlan,pl,Plan zagospodarowania przestrzennego,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,pl,Regulacje dodatkowe,4.7.1.3,02010R1089-20231119
+ZoningElement,pl,Element strefy,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,pl,Mapa podkładowa,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,pl,Oznaczenie wymiarowania łańcuchem znaków,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,pl,Oznaczenie wymiarowania – wartości całkowite,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,pl,Oznaczenie wymiarowania – miara,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,pl,Oznaczenie wymiarowania – wartości będące liczbami rzeczywistymi,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,pl,Oznaczenie wymiarowania,4.7.2.6,02010R1089-20231119
+OrdinanceValue,pl,Zarządzenie,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,pl,Poziom planu zagospodarowania przestrzennego,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,pl,Etap procesu ogólny,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,pl,Charakter regulacji,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,pl,Nazwa typu planu,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,pl,Szczegółowe regulacje dodatkowe,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,pl,Regulacje dodatkowe,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,pl,Dane statystyczne dotyczące zdrowia,5.1.1,02010R1089-20231119
+Biomarker,pl,Biomarker,5.1.2,02010R1089-20231119
+Disease,pl,Choroba,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,pl,Statystyka ogólnego stanu zdrowia,5.1.4,02010R1089-20231119
+HealthServicesStatistic,pl,Statystyka usług zdrowotnych,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,pl,Miara środowiskowego uwarunkowania zdrowotnego,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,pl,Dane statystyczne na temat środowiskowych uwarunkowań zdrowotnych,5.1.7,02010R1089-20231119
+Age,pl,Wiek,5.2.1,02010R1089-20231119
+AgeRangeType,pl,Przedział wiekowy,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,pl,Parametr statystyczny biomarkera,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,pl,Metadane tematyczne dotyczące biomarkera,5.2.4,02010R1089-20231119
+BiomarkerType,pl,Typ biomarkera,5.2.5,02010R1089-20231119
+DiseaseMeasure,pl,Miara choroby,5.2.6,02010R1089-20231119
+ReferencePeriodType,pl,Okres odniesienia,5.2.7,02010R1089-20231119
+CODValue,pl,Przyczyna zgonu,5.3.1,02010R1089-20231119
+ChemicalValue,pl,Substancja chemiczna,5.3.2,02010R1089-20231119
+ComponentTypeValue,pl,Typ składnika środowiska wpływającego na zdrowie,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,pl,Typ miary choroby,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,pl,Typ środowiskowego uwarunkowania zdrowotnego,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,pl,Typ ogólnego stanu zdrowia,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,pl,Typ usług zdrowotnych,5.3.7,02010R1089-20231119
+ICDValue,pl,Międzynarodowa klasyfikacja chorób,5.3.8,02010R1089-20231119
+MatrixValue,pl,Matryca,5.3.9,02010R1089-20231119
+MediaTypeValue,pl,Typ nośnika w pomiarach środowiskowych uwarunkowań zdrowotnych,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,pl,Typ źródła hałasu,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,pl,Metoda agregacji statystycznej,5.3.12,02010R1089-20231119
+UtilityNetwork,pl,Sieć usług użyteczności publicznej,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,pl,Element sieci usług użyteczności publicznej,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,pl,Zbiór połączeń usług użyteczności publicznej,6.2.1.3,02010R1089-20231119
+UtilityLink,pl,Połączenie usług użyteczności publicznej,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,pl,Sekwencja połączeń usług użyteczności publicznej,6.2.1.5,02010R1089-20231119
+UtilityNode,pl,Węzeł usług użyteczności publicznej,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,pl,Zbiorczy węzeł usług użyteczności publicznej,6.2.1.7,02010R1089-20231119
+Appurtenance,pl,Wyposażenie dodatkowe,6.2.1.8,02010R1089-20231119
+Cabinet,pl,Szafka,6.2.1.9,02010R1089-20231119
+Cable,pl,Przewód,6.2.1.10,02010R1089-20231119
+Duct,pl,Kanał,6.2.1.11,02010R1089-20231119
+Manhole,pl,Właz,6.2.1.12,02010R1089-20231119
+Pipe,pl,Rurociąg,6.2.1.13,02010R1089-20231119
+Pole,pl,Słup,6.2.1.14,02010R1089-20231119
+Tower,pl,Wieża,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,pl,Typ wyposażenia dodatkowego,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,pl,Typ szczególnego wyposażenia dodatkowego,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,pl,Typ sposobu dostarczania usług użyteczności publicznej,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,pl,Typ sieci usług użyteczności publicznej,6.2.2.4,02010R1089-20231119
+WarningTypeValue,pl,Typ mechanizmu ostrzegawczego,6.2.2.5,02010R1089-20231119
+ElectricityCable,pl,Przewód elektroenergetyczny,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,pl,Typ wyposażenia dodatkowego elektrycznego,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,pl,"Rurociąg ropy naftowej, gazu i substancji chemicznych",6.4.1.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,pl,"Typ produktu „ropa naftowa, gaz i substancje chemiczne”",6.4.2.2,02010R1089-20231119
+SewerPipe,pl,Rurociąg kanalizacyjny,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,pl,Typ wyposażenia dodatkowego do kanalizacji,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,pl,Typ ścieków,6.5.2.2,02010R1089-20231119
+ThermalPipe,pl,Rurociąg ciepłowniczy,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,pl,Typ ciepłowniczego wyposażenia dodatkowego,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,pl,Typ produktu ciepłowniczego,6.6.2.2,02010R1089-20231119
+WaterPipe,pl,Wodociąg,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,pl,Typ wyposażenia dodatkowego do wody,6.7.2.1,02010R1089-20231119
+WaterTypeValue,pl,Podstawowe typy wody,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,pl,Urządzenie wspomagające zarządzanie środowiskiem,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,pl,Klasyfikacja urządzeń wspomagających zarządzanie środowiskiem,6.8.2.1,02010R1089-20231119
+GovernmentalService,pl,Służba państwowa,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,pl,Typ obszaru odpowiedzialności,6.9.2.1,02010R1089-20231119
+ServiceLocationType,pl,Typ lokalizacji służby,6.9.2.2,02010R1089-20231119
+ServiceTypeValue,pl,Typ służby,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,pl,Abstrakcyjny element monitorowania,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,pl,Abstrakcyjny obiekt monitorowania,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,pl,Działalność monitorowania środowiska,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,pl,Urządzenie do monitorowania środowiska,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,pl,Sieć monitorowania środowiska,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,pl,Program monitorowania środowiska,7.1.6,02010R1089-20231119
+ObservingCapability,pl,Zdolność obserwacyjna,7.1.7,02010R1089-20231119
+AnyDomainLink,pl,Dowolny odnośnik do dziedziny,7.2.1,02010R1089-20231119
+Hierarchy,pl,Hierarchia,7.2.2,02010R1089-20231119
+NetworkFacility,pl,Instrument sieci,7.2.3,02010R1089-20231119
+ReportToLegalAct,pl,Relacja do aktu prawnego,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,pl,Procedura pomiarowa,7.3.1,02010R1089-20231119
+MediaValue,pl,Nośniki,7.3.2,02010R1089-20231119
+ProcessTypeValue,pl,Typ procesu,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,pl,Cel zbierania,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,pl,Źródło pozyskiwania wyników,7.3.5,02010R1089-20231119
+ResultNatureValue,pl,Charakter wyników,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,pl,Specjalny typ EMF,7.3.7,02010R1089-20231119
+ProductionFacility,pl,Zakład produkcyjny,8.2.1,02010R1089-20231119
+ProductionInstallation,pl,Instalacja produkcyjna,8.2.2,02010R1089-20231119
+ProductionInstallationPart,pl,Część instalacji produkcyjnej,8.2.3,02010R1089-20231119
+ProductionSite,pl,Teren produkcji,8.2.4,02010R1089-20231119
+ProductionPlot,pl,Działka produkcyjna,8.2.5,02010R1089-20231119
+ProductionBuilding,pl,Budynek produkcyjny,8.2.6,02010R1089-20231119
+StatusType,pl,Typ statusu,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,pl,Technika redukcji zanieczyszczeń,8.4.1,02010R1089-20231119
+InstallationTypeValue,pl,Typ instalacji,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,pl,Typ części instalacji,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,pl,Obszar dorzecza rzeki,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,pl,Typ budynku produkcyjnego,8.4.5,02010R1089-20231119
+Holding,pl,Gospodarstwo,9.2.1,02010R1089-20231119
+Site,pl,Obszar,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,pl,Gatunki zwierząt gospodarskich,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,pl,Gatunki zwierząt gospodarskich,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,pl,Gatunki akwakultury,9.4.2,02010R1089-20231119
+StatisticalDistribution,pl,Rozkład statystyczny,10.1.1,02010R1089-20231119
+Classification,pl,Klasyfikacja,10.2.1,02010R1089-20231119
+ClassificationItem,pl,Element klasyfikacji,10.2.2,02010R1089-20231119
+StatisticalValue,pl,Wartość statystyczna,10.2.3,02010R1089-20231119
+Dimensions,pl,Wymiary,10.2.4,02010R1089-20231119
+ClassificationTypeValue,pl,Typ klasyfikacji,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,pl,Typ elementu klasyfikacji,10.3.2,02010R1089-20231119
+VariableValue,pl,Zmienna,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,pl,Metoda pomiaru statystycznego,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,pl,Status danych statystycznych,10.3.5,02010R1089-20231119
+SpecialValue,pl,Wartość specjalna,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,pl,"Strefa zarządzania, ograniczeń lub regulacji",11.2.1,02010R1089-20231119
+ZoneTypeCode,pl,Kod typu strefy,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,pl,Specjalny kod typu strefy,11.3.2,02010R1089-20231119
+EnvironmentalDomain,pl,Sektor środowiska,11.3.3,02010R1089-20231119
+AbstractExposedElement,pl,Abstrakcyjny typ „element narażony”,12.2.1,02010R1089-20231119
+AbstractHazardArea,pl,Abstrakcyjny typ „obszar zagrożenia”,12.2.2,02010R1089-20231119
+AbstractObservedEvent,pl,Abstrakcyjny typ „wydarzenie zaobserwowane”,12.2.3,02010R1089-20231119
+AbstractRiskZone,pl,Abstrakcyjny typ „strefa ryzyka”,12.2.4,02010R1089-20231119
+ExposedElementCoverage,pl,Pokrycie (coverage) „element narażony”,12.2.5,02010R1089-20231119
+ExposedElement,pl,Element narażony,12.2.6,02010R1089-20231119
+HazardArea,pl,Obszar zagrożenia,12.2.7,02010R1089-20231119
+HazardCoverage,pl,Pokrycie (coverage) „zagrożenie”,12.2.8,02010R1089-20231119
+ObservedEventCoverage,pl,Pokrycie (coverage) „wydarzenie zaobserwowane”,12.2.9,02010R1089-20231119
+ObservedEvent,pl,Wydarzenie zaobserwowane,12.2.10,02010R1089-20231119
+RiskCoverage,pl,Pokrycie (coverage) „ryzyko”,12.2.11,02010R1089-20231119
+RiskZone,pl,Strefa ryzyka,12.2.12,02010R1089-20231119
+ExposedElementClassification,pl,Klasyfikacja elementów narażonych,12.3.1,02010R1089-20231119
+LevelOrIntensity,pl,Poziom lub Intensywność,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,pl,Prawdopodobieństwo wystąpienia,12.3.3,02010R1089-20231119
+NaturalHazardClassification,pl,Klasyfikacja zagrożeń naturalnych,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,pl,Prawdopodobieństwo ilościowe,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,pl,Ocena wrażliwości,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,pl,Kategoria elementów narażonych,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,pl,Kategoria zagrożenia naturalnego,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,pl,Typ szczególnych elementów narażonych,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,pl,Typ szczególnych zagrożeń,12.5.4,02010R1089-20231119
+DeterminationMethodValue,pl,Metoda ustalania,12.5.5,02010R1089-20231119
+SeaArea,pl,Obszar morski,15.1.1,02010R1089-20231119
+Sea,pl,Morze,15.1.2,02010R1089-20231119
+MarineCirculationZone,pl,Morska strefa cyrkulacji,15.1.3,02010R1089-20231119
+InterTidalArea,pl,Strefa pływów,15.1.4,02010R1089-20231119
+Shoreline,pl,Wybrzeże,15.1.5,02010R1089-20231119
+Coastline,pl,Linia brzegowa,15.1.7,02010R1089-20231119
+MarineContour,pl,Obrys morski,15.1.8,02010R1089-20231119
+MarineLayer,pl,Warstwa morska,15.1.9,02010R1089-20231119
+SeaBedArea,pl,Obszar dna morza,15.1.10,02010R1089-20231119
+SeaSurfaceArea,pl,Obszar powierzchni morza,15.1.11,02010R1089-20231119
+MarineExtent,pl,Zasięg morski,15.2.1,02010R1089-20231119
+MarineIsoline,pl,Izolinia morska,15.2.2,02010R1089-20231119
+ParameterValuePair,pl,Para wartości parametru,15.2.3,02010R1089-20231119
+ShoreSegment,pl,Odcinek wybrzeża,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,pl,Klasyfikacja typów obszarów morskich,15.3.1,02010R1089-20231119
+SeaBedCoverValue,pl,Pokrycie dna morza,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,pl,Klasyfikacja powierzchni morza,15.3.3,02010R1089-20231119
+ShoreStabilityValue,pl,Stabilność wybrzeża,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,pl,Klasyfikacja typów wybrzeża,15.3.5,02010R1089-20231119
+ZoneTypeValue,pl,Typ strefy,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,pl,Poziom klasyfikacji regionu,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,pl,Schemat klasyfikacji regionu,16.2.2,02010R1089-20231119
+RegionClassificationValue,pl,Klasyfikacja regionu,16.2.3,02010R1089-20231119
+Habitat,pl,Siedlisko,17.2.1,02010R1089-20231119
+HabitatSpeciesType,pl,Typ gatunków siedliska,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,pl,Typ pokrycia typu siedliska,17.3.2,02010R1089-20231119
+HabitatVegetationType,pl,Typ roślinności siedliska,17.3.3,02010R1089-20231119
+LocalNameType,pl,Typ nazwy lokalnej,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,pl,Kwalifikator nazwy lokalnej,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,pl,Odniesienie do kodu typu siedliska,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,pl,Odniesienie do schematu typu siedliska,17.4.3,02010R1089-20231119
+LocalNameCodeValue,pl,Kod nazwy lokalnej,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,pl,Zbiór danych dotyczących rozmieszczenia gatunków,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,pl,Jednostka rozmieszczenia gatunków,18.2.2,02010R1089-20231119
+DistributionInfoType,pl,Typ danych dotyczących rozmieszczenia,18.3.1,02010R1089-20231119
+PopulationSizeType,pl,Typ wielkości populacji,18.3.2,02010R1089-20231119
+RangeType,pl,Typ zakresu,18.3.3,02010R1089-20231119
+SpeciesNameType,pl,Typ nazwy gatunku,18.3.4,02010R1089-20231119
+CountingMethodValue,pl,Metoda obliczeniowa,18.4.1,02010R1089-20231119
+CountingUnitValue,pl,Jednostka obliczeniowa,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,pl,Kod lokalnej nazwy gatunku,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,pl,Kategoria wystąpienia,18.4.4,02010R1089-20231119
+PopulationTypeValue,pl,Typ populacji,18.4.5,02010R1089-20231119
+QualifierValue,pl,Kwalifikator,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,pl,Kod referencyjny gatunku,18.4.7,02010R1089-20231119
+ReferenceSpeciesCodeValue,pl,Referencyjny schemat klasyfikacji gatunków,18.4.8,02010R1089-20231119
+ResidencyStatusValue,pl,Status obecności,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,pl,Typ zakresu zasięgu pionowego,19.3.1.1,02010R1089-20231119
+VerticalExtentType,pl,Typ zasięgu pionowego,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,pl,Wartość zasięgu pionowego,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,pl,Ramy klasyfikacji i oznaczania,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,pl,Klasa paliwa kopalnego,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,pl,Zasoby odnawialne i odpady będące zasobami energetycznymi,19.3.2.3,02010R1089-20231119
+FossilFuelValue,pl,Paliwo kopalne,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,pl,Odniesienie pionowe,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,pl,Zasób energetyczny w postaci wektorowej,19.4.1.1,02010R1089-20231119
+FossilFuelResource,pl,Zasób paliwa kopalnego,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,pl,Zasoby odnawialne i odpady będące zasobami energetycznymi,19.4.1.3,02010R1089-20231119
+CalorificRangeType,pl,Typ zakresu wartości opałowej,19.4.2.1,02010R1089-20231119
+CalorificValueType,pl,Typ wartości opałowej,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,pl,Typ okresu eksploatacji,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,pl,Miara paliwa kopalnego,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,pl,Typ zasobu paliwa kopalnego,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,pl,Potencjał zasobów odnawialnych i odpadów w formie pokrycia,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,pl,Typ potencjału,19.5.2.1,02010R1089-20231119
+EarthResource,pl,Złoże,20.3.1.1,02010R1089-20231119
+MineralOccurrence,pl,Wystąpienie minerału,20.3.1.2,02010R1089-20231119
+Commodity,pl,Surowiec,20.3.1.3,02010R1089-20231119
+ExplorationActivity,pl,Działalność poszukiwawcza,20.3.1.4,02010R1089-20231119
+MiningFeature,pl,Warunki wydobycia,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,pl,Wystąpienie warunków wydobycia,20.3.1.6,02010R1089-20231119
+Mine,pl,Kopalnia,20.3.1.7,02010R1089-20231119
+MiningActivity,pl,Działalność wydobywcza,20.3.1.8,02010R1089-20231119
+CommodityMeasure,pl,Miara surowca,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,pl,Wymiar złoża,20.3.2.2,02010R1089-20231119
+Endowment,pl,Zasobność złoża,20.3.2.3,02010R1089-20231119
+MineName,pl,Nazwa kopalni,20.3.2.4,02010R1089-20231119
+MineralDepositModel,pl,Model złoża mineralnego,20.3.2.5,02010R1089-20231119
+OreMeasure,pl,Miara rudy,20.3.2.6,02010R1089-20231119
+Reserve,pl,Zasoby eksploatacyjne,20.3.2.7,02010R1089-20231119
+Resource,pl,Zasoby w złożu,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,pl,Zastosowana metoda klasyfikacji,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,pl,Kod surowca,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,pl,Potencjał końcowy,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,pl,Typ działalności poszukiwawczej,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,pl,Wynik działalności poszukiwawczej,20.3.3.5,02010R1089-20231119
+ImportanceValue,pl,Znaczenie,20.3.3.6,02010R1089-20231119
+MineStatusValue,pl,Status kopalni,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,pl,Grupa złoża mineralnego,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,pl,Typ złoża mineralnego,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,pl,Typ wystąpienia minerałów,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,pl,Typ działalności wydobywczej,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,pl,Typ działalności przetwórczej,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,pl,Kategoria zasobów eksploatacyjnych,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,pl,Kategoria zasobów w złożu,20.3.3.14,02010R1089-20231119

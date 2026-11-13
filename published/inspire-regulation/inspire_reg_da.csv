@@ -1,0 +1,739 @@
+key,language,label,section,act
+Identifier,da,Id,2.1,02010R1089-20231119
+RelatedParty,da,Berørt part,2.2,02010R1089-20231119
+Contact,da,Kontakt,2.3,02010R1089-20231119
+DocumentCitation,da,Dokumenthenvisning,2.4,02010R1089-20231119
+LegislationCitation,da,Lovhenvisning,2.5,02010R1089-20231119
+OfficialJournalInformation,da,Oplysninger om lovtidende,2.6,02010R1089-20231119
+ThematicIdentifier,da,Tematisk id,2.7,02010R1089-20231119
+VerticalPositionValue,da,Vertikal position,4.1,02010R1089-20231119
+ConditionOfFacilityValue,da,Facilitetens tilstand,4.2,02010R1089-20231119
+CountryCode,da,Landekode,4.3,02010R1089-20231119
+LegislationLevelValue,da,Lovgivningsniveau,4.4,02010R1089-20231119
+PartyRoleValue,da,Partsrolle,4.5,02010R1089-20231119
+CFStandardNamesValue,da,Standardnavne for klima og prognoser,4.6,02010R1089-20231119
+GenderValue,da,Køn,4.7,02010R1089-20231119
+CrossReference,da,Krydsreference,5.1.1,02010R1089-20231119
+GeneralisedLink,da,Generel forbindelse,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,da,Skæring ude af niveau,5.1.3,02010R1089-20231119
+Link,da,Forbindelse,5.1.4,02010R1089-20231119
+LinkSequence,da,Forbindelsessekvens,5.1.5,02010R1089-20231119
+LinkSet,da,Forbindelsessæt,5.1.6,02010R1089-20231119
+Network,da,Netværk,5.1.7,02010R1089-20231119
+NetworkArea,da,Netværksområde,5.1.8,02010R1089-20231119
+NetworkConnection,da,Netværkstilslutning,5.1.9,02010R1089-20231119
+NetworkElement,da,Netværkselement,5.1.10,02010R1089-20231119
+NetworkProperty,da,Netværksegenskab,5.1.11,02010R1089-20231119
+Node,da,Knude,5.1.12,02010R1089-20231119
+DirectedLink,da,Retningsangivende forbindelse,5.2.1,02010R1089-20231119
+LinkReference,da,Forbindelsesreference,5.2.2,02010R1089-20231119
+NetworkReference,da,Netværksreference,5.2.3,02010R1089-20231119
+SimpleLinearReference,da,Enkel lineær reference,5.2.4,02010R1089-20231119
+SimplePointReference,da,Enkel punktreference,5.2.5,02010R1089-20231119
+ConnectionTypeValue,da,Forbindelsestype,5.3.1,02010R1089-20231119
+LinkDirectionValue,da,Forbindelsesretning,5.3.2,02010R1089-20231119
+Coverage,da,Dækning,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,da,Dækning (domæne- og intervalrepræsentation),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,da,Korrigeret kvadratnetdækning,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,da,Referencekvadratnetdækning,6.2.1.3,02010R1089-20231119
+CoverageFunction,da,Dækningsfunktion,6.2.2.1,02010R1089-20231119
+GridFunction,da,Kvadratnetfunktion,6.2.2.2,02010R1089-20231119
+ObservationSet,da,Observationssæt,7.1.1.1,02010R1089-20231119
+Process,da,Proces,7.2.1.1,02010R1089-20231119
+ProcessParameter,da,Procesparameter,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,da,Navn på procesparameter,7.2.3.1,02010R1089-20231119
+Constraint,da,Restriktion,7.3.1.1,02010R1089-20231119
+CategoryConstraint,da,Kategorirestriktion,7.3.1.2,02010R1089-20231119
+RangeConstraint,da,Intervalrestriktion,7.3.1.3,02010R1089-20231119
+RangeBounds,da,Intervalgrænser,7.3.1.4,02010R1089-20231119
+ScalarConstraint,da,Skalarrestriktion,7.3.1.5,02010R1089-20231119
+OtherConstraint,da,Anden restriktion,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,da,Statistisk mål,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,da,Abstrakt observerbar egenskab,7.3.1.8,02010R1089-20231119
+CompositeObservableProperty,da,Sammensat observerbar egenskab,7.3.1.9,02010R1089-20231119
+ObservableProperty,da,Observerbar egenskab,7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,da,Type fænomen,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,da,Type statistisk funktion,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,da,Sammenligningsoperator,7.3.3.3,02010R1089-20231119
+GridObservation,da,Kvadratnetobservation,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,da,Kvadratnetserieobservation,7.4.1.2,02010R1089-20231119
+PointObservation,da,Punktobservation,7.4.1.3,02010R1089-20231119
+PointObservationCollection,da,Samling af punktobservationer,7.4.1.4,02010R1089-20231119
+MultiPointObservation,da,Multipunktobservation,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,da,Punkttidsserieobservation,7.4.1.6,02010R1089-20231119
+ProfileObservation,da,Profilobservation,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,da,Trajektorieobservation,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,da,"En triplet af tid, lokalitet og værdi",7.4.2.1,02010R1089-20231119
+ActivityComplex,da,Aktivitetskompleks,8.1.1.1,02010R1089-20231119
+Function,da,Funktion,8.1.2.1,02010R1089-20231119
+Capacity,da,Kapacitet,8.1.2.2,02010R1089-20231119
+InputOutputAmount,da,Inputeller outputmængde,8.1.2.3,02010R1089-20231119
+Permission,da,Tilladelse,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,da,Beskrivelse af aktivitetskompleks,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,da,Økonomisk aktivitet,8.1.3.1,02010R1089-20231119
+InputOutputValue,da,Input eller output,8.1.3.2,02010R1089-20231119
+NamedPlace,da,Navngivet sted,3.1.1,02010R1089-20231119
+GeographicalName,da,Stednavn,3.2.1,02010R1089-20231119
+PronunciationOfName,da,Udtale af navn,3.2.2,02010R1089-20231119
+SpellingOfName,da,Stavning af navn,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,da,Grammatisk køn,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,da,Grammatisk tal,3.3.2,02010R1089-20231119
+NameStatusValue,da,Navnestatus,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,da,Type navngivet sted,3.3.4,02010R1089-20231119
+NativenessValue,da,Oprindelse,3.3.5,02010R1089-20231119
+AdministrativeBoundary,da,Administrativ grænse,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,da,Administrativ enhed,4.2.1.2,02010R1089-20231119
+Condominium,da,Kondominium,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,da,Hjemsted for myndighed,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,da,Administrativt hierarkiniveau,4.2.4.1,02010R1089-20231119
+LegalStatusValue,da,Retlig status,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,da,Teknisk status,4.2.4.3,02010R1089-20231119
+Baseline,da,Basislinje,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,da,Havgrænse,4.3.1.2,02010R1089-20231119
+MaritimeZone,da,Havområde,4.3.1.3,02010R1089-20231119
+BaselineSegment,da,Basislinjesegment,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,da,Type basislinjesegment,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,da,Type havområde,4.3.3.2,02010R1089-20231119
+Address,da,Adresse,5.2.1,02010R1089-20231119
+AddressAreaName,da,Adresseområdenavn,5.2.2,02010R1089-20231119
+AddressComponent,da,Adressekomponent,5.2.3,02010R1089-20231119
+AdminUnitName,da,Navn på administrativ enhed,5.2.4,02010R1089-20231119
+PostalDescriptor,da,Postdeskriptor,5.2.5,02010R1089-20231119
+ThoroughfareName,da,Navn på færdselsåre,5.2.6,02010R1089-20231119
+AddressLocator,da,Adresselokalisator,5.3.1,02010R1089-20231119
+AddressRepresentation,da,Adresserepræsentation,5.3.2,02010R1089-20231119
+GeographicPosition,da,Geografisk position,5.3.3,02010R1089-20231119
+LocatorDesignator,da,Lokalisatordesignator,5.3.4,02010R1089-20231119
+LocatorName,da,Lokalisatornavn,5.3.5,02010R1089-20231119
+PartOfName,da,Del af navn,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,da,Værdi for færdselsårenavn,5.3.7,02010R1089-20231119
+GeometryMethodValue,da,Geometrimetode,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,da,Geometrispecifikation,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,da,Lokalisatordesignatortype,5.4.3,02010R1089-20231119
+LocatorLevelValue,da,Lokalisatorniveau,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,da,Lokalisatornavnetype,5.4.5,02010R1089-20231119
+PartTypeValue,da,Deltype,5.4.6,02010R1089-20231119
+StatusValue,da,Status,5.4.7,02010R1089-20231119
+BasicPropertyUnit,da,Basisejendomsenhed,6.1.1,02010R1089-20231119
+CadastralBoundary,da,Matrikulær grænse,6.1.2,02010R1089-20231119
+CadastralParcel,da,Matrikulær parcel,6.1.3,02010R1089-20231119
+CadastralZoning,da,Matrikulær zoneinddeling,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,da,Matrikulært zoneinddelingsniveau,6.2.1,02010R1089-20231119
+AccessRestriction,da,Adgangsbegrænsning,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,da,Facilitetens tilstand,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,da,Vedligeholdelsesmyndighed,7.3.1.3,02010R1089-20231119
+MarkerPost,da,Kantpæl,7.3.1.4,02010R1089-20231119
+OwnerAuthority,da,Ejermyndighed,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,da,Begrænsning for køretøjer,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,da,Retning for færdselsstrøm,7.3.1.7,02010R1089-20231119
+TransportArea,da,Transportområde,7.3.1.8,02010R1089-20231119
+TransportLink,da,Transportforbindelse,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,da,Transportforbindelsessekvens,7.3.1.10,02010R1089-20231119
+TransportLinkSet,da,Transportforbindelsessæt,7.3.1.11,02010R1089-20231119
+TransportNetwork,da,Transportnet,7.3.1.12,02010R1089-20231119
+TransportNode,da,Transportknude,7.3.1.13,02010R1089-20231119
+TransportObject,da,Transportobjekt,7.3.1.14,02010R1089-20231119
+TransportPoint,da,Transportpunkt,7.3.1.15,02010R1089-20231119
+TransportProperty,da,Transportegenskab,7.3.1.16,02010R1089-20231119
+VerticalPosition,da,Vertikal position,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,da,Adgangsbegrænsning,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,da,Begrænsningstype,7.3.3.2,02010R1089-20231119
+TransportTypeValue,da,Transporttype,7.3.3.3,02010R1089-20231119
+AerodromeArea,da,Flyvepladsområde,7.4.1.1,02010R1089-20231119
+AerodromeCategory,da,Flyvepladskategori,7.4.1.2,02010R1089-20231119
+AerodromeNode,da,Flyvepladsknude,7.4.1.3,02010R1089-20231119
+AerodromeType,da,Flyvepladstype,7.4.1.4,02010R1089-20231119
+AirLink,da,Luftfartsforbindelse,7.4.1.5,02010R1089-20231119
+AirLinkSequence,da,Luftfartsforbindelsessekvens,7.4.1.6,02010R1089-20231119
+AirNode,da,Luftfartsknude,7.4.1.7,02010R1089-20231119
+AirRoute,da,Luftrute,7.4.1.8,02010R1089-20231119
+AirRouteLink,da,Luftruteforbindelse,7.4.1.9,02010R1089-20231119
+AirspaceArea,da,Luftrumsområde,7.4.1.10,02010R1089-20231119
+ApronArea,da,Forpladsområde,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,da,Luftfartsfacilitetens tilstand,7.4.1.12,02010R1089-20231119
+DesignatedPoint,da,Angivet punkt,7.4.1.13,02010R1089-20231119
+ElementLength,da,Elementlængde,7.4.1.14,02010R1089-20231119
+ElementWidth,da,Elementbredde,7.4.1.15,02010R1089-20231119
+FieldElevation,da,Områdets højde over havets overflade,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,da,Instrumentindflyvningsprocedure,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,da,Grænse for laveste højde over havets overflade,7.4.1.18,02010R1089-20231119
+Navaid,da,Navigationshjælpemidler,7.4.1.19,02010R1089-20231119
+ProcedureLink,da,Procedureforbindelse,7.4.1.20,02010R1089-20231119
+RunwayArea,da,Landingsbaneområde,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,da,Landingsbanens midterlinjepunkt,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,da,Standardiseret instrumentindflyvning,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,da,Standardiseret instrumentudflyvning,7.4.1.24,02010R1089-20231119
+SurfaceComposition,da,Belægningens sammensætning,7.4.1.25,02010R1089-20231119
+TaxiwayArea,da,Rullebaneområde,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,da,Landings og startområde,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,da,Grænse for øvre højde over havets overflade,7.4.1.28,02010R1089-20231119
+UseRestriction,da,Brugsbegrænsning,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,da,Flyvepladskategori,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,da,Flyvepladstype,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,da,Luftruteforbindelsesklasse,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,da,Luftrutetype,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,da,Luftfartsbrugsbegrænsning,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,da,Type luftrumsområde,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,da,Type navigationshjælpemidler,7.4.2.7,02010R1089-20231119
+PointRoleValue,da,Punktrolle,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,da,Banetype,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,da,Belægningens sammensætning,7.4.2.10,02010R1089-20231119
+CablewayLink,da,Kabelbaneforbindelse,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,da,Kabelbaneforbindelsessekvens,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,da,Kabelbaneforbindelsessæt,7.5.1.3,02010R1089-20231119
+CablewayNode,da,Kabelbaneknude,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,da,Kabelbanetype,7.5.2.1,02010R1089-20231119
+DesignSpeed,da,Strækningshastighed,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,da,Nominel sporvidde,7.6.1.2,02010R1089-20231119
+NumberOfTracks,da,Antal spor,7.6.1.3,02010R1089-20231119
+RailwayArea,da,Jernbaneareal,7.6.1.4,02010R1089-20231119
+RailwayElectrification,da,Jernbaneelektrificering,7.6.1.5,02010R1089-20231119
+RailwayLine,da,Jernbanelinje,7.6.1.6,02010R1089-20231119
+RailwayLink,da,Jernbaneforbindelse,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,da,Jernbaneforbindelsessekvens,7.6.1.8,02010R1089-20231119
+RailwayNode,da,Jernbaneknude,7.6.1.9,02010R1089-20231119
+RailwayStationArea,da,Jernbanestationsareal,7.6.1.10,02010R1089-20231119
+RailwayStationCode,da,Jernbanestationskode,7.6.1.11,02010R1089-20231119
+RailwayStationNode,da,Jernbanestationsknude,7.6.1.12,02010R1089-20231119
+RailwayType,da,Jernbanetype,7.6.1.13,02010R1089-20231119
+RailwayUse,da,Jernbanebrug,7.6.1.14,02010R1089-20231119
+RailwayYardArea,da,Rangerbanegårdsareal,7.6.1.15,02010R1089-20231119
+RailwayYardNode,da,Rangerbanegårdsknude,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,da,Type jernbaneknudepunkt,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,da,Jernbanetype,7.6.3.2,02010R1089-20231119
+RailwayUseValue,da,Jernbanebrug,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,da,Minimum eller maksimum antal spor,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,da,Sporviddekategori,7.6.3.5,02010R1089-20231119
+ERoad,da,E-vej,7.7.1.1,02010R1089-20231119
+FormOfWay,da,Vejens udformning,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,da,Funktionel vejklasse,7.7.1.3,02010R1089-20231119
+NumberOfLanes,da,Antal vognbaner,7.7.1.4,02010R1089-20231119
+Road,da,Vej,7.7.1.5,02010R1089-20231119
+RoadArea,da,Vejareal,7.7.1.6,02010R1089-20231119
+RoadLink,da,Vejstrækning,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,da,Vejstrækningssekvens,7.7.1.8,02010R1089-20231119
+RoadName,da,Vejnavn,7.7.1.9,02010R1089-20231119
+RoadNode,da,Vejknude,7.7.1.10,02010R1089-20231119
+RoadServiceArea,da,Vejserviceringsområde,7.7.1.11,02010R1089-20231119
+RoadServiceType,da,Type vejservicering,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,da,Vejbelægningskategori,7.7.1.13,02010R1089-20231119
+RoadWidth,da,Vejbredde,7.7.1.14,02010R1089-20231119
+SpeedLimit,da,Hastighedsgrænse,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,da,Færdselsareal,7.7.1.16,02010R1089-20231119
+AreaConditionValue,da,Områdets tilstand,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,da,Type vejknudepunkter,7.7.3.2,02010R1089-20231119
+FormOfWayValue,da,Vejens udformning,7.7.3.3,02010R1089-20231119
+RoadPartValue,da,Del af vej,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,da,Type vejservicering,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,da,Vejbelægningskategori,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,da,Servicefaciliteter,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,da,Hastighedsgrænsekilde,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,da,Køretøjstype,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,da,Vejrforhold,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,da,Funktionel vejklasse,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,da,Minimum eller maksimum antal vognbaner,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,da,Hastighedsgrænsens beskaffenhed,7.7.3.13,02010R1089-20231119
+Beacon,da,Sømærke,7.8.1.1,02010R1089-20231119
+Buoy,da,Bøje,7.8.1.2,02010R1089-20231119
+CEMTClass,da,CEMT-klasse,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,da,Tilstand af vandfaciliteten,7.8.1.4,02010R1089-20231119
+FairwayArea,da,Sejlløbsareal,7.8.1.5,02010R1089-20231119
+FerryCrossing,da,Færgeoverfart,7.8.1.6,02010R1089-20231119
+FerryUse,da,Brug af færge,7.8.1.7,02010R1089-20231119
+InlandWaterway,da,Indenlandsk farvand,7.8.1.8,02010R1089-20231119
+MarineWaterway,da,Havfarvand,7.8.1.9,02010R1089-20231119
+PortArea,da,Havneområde,7.8.1.10,02010R1089-20231119
+PortNode,da,Havneknude,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,da,Begrænsning for søfartøjer,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,da,Trafiksepareringssystem,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,da,Område for trafiksepareringssystem,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,da,Overfart i trafiksepareringssystem,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,da,Sejlrute i trafiksepareringssystem,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,da,Rundkørsel i trafiksepareringssystem,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,da,Skillelinje i trafiksepareringssystem,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,da,Vandforbindelsessekvens,7.8.1.19,02010R1089-20231119
+WaterNode,da,Vandknude,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,da,Retning for skibstrafikken,7.8.1.21,02010R1089-20231119
+Waterway,da,Farvand,7.8.1.22,02010R1089-20231119
+WaterwayLink,da,Farvandsforbindelse,7.8.1.23,02010R1089-20231119
+WaterwayNode,da,Farvandsknude,7.8.1.24,02010R1089-20231119
+FerryUseValue,da,Brug af færge,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,da,Type farvandsknudepunkt,7.8.3.2,02010R1089-20231119
+CEMTClassValue,da,CEMT-klasse,7.8.3.3,02010R1089-20231119
+HydroObject,da,Hydrografisk objekt,8.3.1.1,02010R1089-20231119
+HydroIdentifier,da,Hydrografisk id,8.3.2.1,02010R1089-20231119
+HydroNode,da,Hydrografisk knude,8.4.1.1,02010R1089-20231119
+WatercourseLink,da,Vandløbsforbindelse,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,da,Vandløbsforbindelsessekvens,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,da,Skæring adskilt ved vandløb,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,da,Kategori af hydrografisk knudepunkt,8.4.2.1,02010R1089-20231119
+Crossing,da,Overgang,8.5.1.1,02010R1089-20231119
+DamOrWeir,da,Dæmning eller overløb,8.5.1.2,02010R1089-20231119
+DrainageBasin,da,Samlebassin,8.5.1.3,02010R1089-20231119
+Embankment,da,Dige,8.5.1.4,02010R1089-20231119
+Falls,da,Vandfald,8.5.1.5,02010R1089-20231119
+FluvialPoint,da,Flodpunkt,8.5.1.6,02010R1089-20231119
+Ford,da,Vadested,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,da,Hydrografisk interessepunkt,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,da,Grænse mellem land og vand,8.5.1.11,02010R1089-20231119
+Lock,da,Slusekammer,8.5.1.12,02010R1089-20231119
+ManMadeObject,da,Menneskeskabt objekt,8.5.1.13,02010R1089-20231119
+Rapids,da,Strømfald,8.5.1.17,02010R1089-20231119
+RiverBasin,da,Flodbækken,8.5.1.18,02010R1089-20231119
+Shore,da,Bred,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,da,Kystlinjekonstruktion,8.5.1.20,02010R1089-20231119
+Sluice,da,Sluse,8.5.1.21,02010R1089-20231119
+StandingWater,da,Stillestående vand,8.5.1.22,02010R1089-20231119
+SurfaceWater,da,Overfladevand,8.5.1.23,02010R1089-20231119
+Watercourse,da,Vandløb,8.5.1.24,02010R1089-20231119
+Wetland,da,Vådområde,8.5.1.25,02010R1089-20231119
+HydroOrderCode,da,Hydrografisk sorteringskode,8.5.2.1,02010R1089-20231119
+WidthRange,da,Breddeinterval,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,da,Overgangstype,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,da,Hydrologisk træghed,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,da,Type bred,8.5.4.4,02010R1089-20231119
+WaterLevelValue,da,Vandstand,8.5.4.5,02010R1089-20231119
+OriginValue,da,Oprindelse,8.5.4.6,02010R1089-20231119
+ProtectedSite,da,Beskyttet lokalitet,9.1.1,02010R1089-20231119
+DesignationType,da,Betegnelsestype,9.2.1,02010R1089-20231119
+DesignationSchemeValue,da,Betegnelsessystem,9.4.1,02010R1089-20231119
+DesignationValue,da,Betegnelse,9.4.2,02010R1089-20231119
+IUCNDesignationValue,da,IUCN-betegnelse,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,da,Betegnelse i henhold til Nationale Monuments Record,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,da,Natura2000-betegnelse,9.4.5,02010R1089-20231119
+RamsarDesignationValue,da,Ramsarbetegnelse,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,da,Betegnelse i henhold til UNESCOs program »Mennesket og biosfæren«,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,da,Betegnelse i henhold til UNESCOs verdensarvsliste,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,da,Beskyttelsesklassificering,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,da,Type elevationsegenskab,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,da,Type overflade,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,da,Elevationskvadratnetdækning,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,da,Aggregering af elevationskvadratnetdækning,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,da,Elevationsvektorobjekt,1.5.1.1,02010R1089-20231119
+SpotElevation,da,Punktelevation,1.5.1.2,02010R1089-20231119
+ContourLine,da,Konturlinje,1.5.1.3,02010R1089-20231119
+BreakLine,da,Brudlinje,1.5.1.4,02010R1089-20231119
+VoidArea,da,Void (tomt) område,1.5.1.5,02010R1089-20231119
+IsolatedArea,da,Isoleret område,1.5.1.6,02010R1089-20231119
+ChartDatum,da,Datum,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,da,Type brudlinje,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,da,Klassifikation af punktelevationer,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,da,Type punktelevation,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,da,Type konturlinje,1.5.4.4,02010R1089-20231119
+ElevationTIN,da,Elevation TIN,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,da,Nomenklatur for arealdække,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,da,Arealdækkeklasse,2.3.2.1,02010R1089-20231119
+LandCoverDataset,da,Arealdækkedatasæt,2.4.1.1,02010R1089-20231119
+LandCoverUnit,da,Arealdækkeenhed,2.4.1.2,02010R1089-20231119
+LandCoverObservation,da,Arealdækkeobservation,2.4.2.1,02010R1089-20231119
+LandCoverValue,da,Arealdække,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,da,Kvadratnetdækning for arealdække,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,da,Ortofotodækning,3.2.1,02010R1089-20231119
+MosaicElement,da,Mosaikelement,3.2.2,02010R1089-20231119
+SingleMosaicElement,da,Enkelt mosaikelement,3.2.3,02010R1089-20231119
+AggregatedMosaicElement,da,Aggregeret mosaikelement,3.2.4,02010R1089-20231119
+OrthoimageAggregation,da,Ortofotoaggregation,3.3.1,02010R1089-20231119
+InterpolationMethodValue,da,Interpolationsmetode,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,da,Antropogent geomorfologisk objekt,4.2.1.1,02010R1089-20231119
+Borehole,da,Boring,4.2.1.2,02010R1089-20231119
+Fold,da,Fold,4.2.1.3,02010R1089-20231119
+GeologicCollection,da,Geologisk samling,4.2.1.4,02010R1089-20231119
+GeologicEvent,da,Geologisk hændelse,4.2.1.5,02010R1089-20231119
+GeologicFeature,da,Geologisk objekt,4.2.1.6,02010R1089-20231119
+GeologicStructure,da,Geologisk struktur,4.2.1.7,02010R1089-20231119
+GeologicUnit,da,Geologisk enhed,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,da,Geomorfologisk objekt,4.2.1.9,02010R1089-20231119
+MappedFeature,da,Kortlagt objekt,4.2.1.10,02010R1089-20231119
+MappedInterval,da,Kortlagt interval,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,da,Naturligt geomorfologisk objekt,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,da,Forskydningsdeformation,4.2.1.13,02010R1089-20231119
+CompositionPart,da,Bestanddel i sammensætning,4.2.2.1,02010R1089-20231119
+ThematicClass,da,Tematisk klasse,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,da,Type antropogent geomorfologisk objekt,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,da,Formål med boring,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,da,Type samling,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,da,Bestanddelens rolle i sammensætningen,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,da,Hændelsesmiljø,4.2.3.5,02010R1089-20231119
+EventProcessValue,da,Hændelsesproces,4.2.3.6,02010R1089-20231119
+FaultTypeValue,da,Type forkastning,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,da,Type fold,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,da,Geokronologisk æra,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,da,Type geologisk enhed,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,da,Geomorfologisk aktivitet,4.2.3.11,02010R1089-20231119
+LithologyValue,da,Litologi,4.2.3.12,02010R1089-20231119
+MappingFrameValue,da,Kortlægningsinterval,4.2.3.13,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,da,Type naturligt geomorfologisk objekt,4.2.3.14,02010R1089-20231119
+ThematicClassValue,da,Tematisk klasse,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,da,Tematisk klassifikation,4.2.3.16,02010R1089-20231119
+Geophysics,da,Geofysik,4.3,02010R1089-20231119
+Campaign,da,Kampagne,4.3.1.1,02010R1089-20231119
+GeophObject,da,Geofysisk objekt,4.3.1.2,02010R1089-20231119
+GeophMeasurement,da,Geofysisk måling,4.3.1.3,02010R1089-20231119
+GeophObjectSet,da,Geofysisk objektsæt,4.3.1.4,02010R1089-20231119
+GeophProfile,da,Geofysisk profil,4.3.1.5,02010R1089-20231119
+GeophStation,da,Geofysisk station,4.3.1.6,02010R1089-20231119
+GeophSwath,da,Geofysisk swath,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,da,Kampagnetype,4.3.2.1,02010R1089-20231119
+NetworkNameValue,da,Netnavn,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,da,Type platform,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,da,Profiltype,4.3.2.4,02010R1089-20231119
+StationRankValue,da,Stationsrang,4.3.2.5,02010R1089-20231119
+StationTypeValue,da,Stationstype,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,da,Undersøgelsestype,4.3.2.7,02010R1089-20231119
+SwathTypeValue,da,Type swath,4.3.2.8,02010R1089-20231119
+Hydrogeology,da,Hydrogeologi,4.4,02010R1089-20231119
+ActiveWell,da,Aktiv brønd,4.4.1.1,02010R1089-20231119
+Aquiclude,da,Impermeabelt lag,4.4.1.2,02010R1089-20231119
+Aquifer,da,Grundvandsmagasin,4.4.1.3,02010R1089-20231119
+AquiferSystem,da,Grundvandsmagasinsystem,4.4.1.4,02010R1089-20231119
+Aquitard,da,Aquitard,4.4.1.5,02010R1089-20231119
+GroundWaterBody,da,Grundvandsforekomst,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,da,Hydrogeologisk objekt,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,da,Menneskeskabt hydrogeologisk objekt,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,da,Naturligt hydrogeologisk objekt,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,da,Hydrogeologisk enhed,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,da,Hydrogeologisk overflade,4.4.2.1,02010R1089-20231119
+PiezometricState,da,Piezometrisk tilstand,4.4.2.2,02010R1089-20231119
+QuantityValue,da,Mængdeværdi,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,da,Type aktiv brønd,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,da,Type grundvandsmagasinmedium,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,da,Type grundvandsmagasin,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,da,Grundvandstilstand,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,da,Type hydrogeokemisk bjergart,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,da,Type naturligt objekt,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,da,Type statuskode,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,da,Vandets træghed,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,da,Vandets saltindhold,4.4.3.9,02010R1089-20231119
+StatisticalUnit,da,Statistisk enhed,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,da,Statistisk vektorenhed,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,da,Statistisk arealenhed,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,da,Statistisk tessellation,1.3.1.3,02010R1089-20231119
+Evolution,da,Udvikling,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,da,Geometri for den statistiske vektorenhed,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,da,Geometrideskriptor,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,da,Geometritype,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,da,Udviklingstype,1.3.3.2,02010R1089-20231119
+StatisticalUnitTypeValue,da,Type statistisk enhed,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,da,Statistisk kvadratnetcelle,1.4.1.1,02010R1089-20231119
+StatisticalGrid,da,Statistisk kvadratnet,1.4.1.2,02010R1089-20231119
+GridPosition,da,Position i kvadratnet,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,da,Statistisk kvadratnetopløsning,1.4.2.2,02010R1089-20231119
+AbstractConstruction,da,Abstrakt konstruktion,2.3.1.1,02010R1089-20231119
+AbstractBuilding,da,Abstrakt bygning,2.3.1.2,02010R1089-20231119
+Building,da,Bygning,2.3.1.3,02010R1089-20231119
+BuildingPart,da,Bygningsdel,2.3.1.4,02010R1089-20231119
+CurrentUse,da,Nuværende anvendelse,2.3.2.1,02010R1089-20231119
+DateOfEvent,da,Dato for hændelse,2.3.2.2,02010R1089-20231119
+Elevation,da,Elevation,2.3.2.3,02010R1089-20231119
+ExternalReference,da,Ekstern reference,2.3.2.4,02010R1089-20231119
+HeightAboveGround,da,Højde over jorden,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,da,Bygningsgeometri2D,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,da,Bygningskarakter,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,da,Konstruktionstilstand,2.3.3.2,02010R1089-20231119
+CurrentUseValue,da,Nuværende anvendelse,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,da,Elevationsreference,2.3.3.4,02010R1089-20231119
+HeightStatusValue,da,Højdestatus,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,da,Reference for horisontal geometri,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,da,Bygningsgeometri3D LoD,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,da,Bygningsgeometri3D LoD1,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DLoD2,da,Bygningsgeometri3D LoD2,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,da,Afledt jordprofil,3.1.1,02010R1089-20231119
+ObservedSoilProfile,da,Observeret jordprofil,3.1.2,02010R1089-20231119
+ProfileElement,da,Profilelement,3.1.3,02010R1089-20231119
+SoilBody,da,Jord,3.1.4,02010R1089-20231119
+SoilDerivedObject,da,Jordafledt objekt,3.1.5,02010R1089-20231119
+SoilHorizon,da,Jordhorisont,3.1.6,02010R1089-20231119
+SoilLayer,da,Jordlag,3.1.7,02010R1089-20231119
+SoilPlot,da,Jordprøvetagningssted,3.1.8,02010R1089-20231119
+SoilProfile,da,Jordprofil,3.1.9,02010R1089-20231119
+SoilSite,da,Jordprøvetagningsområde,3.1.10,02010R1089-20231119
+SoilThemeCoverage,da,Jordtemadækning,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,da,Beskrivende jordtemadækning,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,da,Afledt profil i jord,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,da,Type FAO-klassifikation af horisont,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,da,Anden type klassifikation af horisonten,3.2.3,02010R1089-20231119
+OtherSoilNameType,da,Anden type betegnelse for jord,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,da,Type partikelstørrelsesfraktion,3.2.5,02010R1089-20231119
+RangeType,da,Intervaltype,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,da,Type beskrivende jordtemaparameter,3.2.7,02010R1089-20231119
+SoilThemeParameterType,da,Type jordtemaparameter,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,da,Type WRB-kvalifikatorgruppe,3.2.9,02010R1089-20231119
+WRBSoilNameType,da,Type WRB-betegnelse for jord,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,da,FAO-masterhorisont,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,da,FAO-horisont — underordnet,3.3.2,02010R1089-20231119
+FAOPrimeValue,da,FAO-primtegn,3.3.3,02010R1089-20231119
+OtherHorizonNotationTypeValue,da,Anden type klassifikation af horisont,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,da,Anden type betegnelse for jord,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,da,Status for lagdannelsesprocessen,3.3.6,02010R1089-20231119
+LayerTypeValue,da,Lagtype,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,da,Profilelementparameternavn,3.3.8,02010R1089-20231119
+SoilDerivedObjectParameterNameValue,da,Navn på parameter for jordafledt objekt,3.3.9,02010R1089-20231119
+SoilInvestigationPurposeValue,da,Formål med jordundersøgelse,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,da,Type jordprøvetagningssted,3.3.11,02010R1089-20231119
+SoilProfileParameterNameValue,da,Jordprofilparameternavn,3.3.12,02010R1089-20231119
+SoilSiteParameterNameValue,da,Navn på parameter for jordprøvetagningsområde,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,da,Kvalifikators WRB-placering,3.3.14,02010R1089-20231119
+WRBQualifierValue,da,WRB-kvalifikatorer,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,da,WRB-referencejordgruppe (RSG),3.3.16,02010R1089-20231119
+WRBSpecifierValue,da,WRB-specifikatorer,3.3.17,02010R1089-20231119
+HILUCSPercentage,da,HILUCS-procentandel,4.3.1.1,02010R1089-20231119
+HILUCSPresence,da,HILUCS-forekomst,4.3.1.2,02010R1089-20231119
+SpecificPercentage,da,Specifik procentandel,4.3.1.3,02010R1089-20231119
+SpecificPresence,da,Specifik forekomst,4.3.1.4,02010R1089-20231119
+HILUCSValue,da,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,da,Klassifikation af arealanvendelse,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,da,Datasæt for eksisterende arealanvendelse,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,da,Objekt for eksisterende arealanvendelse,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,da,Kvadratnet for eksisterende arealanvendelse,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,da,Stikprøve for eksisterende arealanvendelse,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,da,Datasæt for eksisterende arealanvendelse i stikprøven,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,da,Officiel dokumentation,4.7.1.1,02010R1089-20231119
+SpatialPlan,da,Fysisk plan,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,da,Supplerende regulering,4.7.1.3,02010R1089-20231119
+ZoningElement,da,Zoneinddelingselement,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,da,Baggrundskort,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,da,Dimensioneringsangivelse med tegnværdier,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,da,Dimensioneringsangivelse med heltalsværdier,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,da,Dimensioneringsangivelse med målværdier,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,da,Dimensioneringsangivelse med realværdier,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,da,Dimensioneringsangivelse,4.7.2.6,02010R1089-20231119
+OrdinanceValue,da,Bekendtgørelse,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,da,Den fysiske plans niveau,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,da,Generelt procestrin,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,da,Lovgivningens karakter,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,da,Navn på plantype,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,da,Specifik supplerende regulering,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,da,Supplerende regulering,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,da,Statistiske sundhedsdata,5.1.1,02010R1089-20231119
+Biomarker,da,Biologisk markør,5.1.2,02010R1089-20231119
+Disease,da,Sygdom,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,da,Generel sundhedsstatistisk,5.1.4,02010R1089-20231119
+HealthServicesStatistic,da,Statistik for sundhedstjenester,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,da,Mål for miljørelaterede sundhedsdeterminanter,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,da,Statistiske data om miljørelaterede sundhedsdeterminanter,5.1.7,02010R1089-20231119
+Age,da,Alder,5.2.1,02010R1089-20231119
+AgeRangeType,da,Aldersinterval,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,da,Statistisk parameter for biologisk markør,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,da,Tematiske metadata om biologiske markører,5.2.4,02010R1089-20231119
+BiomarkerType,da,Type biologisk markør,5.2.5,02010R1089-20231119
+DiseaseMeasure,da,Sygdomsmål,5.2.6,02010R1089-20231119
+ReferencePeriodType,da,Referenceperiode,5.2.7,02010R1089-20231119
+CODValue,da,Dødsårsager,5.3.1,02010R1089-20231119
+ChemicalValue,da,Kemisk stof,5.3.2,02010R1089-20231119
+ComponentTypeValue,da,Type miljørelateret sundhedskomponent,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,da,Type sygdomsmål,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,da,Type miljørelateret sundhedsdeterminant,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,da,Type generel sundhed,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,da,Type sundhedstjenester,5.3.7,02010R1089-20231119
+ICDValue,da,International klassifikation af sygdomme,5.3.8,02010R1089-20231119
+MatrixValue,da,Matrix,5.3.9,02010R1089-20231119
+MediaTypeValue,da,Type miljøsundhedsmedium,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,da,Støjkildetype,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,da,Statistisk aggregeringsmetode,5.3.12,02010R1089-20231119
+UtilityNetwork,da,Forsyningsnet,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,da,Forsyningsnetelement,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,da,Forsyningsforbindelsessæt,6.2.1.3,02010R1089-20231119
+UtilityLink,da,Forsyningsforbindelse,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,da,Forsyningsforbindelsessekvens,6.2.1.5,02010R1089-20231119
+UtilityNode,da,Forsyningsknude,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,da,Forsyningsknudebeholder,6.2.1.7,02010R1089-20231119
+Appurtenance,da,Tilbehør,6.2.1.8,02010R1089-20231119
+Cabinet,da,Kabinet,6.2.1.9,02010R1089-20231119
+Cable,da,Kabel,6.2.1.10,02010R1089-20231119
+Duct,da,Kabelkanal,6.2.1.11,02010R1089-20231119
+Manhole,da,Mandehul,6.2.1.12,02010R1089-20231119
+Pipe,da,Rør,6.2.1.13,02010R1089-20231119
+Pole,da,Mast,6.2.1.14,02010R1089-20231119
+Tower,da,Tårn,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,da,Tilbehørstype,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,da,Type specifikt tilbehør,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,da,Type forsyningslevering,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,da,Type forsyningsnet,6.2.2.4,02010R1089-20231119
+WarningTypeValue,da,Advarselstype,6.2.2.5,02010R1089-20231119
+ElectricityCable,da,Elkabel,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,da,Type eltilbehør,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,da,"Olie-, gas- og kemikalierør",6.4.1.1,02010R1089-20231119
+OilGasChemicalsAppurtenanceTypeValue,da,"Type olie-, gas- og kemikalietilbehør",6.4.2.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,da,"Type olie-, gas- og kemikalieprodukt",6.4.2.2,02010R1089-20231119
+SewerPipe,da,Kloakrør,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,da,Type kloaktilbehør,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,da,Type kloakvand,6.5.2.2,02010R1089-20231119
+ThermalPipe,da,Varmerør,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,da,Type termisk tilbehør,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,da,Type termisk produkt,6.6.2.2,02010R1089-20231119
+WaterPipe,da,Vandrør,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,da,Type vandtilbehør,6.7.2.1,02010R1089-20231119
+WaterTypeValue,da,Vandtype,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,da,Miljøstyringsfacilitet,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,da,Klassifikation af miljøstyringsfaciliteter,6.8.2.1,02010R1089-20231119
+GovernmentalService,da,Offentlig tjeneste,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,da,Type ansvarsområde,6.9.2.1,02010R1089-20231119
+ServiceLocationType,da,"Type sted, hvor tjenesten udøves",6.9.2.2,02010R1089-20231119
+ServiceTypeValue,da,Type tjeneste,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,da,Abstrakt overvågningselement,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,da,Abstrakt overvågningsobjekt,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,da,Miljøovervågningsaktivitet,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,da,Miljøovervågningsfacilitet,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,da,Miljøovervågningsnet,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,da,Miljøovervågningsprogram,7.1.6,02010R1089-20231119
+ObservingCapability,da,Observationsevne,7.1.7,02010R1089-20231119
+AnyDomainLink,da,Ethvert domænelink,7.2.1,02010R1089-20231119
+Hierarchy,da,Hierarki,7.2.2,02010R1089-20231119
+NetworkFacility,da,Netfacilitet,7.2.3,02010R1089-20231119
+ReportToLegalAct,da,Indberetning i henhold til retsakt,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,da,Målesystem,7.3.1,02010R1089-20231119
+MediaValue,da,Medier,7.3.2,02010R1089-20231119
+ProcessTypeValue,da,Procestype,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,da,Indsamlingsformål,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,da,Resultatkilde,7.3.5,02010R1089-20231119
+ResultNatureValue,da,Resultatets karakter,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,da,Særlig EMF-type,7.3.7,02010R1089-20231119
+ProductionFacility,da,Produktionsfacilitet,8.2.1,02010R1089-20231119
+ProductionInstallation,da,Produktionsanlæg,8.2.2,02010R1089-20231119
+ProductionInstallationPart,da,Del af et produktionsanlæg,8.2.3,02010R1089-20231119
+ProductionSite,da,Produktionsområde,8.2.4,02010R1089-20231119
+ProductionPlot,da,Produktionsareal,8.2.5,02010R1089-20231119
+ProductionBuilding,da,Produktionsbygning,8.2.6,02010R1089-20231119
+StatusType,da,Statustype,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,da,Forureningsbekæmpelsesteknik,8.4.1,02010R1089-20231119
+InstallationTypeValue,da,Type anlæg,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,da,Type delanlæg,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,da,Vandområdedistrikt,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,da,Type produktionsbygning,8.4.5,02010R1089-20231119
+Holding,da,Bedrift,9.2.1,02010R1089-20231119
+Site,da,Område/anlæg,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,da,Husdyr- og akvakulturarter,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,da,Husdyrarter,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,da,Akvakulturarter,9.4.2,02010R1089-20231119
+StatisticalDistribution,da,Statistisk fordeling,10.1.1,02010R1089-20231119
+Classification,da,Klassifikation,10.2.1,02010R1089-20231119
+ClassificationItem,da,Klassifikationselement,10.2.2,02010R1089-20231119
+StatisticalValue,da,Statistisk værdi,10.2.3,02010R1089-20231119
+Dimensions,da,Dimensioner,10.2.4,02010R1089-20231119
+ClassificationTypeValue,da,Klassifikationstype,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,da,Type klassifikationselement,10.3.2,02010R1089-20231119
+VariableValue,da,Variabel,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,da,Statistisk målemetode,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,da,Status for statistiske data,10.3.5,02010R1089-20231119
+SpecialValue,da,Særlig værdi,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,da,Forvaltet og reguleret område eller område med brugsbegrænsning,11.2.1,02010R1089-20231119
+ZoneTypeCode,da,Områdetypekode,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,da,Typekode for særligt område,11.3.2,02010R1089-20231119
+EnvironmentalDomain,da,Miljøområde,11.3.3,02010R1089-20231119
+AbstractExposedElement,da,Abstrakt eksponeret element,12.2.1,02010R1089-20231119
+AbstractHazardArea,da,Abstrakt fareområde,12.2.2,02010R1089-20231119
+AbstractObservedEvent,da,Abstrakt observeret hændelse,12.2.3,02010R1089-20231119
+AbstractRiskZone,da,Abstrakt risikoområde,12.2.4,02010R1089-20231119
+ExposedElementCoverage,da,Dækning for eksponerede elementer,12.2.5,02010R1089-20231119
+ExposedElement,da,Eksponeret element,12.2.6,02010R1089-20231119
+HazardArea,da,Fareområde,12.2.7,02010R1089-20231119
+HazardCoverage,da,Faredækning,12.2.8,02010R1089-20231119
+ObservedEventCoverage,da,Dækning for observerede hændelser,12.2.9,02010R1089-20231119
+ObservedEvent,da,Observeret hændelse,12.2.10,02010R1089-20231119
+RiskCoverage,da,Risikodækning,12.2.11,02010R1089-20231119
+RiskZone,da,Risikoområde,12.2.12,02010R1089-20231119
+ExposedElementClassification,da,Klassifikation af eksponerede elementer,12.3.1,02010R1089-20231119
+LevelOrIntensity,da,Niveau eller intensitet,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,da,Sandsynligheden for hændelsens indtræden,12.3.3,02010R1089-20231119
+NaturalHazardClassification,da,Klassifikation af naturfarer,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,da,Kvantitativ sandsynlighed,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,da,Sårbarhedsvurdering,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,da,Kategori for eksponerede elementer,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,da,Kategori for naturfarer,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,da,Specifik type eksponeret element,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,da,Specifik faretype,12.5.4,02010R1089-20231119
+DeterminationMethodValue,da,Bestemmelsesmetode,12.5.5,02010R1089-20231119
+SeaArea,da,Havområde,15.1.1,02010R1089-20231119
+Sea,da,Hav,15.1.2,02010R1089-20231119
+MarineCirculationZone,da,Havcirkulationszone,15.1.3,02010R1089-20231119
+InterTidalArea,da,Tidevandsområde,15.1.4,02010R1089-20231119
+Shoreline,da,Kystlinje,15.1.5,02010R1089-20231119
+Coastline,da,Kystlinje,15.1.7,02010R1089-20231119
+MarineContour,da,Havkontur,15.1.8,02010R1089-20231119
+MarineLayer,da,Havlag,15.1.9,02010R1089-20231119
+SeaBedArea,da,Havbundsområde,15.1.10,02010R1089-20231119
+SeaSurfaceArea,da,Havoverfladeområde,15.1.11,02010R1089-20231119
+MarineExtent,da,Havets udstrækning,15.2.1,02010R1089-20231119
+MarineIsoline,da,Marin isolinje,15.2.2,02010R1089-20231119
+ParameterValuePair,da,Parameterværdipar,15.2.3,02010R1089-20231119
+ShoreSegment,da,Kystsegment,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,da,Klassifikation af havområdetyper,15.3.1,02010R1089-20231119
+SeaBedCoverValue,da,Havbundsdække,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,da,Klassifikation af havoverflader,15.3.3,02010R1089-20231119
+ShoreStabilityValue,da,Kyststabilitet,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,da,Klassifikation af kysttyper,15.3.5,02010R1089-20231119
+ZoneTypeValue,da,Zonetype,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,da,Niveau for klassifikation af regioner,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,da,System til klassifikation af regioner,16.2.2,02010R1089-20231119
+RegionClassificationValue,da,Klassifikation af regioner,16.2.3,02010R1089-20231119
+Habitat,da,Levested,17.2.1,02010R1089-20231119
+HabitatSpeciesType,da,Artstyper på levesteder,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,da,Habitattype,17.3.2,02010R1089-20231119
+HabitatVegetationType,da,Vegetationstyper på levesteder,17.3.3,02010R1089-20231119
+LocalNameType,da,Type lokalt navn,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,da,Lokalt navn på kvalifikator,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,da,Referencekode for habitattyper,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,da,Referencesystem for habitattyper,17.4.3,02010R1089-20231119
+LocalNameCodeValue,da,Lokal kode for navn,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,da,Datasæt for artsfordeling,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,da,Enhed for artsfordeling,18.2.2,02010R1089-20231119
+DistributionInfoType,da,Type fordelingsinfo,18.3.1,02010R1089-20231119
+PopulationSizeType,da,Type bestandstørrelse,18.3.2,02010R1089-20231119
+SpeciesNameType,da,Type artsnavn,18.3.4,02010R1089-20231119
+CountingMethodValue,da,Optællingsmetode,18.4.1,02010R1089-20231119
+CountingUnitValue,da,Optællingsenhed,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,da,Lokal kode for artsnavn,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,da,Kategori af forekomster,18.4.4,02010R1089-20231119
+PopulationTypeValue,da,Type bestand,18.4.5,02010R1089-20231119
+QualifierValue,da,Kvalifikator,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,da,Referencekode for arter,18.4.7,02010R1089-20231119
+ReferenceSpeciesSchemeValue,da,Referencesystem for arter,18.4.8,02010R1089-20231119
+ResidencyStatusValue,da,Bostatus,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,da,Interval af typen vertikal udstrækning,19.3.1.1,02010R1089-20231119
+VerticalExtentType,da,Type vertikal udstrækning,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,da,Værdi for vertikal udstrækning,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,da,Ramme for klassifikation og kvantificering,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,da,Klasse af fossile brændstoffer,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,da,Vedvarende energi og affald,19.3.2.3,02010R1089-20231119
+FossilFuelValue,da,Fossile brændstoffer,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,da,Vertikal reference,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,da,Energiressourcevektor,19.4.1.1,02010R1089-20231119
+FossilFuelResource,da,Fossil brændstofressource,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,da,Vedvarende energi- og affaldsressource,19.4.1.3,02010R1089-20231119
+CalorificRangeType,da,Type interval for brændværdi,19.4.2.1,02010R1089-20231119
+CalorificValueType,da,Type brændværdi,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,da,Type udnyttelsesperiode,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,da,Mål for fossile brændstoffer,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,da,Type fossil brændstofressource,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,da,Dækning for vedvarende energi- og affaldspotentiale,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,da,Type potentiale,19.5.2.1,02010R1089-20231119
+EarthResource,da,Jordressource,20.3.1.1,02010R1089-20231119
+MineralOccurrence,da,Mineralforekomst,20.3.1.2,02010R1089-20231119
+Commodity,da,Råstof,20.3.1.3,02010R1089-20231119
+ExplorationActivity,da,Efterforskningsaktivitet,20.3.1.4,02010R1089-20231119
+MiningFeature,da,Minedriftobjekt,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,da,Forekomst af minedriftobjekt,20.3.1.6,02010R1089-20231119
+Mine,da,Mine,20.3.1.7,02010R1089-20231119
+MiningActivity,da,Minedrift,20.3.1.8,02010R1089-20231119
+CommodityMeasure,da,Mål for råstoffet,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,da,Jordressourcedimension,20.3.2.2,02010R1089-20231119
+Endowment,da,Forekomst,20.3.2.3,02010R1089-20231119
+MineName,da,Minenavn,20.3.2.4,02010R1089-20231119
+MineralDepositModel,da,Model for mineralforekomster,20.3.2.5,02010R1089-20231119
+OreMeasure,da,Mål for malm,20.3.2.6,02010R1089-20231119
+Reserve,da,Reserve,20.3.2.7,02010R1089-20231119
+Resource,da,Ressource,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,da,Anvendt klassifikationsmetode,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,da,Råstofkode,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,da,Slutanvendelsespotentiale,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,da,Type efterforskningsaktivitet,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,da,Efterforskningsresultat,20.3.3.5,02010R1089-20231119
+ImportanceValue,da,Betydning,20.3.3.6,02010R1089-20231119
+MineStatusValue,da,Minestatus,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,da,Gruppe af mineralforekomster,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,da,Type mineralforekomst,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,da,Type mineralforekomst,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,da,Type minedrift,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,da,Type forarbejdningsaktivitet,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,da,Kategori af reserver,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,da,Kategori af ressourcer,20.3.3.14,02010R1089-20231119

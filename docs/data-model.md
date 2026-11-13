@@ -46,6 +46,7 @@ Counts from the build of 2026-11-12.
 | SNORRE (Standard Norge) | CC BY 4.0; credit Standard Norge | 50,616 | 39,292 | English |
 | LÍSA glossary | none stated; term pairs only | 7,365 | 7,004 | English |
 | Geonorge metadata code lists | none stated; names and codes only | 272 | 259 | English |
+| INSPIRE regulation 1089/2010, official names | EU legal text; EEA translations | 737 | 717 | English; keyed by technical name |
 | GEMET (EEA) | CC BY 4.0 | 5,609 | 5,570 | English; Icelandic pivot |
 | CORINE Land Cover nomenclature (NIBIO) | NLOD 1.0 (dataset legend) | 64 | 63 | English; keyed by CLC code |
 | ISLEX (is → da nb nn sv fo fi) | CC BY-SA 4.0 | 80,489 | 910 | Icelandic |
@@ -53,7 +54,7 @@ Counts from the build of 2026-11-12.
 | Icelandic-Polish dictionary | CC BY-SA 4.0 | 57,876 | 1,036 | Icelandic |
 | English-Icelandic glossary 21.09 | CC BY 4.0 | 113,566 | 11,205 | English, attach-only |
 
-Totals (build of 2026-11-13): 47,439 concepts, of which 6,098 ambiguous. Most dictionary entries reach no concept:
+Totals (build of 2026-11-13): 48,051 concepts, of which 6,117 ambiguous. Most dictionary entries reach no concept:
 they are general vocabulary, kept for later linking.
 
 ## Linking

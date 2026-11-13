@@ -180,6 +180,27 @@ def load_gemet(db):
                        (entries[row["id"]], row["language"], row["label"], normalize(row["label"]), row["status"]))
 
 
+INSPIRE_REG = ROOT / "published" / "inspire-regulation"
+
+
+def load_inspire_regulation(db):
+    """Load official INSPIRE names: one entry per technical name (HydroNode), all languages."""
+    db.execute("INSERT INTO source VALUES (?,?,?,?,?)", (
+        "inspire-regulation", "Regulation (EU) No 1089/2010 (INSPIRE interoperability), official names",
+        "https://eur-lex.europa.eu/eli/reg/2010/1089/oj",
+        "EU legal text, reuse with acknowledgement (Decision 2011/833/EU); EEA translations free of copyright",
+        "2026-11-13"))
+    entries = {}
+    for path in sorted(INSPIRE_REG.glob("inspire_reg_*.csv")):
+        for row in read(path):
+            if row["key"] not in entries:
+                entries[row["key"]] = db.execute(
+                    "INSERT INTO entry (source_id, source_key, subject) VALUES (?,?,?)",
+                    ("inspire-regulation", row["key"], f"section {row['section']}")).lastrowid
+            db.execute("INSERT INTO term (entry_id, language, text, normalized, status) VALUES (?,?,?,?,?)",
+                       (entries[row["key"]], row["language"], row["label"], normalize(row["label"]), "preferred"))
+
+
 def load_geonorge_resources(db):
     """Load Geonorge interface strings as GUI labels, English source and Bokmål translation."""
     commits = dict(line.split("\t")[:2] for line in
@@ -440,6 +461,7 @@ def main():
     load_geonorge_codelists(db)
     load_corine_no(db)
     load_gemet(db)
+    load_inspire_regulation(db)
     load_en_is_glossary(db)
     link_exact_english(db)
     loaded = load_arnastofnun(db)

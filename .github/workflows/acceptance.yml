@@ -27,7 +27,7 @@ jobs:
       - name: Build glossary and export lexicon
         run: |
           python tools/build_glossary.py
-          python tools/export_lexicon.py
+          python tools/export_lexicon.py --holdout tests/acceptance/corpus.tsv
       - name: Run the test
         working-directory: tests/acceptance
         run: python acceptance.py | tee acceptance.log

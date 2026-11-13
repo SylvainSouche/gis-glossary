@@ -1,0 +1,748 @@
+key,language,label,section,act
+Identifier,nb,Identifikator,2.1,32010R1089
+VerticalPositionValue,nb,Vertikal posisjon,3.1,32010R1089
+ConditionOfFacilityValue,nb,Anleggets tilstand,4.1,32010R1089
+CountryCode,nb,Landkode,4.2,32010R1089
+CrossReference,nb,Kryssreferanse,5.1.1,32010R1089
+GeneralisedLink,nb,Generell lenke,5.1.2,32010R1089
+GradeSeparatedCrossing,nb,Planskilt kryssing,5.1.3,32010R1089
+Link,nb,Lenke,5.1.4,32010R1089
+LinkSequence,nb,Lenkesekvens,5.1.5,32010R1089
+LinkSet,nb,Lenkesett,5.1.6,32010R1089
+Network,nb,Nett,5.1.7,32010R1089
+NetworkArea,nb,Nettområde,5.1.8,32010R1089
+NetworkConnection,nb,Nettforbindelse,5.1.9,32010R1089
+NetworkElement,nb,Nettelement,5.1.10,32010R1089
+NetworkProperty,nb,Nettegenskap,5.1.11,32010R1089
+Node,nb,Knutepunkt,5.1.12,32010R1089
+DirectedLink,nb,Rettet lenke,5.2.1,32010R1089
+LinkReference,nb,Lenkereferanse,5.2.2,32010R1089
+NetworkReference,nb,Nettreferanse,5.2.3,32010R1089
+SimpleLinearReference,nb,Enkel lineær referanse,5.2.4,32010R1089
+SimplePointReference,nb,Enkel punktreferanse,5.2.5,32010R1089
+ConnectionTypeValue,nb,Type forbindelse,5.3.1,32010R1089
+LinkDirectionValue,nb,Lenkeretning,5.3.2,32010R1089
+NamedPlace,nb,Navngitt sted,3.1.1,32010R1089
+GeographicalName,nb,Stedsnavn,3.2.1,32010R1089
+PronunciationOfName,nb,Uttale av navn,3.2.2,32010R1089
+SpellingOfName,nb,Stavemåte for navn,3.2.3,32010R1089
+GrammaticalGenderValue,nb,Grammatisk kjønn,3.3.1,32010R1089
+GrammaticalNumberValue,nb,Grammatisk tall,3.3.2,32010R1089
+NameStatusValue,nb,Navnestatus,3.3.3,32010R1089
+NamedPlaceTypeValue,nb,Type navngitt sted,3.3.4,32010R1089
+NativenessValue,nb,Opprinnelse,3.3.5,32010R1089
+AdministrativeBoundary,nb,Administrativ grense,4.1.1,32010R1089
+AdministrativeUnit,nb,Administrativ enhet,4.1.2,32010R1089
+Condominium,nb,Kondominat,4.1.3,32010R1089
+NUTSRegion,nb,NUTS-region,4.1.4,32010R1089
+ResidenceOfAuthority,nb,Myndighetens sete,4.2.1,32010R1089
+LegalStatusValue,nb,Rettslig status,4.3.1,32010R1089
+TechnicalStatusValue,nb,Teknisk status,4.3.2,32010R1089
+AdministrativeHierarchyLevel,nb,Administrativt hierarkisk nivå,4.4.1,32010R1089
+Address,nb,Adresse,5.2.1,32010R1089
+AddressAreaName,nb,Adresseområdenavn,5.2.2,32010R1089
+AddressComponent,nb,Adressekomponent,5.2.3,32010R1089
+AdminUnitName,nb,Navn på administrativ enhet,5.2.4,32010R1089
+PostalDescriptor,nb,Postnummerområde,5.2.5,32010R1089
+ThoroughfareName,nb,Ferdselsårenavn,5.2.6,32010R1089
+AddressLocator,nb,Adresselokalisator,5.3.1,32010R1089
+AddressRepresentation,nb,Adresserepresentasjon,5.3.2,32010R1089
+GeographicPosition,nb,Geografisk posisjon,5.3.3,32010R1089
+LocatorDesignator,nb,Lokalisatorbetegnelse,5.3.4,32010R1089
+LocatorName,nb,Lokalisatornavn,5.3.5,32010R1089
+PartOfName,nb,Del av navn,5.3.6,32010R1089
+ThoroughfareNameValue,nb,Verdi for ferdselsårenavn,5.3.7,32010R1089
+GeometryMethodValue,nb,Geometrimetode,5.4.1,32010R1089
+GeometrySpecificationValue,nb,Geometrispesifikasjon,5.4.2,32010R1089
+LocatorDesignatorTypeValue,nb,Type lokalisatorbetegnelse,5.4.3,32010R1089
+LocatorLevelValue,nb,Lokalisatornivå,5.4.4,32010R1089
+LocatorNameTypeValue,nb,Type lokalisatornavn,5.4.5,32010R1089
+PartTypeValue,nb,Deltype,5.4.6,32010R1089
+StatusValue,nb,Status,5.4.7,32010R1089
+BasicPropertyUnit,nb,Grunnleggende eiendomsenhet,6.1.1,32010R1089
+CadastralBoundary,nb,Eiendomsgrense,6.1.2,32010R1089
+CadastralParcel,nb,Eiendomsteig,6.1.3,32010R1089
+CadastralZoning,nb,Eiendomsinndeling,6.1.4,32010R1089
+CadastralZoningLevelValue,nb,Eiendomsinndelingsnivå,6.2.1,32010R1089
+AccessRestriction,nb,Adgangsbegrensning,7.3.1.1,32010R1089
+ConditionOfFacility,nb,Anleggets tilstand,7.3.1.2,32010R1089
+MaintenanceAuthority,nb,Myndighet med ansvar for vedlikehold,7.3.1.3,32010R1089
+MarkerPost,nb,Kantstolpe,7.3.1.4,32010R1089
+OwnerAuthority,nb,Eiermyndighet,7.3.1.5,32010R1089
+RestrictionForVehicles,nb,Begrensning for kjøretøyer,7.3.1.6,32010R1089
+TrafficFlowDirection,nb,Retning av trafikkflyt,7.3.1.7,32010R1089
+TransportArea,nb,Transportområde,7.3.1.8,32010R1089
+TransportLink,nb,Transportlenke,7.3.1.9,32010R1089
+TransportLinkSequence,nb,Transportlenkesekvens,7.3.1.10,32010R1089
+TransportLinkSet,nb,Transportlenkesett,7.3.1.11,32010R1089
+TransportNetwork,nb,Transportnett,7.3.1.12,32010R1089
+TransportNode,nb,Transportknutepunkt,7.3.1.13,32010R1089
+TransportObject,nb,Transportobjekt,7.3.1.14,32010R1089
+TransportPoint,nb,Transportpunkt,7.3.1.15,32010R1089
+TransportProperty,nb,Transportegenskap,7.3.1.16,32010R1089
+VerticalPosition,nb,Vertikal posisjon,7.3.1.17,32010R1089
+TransportTypeValue,nb,Type transport,7.3.2.1,32010R1089
+AccessRestrictionValue,nb,Adgangsbegrensning,7.3.3.1,32010R1089
+RestrictionTypeValue,nb,Type begrensning,7.3.3.2,32010R1089
+AerodromeArea,nb,Flyplassområde,7.4.1.1,32010R1089
+AerodromeCategory,nb,Flyplasskategori,7.4.1.2,32010R1089
+AerodromeNode,nb,Flyplassknutepunkt,7.4.1.3,32010R1089
+AerodromeType,nb,Type flyplass,7.4.1.4,32010R1089
+AirLink,nb,Luftfartslenke,7.4.1.5,32010R1089
+AirLinkSequence,nb,Luftfartslenkesekvens,7.4.1.6,32010R1089
+AirNode,nb,Luftfartsknutepunkt,7.4.1.7,32010R1089
+AirRoute,nb,Flygerute,7.4.1.8,32010R1089
+AirRouteLink,nb,Flygerutelenke,7.4.1.9,32010R1089
+AirspaceArea,nb,Luftromsområde,7.4.1.10,32010R1089
+ApronArea,nb,Område for oppstillingsplattform,7.4.1.11,32010R1089
+ConditionOfAirFacility,nb,Luftfartsanleggets tilstand,7.4.1.12,32010R1089
+DesignatedPoint,nb,Angitt punkt,7.4.1.13,32010R1089
+ElementLength,nb,Elementlengde,7.4.1.14,32010R1089
+ElementWidth,nb,Elementbredde,7.4.1.15,32010R1089
+FieldElevation,nb,Områdets høyde over havet,7.4.1.16,32010R1089
+InstrumentApproachProcedure,nb,Instrumentinnflygingsprosedyre,7.4.1.17,32010R1089
+LowerAltitudeLimit,nb,Laveste tillatte høyde over havet,7.4.1.18,32010R1089
+Navaid,nb,Navigasjonshjelpemidler,7.4.1.19,32010R1089
+ProcedureLink,nb,Prosedyrelenke,7.4.1.20,32010R1089
+RunwayArea,nb,Rullebaneområde,7.4.1.21,32010R1089
+RunwayCentrelinePoint,nb,Rullebanens senterlinjepunkt,7.4.1.22,32010R1089
+StandardInstrumentArrival,nb,Standardisert instrumentlanding,7.4.1.23,32010R1089
+StandardInstrumentDeparture,nb,Standardisert instrumentavgang,7.4.1.24,32010R1089
+SurfaceComposition,nb,Overflatens sammensetning,7.4.1.25,32010R1089
+TaxiwayArea,nb,Taksebaneområde,7.4.1.26,32010R1089
+TouchDownLiftOff,nb,Landings- og startområde,7.4.1.27,32010R1089
+UpperAltitudeLimit,nb,Høyeste tillatte høyde over havet,7.4.1.28,32010R1089
+UseRestriction,nb,Bruksbegrensning,7.4.1.29,32010R1089
+AerodromeTypeValue,nb,Type flyplass,7.4.2.2,32010R1089
+AirRouteLinkClassValue,nb,Flygerutelenkeklasse,7.4.2.3,32010R1089
+AirRouteTypeValue,nb,Type flygerute,7.4.2.4,32010R1089
+AirUseRestrictionValue,nb,Bruksbegrensning for luftfartsobjekt,7.4.2.5,32010R1089
+AirspaceAreaTypeValue,nb,Type luftromsområde,7.4.2.6,32010R1089
+NavaidTypeValue,nb,Type navigasjonshjelpemiddel,7.4.2.7,32010R1089
+PointRoleValue,nb,Punktrolle,7.4.2.8,32010R1089
+RunwayTypeValue,nb,Type rullebane,7.4.2.9,32010R1089
+SurfaceCompositionValue,nb,Overflatens sammensetning,7.4.2.10,32010R1089
+CablewayLink,nb,Taubanelenke,7.5.1.1,32010R1089
+CablewayLinkSequence,nb,Taubanelenkesekvens,7.5.1.2,32010R1089
+CablewayLinkSet,nb,Taubanelenkesett,7.5.1.3,32010R1089
+CablewayNode,nb,Taubaneknutepunkt,7.5.1.4,32010R1089
+CablewayTypeValue,nb,Type taubane,7.5.2.1,32010R1089
+DesignSpeed,nb,Konstruksjonshastighet,7.6.1.1,32010R1089
+NominalTrackGauge,nb,Nominell sporvidde,7.6.1.2,32010R1089
+NumberOfTracks,nb,Antall spor,7.6.1.3,32010R1089
+RailwayArea,nb,Jernbaneområde,7.6.1.4,32010R1089
+RailwayElectrification,nb,Jernbaneelektrifisering,7.6.1.5,32010R1089
+RailwayLine,nb,Jernbanelinje,7.6.1.6,32010R1089
+RailwayLink,nb,Jernbanelenke,7.6.1.7,32010R1089
+RailwayLinkSequence,nb,Jernbanelenkesekvens,7.6.1.8,32010R1089
+RailwayNode,nb,Jernbaneknutepunkt,7.6.1.9,32010R1089
+RailwayStationArea,nb,Jernbanestasjonsområde,7.6.1.10,32010R1089
+RailwayStationCode,nb,Jernbanestasjonskode,7.6.1.11,32010R1089
+RailwayStationNode,nb,Jernbanestasjonsknutepunkt,7.6.1.12,32010R1089
+RailwayType,nb,Type jernbane,7.6.1.13,32010R1089
+RailwayUse,nb,Jernbanebruk,7.6.1.14,32010R1089
+RailwayYardArea,nb,Rangerstasjonsområde,7.6.1.15,32010R1089
+RailwayYardNode,nb,Rangerstasjonsknutepunkt,7.6.1.16,32010R1089
+MinMaxTrackValue,nb,Laveste eller høyeste antall spor,7.6.2.1,32010R1089
+TrackGaugeCategoryValue,nb,Sporviddekategori,7.6.2.2,32010R1089
+FormOfRailwayNodeValue,nb,Type jernbaneknutepunkt,7.6.3.1,32010R1089
+RailwayTypeValue,nb,Type jernbane,7.6.3.2,32010R1089
+RailwayUseValue,nb,Jernbanebruk,7.6.3.3,32010R1089
+ERoad,nb,Europavei,7.7.1.1,32010R1089
+FormOfWay,nb,Type vei,7.7.1.2,32010R1089
+FunctionalRoadClass,nb,Funksjonell veiklasse,7.7.1.3,32010R1089
+NumberOfLanes,nb,Antall kjørefelter,7.7.1.4,32010R1089
+Road,nb,Vei,7.7.1.5,32010R1089
+RoadArea,nb,Veiområde,7.7.1.6,32010R1089
+RoadLink,nb,Veilenke,7.7.1.7,32010R1089
+RoadLinkSequence,nb,Veilenkesekvens,7.7.1.8,32010R1089
+RoadName,nb,Veinavn,7.7.1.9,32010R1089
+RoadNode,nb,Veiknutepunkt,7.7.1.10,32010R1089
+RoadServiceArea,nb,Veiserviceområde,7.7.1.11,32010R1089
+RoadServiceType,nb,Type veiservice,7.7.1.12,32010R1089
+RoadSurfaceCategory,nb,Veidekkekategori,7.7.1.13,32010R1089
+RoadWidth,nb,Veibredde,7.7.1.14,32010R1089
+SpeedLimit,nb,Fartsgrense,7.7.1.15,32010R1089
+VehicleTrafficArea,nb,Ferdselsområde for kjøretøyer,7.7.1.16,32010R1089
+FunctionalRoadClassValue,nb,Funksjonell veiklasse,7.7.2.1,32010R1089
+MinMaxLaneValue,nb,Laveste eller høyeste antall kjørefelter,7.7.2.2,32010R1089
+SpeedLimitMinMaxValue,nb,Fartsgrensens art,7.7.2.3,32010R1089
+AreaConditionValue,nb,Områdets tilstand,7.7.3.1,32010R1089
+FormOfRoadNodeValue,nb,Type veiknutepunkt,7.7.3.2,32010R1089
+FormOfWayValue,nb,Type vei,7.7.3.3,32010R1089
+RoadPartValue,nb,Del av vei,7.7.3.4,32010R1089
+RoadServiceTypeValue,nb,Type veiservice,7.7.3.5,32010R1089
+RoadSurfaceCategoryValue,nb,Veidekkekategori,7.7.3.6,32010R1089
+ServiceFacilityValue,nb,Serviceanlegg,7.7.3.7,32010R1089
+SpeedLimitSourceValue,nb,Kilde til fartsgrensen,7.7.3.8,32010R1089
+VehicleTypeValue,nb,Kjøretøytype,7.7.3.9,32010R1089
+WeatherConditionValue,nb,Værforhold,7.7.3.10,32010R1089
+Beacon,nb,Fast sjømerke,7.8.1.1,32010R1089
+Buoy,nb,Flytende sjømerke,7.8.1.2,32010R1089
+CEMTClass,nb,CEMT-klasse,7.8.1.3,32010R1089
+ConditionOfWaterFacility,nb,Vannanleggets tilstand,7.8.1.4,32010R1089
+FairwayArea,nb,Farledsområde,7.8.1.5,32010R1089
+FerryCrossing,nb,Fergeoverfart,7.8.1.6,32010R1089
+FerryUse,nb,Fergebruk,7.8.1.7,32010R1089
+InlandWaterway,nb,Innlands vannvei,7.8.1.8,32010R1089
+MarineWaterway,nb,Farled,7.8.1.9,32010R1089
+PortArea,nb,Havneområde,7.8.1.10,32010R1089
+PortNode,nb,Havneknutepunkt,7.8.1.11,32010R1089
+RestrictionForWaterVehicles,nb,Begrensning for vannkjøretøyer,7.8.1.12,32010R1089
+TrafficSeparationScheme,nb,Trafikkseparasjonssystem,7.8.1.13,32010R1089
+TrafficSeparationSchemeArea,nb,Område for trafikkseparasjonssystem,7.8.1.14,32010R1089
+TrafficSeparationSchemeCrossing,nb,Kryssing i trafikkseparasjonssystem,7.8.1.15,32010R1089
+TrafficSeparationSchemeLane,nb,Farled i trafikkseparasjonssystem,7.8.1.16,32010R1089
+TrafficSeparationSchemeRoundabout,nb,Rundkjøring i trafikkseparasjonssystem,7.8.1.17,32010R1089
+TrafficSeparationSchemeSeparator,nb,Skillelinje i trafikkseparasjonssystem,7.8.1.18,32010R1089
+WaterLinkSequence,nb,Vannlenkesekvens,7.8.1.19,32010R1089
+WaterNode,nb,Vannknutepunkt,7.8.1.20,32010R1089
+WaterTrafficFlowDirection,nb,Retning for skipstrafikken,7.8.1.21,32010R1089
+Waterway,nb,Vannvei,7.8.1.22,32010R1089
+WaterwayLink,nb,Vannveilenke,7.8.1.23,32010R1089
+WaterwayNode,nb,Vannveiknutepunkt,7.8.1.24,32010R1089
+CEMTClassValue,nb,CEMT-klasse,7.8.2.1,32010R1089
+FerryUseValue,nb,Fergebruk,7.8.3.1,32010R1089
+FormOfWaterwayNodeValue,nb,Type vannveiknutepunkt,7.8.3.2,32010R1089
+HydroObject,nb,Hydrografisk objekt,8.3.1.1,32010R1089
+HydroIdentifier,nb,Hydrografisk identifikator,8.3.2.1,32010R1089
+HydroNode,nb,Hydrografisk knutepunkt,8.4.1.1,32010R1089
+WatercourseLink,nb,Vassdragslenke,8.4.1.2,32010R1089
+WatercourseLinkSequence,nb,Vassdragslenkesekvens,8.4.1.3,32010R1089
+WatercourseSeparatedCrossing,nb,Vassdrag med planskilt kryssing,8.4.1.4,32010R1089
+HydroNodeCategoryValue,nb,Kategori av hydrografisk knutepunkt,8.4.2.1,32010R1089
+Crossing,nb,Kryssing,8.5.1.1,32010R1089
+DamOrWeir,nb,Dam eller demning,8.5.1.2,32010R1089
+DrainageBasin,nb,Nedbørfelt,8.5.1.3,32010R1089
+Embankment,nb,Voll,8.5.1.4,32010R1089
+Falls,nb,Foss,8.5.1.5,32010R1089
+FluvialPoint,nb,Elvepunkt,8.5.1.6,32010R1089
+Ford,nb,Vadested,8.5.1.7,32010R1089
+HydroPointOfInterest,nb,Hydrografisk punkt av interesse,8.5.1.8,32010R1089
+HydroPowerPlant,nb,Vannkraftverk,8.5.1.9,32010R1089
+InundatedLand,nb,Oversvømt areal,8.5.1.10,32010R1089
+LandWaterBoundary,nb,Grense mellom land og vann,8.5.1.11,32010R1089
+Lock,nb,Sluse,8.5.1.12,32010R1089
+ManMadeObject,nb,Menneskeskapt objekt,8.5.1.13,32010R1089
+OceanRegion,nb,Havområde,8.5.1.14,32010R1089
+Pipe,nb,Rørledning,8.5.1.15,32010R1089
+PumpingStation,nb,Pumpestasjon,8.5.1.16,32010R1089
+Rapids,nb,Stryk,8.5.1.17,32010R1089
+RiverBasin,nb,Hovednedbørfelt,8.5.1.18,32010R1089
+Shore,nb,Bredd,8.5.1.19,32010R1089
+ShorelineConstruction,nb,Kystanlegg,8.5.1.20,32010R1089
+Sluice,nb,Sluserenne,8.5.1.21,32010R1089
+StandingWater,nb,Stillestående vann,8.5.1.22,32010R1089
+SurfaceWater,nb,Overflatevann,8.5.1.23,32010R1089
+Watercourse,nb,Vassdrag,8.5.1.24,32010R1089
+Wetland,nb,Våtmarksområde,8.5.1.25,32010R1089
+HydroOrderCode,nb,Hydrografisk sorteringskode,8.5.2.1,32010R1089
+WidthRange,nb,Breddeintervall,8.5.2.2,32010R1089
+OriginValue,nb,Opprinnelse,8.5.3.1,32010R1089
+CrossingTypeValue,nb,Type kryssing,8.5.4.1,32010R1089
+HydrologicalPersistenceValue,nb,Hydrologisk bestandighet,8.5.4.2,32010R1089
+InundationValue,nb,Flom,8.5.4.3,32010R1089
+ShoreTypeValue,nb,Type bredd,8.5.4.4,32010R1089
+WaterLevelValue,nb,Vannivå,8.5.4.5,32010R1089
+WFDCoastalWater,nb,Kystvann i henhold til rammedirektivet om vann,8.6.1.1,32010R1089
+WFDGroundWaterBody,nb,Grunnvannsforekomst i henhold til rammedirektivet om vann,8.6.1.2,32010R1089
+WFDLake,nb,Innsjø i henhold til rammedirektivet om vann,8.6.1.3,32010R1089
+WFDRiver,nb,Elv i henhold til rammedirektivet om vann,8.6.1.4,32010R1089
+WFDRiverOrLake,nb,Elv eller innsjø i henhold til rammedirektivet om vann,8.6.1.5,32010R1089
+WFDSurfaceWaterBody,nb,Overflatevannforekomst i henhold til rammedirektivet om vann,8.6.1.6,32010R1089
+WFDTransitionalWater,nb,Brakkvann i henhold til rammedirektivet om vann,8.6.1.7,32010R1089
+WFDWaterBody,nb,Vannforekomst i henhold til rammedirektivet om vann,8.6.1.8,32010R1089
+ProtectedSite,nb,Vernet område,9.1.1,32010R1089
+DesignationType,nb,Betegnelsestype,9.2.1,32010R1089
+ProtectionClassificationValue,nb,Verneklassifisering,9.3.1,32010R1089
+DesignationSchemeValue,nb,Betegnelsessystem,9.4.1,32010R1089
+DesignationValue,nb,Betegnelse,9.4.2,32010R1089
+IUCNDesignationValue,nb,IUCN-betegnelse,9.4.3,32010R1089
+NationalMonumentsRecordDesignationValue,nb,Betegnelse i henhold til det nasjonale register over minnesmerker,9.4.4,32010R1089
+Natura2000DesignationValue,nb,Natura 2000-betegnelse,9.4.5,32010R1089
+RamsarDesignationValue,nb,Ramsar-betegnelse,9.4.6,32010R1089
+UNESCOManAndBiosphereProgrammeDesignationValue,nb,Betegnelse i henhold til UNESCOs program Mennesket og biosfæren,9.4.7,32010R1089
+UNESCOWorldHeritageDesignationValue,nb,Betegnelse i henhold til UNESCOs verdensarvliste,9.4.8,32010R1089
+Contact,nb,Kontakt,2.3,32013R1253
+DocumentCitation,nb,Dokumenthenvisning,2.4,32013R1253
+LegislationCitation,nb,Lovhenvisning,2.5,32013R1253
+OfficialJournalInformation,nb,Opplysninger om lovtidende,2.6,32013R1253
+ThematicIdentifier,nb,Temaidentifikator,2.7,32013R1253
+PartyRoleValue,nb,Partsrolle,4.4,32013R1253
+CFStandardNamesValue,nb,Standardnavn for klima og prognoser,4.5,32013R1253
+GenderValue,nb,Kjønn,4.6,32013R1253
+Coverage,nb,Dekning,6.1.1.1,32013R1253
+CoverageByDomainAndRange,nb,Dekning (domene- og intervallrepresentasjon),6.2.1.1,32013R1253
+RectifiedGridCoverage,nb,Dekning i rektifisert rutenett,6.2.1.2,32013R1253
+ReferenceableGridCoverage,nb,Dekning i referanserutenett,6.2.1.3,32013R1253
+CoverageFunction,nb,Dekningsfunksjon,6.2.2.1,32013R1253
+GridFunction,nb,Rutenettfunksjon,6.2.2.2,32013R1253
+ObservationSet,nb,Observasjonssett,7.1.1.1,32013R1253
+Process,nb,Prosess,7.2.1.1,32013R1253
+ProcessParameter,nb,Prosessparameter,7.2.2.1,32013R1253
+ProcessParameterNameValue,nb,Navn på prosessparameter,7.2.3.1,32013R1253
+Constraint,nb,Begrensning,7.3.1.1,32013R1253
+CategoryConstraint,nb,Kategoribegrensning,7.3.1.2,32013R1253
+RangeConstraint,nb,Intervallbegrensning,7.3.1.3,32013R1253
+RangeBounds,nb,Intervallgrenser,7.3.1.4,32013R1253
+ScalarConstraint,nb,Skalarbegrensning,7.3.1.5,32013R1253
+OtherConstraint,nb,Annen begrensning,7.3.1.6,32013R1253
+StatisticalMeasure,nb,Statistisk mål,7.3.1.7,32013R1253
+ComparisonOperatorValue,nb,Sammenligningsoperator,7.3.2.1,32013R1253
+PhenomenonTypeValue,nb,Fenomentype,7.3.3.1,32013R1253
+StatisticalFunctionTypeValue,nb,Statistisk funksjonstype,7.3.3.2,32013R1253
+GridObservation,nb,Rutenettobservasjon,7.4.1.1,32013R1253
+GridSeriesObservation,nb,Rutenettserieobservasjon,7.4.1.2,32013R1253
+PointObservation,nb,Punktobservasjon,7.4.1.3,32013R1253
+PointObservationCollection,nb,Samling av punktobservasjoner,7.4.1.4,32013R1253
+MultiPointObservation,nb,Flerpunktsobservasjon,7.4.1.5,32013R1253
+PointTimeSeriesObservation,nb,Punkttidsserieobservasjon,7.4.1.6,32013R1253
+ProfileObservation,nb,Profilobservasjon,7.4.1.7,32013R1253
+TrajectoryObservation,nb,Baneobservasjon,7.4.1.8,32013R1253
+TimeLocationValueTriple,nb,"Trippelmåling – tid, sted og verdi",7.4.2.1,32013R1253
+ActivityComplex,nb,Virksomhetskompleks,8.1.1.1,32013R1253
+Function,nb,Funksjon,8.1.2.1,32013R1253
+Capacity,nb,Kapasitet,8.1.2.2,32013R1253
+InputOutputAmount,nb,Mengde inngående eller utgående materiale,8.1.2.3,32013R1253
+Permission,nb,Tillatelse,8.1.2.4,32013R1253
+ActivityComplexDescription,nb,Beskrivelse av virksomhetskompleks,8.1.2.5,32013R1253
+EconomicActivityValue,nb,Økonomisk virksomhet,8.1.3.1,32013R1253
+InputOutputValue,nb,Inngående eller utgående materiale,8.1.3.2,32013R1253
+Baseline,nb,Grunnlinje,4.3.1.1,32013R1253
+MaritimeBoundary,nb,Sjøgrense,4.3.1.2,32013R1253
+MaritimeZone,nb,Havområde,4.3.1.3,32013R1253
+BaselineSegment,nb,Grunnlinjesegment,4.3.2.1,32013R1253
+BaselineSegmentTypeValue,nb,Type grunnlinjesegment,4.3.3.1,32013R1253
+MaritimeZoneTypeValue,nb,Type havområde,4.3.3.2,32013R1253
+ElevationPropertyTypeValue,nb,Type høydeegenskap,1.3.1.1,32013R1253
+SurfaceTypeValue,nb,Overflatetype,1.3.1.2,32013R1253
+ElevationGridCoverage,nb,Dekning i høyderutenett,1.4.1.1,32013R1253
+ElevationGridCoverageAggregation,nb,Aggregert dekning i høyderutenett,1.4.2.1,32013R1253
+ElevationVectorObject,nb,Høydevektorobjekt,1.5.1.1,32013R1253
+SpotElevation,nb,Høydepunkt,1.5.1.2,32013R1253
+ContourLine,nb,Konturlinje,1.5.1.3,32013R1253
+BreakLine,nb,Bruddlinje,1.5.1.4,32013R1253
+VoidArea,nb,Tomt område,1.5.1.5,32013R1253
+IsolatedArea,nb,Isolert område,1.5.1.6,32013R1253
+ChartDatum,nb,Kartdatum,1.5.2.1,32013R1253
+ContourLineTypeValue,nb,Konturlinjetype,1.5.3.1,32013R1253
+BreakLineTypeValue,nb,Bruddlinjetype,1.5.4.1,32013R1253
+SpotElevationClassValue,nb,Klassifisering av høydepunkt,1.5.4.2,32013R1253
+SpotElevationTypeValue,nb,Type høydepunkt,1.5.4.3,32013R1253
+ElevationTIN,nb,TIN-høyde,1.6.1.1,32013R1253
+LandCoverNomenclature,nb,Nomenklatur for arealdekke,2.3.1.1,32013R1253
+LandCoverClassValue,nb,Arealdekkeklasse,2.3.2.1,32013R1253
+LandCoverDataset,nb,Arealdekkedatasett,2.4.1.1,32013R1253
+LandCoverUnit,nb,Arealdekkeenhet,2.4.1.2,32013R1253
+LandCoverObservation,nb,Arealdekkeobservasjon,2.4.2.1,32013R1253
+LandCoverValue,nb,Arealdekke,2.4.2.2,32013R1253
+LandCoverGridCoverage,nb,Rutenettdekning for arealdekke,2.5.1.1,32013R1253
+OrthoimageCoverage,nb,Ortofotodekning,3.2.1,32013R1253
+MosaicElement,nb,Mosaikkelement,3.2.2,32013R1253
+SingleMosaicElement,nb,Enkelt mosaikkelement,3.2.3,32013R1253
+AggregatedMosaicElement,nb,Aggregert mosaikkelement,3.2.4,32013R1253
+OrthoimageAggregation,nb,Ortofotoaggregering,3.3.1,32013R1253
+InterpolationMethodValue,nb,Interpolasjonsmetode,3.4.1,32013R1253
+AnthropogenicGeomorphologicFeature,nb,Menneskeskapt geomorfologisk objekt,4.2.1.1,32013R1253
+Borehole,nb,Borehull,4.2.1.2,32013R1253
+Fold,nb,Fold,4.2.1.3,32013R1253
+GeologicCollection,nb,Geologisk samling,4.2.1.4,32013R1253
+GeologicEvent,nb,Geologisk hendelse,4.2.1.5,32013R1253
+GeologicFeature,nb,Geologisk objekt,4.2.1.6,32013R1253
+GeologicStructure,nb,Geologisk struktur,4.2.1.7,32013R1253
+GeologicUnit,nb,Geologisk enhet,4.2.1.8,32013R1253
+GeomorphologicFeature,nb,Geomorfologisk objekt,4.2.1.9,32013R1253
+MappedFeature,nb,Kartlagt objekt,4.2.1.10,32013R1253
+MappedInterval,nb,Kartlagt intervall,4.2.1.11,32013R1253
+NaturalGeomorphologicFeature,nb,Naturlig geomorfologisk objekt,4.2.1.12,32013R1253
+ShearDisplacementStructure,nb,Forskyvningsstruktur,4.2.1.13,32013R1253
+CompositionPart,nb,Bestanddel i sammensetning,4.2.2.1,32013R1253
+ThematicClass,nb,Temaklasse,4.2.2.2,32013R1253
+AnthropogenicGeomorphologicFeatureTypeValue,nb,Menneskeskapt geomorfologisk objekttype,4.2.3.1,32013R1253
+BoreholePurposeValue,nb,Formål med borehull,4.2.3.2,32013R1253
+CollectionTypeValue,nb,Samlingstype,4.2.3.3,32013R1253
+CompositionPartRoleValue,nb,Bestanddelens rolle,4.2.3.4,32013R1253
+EventEnvironmentValue,nb,Hendelsesmiljø,4.2.3.5,32013R1253
+EventProcessValue,nb,Hendelsesprosess,4.2.3.6,32013R1253
+FaultTypeValue,nb,Forkastningstype,4.2.3.7,32013R1253
+FoldProfileTypeValue,nb,Foldtype,4.2.3.8,32013R1253
+GeochronologicEraValue,nb,Geokronologisk æra,4.2.3.9,32013R1253
+GeologicUnitTypeValue,nb,Type geologisk enhet,4.2.3.10,32013R1253
+GeomorphologicActivityValue,nb,Geomorfologisk aktivitet,4.2.3.11,32013R1253
+LithologyValue,nb,Litologi,4.2.3.12,32013R1253
+MappingFrameValue,nb,Kartleggingsramme,4.2.3.13,32013R1253
+NaturalGeomorphologicFeatureTypeValue,nb,Type naturlig geomorfologisk objekt,4.2.3.14,32013R1253
+ThematicClassValue,nb,Tematisk klasse,4.2.3.15,32013R1253
+ThematicClassificationValue,nb,Tematisk klassifisering,4.2.3.16,32013R1253
+Campaign,nb,Kampanje,4.3.1.1,32013R1253
+GeophObject,nb,Geofysisk objekt,4.3.1.2,32013R1253
+GeophMeasurement,nb,Geofysisk måling,4.3.1.3,32013R1253
+GeophObjectSet,nb,Sett av geofysiske objekter,4.3.1.4,32013R1253
+GeophProfile,nb,Geofysisk profil,4.3.1.5,32013R1253
+GeophStation,nb,Geofysisk stasjon,4.3.1.6,32013R1253
+GeophSwath,nb,Geofysisk sveip,4.3.1.7,32013R1253
+CampaignTypeValue,nb,Kampanjetype,4.3.2.1,32013R1253
+NetworkNameValue,nb,Nettnavn,4.3.2.2,32013R1253
+PlatformTypeValue,nb,Plattformtype,4.3.2.3,32013R1253
+ProfileTypeValue,nb,Profiltype,4.3.2.4,32013R1253
+StationRankValue,nb,Stasjonsrang,4.3.2.5,32013R1253
+StationTypeValue,nb,Stasjonstype,4.3.2.6,32013R1253
+SurveyTypeValue,nb,Undersøkelsestype,4.3.2.7,32013R1253
+SwathTypeValue,nb,Sveiptype,4.3.2.8,32013R1253
+Hydrogeology,nb,Hydrogeologi,4.4,32013R1253
+ActiveWell,nb,Aktiv brønn,4.4.1.1,32013R1253
+Aquiclude,nb,Vannhindrende sjikt,4.4.1.2,32013R1253
+Aquifer,nb,Vannførende sjikt,4.4.1.3,32013R1253
+AquiferSystem,nb,System av vannførende sjikt,4.4.1.4,32013R1253
+Aquitard,nb,Vannsinkende sjikt,4.4.1.5,32013R1253
+GroundWaterBody,nb,Grunnvannsforekomst,4.4.1.6,32013R1253
+HydrogeologicalObject,nb,Hydrogeologisk objekt,4.4.1.7,32013R1253
+HydrogeologicalObjectManMade,nb,Menneskeskapt hydrogeologisk objekt,4.4.1.8,32013R1253
+HydrogeologicalObjectNatural,nb,Naturlig hydrogeologisk objekt,4.4.1.9,32013R1253
+HydrogeologicalUnit,nb,Hydrogeologisk enhet,4.4.1.10,32013R1253
+HydrogeologicalSurface,nb,Hydrogeologisk overflate,4.4.2.1,32013R1253
+PiezometricState,nb,Piezometrisk tilstand,4.4.2.2,32013R1253
+QuantityValue,nb,Mengdeverdi,4.4.2.3,32013R1253
+ActiveWellTypeValue,nb,Type aktiv brønn,4.4.3.1,32013R1253
+AquiferMediaTypeValue,nb,Type medium for vannførende sjikt,4.4.3.2,32013R1253
+AquiferTypeValue,nb,Type vannførende sjikt,4.4.3.3,32013R1253
+ConditionOfGroundwaterValue,nb,Grunnvannets tilstand,4.4.3.4,32013R1253
+HydroGeochemicalRockTypeValue,nb,Type hydrogeokjemisk bergart,4.4.3.5,32013R1253
+NaturalObjectTypeValue,nb,Naturlig objekttype,4.4.3.6,32013R1253
+StatusCodeTypeValue,nb,Type statuskode,4.4.3.7,32013R1253
+WaterPersistenceValue,nb,Vannets bestandighet,4.4.3.8,32013R1253
+WaterSalinityValue,nb,Vannets saltinnhold,4.4.3.9,32013R1253
+StatisticalUnit,nb,Statistisk enhet,1.2.1.1,32013R1253
+VectorStatisticalUnit,nb,Statistisk vektorenhet,1.3.1.1,32013R1253
+AreaStatisticalUnit,nb,Statistisk områdeenhet,1.3.1.2,32013R1253
+StatisticalTessellation,nb,Statistisk tesselering,1.3.1.3,32013R1253
+Evolution,nb,Utvikling,1.3.1.4,32013R1253
+VectorStatisticalUnitGeometry,nb,Geometri for statistisk vektorenhet,1.3.2.1,32013R1253
+GeometryDescriptor,nb,Geometrisk deskriptor,1.3.2.2,32013R1253
+GeometryTypeValue,nb,Geometritype,1.3.3.1,32013R1253
+EvolutionTypeValue,nb,Utviklingstype,1.3.3.2,32013R1253
+StatisticalGridCell,nb,Statistisk rutenettcelle,1.4.1.1,32013R1253
+StatisticalGrid,nb,Statistisk rutenett,1.4.1.2,32013R1253
+GridPosition,nb,Rutenettposisjon,1.4.2.1,32013R1253
+StatisticalGridResolution,nb,Statistisk rutnettoppløsning,1.4.2.2,32013R1253
+AbstractConstruction,nb,Abstrakt konstruksjon,2.3.1.1,32013R1253
+AbstractBuilding,nb,Abstrakt bygning,2.3.1.2,32013R1253
+Building,nb,Bygning,2.3.1.3,32013R1253
+BuildingPart,nb,Bygningsdel,2.3.1.4,32013R1253
+CurrentUse,nb,Nåværende bruk,2.3.2.1,32013R1253
+DateOfEvent,nb,Dato for hendelse,2.3.2.2,32013R1253
+Elevation,nb,Høyde,2.3.2.3,32013R1253
+ExternalReference,nb,Ekstern referanse,2.3.2.4,32013R1253
+HeightAboveGround,nb,Høyde over bakken,2.3.2.5,32013R1253
+BuildingGeometry2D,nb,Bygningsgeometri i 2D,2.3.2.6,32013R1253
+BuildingNatureValue,nb,Bygningens art,2.3.3.1,32013R1253
+ConditionOfConstructionValue,nb,Konstruksjonstilstand,2.3.3.2,32013R1253
+CurrentUseValue,nb,Nåværende bruk,2.3.3.3,32013R1253
+ElevationReferenceValue,nb,Høydereferanse,2.3.3.4,32013R1253
+HeightStatusValue,nb,Høydestatus,2.3.3.5,32013R1253
+HorizontalGeometryReferenceValue,nb,Referanse for horisontal geometri,2.3.3.6,32013R1253
+BuildingGeometry3DLoD,nb,Bygningsgeometri i 3D LoD,2.5.2.1,32013R1253
+BuildingGeometry3DLoD1,nb,Bygningsgeometri i 3D LoD1,2.5.2.2,32013R1253
+BuildingGeometry3DLoD2,nb,Bygningsgeometri i 3D LoD2,2.5.2.3,32013R1253
+DerivedSoilProfile,nb,Avledet jordprofil,3.1.1,32013R1253
+ObservedSoilProfile,nb,Observert jordprofil,3.1.2,32013R1253
+ProfileElement,nb,Profilelement,3.1.3,32013R1253
+SoilBody,nb,Jordforekomst,3.1.4,32013R1253
+SoilDerivedObject,nb,Jordavledet objekt,3.1.5,32013R1253
+SoilHorizon,nb,Jordhorisont,3.1.6,32013R1253
+SoilLayer,nb,Jordlag,3.1.7,32013R1253
+SoilPlot,nb,Jordrøvepunkt,3.1.8,32013R1253
+SoilProfile,nb,Jordprofil,3.1.9,32013R1253
+SoilSite,nb,Jordprøvefelt,3.1.10,32013R1253
+SoilThemeCoverage,nb,Jordtemadekning,3.1.11,32013R1253
+SoilThemeDescriptiveCoverage,nb,Beskrivende jordtemadekning,3.1.12,32013R1253
+DerivedProfilePresenceInSoilBody,nb,Avledet profil i jordforekomst,3.2.1,32013R1253
+FAOHorizonNotationType,nb,FAO-betegnelsestype for horisont,3.2.2,32013R1253
+OtherHorizonNotationType,nb,Annen betegnelsestype for horisont,3.2.3,32013R1253
+OtherSoilNameType,nb,Annen type jordnavn,3.2.4,32013R1253
+ParticleSizeFractionType,nb,Fraksjonstype for partikkelstørrelse,3.2.5,32013R1253
+RangeType,nb,Intervalltype,3.2.6,32013R1253
+SoilThemeDescriptiveParameterType,nb,Type beskrivende jordtemaparameter,3.2.7,32013R1253
+SoilThemeParameterType,nb,Type jordtemaparameter,3.2.8,32013R1253
+WRBQualifierGroupType,nb,Type WRB-kvalifikatorgruppe,3.2.9,32013R1253
+WRBSoilNameType,nb,Type WRB-jordnavn,3.2.10,32013R1253
+FAOHorizonMasterValue,nb,FAO-hovedhorisont,3.3.1,32013R1253
+FAOHorizonSubordinateValue,nb,Underordnet FAO-horisont,3.3.2,32013R1253
+FAOPrimeValue,nb,FAO-primtall,3.3.3,32013R1253
+OtherHorizonNotationTypeValue,nb,Annen betegnelsestype for horisont,3.3.4,32013R1253
+OtherSoilNameTypeValue,nb,Annen type jordnavn,3.3.5,32013R1253
+LayerGenesisProcessStateValue,nb,Status for lagdannelsesprosessen,3.3.6,32013R1253
+LayerTypeValue,nb,Type kartlag,3.3.7,32013R1253
+ProfileElementParameterNameValue,nb,Parameternavn på profilelement,3.3.8,32013R1253
+SoilDerivedObjectParameterNameValue,nb,Parameternavn på jordavledet objekt,3.3.9,32013R1253
+SoilInvestigationPurposeValue,nb,Formål med jordundersøkelse,3.3.10,32013R1253
+SoilPlotTypeValue,nb,Type jordprøvepunkt,3.3.11,32013R1253
+SoilProfileParameterNameValue,nb,Parameternavn på jordprofil,3.3.12,32013R1253
+SoilSiteParameterNameValue,nb,Parameternavn på jordprøvefelt,3.3.13,32013R1253
+WRBQualifierPlaceValue,nb,WRB-kvalifikatorens plassering,3.3.14,32013R1253
+WRBQualifierValue,nb,WRB-kvalifikatorer,3.3.15,32013R1253
+WRBReferenceSoilGroupValue,nb,WRB-referansejordgruppe (RSG),3.3.16,32013R1253
+WRBSpecifierValue,nb,WRB-spesifikatorer,3.3.17,32013R1253
+HILUCSPercentage,nb,HILUCS-prosentdel,4.3.1.1,32013R1253
+HILUCSPresence,nb,HILUCS-forekomst,4.3.1.2,32013R1253
+SpecificPercentage,nb,Særlig prosentdel,4.3.1.3,32013R1253
+SpecificPresence,nb,Særlig forekomst,4.3.1.4,32013R1253
+HILUCSValue,nb,HILUCS,4.3.2.1,32013R1253
+LandUseClassificationValue,nb,Klassifisering av arealbruk,4.3.2.2,32013R1253
+ExistingLandUseDataSet,nb,Datasett for eksisterende arealbruk,4.4.1.1,32013R1253
+ExistingLandUseObject,nb,Objekt for eksisterende arealbruk,4.4.1.2,32013R1253
+ExistingLandUseGrid,nb,Rutenett for eksisterende arealbruk,4.5.1.1,32013R1253
+ExistingLandUseSample,nb,Prøve av eksisterende arealbruk,4.6.1.1,32013R1253
+SampledExistingLandUseDataSet,nb,Datasett for eksisterende arealbruk i henhold til prøve,4.6.1.2,32013R1253
+OfficialDocumentation,nb,Offisiell dokumentasjon,4.7.1.1,32013R1253
+SpatialPlan,nb,Arealplan,4.7.1.2,32013R1253
+SupplementaryRegulation,nb,Tilleggsregulering,4.7.1.3,32013R1253
+ZoningElement,nb,Soneinndelingselement,4.7.1.4,32013R1253
+BackgroundMapValue,nb,Bakgrunnskart,4.7.2.1,32013R1253
+DimensioningIndicationCharacterValue,nb,Dimensjoneringsangivelse med tegnverdi,4.7.2.2,32013R1253
+DimensioningIndicationIntegerValue,nb,Dimensjoneringsangivelse med heltallsverdi,4.7.2.3,32013R1253
+DimensioningIndicationMeasureValue,nb,Dimensjoneringsangivelse med målverdi,4.7.2.4,32013R1253
+DimensioningIndicationRealValue,nb,Dimensjoneringsangivelse med realverdi,4.7.2.5,32013R1253
+DimensioningIndicationValue,nb,Dimensjoneringsangivelse,4.7.2.6,32013R1253
+OrdinanceValue,nb,Bestemmelse,4.7.2.7,32013R1253
+LevelOfSpatialPlanValue,nb,Arealplanens nivå,4.7.3.1,32013R1253
+ProcessStepGeneralValue,nb,Generelt prosesstrinn,4.7.3.2,32013R1253
+RegulationNatureValue,nb,Reguleringens status,4.7.3.3,32013R1253
+PlanTypeNameValue,nb,Navn på plantype,4.7.3.4,32013R1253
+SpecificSupplementaryRegulationValue,nb,Særlig tilleggsregulering,4.7.3.5,32013R1253
+SupplementaryRegulationValue,nb,Tilleggsregulering,4.7.3.6,32013R1253
+HealthStatisticalData,nb,Statistiske helseopplysninger,5.1.1,32013R1253
+Biomarker,nb,Biomarkør,5.1.2,32013R1253
+Disease,nb,Sykdom,5.1.3,32013R1253
+GeneralHealthStatistics,nb,Generell helsestatistikk,5.1.4,32013R1253
+HealthServicesStatistic,nb,Statistikk for helsetjenester,5.1.5,32013R1253
+EnvHealthDeterminantMeasure,nb,Mål for miljømessig viktig helsefaktor,5.1.6,32013R1253
+EnvHealthDeterminantStatisticalData,nb,Statistiske opplysninger om miljømessig viktig helsefaktor,5.1.7,32013R1253
+Age,nb,Alder,5.2.1,32013R1253
+AgeRangeType,nb,Aldersintervall,5.2.2,32013R1253
+BiomarkerStatisticalParameterType,nb,Statistisk parameter for biomarkør,5.2.3,32013R1253
+BiomarkerThematicMetadata,nb,Tematiske metadata om biomarkør,5.2.4,32013R1253
+BiomarkerType,nb,Biomarkørtype,5.2.5,32013R1253
+DiseaseMeasure,nb,Sykdomsmål,5.2.6,32013R1253
+ReferencePeriodType,nb,Referanseperiode,5.2.7,32013R1253
+Concentration,nb,Konsentrasjonsmål,5.2.8,32013R1253
+UomConcentration,nb,Målenhet for konsentrasjon,5.2.9,32013R1253
+NoiseMeasure,nb,Støymåling,5.2.10,32013R1253
+UomNoise,nb,Målenhet for støy,5.2.11,32013R1253
+CODValue,nb,Dødsårsak,5.3.1,32013R1253
+ChemicalValue,nb,Kjemikalie,5.3.2,32013R1253
+ComponentTypeValue,nb,Type miljømessig helsekomponent,5.3.3,32013R1253
+DiseaseMeasureTypeValue,nb,Type sykdomsmål,5.3.4,32013R1253
+EnvHealthDeterminantTypeValue,nb,Type miljømessig viktig helsefaktor,5.3.5,32013R1253
+GeneralHealthTypeValue,nb,Type generell helse,5.3.6,32013R1253
+HealthServicesTypeValue,nb,Type helsetjenester,5.3.7,32013R1253
+ICDValue,nb,Internasjonal klassifisering av sykdommer,5.3.8,32013R1253
+MatrixValue,nb,Matrise,5.3.9,32013R1253
+MediaTypeValue,nb,Type miljømessig helsemedium,5.3.10,32013R1253
+NoiseSourceTypeValue,nb,Støykildetype,5.3.11,32013R1253
+StatisticalAggregationMethodValue,nb,Statistisk aggregeringsmetode,5.3.12,32013R1253
+UtilityNetwork,nb,Allmennyttig nett,6.2.1.1,32013R1253
+UtilityNetworkElement,nb,Element i allmennyttig nett,6.2.1.2,32013R1253
+UtilityLinkSet,nb,Lenkesett for allmennyttig tjeneste,6.2.1.3,32013R1253
+UtilityLink,nb,Lenke for allmennyttig tjeneste,6.2.1.4,32013R1253
+UtilityLinkSequence,nb,Lenkesekvens for allmennyttig tjeneste,6.2.1.5,32013R1253
+UtilityNode,nb,Knutepunkt for allmennyttig tjeneste,6.2.1.6,32013R1253
+UtilityNodeContainer,nb,Knutepunktbeholder for allmennyttig tjeneste,6.2.1.7,32013R1253
+Appurtenance,nb,Tilbehør,6.2.1.8,32013R1253
+Cabinet,nb,Skap,6.2.1.9,32013R1253
+Cable,nb,Kabel,6.2.1.10,32013R1253
+Duct,nb,Kanal,6.2.1.11,32013R1253
+Manhole,nb,Mannhull,6.2.1.12,32013R1253
+Pole,nb,Mast,6.2.1.14,32013R1253
+Tower,nb,Tårn,6.2.1.15,32013R1253
+AppurtenanceTypeValue,nb,Tilbehørtype,6.2.2.1,32013R1253
+SpecificAppurtenanceTypeValue,nb,Type spesifikt tilbehør,6.2.2.2,32013R1253
+UtilityDeliveryTypeValue,nb,Allmennyttig leveringstype,6.2.2.3,32013R1253
+UtilityNetworkTypeValue,nb,Type allmennyttig nett,6.2.2.4,32013R1253
+WarningTypeValue,nb,Varslingstype,6.2.2.5,32013R1253
+ElectricityCable,nb,Elektrisitetskabel,6.3.1.1,32013R1253
+ElectricityAppurtenanceTypeValue,nb,Type elektrisitetstilbehør,6.3.2.1,32013R1253
+OilGasChemicalsPipe,nb,"Olje-, gass- og kjemikalierørledning",6.4.1.1,32013R1253
+OilGasChemicalsAppurtenanceTypeValue,nb,"Type olje-, gass- og kjemikalietilbehør",6.4.2.1,32013R1253
+OilGasChemicalsProductTypeValue,nb,"Type olje-, gass- og kjemikalieprodukt",6.4.2.2,32013R1253
+SewerPipe,nb,Kloakkrør,6.5.1.1,32013R1253
+SewerAppurtenanceTypeValue,nb,Type kloakktilbehør,6.5.2.1,32013R1253
+SewerWaterTypeValue,nb,Type kloakkvann,6.5.2.2,32013R1253
+ThermalPipe,nb,Varmerør,6.6.1.1,32013R1253
+ThermalAppurtenanceTypeValue,nb,Type termisk tilbehør,6.6.2.1,32013R1253
+ThermalProductTypeValue,nb,Type varmeprodukt,6.6.2.2,32013R1253
+WaterPipe,nb,Vannrør,6.7.1.1,32013R1253
+WaterAppurtenanceTypeValue,nb,Type vanntilbehør,6.7.2.1,32013R1253
+WaterTypeValue,nb,Vanntype,6.7.2.2,32013R1253
+EnvironmentalManagementFacility,nb,Miljøstyringsanlegg,6.8.1.1,32013R1253
+EnvironmentalManagementFacilityTypeValue,nb,Klassifisering av miljøanlegg,6.8.2.1,32013R1253
+GovernmentalService,nb,Offentlig tjeneste,6.9.1.1,32013R1253
+AreaOfResponsibilityType,nb,Type ansvarsområde,6.9.2.1,32013R1253
+ServiceLocationType,nb,Type tjenestested,6.9.2.2,32013R1253
+ServiceTypeValue,nb,Tjenestetype,6.9.3.1,32013R1253
+AbstractMonitoringFeature,nb,Abstrakt overvåkingselement,7.1.1,32013R1253
+AbstractMonitoringObject,nb,Abstrakt overvåkingsobjekt,7.1.2,32013R1253
+EnvironmentalMonitoringActivity,nb,Miljøovervåkingsvirksomhet,7.1.3,32013R1253
+EnvironmentalMonitoringFacility,nb,Anlegg for miljøovervåking,7.1.4,32013R1253
+EnvironmentalMonitoringNetwork,nb,Miljøovervåkingsnett,7.1.5,32013R1253
+EnvironmentalMonitoringProgramme,nb,Miljøovervåkingsprogram,7.1.6,32013R1253
+ObservingCapability,nb,Observasjonskapasitet,7.1.7,32013R1253
+AnyDomainLink,nb,Enhver domenelenke,7.2.1,32013R1253
+Hierarchy,nb,Hierarki,7.2.2,32013R1253
+NetworkFacility,nb,Nettanlegg,7.2.3,32013R1253
+ReportToLegalAct,nb,Rapport i henhold til rettsakt,7.2.4,32013R1253
+MeasurementRegimeValue,nb,Målesystem,7.3.1,32013R1253
+MediaValue,nb,Medier,7.3.2,32013R1253
+ProcessTypeValue,nb,Prosesstype,7.3.3,32013R1253
+PurposeOfCollectionValue,nb,Formål med innsamling,7.3.4,32013R1253
+ResultAcquisitionSourceValue,nb,Kilde til oppnåelse av resultat,7.3.5,32013R1253
+ResultNatureValue,nb,Resultatets art,7.3.6,32013R1253
+SpecialisedEMFTypeValue,nb,Særlig EMF-type,7.3.7,32013R1253
+ProductionFacility,nb,Produksjonsanlegg,8.2.1,32013R1253
+ProductionInstallation,nb,Produksjonsinstallasjon,8.2.2,32013R1253
+ProductionInstallationPart,nb,Del av produksjonsinstallasjon,8.2.3,32013R1253
+ProductionSite,nb,Produksjonssted,8.2.4,32013R1253
+ProductionPlot,nb,Produksjonsareal,8.2.5,32013R1253
+ProductionBuilding,nb,Produksjonsbygning,8.2.6,32013R1253
+StatusType,nb,Statustype,8.3.1,32013R1253
+PollutionAbatementTechniqueValue,nb,Forurensningsreduserende metode,8.4.1,32013R1253
+InstallationTypeValue,nb,Installasjonstype,8.4.2,32013R1253
+InstallationPartTypeValue,nb,Type delinstallasjon,8.4.3,32013R1253
+RiverBasinDistrictValue,nb,Nedbørfeltdistrikt,8.4.4,32013R1253
+TypeOfProductionBuildingValue,nb,Type produksjonsbygning,8.4.5,32013R1253
+Holding,nb,Driftsenhet,9.2.1,32013R1253
+Site,nb,Anleggssted,9.2.1.1,32013R1253
+FarmAnimalSpecies,nb,Arter av landbruksdyr,9.3.1,32013R1253
+LivestockSpeciesValue,nb,Husdyrarter,9.4.1,32013R1253
+AquacultureSpeciesValue,nb,Akvakulturarter,9.4.2,32013R1253
+StatisticalDistribution,nb,Statistisk fordeling,10.1.1,32013R1253
+Classification,nb,Klassifisering,10.2.1,32013R1253
+ClassificationItem,nb,Klassifiseringspost,10.2.2,32013R1253
+StatisticalValue,nb,Statistisk verdi,10.2.3,32013R1253
+Dimensions,nb,Dimensjoner,10.2.4,32013R1253
+ClassificationTypeValue,nb,Klassifiseringstype,10.3.1,32013R1253
+ClassificationItemTypeValue,nb,Type klassifiseringspost,10.3.2,32013R1253
+VariableValue,nb,Variabel,10.3.3,32013R1253
+StatisticsMeasurementMethodValue,nb,Statistisk målemetode,10.3.4,32013R1253
+StatisticalDataStatusValue,nb,Status for statistiske opplysninger,10.3.5,32013R1253
+SpecialValue,nb,Spesialverdi,10.3.6,32013R1253
+ZoneTypeCode,nb,Typekode for område,11.3.1,32013R1253
+SpecialisedZoneTypeCode,nb,Typekode for særlig område,11.3.2,32013R1253
+EnvironmentalDomain,nb,Miljødomene,11.3.3,32013R1253
+AbstractExposedElement,nb,Abstrakt eksponert element,12.2.1,32013R1253
+AbstractHazardArea,nb,Abstrakt fareområde,12.2.2,32013R1253
+AbstractObservedEvent,nb,Abstrakt observert hendelse,12.2.3,32013R1253
+AbstractRiskZone,nb,Abstrakt risikoområde,12.2.4,32013R1253
+ExposedElementCoverage,nb,Dekning av eksponert element,12.2.5,32013R1253
+ExposedElement,nb,Eksponert element,12.2.6,32013R1253
+HazardArea,nb,Fareområde,12.2.7,32013R1253
+HazardCoverage,nb,Dekning av fare,12.2.8,32013R1253
+ObservedEventCoverage,nb,Dekning av observert hendelse,12.2.9,32013R1253
+ObservedEvent,nb,Observert hendelse,12.2.10,32013R1253
+RiskCoverage,nb,Risikodekning,12.2.11,32013R1253
+RiskZone,nb,Risikoområde,12.2.12,32013R1253
+ExposedElementClassification,nb,Klassifisering av eksponert element,12.3.1,32013R1253
+LevelOrIntensity,nb,Nivå eller intensitet,12.3.2,32013R1253
+LikelihoodOfOccurrence,nb,Sannsynlighet for forekomst,12.3.3,32013R1253
+NaturalHazardClassification,nb,Klassifisering av naturbetinget fare,12.3.4,32013R1253
+QuantitativeLikelihood,nb,Kvantitativ sannsynlighet,12.3.5,32013R1253
+VulnerabilityAssessment,nb,Sårbarhetsvurdering,12.3.6,32013R1253
+DeterminationMethodValue,nb,Bestemmelsesmetode,12.4.1,32013R1253
+ExposedElementCategoryValue,nb,Kategori for eksponerte elementer,12.5.1,32013R1253
+NaturalHazardCategoryValue,nb,Kategori for naturbetingede farer,12.5.2,32013R1253
+SpecificExposedElementTypeValue,nb,Spesifikk type eksponert element,12.5.3,32013R1253
+SpecificHazardTypeValue,nb,Spesifikk faretype,12.5.4,32013R1253
+SeaArea,nb,Havområde,15.1.1,32013R1253
+Sea,nb,Hav,15.1.2,32013R1253
+MarineCirculationZone,nb,Havstømningsområde,15.1.3,32013R1253
+InterTidalArea,nb,Tidevannssone,15.1.4,32013R1253
+Shoreline,nb,Strandlinje,15.1.5,32013R1253
+ShoreSegment,nb,Strandsegment,15.1.6,32013R1253
+Coastline,nb,Kystlinje,15.1.7,32013R1253
+MarineContour,nb,Havkontur,15.1.8,32013R1253
+MarineLayer,nb,Havlag,15.1.9,32013R1253
+SeaBedArea,nb,Havbunnområde,15.1.10,32013R1253
+SeaSurfaceArea,nb,Havflateområde,15.1.11,32013R1253
+MarineExtent,nb,Havutbredelse,15.2.1,32013R1253
+MarineIsoline,nb,Isolinje til havs,15.2.2,32013R1253
+ParameterValuePair,nb,Parameterverdipar,15.2.3,32013R1253
+SeaAreaTypeClassificationValue,nb,Klassifisering av havområdetype,15.3.1,32013R1253
+SeaBedCoverValue,nb,Havbunnoverflate,15.3.2,32013R1253
+SeaSurfaceClassificationValue,nb,Klassifisering av havflate,15.3.3,32013R1253
+ShoreStabilityValue,nb,Strandstabilitet,15.3.4,32013R1253
+ShoreTypeClassificationValue,nb,Klassifisering av strandtype,15.3.5,32013R1253
+ZoneTypeValue,nb,Områdetype,15.3.6,32013R1253
+RegionClassificationLevelValue,nb,Områdeklassifiseringsnivå,16.2.1,32013R1253
+RegionClassificationSchemeValue,nb,Områdeklassifiseringssystem,16.2.2,32013R1253
+RegionClassificationValue,nb,Områdeklassifisering,16.2.3,32013R1253
+Habitat,nb,Habitat,17.2.1,32013R1253
+HabitatSpeciesType,nb,Artstyper i et habitat,17.3.1,32013R1253
+HabitatTypeCoverType,nb,Habitattypens dekke,17.3.2,32013R1253
+HabitatVegetationType,nb,Vegetasjonstyper i et habitat,17.3.3,32013R1253
+LocalNameType,nb,Type lokalt navn,17.3.4,32013R1253
+QualifierLocalNameValue,nb,Lokalt navn på kvalifikator,17.4.1,32013R1253
+ReferenceHabitatTypeCodeValue,nb,Referansekode for habitattype,17.4.2,32013R1253
+ReferenceHabitatTypeSchemeValue,nb,Referansesystem for habitattype,17.4.3,32013R1253
+LocalNameCodeValue,nb,Kode for lokalt navn,17.4.4,32013R1253
+SpeciesDistributionDataSet,nb,Datasett for artsfordeling,18.2.1,32013R1253
+SpeciesDistributionUnit,nb,Artsfordelingsenhet,18.2.2,32013R1253
+DistributionInfoType,nb,Type fordelingsinfo,18.3.1,32013R1253
+PopulationSizeType,nb,Type populasjonsstørrelse,18.3.2,32013R1253
+SpeciesNameType,nb,Type artsnavn,18.3.4,32013R1253
+CountingMethodValue,nb,Tellemetode,18.4.1,32013R1253
+CountingUnitValue,nb,Telleenhet,18.4.2,32013R1253
+LocalSpeciesNameCodeValue,nb,Kode for lokalt artsnavn,18.4.3,32013R1253
+OccurrenceCategoryValue,nb,Forekomstkategori,18.4.4,32013R1253
+PopulationTypeValue,nb,Populasjonstype,18.4.5,32013R1253
+QualifierValue,nb,Kvalifikator,18.4.6,32013R1253
+ReferenceSpeciesCodeValue,nb,Referansekode for arter,18.4.7,32013R1253
+ReferenceSpeciesSchemeValue,nb,Referansesystem for arter,18.4.8,32013R1253
+ResidencyStatusValue,nb,Etableringsstatus,18.4.9,32013R1253
+VerticalExtentRangeType,nb,Intervall av typen vertikal utbredelse,19.3.1.1,32013R1253
+VerticalExtentType,nb,Type vertikal utbredelse,19.3.1.2,32013R1253
+VerticalExtentValue,nb,Verdi for vertikal utbredelse,19.3.1.3,32013R1253
+ClassificationAndQuantificationFrameworkValue,nb,Ramme for klassifisering og kvantifisering,19.3.2.1,32013R1253
+FossilFuelClassValue,nb,Klasse for fossilt brensel,19.3.2.2,32013R1253
+RenewableAndWasteValue,nb,Fornybar energi og avfall,19.3.2.3,32013R1253
+FossilFuelValue,nb,Fossilt brensel,19.3.2.4,32013R1253
+VerticalReferenceValue,nb,Vertikal referanse,19.3.2.5,32013R1253
+VectorEnergyResource,nb,Vektorenergiressurs,19.4.1.1,32013R1253
+FossilFuelResource,nb,Fossil brenselressurs,19.4.1.2,32013R1253
+RenewableAndWasteResource,nb,Fornybar ressurs og avfallsressurs,19.4.1.3,32013R1253
+CalorificRangeType,nb,Type brennverdiintervall,19.4.2.1,32013R1253
+CalorificValueType,nb,Type brennverdi,19.4.2.2,32013R1253
+ExploitationPeriodType,nb,Type utnyttingsperiode,19.4.2.3,32013R1253
+FossilFuelMeasure,nb,Mål på fossilt brensel,19.4.2.4,32013R1253
+FossilFuelResourceType,nb,Type fossil brenselressurs,19.4.2.5,32013R1253
+RenewableAndWastePotentialCoverage,nb,Dekning av potensial for fornybar energi og avfall,19.5.1.1,32013R1253
+PotentialTypeValue,nb,Type potensial,19.5.2.1,32013R1253
+EarthResource,nb,Naturressurs,20.3.1.1,32013R1253
+MineralOccurrence,nb,Mineralforekomst,20.3.1.2,32013R1253
+Commodity,nb,Råvare,20.3.1.3,32013R1253
+ExplorationActivity,nb,Undersøkelsesvirksomhet,20.3.1.4,32013R1253
+MiningFeature,nb,Gruvedriftobjekt,20.3.1.5,32013R1253
+MiningFeatureOccurrence,nb,Forekomst av gruvedriftobjekt,20.3.1.6,32013R1253
+Mine,nb,Gruve,20.3.1.7,32013R1253
+MiningActivity,nb,Gruvevirksomhet,20.3.1.8,32013R1253
+CommodityMeasure,nb,Mål for råvaren,20.3.2.1,32013R1253
+EarthResourceDimension,nb,Naturressursdimensjon,20.3.2.2,32013R1253
+Endowment,nb,Forekomst,20.3.2.3,32013R1253
+MineName,nb,Gruvens navn,20.3.2.4,32013R1253
+MineralDepositModel,nb,Modell for mineralforekomst,20.3.2.5,32013R1253
+OreMeasure,nb,Mål for malm,20.3.2.6,32013R1253
+Reserve,nb,Reserve,20.3.2.7,32013R1253
+Resource,nb,Ressurs,20.3.2.8,32013R1253
+ClassificationMethodUsedValue,nb,Benyttet klassifiseringsmetode,20.3.3.1,32013R1253
+CommodityCodeValue,nb,Råvarekode,20.3.3.2,32013R1253
+EndusePotentialValue,nb,Sluttbrukspotensial,20.3.3.3,32013R1253
+ExplorationActivityTypeValue,nb,Type undersøkelsesvirksomhet,20.3.3.4,32013R1253
+ExplorationResultValue,nb,Undersøkelsesresultat,20.3.3.5,32013R1253
+ImportanceValue,nb,Betydning,20.3.3.6,32013R1253
+MineStatusValue,nb,Gruvestatus,20.3.3.7,32013R1253
+MineralDepositGroupValue,nb,Gruppe for mineralforekomst,20.3.3.8,32013R1253
+MineralDepositTypeValue,nb,Type mineralforekomst,20.3.3.9,32013R1253
+MineralOccurrenceTypeValue,nb,Mineralforekomsttype,20.3.3.10,32013R1253
+MiningActivityTypeValue,nb,Type gruvevirksomhet,20.3.3.11,32013R1253
+ProcessingActivityTypeValue,nb,Type bearbeidingsvirksomhet,20.3.3.12,32013R1253
+ReserveCategoryValue,nb,Reservekategori,20.3.3.13,32013R1253
+ResourceCategoryValue,nb,Ressurskategori,20.3.3.14,32013R1253

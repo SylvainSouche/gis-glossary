@@ -1,0 +1,739 @@
+key,language,label,section,act
+Identifier,ro,Identificator,2.1,02010R1089-20231119
+RelatedParty,ro,Parte asociată,2.2,02010R1089-20231119
+Contact,ro,Contact,2.3,02010R1089-20231119
+DocumentCitation,ro,Citare de document,2.4,02010R1089-20231119
+LegislationCitation,ro,Citare a legislației,2.5,02010R1089-20231119
+OfficialJournalInformation,ro,Informații referitoare la Jurnalul Oficial,2.6,02010R1089-20231119
+ThematicIdentifier,ro,Identificator tematic,2.7,02010R1089-20231119
+VerticalPositionValue,ro,Poziție verticală,4.1,02010R1089-20231119
+ConditionOfFacilityValue,ro,Starea instalației,4.2,02010R1089-20231119
+CountryCode,ro,Codul de țară,4.3,02010R1089-20231119
+LegislationLevelValue,ro,Nivel al legislației,4.4,02010R1089-20231119
+PartyRoleValue,ro,Rol al părții,4.5,02010R1089-20231119
+CFStandardNamesValue,ro,Nume standard în domeniul climei și al prognozei,4.6,02010R1089-20231119
+GenderValue,ro,Gen,4.7,02010R1089-20231119
+CrossReference,ro,Trimitere încrucișată,5.1.1,02010R1089-20231119
+GeneralisedLink,ro,Legătură generalizată,5.1.2,02010R1089-20231119
+GradeSeparatedCrossing,ro,Intersecție denivelată,5.1.3,02010R1089-20231119
+Link,ro,Legătură,5.1.4,02010R1089-20231119
+LinkSequence,ro,Succesiune de legături,5.1.5,02010R1089-20231119
+LinkSet,ro,Set de căi de legătură,5.1.6,02010R1089-20231119
+Network,ro,Rețea,5.1.7,02010R1089-20231119
+NetworkArea,ro,Arie de rețea,5.1.8,02010R1089-20231119
+NetworkConnection,ro,Conexiune de rețea,5.1.9,02010R1089-20231119
+NetworkElement,ro,Element de rețea,5.1.10,02010R1089-20231119
+NetworkProperty,ro,Proprietate a rețelei,5.1.11,02010R1089-20231119
+Node,ro,Nod,5.1.12,02010R1089-20231119
+DirectedLink,ro,Legătură direcționată,5.2.1,02010R1089-20231119
+LinkReference,ro,Referință de legătură,5.2.2,02010R1089-20231119
+NetworkReference,ro,Referință de rețea,5.2.3,02010R1089-20231119
+SimpleLinearReference,ro,Referință liniară simplă,5.2.4,02010R1089-20231119
+SimplePointReference,ro,Referință punctuală simplă,5.2.5,02010R1089-20231119
+ConnectionTypeValue,ro,Tip de conexiune,5.3.1,02010R1089-20231119
+LinkDirectionValue,ro,Direcția legăturii,5.3.2,02010R1089-20231119
+Base,ro,Acoperiri,6.1,02010R1089-20231119
+Coverage,ro,Acoperire,6.1.1.1,02010R1089-20231119
+CoverageByDomainAndRange,ro,Acoperire (Reprezentare a domeniului și a intervalului),6.2.1.1,02010R1089-20231119
+RectifiedGridCoverage,ro,Acoperire de tip caroiaj rectificat,6.2.1.2,02010R1089-20231119
+ReferenceableGridCoverage,ro,Acoperire de tip caroiaj referențiabil,6.2.1.3,02010R1089-20231119
+CoverageFunction,ro,Funcție de acoperire,6.2.2.1,02010R1089-20231119
+GridFunction,ro,Funcție a caroiajului,6.2.2.2,02010R1089-20231119
+ObservationSet,ro,Set de observări,7.1.1.1,02010R1089-20231119
+Process,ro,Proces,7.2.1.1,02010R1089-20231119
+ProcessParameter,ro,Parametru de proces,7.2.2.1,02010R1089-20231119
+ProcessParameterNameValue,ro,Denumirea parametrului de proces,7.2.3.1,02010R1089-20231119
+Constraint,ro,Constrângere,7.3.1.1,02010R1089-20231119
+CategoryConstraint,ro,Constrângere de categorie,7.3.1.2,02010R1089-20231119
+RangeConstraint,ro,Constrângere de interval,7.3.1.3,02010R1089-20231119
+RangeBounds,ro,Limite ale intervalului,7.3.1.4,02010R1089-20231119
+ScalarConstraint,ro,Constrângere scalară,7.3.1.5,02010R1089-20231119
+OtherConstraint,ro,Alte constrângeri,7.3.1.6,02010R1089-20231119
+StatisticalMeasure,ro,Măsură statistică,7.3.1.7,02010R1089-20231119
+AbstractObservableProperty,ro,Proprietate observabilă abstractă,7.3.1.8,02010R1089-20231119
+CompositeObservableProperty,ro,Proprietate observabilă compozită,7.3.1.9,02010R1089-20231119
+ObservableProperty,ro,Proprietate observabilă,7.3.1.10,02010R1089-20231119
+PhenomenonTypeValue,ro,Tipuri de fenomene,7.3.3.1,02010R1089-20231119
+StatisticalFunctionTypeValue,ro,Tipul funcțiilor statistice,7.3.3.2,02010R1089-20231119
+ComparisonOperatorValue,ro,Operator de comparare,7.3.3.3,02010R1089-20231119
+GridObservation,ro,Observare în caroiaj,7.4.1.1,02010R1089-20231119
+GridSeriesObservation,ro,Observare în serii de caroiaje,7.4.1.2,02010R1089-20231119
+PointObservation,ro,Observare punctuală,7.4.1.3,02010R1089-20231119
+PointObservationCollection,ro,Colecție de observări punctuale,7.4.1.4,02010R1089-20231119
+MultiPointObservation,ro,Observări punctuale multiple,7.4.1.5,02010R1089-20231119
+PointTimeSeriesObservation,ro,Observare de serie temporală într-un punct,7.4.1.6,02010R1089-20231119
+ProfileObservation,ro,Observare după profil,7.4.1.7,02010R1089-20231119
+TrajectoryObservation,ro,Observare după traiectorie,7.4.1.8,02010R1089-20231119
+TimeLocationValueTriple,ro,Triplă timp-locație-valoare,7.4.2.1,02010R1089-20231119
+ActivityComplex,ro,Complex de activități,8.1.1.1,02010R1089-20231119
+Function,ro,Funcție,8.1.2.1,02010R1089-20231119
+Capacity,ro,Capacitate,8.1.2.2,02010R1089-20231119
+InputOutputAmount,ro,Cantitate de inputuri sau outputuri,8.1.2.3,02010R1089-20231119
+Permission,ro,Autorizație,8.1.2.4,02010R1089-20231119
+ActivityComplexDescription,ro,Descriere a complexului de activități,8.1.2.5,02010R1089-20231119
+EconomicActivityValue,ro,Activitate economică,8.1.3.1,02010R1089-20231119
+InputOutputValue,ro,Input sau output,8.1.3.2,02010R1089-20231119
+NamedPlace,ro,Loc denumit,3.1.1,02010R1089-20231119
+GeographicalName,ro,Denumire geografică,3.2.1,02010R1089-20231119
+PronunciationOfName,ro,Pronunția denumirii,3.2.2,02010R1089-20231119
+SpellingOfName,ro,Ortografia denumirii,3.2.3,02010R1089-20231119
+GrammaticalGenderValue,ro,Gen gramatical,3.3.1,02010R1089-20231119
+GrammaticalNumberValue,ro,Număr gramatical,3.3.2,02010R1089-20231119
+NameStatusValue,ro,Name Status,3.3.3,02010R1089-20231119
+NamedPlaceTypeValue,ro,Tipul de loc denumit,3.3.4,02010R1089-20231119
+NativenessValue,ro,Origine,3.3.5,02010R1089-20231119
+AdministrativeBoundary,ro,Limită administrativă,4.2.1.1,02010R1089-20231119
+AdministrativeUnit,ro,Unitate administrativă,4.2.1.2,02010R1089-20231119
+Condominium,ro,Condominiu,4.2.1.3,02010R1089-20231119
+ResidenceOfAuthority,ro,Reședință a autorității,4.2.2.1,02010R1089-20231119
+AdministrativeHierarchyLevel,ro,Nivel al ierarhiei administrative,4.2.4.1,02010R1089-20231119
+LegalStatusValue,ro,Statut juridic,4.2.4.2,02010R1089-20231119
+TechnicalStatusValue,ro,Statut tehnic,4.2.4.3,02010R1089-20231119
+Baseline,ro,Linie de bază,4.3.1.1,02010R1089-20231119
+MaritimeBoundary,ro,Frontieră maritimă,4.3.1.2,02010R1089-20231119
+MaritimeZone,ro,Zonă maritimă,4.3.1.3,02010R1089-20231119
+BaselineSegment,ro,Segment al liniei de bază,4.3.2.1,02010R1089-20231119
+BaselineSegmentTypeValue,ro,Tip al segmentului liniei de bază,4.3.3.1,02010R1089-20231119
+MaritimeZoneTypeValue,ro,Tip de zonă maritimă,4.3.3.2,02010R1089-20231119
+Address,ro,Adresă,5.2.1,02010R1089-20231119
+AddressAreaName,ro,Denumire de zonă de adresă,5.2.2,02010R1089-20231119
+AddressComponent,ro,Element de adresă,5.2.3,02010R1089-20231119
+AdminUnitName,ro,Denumirea unității administrative,5.2.4,02010R1089-20231119
+PostalDescriptor,ro,Indicativ poștal,5.2.5,02010R1089-20231119
+ThoroughfareName,ro,Denumirea magistralei,5.2.6,02010R1089-20231119
+AddressLocator,ro,Localizator de adresă,5.3.1,02010R1089-20231119
+AddressRepresentation,ro,Reprezentarea adresei,5.3.2,02010R1089-20231119
+GeographicPosition,ro,Poziția geografică,5.3.3,02010R1089-20231119
+LocatorDesignator,ro,Identificator de localizator,5.3.4,02010R1089-20231119
+LocatorName,ro,Denumire de localizator,5.3.5,02010R1089-20231119
+PartOfName,ro,Componentă de denumire,5.3.6,02010R1089-20231119
+ThoroughfareNameValue,ro,Valoarea denumirii magistralei,5.3.7,02010R1089-20231119
+GeometryMethodValue,ro,Metoda geometrică,5.4.1,02010R1089-20231119
+GeometrySpecificationValue,ro,Specificația geometrică,5.4.2,02010R1089-20231119
+LocatorDesignatorTypeValue,ro,Tipul identificatorului de localizator,5.4.3,02010R1089-20231119
+LocatorLevelValue,ro,Nivelul localizatorului,5.4.4,02010R1089-20231119
+LocatorNameTypeValue,ro,Tipul denumirii de localizator,5.4.5,02010R1089-20231119
+PartTypeValue,ro,Tipul părții,5.4.6,02010R1089-20231119
+StatusValue,ro,Statut,5.4.7,02010R1089-20231119
+BasicPropertyUnit,ro,Unitate funciară de bază,6.1.1,02010R1089-20231119
+CadastralBoundary,ro,Frontiera cadastrală,6.1.2,02010R1089-20231119
+CadastralParcel,ro,Parcela cadastrală,6.1.3,02010R1089-20231119
+CadastralZoning,ro,Zonarea cadastrală,6.1.4,02010R1089-20231119
+CadastralZoningLevelValue,ro,Nivelul zonării cadastrale,6.2.1,02010R1089-20231119
+AccessRestriction,ro,Restricție de acces,7.3.1.1,02010R1089-20231119
+ConditionOfFacility,ro,Starea instalației,7.3.1.2,02010R1089-20231119
+MaintenanceAuthority,ro,Autoritatea responsabilă cu întreținerea,7.3.1.3,02010R1089-20231119
+MarkerPost,ro,Bornă,7.3.1.4,02010R1089-20231119
+OwnerAuthority,ro,Autoritatea deținătoare,7.3.1.5,02010R1089-20231119
+RestrictionForVehicles,ro,Restricții pentru vehicule,7.3.1.6,02010R1089-20231119
+TrafficFlowDirection,ro,Direcția fluxului traficului,7.3.1.7,02010R1089-20231119
+TransportArea,ro,Zonă de transport,7.3.1.8,02010R1089-20231119
+TransportLink,ro,Legătură de transport,7.3.1.9,02010R1089-20231119
+TransportLinkSequence,ro,Succesiune de legături de transport,7.3.1.10,02010R1089-20231119
+TransportLinkSet,ro,Set de legături de transport,7.3.1.11,02010R1089-20231119
+TransportNetwork,ro,Rețea de transport,7.3.1.12,02010R1089-20231119
+TransportNode,ro,Nod de transport,7.3.1.13,02010R1089-20231119
+TransportObject,ro,Obiect de transport,7.3.1.14,02010R1089-20231119
+TransportPoint,ro,Punct de transport,7.3.1.15,02010R1089-20231119
+TransportProperty,ro,Proprietate a transportului,7.3.1.16,02010R1089-20231119
+VerticalPosition,ro,Poziție verticală,7.3.1.17,02010R1089-20231119
+AccessRestrictionValue,ro,Restricție de acces,7.3.3.1,02010R1089-20231119
+RestrictionTypeValue,ro,Tip de restricție,7.3.3.2,02010R1089-20231119
+TransportTypeValue,ro,Tip de transport,7.3.3.3,02010R1089-20231119
+AerodromeArea,ro,Zona aerodromului,7.4.1.1,02010R1089-20231119
+AerodromeCategory,ro,Categoria aerodromului,7.4.1.2,02010R1089-20231119
+AerodromeNode,ro,Nod de aerodromuri,7.4.1.3,02010R1089-20231119
+AerodromeType,ro,Tip de aerodrom,7.4.1.4,02010R1089-20231119
+AirLink,ro,Legătură aeriană,7.4.1.5,02010R1089-20231119
+AirLinkSequence,ro,Succesiune de legături aeriene,7.4.1.6,02010R1089-20231119
+AirNode,ro,Nod aerian,7.4.1.7,02010R1089-20231119
+AirRoute,ro,Rută aeriană,7.4.1.8,02010R1089-20231119
+AirRouteLink,ro,Rută aeriană de legătură,7.4.1.9,02010R1089-20231119
+AirspaceArea,ro,Zona de spațiu aerian,7.4.1.10,02010R1089-20231119
+ApronArea,ro,Zona platformei,7.4.1.11,02010R1089-20231119
+ConditionOfAirFacility,ro,Starea instalației aeriene,7.4.1.12,02010R1089-20231119
+DesignatedPoint,ro,Punct desemnat,7.4.1.13,02010R1089-20231119
+ElementLength,ro,Lungimea elementului,7.4.1.14,02010R1089-20231119
+ElementWidth,ro,Lățimea elementului,7.4.1.15,02010R1089-20231119
+FieldElevation,ro,Altitudinea terenului,7.4.1.16,02010R1089-20231119
+InstrumentApproachProcedure,ro,Procedură de apropiere instrumentală,7.4.1.17,02010R1089-20231119
+LowerAltitudeLimit,ro,Limita inferioară de altitudine,7.4.1.18,02010R1089-20231119
+Navaid,ro,Asistarea navigației,7.4.1.19,02010R1089-20231119
+ProcedureLink,ro,Legătură de procedură,7.4.1.20,02010R1089-20231119
+RunwayArea,ro,Zona pistei de decolare și de aterizare,7.4.1.21,02010R1089-20231119
+RunwayCentrelinePoint,ro,Punctul de pe linia mediană a pistei de decolare și de aterizare,7.4.1.22,02010R1089-20231119
+StandardInstrumentArrival,ro,Sosire instrumentală standard,7.4.1.23,02010R1089-20231119
+StandardInstrumentDeparture,ro,Plecare instrumentală standard,7.4.1.24,02010R1089-20231119
+SurfaceComposition,ro,Compoziția suprafeței,7.4.1.25,02010R1089-20231119
+TaxiwayArea,ro,Zona căii de rulare,7.4.1.26,02010R1089-20231119
+TouchDownLiftOff,ro,Zona de desprindere și de contact,7.4.1.27,02010R1089-20231119
+UpperAltitudeLimit,ro,Limită superioară de altitudine,7.4.1.28,02010R1089-20231119
+UseRestriction,ro,Restricție de exploatare,7.4.1.29,02010R1089-20231119
+AerodromeCategoryValue,ro,Categoria aerodromului,7.4.2.1,02010R1089-20231119
+AerodromeTypeValue,ro,Tipul aerodromului,7.4.2.2,02010R1089-20231119
+AirRouteLinkClassValue,ro,Clasa de rută aeriană de legătură,7.4.2.3,02010R1089-20231119
+AirRouteTypeValue,ro,Tipul rutei aeriene,7.4.2.4,02010R1089-20231119
+AirUseRestrictionValue,ro,Restricția de exploatare aeriană,7.4.2.5,02010R1089-20231119
+AirspaceAreaTypeValue,ro,Tipul de zonă a spațiului aerian,7.4.2.6,02010R1089-20231119
+NavaidTypeValue,ro,Tipul de asistare a navigației,7.4.2.7,02010R1089-20231119
+PointRoleValue,ro,Rolul punctului,7.4.2.8,02010R1089-20231119
+RunwayTypeValue,ro,Tipul pistei de decolare și aterizare,7.4.2.9,02010R1089-20231119
+SurfaceCompositionValue,ro,Compoziția suprafeței,7.4.2.10,02010R1089-20231119
+CablewayLink,ro,Cale de transport pe cablu,7.5.1.1,02010R1089-20231119
+CablewayLinkSequence,ro,Succesiune de legături de transport pe cablu,7.5.1.2,02010R1089-20231119
+CablewayLinkSet,ro,Set de legături de transport pe cablu,7.5.1.3,02010R1089-20231119
+CablewayNode,ro,Nod de rețea de transport pe cablu,7.5.1.4,02010R1089-20231119
+CablewayTypeValue,ro,Tipul de transport pe cablu,7.5.2.1,02010R1089-20231119
+DesignSpeed,ro,Viteză proiectată,7.6.1.1,02010R1089-20231119
+NominalTrackGauge,ro,Ecartamentul nominal al liniilor,7.6.1.2,02010R1089-20231119
+NumberOfTracks,ro,Număr de linii,7.6.1.3,02010R1089-20231119
+RailwayArea,ro,Zonă de cale ferată,7.6.1.4,02010R1089-20231119
+RailwayElectrification,ro,Electrificare a unei căi ferate,7.6.1.5,02010R1089-20231119
+RailwayLine,ro,Linie de cale ferată,7.6.1.6,02010R1089-20231119
+RailwayLink,ro,Legătură feroviară,7.6.1.7,02010R1089-20231119
+RailwayLinkSequence,ro,Succesiune de legături feroviare,7.6.1.8,02010R1089-20231119
+RailwayNode,ro,Nod de cale ferată,7.6.1.9,02010R1089-20231119
+RailwayStationArea,ro,Zona gării feroviare,7.6.1.10,02010R1089-20231119
+RailwayStationCode,ro,Codul de gară feroviară,7.6.1.11,02010R1089-20231119
+RailwayStationNode,ro,Nod de gară feroviară,7.6.1.12,02010R1089-20231119
+RailwayType,ro,Tipul de cale ferată,7.6.1.13,02010R1089-20231119
+RailwayUse,ro,Utilizarea căii ferate,7.6.1.14,02010R1089-20231119
+RailwayYardArea,ro,Zona gării de triaj,7.6.1.15,02010R1089-20231119
+RailwayYardNode,ro,Nod de gară de triaj,7.6.1.16,02010R1089-20231119
+FormOfRailwayNodeValue,ro,Forma nodului de cale ferată,7.6.3.1,02010R1089-20231119
+RailwayTypeValue,ro,Tipul căii ferate,7.6.3.2,02010R1089-20231119
+RailwayUseValue,ro,Utilizarea căii ferate,7.6.3.3,02010R1089-20231119
+MinMaxTrackValue,ro,Numărul minim sau maxim de linii,7.6.3.4,02010R1089-20231119
+TrackGaugeCategoryValue,ro,Categoria ecartamentului liniilor,7.6.3.5,02010R1089-20231119
+ERoad,ro,Drum „E”,7.7.1.1,02010R1089-20231119
+FormOfWay,ro,Forma drumului,7.7.1.2,02010R1089-20231119
+FunctionalRoadClass,ro,Categoria funcțională de drum,7.7.1.3,02010R1089-20231119
+NumberOfLanes,ro,Numărul benzilor de circulație,7.7.1.4,02010R1089-20231119
+Road,ro,Drum,7.7.1.5,02010R1089-20231119
+RoadArea,ro,Zona rutieră,7.7.1.6,02010R1089-20231119
+RoadLink,ro,Legătură rutieră,7.7.1.7,02010R1089-20231119
+RoadLinkSequence,ro,Succesiune de legături rutiere,7.7.1.8,02010R1089-20231119
+RoadName,ro,Denumirea drumului,7.7.1.9,02010R1089-20231119
+RoadNode,ro,Nod rutier,7.7.1.10,02010R1089-20231119
+RoadServiceArea,ro,Zonă de servicii,7.7.1.11,02010R1089-20231119
+RoadServiceType,ro,Tipul de servicii rutiere,7.7.1.12,02010R1089-20231119
+RoadSurfaceCategory,ro,Categoria de suprafață carosabilă,7.7.1.13,02010R1089-20231119
+RoadWidth,ro,Lățimea drumului,7.7.1.14,02010R1089-20231119
+SpeedLimit,ro,Limită de viteză,7.7.1.15,02010R1089-20231119
+VehicleTrafficArea,ro,Zona pentru circulația vehiculelor,7.7.1.16,02010R1089-20231119
+AreaConditionValue,ro,Condiție aplicabilă zonei,7.7.3.1,02010R1089-20231119
+FormOfRoadNodeValue,ro,Forma nodului rutier,7.7.3.2,02010R1089-20231119
+FormOfWayValue,ro,Forma drumului,7.7.3.3,02010R1089-20231119
+RoadPartValue,ro,Porțiune de drum,7.7.3.4,02010R1089-20231119
+RoadServiceTypeValue,ro,Tipul de servicii rutiere,7.7.3.5,02010R1089-20231119
+RoadSurfaceCategoryValue,ro,Categoria de suprafață carosabilă,7.7.3.6,02010R1089-20231119
+ServiceFacilityValue,ro,Amenajări pentru servicii,7.7.3.7,02010R1089-20231119
+SpeedLimitSourceValue,ro,Sursa limitei de viteză,7.7.3.8,02010R1089-20231119
+VehicleTypeValue,ro,Tip de vehicule,7.7.3.9,02010R1089-20231119
+WeatherConditionValue,ro,Condiții meteorologice,7.7.3.10,02010R1089-20231119
+FunctionalRoadClassValue,ro,Clasă funcțională de drum,7.7.3.11,02010R1089-20231119
+MinMaxLaneValue,ro,Numărul minim sau maxim de benzi,7.7.3.12,02010R1089-20231119
+SpeedLimitMinMaxValue,ro,Tipul limitei de viteză,7.7.3.13,02010R1089-20231119
+Beacon,ro,Baliză,7.8.1.1,02010R1089-20231119
+Buoy,ro,Geamandură,7.8.1.2,02010R1089-20231119
+CEMTClass,ro,Clasa CEMT,7.8.1.3,02010R1089-20231119
+ConditionOfWaterFacility,ro,Starea instalației de transport pe apă,7.8.1.4,02010R1089-20231119
+FairwayArea,ro,Zona șenalului navigabil,7.8.1.5,02010R1089-20231119
+FerryCrossing,ro,Traversarea cu feribotul,7.8.1.6,02010R1089-20231119
+FerryUse,ro,Utilizarea feribotului,7.8.1.7,02010R1089-20231119
+InlandWaterway,ro,Cale navigabilă interioară,7.8.1.8,02010R1089-20231119
+MarineWaterway,ro,Cale navigabilă maritimă,7.8.1.9,02010R1089-20231119
+PortArea,ro,Zona portuară,7.8.1.10,02010R1089-20231119
+PortNode,ro,Nod portuar,7.8.1.11,02010R1089-20231119
+RestrictionForWaterVehicles,ro,Restricție pentru vehiculele de transport pe apă,7.8.1.12,02010R1089-20231119
+TrafficSeparationScheme,ro,Sistem de separare a traficului,7.8.1.13,02010R1089-20231119
+TrafficSeparationSchemeArea,ro,Zonă în cadrul sistemului de separare a traficului,7.8.1.14,02010R1089-20231119
+TrafficSeparationSchemeCrossing,ro,Intersecție în cadrul sistemului de separare a traficului,7.8.1.15,02010R1089-20231119
+TrafficSeparationSchemeLane,ro,Bandă în cadrul sistemului de separare a traficului,7.8.1.16,02010R1089-20231119
+TrafficSeparationSchemeRoundabout,ro,Sens giratoriu în cadrul sistemului de separare a traficului,7.8.1.17,02010R1089-20231119
+TrafficSeparationSchemeSeparator,ro,Separator în cadrul sistemului de separare a traficului,7.8.1.18,02010R1089-20231119
+WaterLinkSequence,ro,Succesiune de legături de transport pe apă,7.8.1.19,02010R1089-20231119
+WaterNode,ro,Nod al rețelei de transport pe apă,7.8.1.20,02010R1089-20231119
+WaterTrafficFlowDirection,ro,Direcția fluxului traficului pe apă,7.8.1.21,02010R1089-20231119
+Waterway,ro,Cale navigabilă,7.8.1.22,02010R1089-20231119
+WaterwayLink,ro,Legătură de cale navigabilă,7.8.1.23,02010R1089-20231119
+WaterwayNode,ro,Nod al unei căi navigabile,7.8.1.24,02010R1089-20231119
+FerryUseValue,ro,Utilizarea feribotului,7.8.3.1,02010R1089-20231119
+FormOfWaterwayNodeValue,ro,Tipul nodului de cale navigabilă,7.8.3.2,02010R1089-20231119
+CEMTClassValue,ro,Clasa CEMT,7.8.3.3,02010R1089-20231119
+HydroObject,ro,Obiect hidrografic,8.3.1.1,02010R1089-20231119
+HydroIdentifier,ro,Identificator hidrografic,8.3.2.1,02010R1089-20231119
+HydroNode,ro,Nod hidrografic,8.4.1.1,02010R1089-20231119
+WatercourseLink,ro,Legătură de curs de apă,8.4.1.2,02010R1089-20231119
+WatercourseLinkSequence,ro,Succesiune de legături de cursuri de apă,8.4.1.3,02010R1089-20231119
+WatercourseSeparatedCrossing,ro,Intersectare de cursuri de apă cu fluxuri separate,8.4.1.4,02010R1089-20231119
+HydroNodeCategoryValue,ro,Categoria de nod hidrografic,8.4.2.1,02010R1089-20231119
+Crossing,ro,Intersecție,8.5.1.1,02010R1089-20231119
+DamOrWeir,ro,Dig sau baraj,8.5.1.2,02010R1089-20231119
+DrainageBasin,ro,Bazin de drenaj,8.5.1.3,02010R1089-20231119
+Embankment,ro,Rambleu,8.5.1.4,02010R1089-20231119
+Falls,ro,Căderi,8.5.1.5,02010R1089-20231119
+FluvialPoint,ro,Punct fluvial,8.5.1.6,02010R1089-20231119
+Ford,ro,Vad,8.5.1.7,02010R1089-20231119
+HydroPointOfInterest,ro,Punct de interes hidrografic,8.5.1.8,02010R1089-20231119
+LandWaterBoundary,ro,Limita uscat-apă,8.5.1.11,02010R1089-20231119
+Lock,ro,Ecluză,8.5.1.12,02010R1089-20231119
+ManMadeObject,ro,Obiect făcut de om,8.5.1.13,02010R1089-20231119
+Rapids,ro,Praguri,8.5.1.17,02010R1089-20231119
+RiverBasin,ro,Bazin hidrografic,8.5.1.18,02010R1089-20231119
+Shore,ro,Țărm,8.5.1.19,02010R1089-20231119
+ShorelineConstruction,ro,Construcții pe țărm,8.5.1.20,02010R1089-20231119
+Sluice,ro,Deversor,8.5.1.21,02010R1089-20231119
+StandingWater,ro,Apă stătătoare,8.5.1.22,02010R1089-20231119
+SurfaceWater,ro,Apă de suprafață,8.5.1.23,02010R1089-20231119
+Watercourse,ro,Curs de apă,8.5.1.24,02010R1089-20231119
+Wetland,ro,Zonă umedă,8.5.1.25,02010R1089-20231119
+HydroOrderCode,ro,Cod de ordine hidrografică,8.5.2.1,02010R1089-20231119
+WidthRange,ro,Domeniul de variație a lățimii,8.5.2.2,02010R1089-20231119
+CrossingTypeValue,ro,Tipul de intersectare,8.5.4.1,02010R1089-20231119
+HydrologicalPersistenceValue,ro,Persistență hidrologică,8.5.4.2,02010R1089-20231119
+ShoreTypeValue,ro,Tip de țărm,8.5.4.4,02010R1089-20231119
+WaterLevelValue,ro,Nivelul apei,8.5.4.5,02010R1089-20231119
+OriginValue,ro,Origine,8.5.4.6,02010R1089-20231119
+ProtectedSite,ro,Zonă protejată,9.1.1,02010R1089-20231119
+DesignationType,ro,Tipul desemnării,9.2.1,02010R1089-20231119
+DesignationSchemeValue,ro,Sistem de desemnare,9.4.1,02010R1089-20231119
+DesignationValue,ro,Desemnare,9.4.2,02010R1089-20231119
+IUCNDesignationValue,ro,Desemnare UICN,9.4.3,02010R1089-20231119
+NationalMonumentsRecordDesignationValue,ro,Desemnare în temeiul Registrului monumentelor naționale,9.4.4,02010R1089-20231119
+Natura2000DesignationValue,ro,Desemnare Natura2000,9.4.5,02010R1089-20231119
+RamsarDesignationValue,ro,Desemnare Ramsar,9.4.6,02010R1089-20231119
+UNESCOManAndBiosphereProgrammeDesignationValue,ro,Desemnare conform programului UNESCO „Omul și biosfera”,9.4.7,02010R1089-20231119
+UNESCOWorldHeritageDesignationValue,ro,Desemnare conform patrimoniului mondial UNESCO,9.4.8,02010R1089-20231119
+ProtectionClassificationValue,ro,Clasificare în funcție de protecție,9.4.9,02010R1089-20231119
+ElevationPropertyTypeValue,ro,Tip de proprietate a elevației,1.3.1.1,02010R1089-20231119
+SurfaceTypeValue,ro,Tip de suprafață,1.3.1.2,02010R1089-20231119
+ElevationGridCoverage,ro,Acoperire în caroiaj a elevației,1.4.1.1,02010R1089-20231119
+ElevationGridCoverageAggregation,ro,Agregare a acoperirii în caroiaj a elevației,1.4.2.1,02010R1089-20231119
+ElevationVectorObject,ro,Obiect vectorial de elevație,1.5.1.1,02010R1089-20231119
+SpotElevation,ro,Punct cotat,1.5.1.2,02010R1089-20231119
+ContourLine,ro,Curbă de nivel,1.5.1.3,02010R1089-20231119
+BreakLine,ro,Linie de discontinuitate,1.5.1.4,02010R1089-20231119
+VoidArea,ro,Zonă goală,1.5.1.5,02010R1089-20231119
+IsolatedArea,ro,Zonă izolată,1.5.1.6,02010R1089-20231119
+ChartDatum,ro,Nivel zero hidrografic,1.5.2.1,02010R1089-20231119
+BreakLineTypeValue,ro,Tipul liniei de discontinuitate,1.5.4.1,02010R1089-20231119
+SpotElevationClassValue,ro,Clasificarea punctului cotat,1.5.4.2,02010R1089-20231119
+SpotElevationTypeValue,ro,Tipul punctului cotat,1.5.4.3,02010R1089-20231119
+ContourLineTypeValue,ro,Tip de curbă de nivel,1.5.4.4,02010R1089-20231119
+ElevationTIN,ro,Elevație TIN,1.6.1.1,02010R1089-20231119
+LandCoverNomenclature,ro,Nomenclatorul de acoperire a terenului,2.3.1.1,02010R1089-20231119
+LandCoverClassValue,ro,Clasa de acoperire a terenului,2.3.2.1,02010R1089-20231119
+LandCoverDataset,ro,Set de date privind acoperirea terenului,2.4.1.1,02010R1089-20231119
+LandCoverUnit,ro,Unitate de acoperire a terenului,2.4.1.2,02010R1089-20231119
+LandCoverObservation,ro,Observarea acoperirii terenului,2.4.2.1,02010R1089-20231119
+LandCoverValue,ro,Acoperirea terenului,2.4.2.2,02010R1089-20231119
+LandCoverGridCoverage,ro,Acoperire de tip caroiaj de acoperire a terenului,2.5.1.1,02010R1089-20231119
+OrthoimageCoverage,ro,Acoperire de ortoimagini,3.2.1,02010R1089-20231119
+MosaicElement,ro,Element de mozaic,3.2.2,02010R1089-20231119
+SingleMosaicElement,ro,Element unic de mozaic,3.2.3,02010R1089-20231119
+AggregatedMosaicElement,ro,Element agregat de mozaic,3.2.4,02010R1089-20231119
+OrthoimageAggregation,ro,Agregare de ortoimagini,3.3.1,02010R1089-20231119
+InterpolationMethodValue,ro,Metoda interpolării,3.4.1,02010R1089-20231119
+AnthropogenicGeomorphologicFeature,ro,Caracteristică geomorfologică antropogenă,4.2.1.1,02010R1089-20231119
+Borehole,ro,Gaură de sondă,4.2.1.2,02010R1089-20231119
+Fold,ro,Cută,4.2.1.3,02010R1089-20231119
+GeologicCollection,ro,Colecție geologică,4.2.1.4,02010R1089-20231119
+GeologicEvent,ro,Eveniment geologic,4.2.1.5,02010R1089-20231119
+GeologicFeature,ro,Caracteristică geologică,4.2.1.6,02010R1089-20231119
+GeologicStructure,ro,Structură geologică,4.2.1.7,02010R1089-20231119
+GeologicUnit,ro,Unitate geologică,4.2.1.8,02010R1089-20231119
+GeomorphologicFeature,ro,Caracteristică geomorfologică,4.2.1.9,02010R1089-20231119
+MappedFeature,ro,Caracteristică cartografiată,4.2.1.10,02010R1089-20231119
+MappedInterval,ro,Interval cartografiat,4.2.1.11,02010R1089-20231119
+NaturalGeomorphologicFeature,ro,Caracteristică geomorfologică naturală,4.2.1.12,02010R1089-20231119
+ShearDisplacementStructure,ro,Structură de dislocare prin forfecare,4.2.1.13,02010R1089-20231119
+CompositionPart,ro,Parte de compoziție,4.2.2.1,02010R1089-20231119
+ThematicClass,ro,Clasă tematică,4.2.2.2,02010R1089-20231119
+AnthropogenicGeomorphologicFeatureTypeValue,ro,Tipul caracteristicii geomorfologice antropogene,4.2.3.1,02010R1089-20231119
+BoreholePurposeValue,ro,Scopul găurii de sondă,4.2.3.2,02010R1089-20231119
+CollectionTypeValue,ro,Tipul colecției,4.2.3.3,02010R1089-20231119
+CompositionPartRoleValue,ro,Rolul părții de compoziție,4.2.3.4,02010R1089-20231119
+EventEnvironmentValue,ro,Condițiile evenimentului,4.2.3.5,02010R1089-20231119
+EventProcessValue,ro,Procesul evenimentului,4.2.3.6,02010R1089-20231119
+FaultTypeValue,ro,Tip de falie,4.2.3.7,02010R1089-20231119
+FoldProfileTypeValue,ro,Tipul de profil al cutei,4.2.3.8,02010R1089-20231119
+GeochronologicEraValue,ro,Eră geocronologică,4.2.3.9,02010R1089-20231119
+GeologicUnitTypeValue,ro,Tipul de unitate geologică,4.2.3.10,02010R1089-20231119
+GeomorphologicActivityValue,ro,Activitate geomorfologică,4.2.3.11,02010R1089-20231119
+LithologyValue,ro,Litologie,4.2.3.12,02010R1089-20231119
+MappingFrameValue,ro,Cadru de cartografiere,4.2.3.13,02010R1089-20231119
+NaturalGeomorphologicFeatureTypeValue,ro,Tipul caracteristicii geomorfologice naturale,4.2.3.14,02010R1089-20231119
+ThematicClassValue,ro,Clasă tematică,4.2.3.15,02010R1089-20231119
+ThematicClassificationValue,ro,Clasificare tematică,4.2.3.16,02010R1089-20231119
+Geophysics,ro,Geofizică,4.3,02010R1089-20231119
+Campaign,ro,Campanie,4.3.1.1,02010R1089-20231119
+GeophObject,ro,Obiect geofizic,4.3.1.2,02010R1089-20231119
+GeophMeasurement,ro,Măsurătoare geofizică,4.3.1.3,02010R1089-20231119
+GeophObjectSet,ro,Set de obiecte geofizice,4.3.1.4,02010R1089-20231119
+GeophProfile,ro,Profil geofizic,4.3.1.5,02010R1089-20231119
+GeophStation,ro,Stație geofizică,4.3.1.6,02010R1089-20231119
+GeophSwath,ro,Culoar geofizic,4.3.1.7,02010R1089-20231119
+CampaignTypeValue,ro,Tipul de campanie,4.3.2.1,02010R1089-20231119
+NetworkNameValue,ro,Numele rețelei,4.3.2.2,02010R1089-20231119
+PlatformTypeValue,ro,Tipul de platformă,4.3.2.3,02010R1089-20231119
+ProfileTypeValue,ro,Tipul de profil,4.3.2.4,02010R1089-20231119
+StationRankValue,ro,Rangul stației,4.3.2.5,02010R1089-20231119
+StationTypeValue,ro,Tipul de stație,4.3.2.6,02010R1089-20231119
+SurveyTypeValue,ro,Tipul investigației,4.3.2.7,02010R1089-20231119
+SwathTypeValue,ro,Tipul de culoar,4.3.2.8,02010R1089-20231119
+Hydrogeology,ro,Hidrogeologie,4.4,02010R1089-20231119
+ActiveWell,ro,Puț activ,4.4.1.1,02010R1089-20231119
+Aquiclude,ro,Acviclud,4.4.1.2,02010R1089-20231119
+Aquifer,ro,Acvifer,4.4.1.3,02010R1089-20231119
+AquiferSystem,ro,Sistem de acvifere,4.4.1.4,02010R1089-20231119
+Aquitard,ro,Acvitard,4.4.1.5,02010R1089-20231119
+GroundWaterBody,ro,Corp de apă subterană,4.4.1.6,02010R1089-20231119
+HydrogeologicalObject,ro,Obiect hidrogeologic,4.4.1.7,02010R1089-20231119
+HydrogeologicalObjectManMade,ro,Obiect hidrogeologic artificial,4.4.1.8,02010R1089-20231119
+HydrogeologicalObjectNatural,ro,Obiect hidrogeologic natural,4.4.1.9,02010R1089-20231119
+HydrogeologicalUnit,ro,Unitate hidrogeologică,4.4.1.10,02010R1089-20231119
+HydrogeologicalSurface,ro,Suprafață hidrogeologică,4.4.2.1,02010R1089-20231119
+PiezometricState,ro,Stare piezometrică,4.4.2.2,02010R1089-20231119
+QuantityValue,ro,Valoare cantitativă,4.4.2.3,02010R1089-20231119
+ActiveWellTypeValue,ro,Tipul de puț activ,4.4.3.1,02010R1089-20231119
+AquiferMediaTypeValue,ro,Tipul mediilor acvifere,4.4.3.2,02010R1089-20231119
+AquiferTypeValue,ro,Tipul de acvifer,4.4.3.3,02010R1089-20231119
+ConditionOfGroundwaterValue,ro,Starea apei subterane,4.4.3.4,02010R1089-20231119
+HydroGeochemicalRockTypeValue,ro,Tipul de rocă hidrogeochimică,4.4.3.5,02010R1089-20231119
+NaturalObjectTypeValue,ro,Tipul de obiecte naturale,4.4.3.6,02010R1089-20231119
+StatusCodeTypeValue,ro,Tipul codului de stare,4.4.3.7,02010R1089-20231119
+WaterPersistenceValue,ro,Persistența apei,4.4.3.8,02010R1089-20231119
+WaterSalinityValue,ro,Salinitatea apei,4.4.3.9,02010R1089-20231119
+StatisticalUnit,ro,Unitate statistică,1.2.1.1,02010R1089-20231119
+VectorStatisticalUnit,ro,Unitate statistică vectorială,1.3.1.1,02010R1089-20231119
+AreaStatisticalUnit,ro,Unitate statistică zonală,1.3.1.2,02010R1089-20231119
+StatisticalTessellation,ro,Partiție statistică,1.3.1.3,02010R1089-20231119
+Evolution,ro,Evoluție,1.3.1.4,02010R1089-20231119
+VectorStatisticalUnitGeometry,ro,Geometria unității vectoriale statistice,1.3.2.1,02010R1089-20231119
+GeometryDescriptor,ro,Descriptorul geometriei,1.3.2.2,02010R1089-20231119
+GeometryTypeValue,ro,Tipul de geometrie,1.3.3.1,02010R1089-20231119
+EvolutionTypeValue,ro,Tipul de evoluție,1.3.3.2,02010R1089-20231119
+StatisticalFunctionTypeValue,ro,Tipul de unitate statistică,1.3.3.3,02010R1089-20231119
+StatisticalGridCell,ro,Celulă a caroiajului statistic,1.4.1.1,02010R1089-20231119
+StatisticalGrid,ro,Caroiaj statistic,1.4.1.2,02010R1089-20231119
+GridPosition,ro,Poziție în caroiaj,1.4.2.1,02010R1089-20231119
+StatisticalGridResolution,ro,Rezoluția caroiajului statistic,1.4.2.2,02010R1089-20231119
+AbstractConstruction,ro,Construcție proiectată,2.3.1.1,02010R1089-20231119
+AbstractBuilding,ro,Clădire proiectată,2.3.1.2,02010R1089-20231119
+Building,ro,Clădire,2.3.1.3,02010R1089-20231119
+BuildingPart,ro,Parte a clădirii,2.3.1.4,02010R1089-20231119
+CurrentUse,ro,Utilizare actuală,2.3.2.1,02010R1089-20231119
+DateOfEvent,ro,Data evenimentului,2.3.2.2,02010R1089-20231119
+Elevation,ro,Cotă,2.3.2.3,02010R1089-20231119
+ExternalReference,ro,Trimitere externă,2.3.2.4,02010R1089-20231119
+HeightAboveGround,ro,Înălțimea de la sol,2.3.2.5,02010R1089-20231119
+BuildingGeometry2D,ro,Geometria în 2D a clădirii,2.3.2.6,02010R1089-20231119
+BuildingNatureValue,ro,Tipul clădirii,2.3.3.1,02010R1089-20231119
+ConditionOfConstructionValue,ro,Starea construcției,2.3.3.2,02010R1089-20231119
+CurrentUseValue,ro,Utilizare curentă,2.3.3.3,02010R1089-20231119
+ElevationReferenceValue,ro,Valoarea de referință a cotei,2.3.3.4,02010R1089-20231119
+HeightStatusValue,ro,Statutul înălțimii,2.3.3.5,02010R1089-20231119
+HorizontalGeometryReferenceValue,ro,Valoarea de referință a geometriei orizontale,2.3.3.6,02010R1089-20231119
+BuildingGeometry3DLoD,ro,Geometria clădirii în 3D la orice nivel de detaliu,2.5.2.1,02010R1089-20231119
+BuildingGeometry3DLoD1,ro,Geometria clădirii în 3D la nivelul 1 de detaliu,2.5.2.2,02010R1089-20231119
+BuildingGeometry3DloD2,ro,Geometria clădirii în 3D la nivelul 2 de detaliu,2.5.2.3,02010R1089-20231119
+DerivedSoilProfile,ro,Profil de sol derivat,3.1.1,02010R1089-20231119
+ObservedSoilProfile,ro,Profil de sol observat,3.1.2,02010R1089-20231119
+ProfileElement,ro,Element de profil,3.1.3,02010R1089-20231119
+SoilBody,ro,Unitate de sol,3.1.4,02010R1089-20231119
+SoilDerivedObject,ro,Obiect derivat de sol,3.1.5,02010R1089-20231119
+SoilHorizon,ro,Orizont de sol,3.1.6,02010R1089-20231119
+SoilLayer,ro,Strat de sol,3.1.7,02010R1089-20231119
+SoilPlot,ro,Parcelă de sol,3.1.8,02010R1089-20231119
+SoilProfile,ro,Profil de sol,3.1.9,02010R1089-20231119
+SoilSite,ro,Sit de sol,3.1.10,02010R1089-20231119
+SoilThemeCoverage,ro,Acoperire pentru categoria de sol,3.1.11,02010R1089-20231119
+SoilThemeDescriptiveCoverage,ro,Acoperire descriptivă pentru categoria de sol,3.1.12,02010R1089-20231119
+DerivedProfilePresenceInSoilBody,ro,Prezență de profil derivat în unitatea de sol,3.2.1,02010R1089-20231119
+FAOHorizonNotationType,ro,Tipul FAO de notare a orizontului,3.2.2,02010R1089-20231119
+OtherHorizonNotationType,ro,Alt tip de notare a orizontului,3.2.3,02010R1089-20231119
+OtherSoilNameType,ro,Alt tip de nume pentru sol,3.2.4,02010R1089-20231119
+ParticleSizeFractionType,ro,Particle Size Fraction Type,3.2.5,02010R1089-20231119
+RangeType,ro,Tip de interval,3.2.6,02010R1089-20231119
+SoilThemeDescriptiveParameterType,ro,Tipul de parametru descriptiv al categoriei de sol,3.2.7,02010R1089-20231119
+SoilThemeParameterType,ro,Tipul de parametru al categoriei de sol,3.2.8,02010R1089-20231119
+WRBQualifierGroupType,ro,Tipul grupului de calificativi WRB,3.2.9,02010R1089-20231119
+WRBSoilNameType,ro,Tipul de nume al solului conform WRB,3.2.10,02010R1089-20231119
+FAOHorizonMasterValue,ro,Orizont principal FAO,3.3.1,02010R1089-20231119
+FAOHorizonSubordinateValue,ro,Caracteristici secundare ale orizontului conform FAO,3.3.2,02010R1089-20231119
+OtherHorizonNotationTypeValue,ro,Alt tip de notare a orizontului,3.3.4,02010R1089-20231119
+OtherSoilNameTypeValue,ro,Alt tip de nume pentru sol,3.3.5,02010R1089-20231119
+LayerGenesisProcessStateValue,ro,Starea procesului de geneză a straturilor,3.3.6,02010R1089-20231119
+LayerTypeValue,ro,Tipul de strat,3.3.7,02010R1089-20231119
+ProfileElementParameterNameValue,ro,Nume de parametru de element de profil,3.3.8,02010R1089-20231119
+SoilDerivedObjectParameterNameValue,ro,Numele de parametru de obiect derivat de sol,3.3.9,02010R1089-20231119
+SoilInvestigationPurposeValue,ro,Scopul prospectării solului,3.3.10,02010R1089-20231119
+SoilPlotTypeValue,ro,Tipul de parcelă de sol,3.3.11,02010R1089-20231119
+SoilProfileParameterNameValue,ro,Nume de parametru de profil de sol,3.3.12,02010R1089-20231119
+SoilSiteParameterNameValue,ro,Numele de parametru de sit al solului,3.3.13,02010R1089-20231119
+WRBQualifierPlaceValue,ro,Locul calificativului WRB,3.3.14,02010R1089-20231119
+WRBQualifierValue,ro,Calificativi WRB,3.3.15,02010R1089-20231119
+WRBReferenceSoilGroupValue,ro,Grupul de soluri de referință (RSG) din WRB,3.3.16,02010R1089-20231119
+WRBSpecifierValue,ro,Specificatori WRB,3.3.17,02010R1089-20231119
+HILUCSPercentage,ro,Procentaj HILUCS,4.3.1.1,02010R1089-20231119
+HILUCSPresence,ro,Prezență HILUCS,4.3.1.2,02010R1089-20231119
+SpecificPercentage,ro,Procentaj specific,4.3.1.3,02010R1089-20231119
+SpecificPresence,ro,Prezență specifică,4.3.1.4,02010R1089-20231119
+HILUCSValue,ro,HILUCS,4.3.2.1,02010R1089-20231119
+LandUseClassificationValue,ro,Clasificarea utilizării terenului,4.3.2.2,02010R1089-20231119
+ExistingLandUseDataSet,ro,Set de date privind utilizarea existentă a terenului,4.4.1.1,02010R1089-20231119
+ExistingLandUseObject,ro,Obiect al utilizării existente a terenului,4.4.1.2,02010R1089-20231119
+ExistingLandUseGrid,ro,Caroiajul utilizării existente a terenului,4.5.1.1,02010R1089-20231119
+ExistingLandUseSample,ro,Eșantion de utilizare existentă a terenului,4.6.1.1,02010R1089-20231119
+SampledExistingLandUseDataSet,ro,Set de date „Utilizarea eșantionată existentă a terenului”,4.6.1.2,02010R1089-20231119
+OfficialDocumentation,ro,Documentație oficială,4.7.1.1,02010R1089-20231119
+SpatialPlan,ro,Plan spațial,4.7.1.2,02010R1089-20231119
+SupplementaryRegulation,ro,Reglementare suplimentară,4.7.1.3,02010R1089-20231119
+ZoningElement,ro,Element de zonare,4.7.1.4,02010R1089-20231119
+BackgroundMapValue,ro,Hartă contextuală,4.7.2.1,02010R1089-20231119
+DimensioningIndicationCharacterValue,ro,Indicație de dimensionare evaluată ca și caracter,4.7.2.2,02010R1089-20231119
+DimensioningIndicationIntegerValue,ro,Indicație de dimensionare evaluată ca număr întreg,4.7.2.3,02010R1089-20231119
+DimensioningIndicationMeasureValue,ro,Indicație de dimensionare evaluată ca măsură,4.7.2.4,02010R1089-20231119
+DimensioningIndicationRealValue,ro,Indicație de dimensionare evaluată ca reală,4.7.2.5,02010R1089-20231119
+DimensioningIndicationValue,ro,Indicație de dimensionare,4.7.2.6,02010R1089-20231119
+OrdinanceValue,ro,Ordonanță,4.7.2.7,02010R1089-20231119
+LevelOfSpatialPlanValue,ro,Nivelul planului spațial,4.7.3.1,02010R1089-20231119
+ProcessStepGeneralValue,ro,Etapă generală a procesului,4.7.3.2,02010R1089-20231119
+RegulationNatureValue,ro,Natura reglementării,4.7.3.3,02010R1089-20231119
+PlanTypeNameValue,ro,Denumirea tipului de plan,4.7.3.4,02010R1089-20231119
+SpecificSupplementaryRegulationValue,ro,Reglementare suplimentară specifică,4.7.3.5,02010R1089-20231119
+SupplementaryRegulationValue,ro,Reglementare suplimentară,4.7.3.6,02010R1089-20231119
+HealthStatisticalData,ro,Date statistice privind sănătatea,5.1.1,02010R1089-20231119
+Biomarker,ro,Marker biologic,5.1.2,02010R1089-20231119
+Disease,ro,Boală,5.1.3,02010R1089-20231119
+GeneralHealthStatistics,ro,Statistica stării generale de sănătate,5.1.4,02010R1089-20231119
+HealthServicesStatistic,ro,Statistica serviciilor de sănătate,5.1.5,02010R1089-20231119
+EnvHealthDeterminantMeasure,ro,Valoarea măsurată a factorului de mediu determinant al stării de sănătate,5.1.6,02010R1089-20231119
+EnvHealthDeterminantStatisticalData,ro,Date statistice referitoare la factorii de mediu determinanți ai stării de sănătate,5.1.7,02010R1089-20231119
+Age,ro,Vârstă,5.2.1,02010R1089-20231119
+AgeRangeType,ro,Intervalul de vârstă,5.2.2,02010R1089-20231119
+BiomarkerStatisticalParameterType,ro,Parametrul statistic al markerilor biologici,5.2.3,02010R1089-20231119
+BiomarkerThematicMetadata,ro,Metadate tematice privind markerii biologici,5.2.4,02010R1089-20231119
+BiomarkerType,ro,Tipul de markeri biologici,5.2.5,02010R1089-20231119
+DiseaseMeasure,ro,Valoare măsurată a bolii,5.2.6,02010R1089-20231119
+ReferencePeriodType,ro,Perioada de referință,5.2.7,02010R1089-20231119
+CODValue,ro,Cauza de deces,5.3.1,02010R1089-20231119
+ChemicalValue,ro,Substanță chimică,5.3.2,02010R1089-20231119
+ComponentTypeValue,ro,Tipul componentei de mediu a sănătății,5.3.3,02010R1089-20231119
+DiseaseMeasureTypeValue,ro,Tipul valorii măsurate a bolii,5.3.4,02010R1089-20231119
+EnvHealthDeterminantTypeValue,ro,Tipul factorului de mediu determinant al stării de sănătate,5.3.5,02010R1089-20231119
+GeneralHealthTypeValue,ro,Tipul stării generale de sănătate,5.3.6,02010R1089-20231119
+HealthServicesTypeValue,ro,Tipul serviciilor de sănătate,5.3.7,02010R1089-20231119
+ICDValue,ro,Clasificarea internațională a bolilor,5.3.8,02010R1089-20231119
+MatrixValue,ro,Matrice,5.3.9,02010R1089-20231119
+MediaTypeValue,ro,Tipul factorului de mediu care influențează sănătătea,5.3.10,02010R1089-20231119
+NoiseSourceTypeValue,ro,Tipul sursei de zgomot,5.3.11,02010R1089-20231119
+StatisticalAggregationMethodValue,ro,Metoda agregării statistice,5.3.12,02010R1089-20231119
+UtilityNetwork,ro,Rețea de utilități,6.2.1.1,02010R1089-20231119
+UtilityNetworkElement,ro,Element al rețelei de utilități,6.2.1.2,02010R1089-20231119
+UtilityLinkSet,ro,Set de legături ale rețelei de utilități,6.2.1.3,02010R1089-20231119
+UtilityLink,ro,Legătură de utilități,6.2.1.4,02010R1089-20231119
+UtilityLinkSequence,ro,Succesiune de legături de utilități,6.2.1.5,02010R1089-20231119
+UtilityNode,ro,Nod al rețelei de utilități,6.2.1.6,02010R1089-20231119
+UtilityNodeContainer,ro,Container pentru noduri de utilități,6.2.1.7,02010R1089-20231119
+Appurtenance,ro,Dispozitiv auxiliar,6.2.1.8,02010R1089-20231119
+Cabinet,ro,Dulap,6.2.1.9,02010R1089-20231119
+Cable,ro,Cablu,6.2.1.10,02010R1089-20231119
+Duct,ro,Tub,6.2.1.11,02010R1089-20231119
+Manhole,ro,Gură de acces,6.2.1.12,02010R1089-20231119
+Pipe,ro,Conductă,6.2.1.13,02010R1089-20231119
+Pole,ro,Stâlp,6.2.1.14,02010R1089-20231119
+Tower,ro,Turn,6.2.1.15,02010R1089-20231119
+AppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar,6.2.2.1,02010R1089-20231119
+SpecificAppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar specific,6.2.2.2,02010R1089-20231119
+UtilityDeliveryTypeValue,ro,Tip de prestare de servicii de utilitate publică,6.2.2.3,02010R1089-20231119
+UtilityNetworkTypeValue,ro,Tip de rețea de servicii de utilitate publică,6.2.2.4,02010R1089-20231119
+WarningTypeValue,ro,Tip de avertizare,6.2.2.5,02010R1089-20231119
+ElectricityCable,ro,Cablu de electricitate,6.3.1.1,02010R1089-20231119
+ElectricityAppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar pentru rețelele de electricitate,6.3.2.1,02010R1089-20231119
+OilGasChemicalsPipe,ro,"Conductă de petrol, gaze și substanțe chimice",6.4.1.1,02010R1089-20231119
+OilGasChemicalsAppurtenanceTypeValue,ro,"Tip de dispozitiv auxiliar pentru rețelele de petrol, gaze și substanțe chimice",6.4.2.1,02010R1089-20231119
+OilGasChemicalsProductTypeValue,ro,"Tip de produs din petrol, gaze și substanțe chimice",6.4.2.2,02010R1089-20231119
+SewerPipe,ro,Conductă de canalizare,6.5.1.1,02010R1089-20231119
+SewerAppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar pentru rețelele de canalizare,6.5.2.1,02010R1089-20231119
+SewerWaterTypeValue,ro,Tip de apă de canalizare,6.5.2.2,02010R1089-20231119
+ThermalPipe,ro,Conductă de energie termică,6.6.1.1,02010R1089-20231119
+ThermalAppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar pentru rețelele de energie termică,6.6.2.1,02010R1089-20231119
+ThermalProductTypeValue,ro,Tip de produs termic,6.6.2.2,02010R1089-20231119
+WaterPipe,ro,Conductă de apă,6.7.1.1,02010R1089-20231119
+WaterAppurtenanceTypeValue,ro,Tip de dispozitiv auxiliar pentru rețelele de apă,6.7.2.1,02010R1089-20231119
+WaterTypeValue,ro,Tip de apă,6.7.2.2,02010R1089-20231119
+EnvironmentalManagementFacility,ro,Unitate de gestionare a mediului,6.8.1.1,02010R1089-20231119
+EnvironmentalManagementFacilityTypeValue,ro,Clasificarea unităților de mediu,6.8.2.1,02010R1089-20231119
+GovernmentalService,ro,Serviciu public,6.9.1.1,02010R1089-20231119
+AreaOfResponsibilityType,ro,Tipul ariei de responsabilitate,6.9.2.1,02010R1089-20231119
+ServiceLocationType,ro,Tipul localizării serviciului,6.9.2.2,02010R1089-20231119
+ServiceTypeValue,ro,Tipul serviciului,6.9.3.1,02010R1089-20231119
+AbstractMonitoringFeature,ro,Caracteristică de monitorizare abstractă,7.1.1,02010R1089-20231119
+AbstractMonitoringObject,ro,Obiect de monitorizare abstractă,7.1.2,02010R1089-20231119
+EnvironmentalMonitoringActivity,ro,Activitate de monitorizare a mediului,7.1.3,02010R1089-20231119
+EnvironmentalMonitoringFacility,ro,Instalație de monitorizare a mediului,7.1.4,02010R1089-20231119
+EnvironmentalMonitoringNetwork,ro,Rețea de monitorizare a mediului,7.1.5,02010R1089-20231119
+EnvironmentalMonitoringProgramme,ro,Program de monitorizare a mediului,7.1.6,02010R1089-20231119
+ObservingCapability,ro,Capacitate de observare,7.1.7,02010R1089-20231119
+AnyDomainLink,ro,Orice legătură tematică,7.2.1,02010R1089-20231119
+Hierarchy,ro,Ierarhie,7.2.2,02010R1089-20231119
+NetworkFacility,ro,Instalația rețelei,7.2.3,02010R1089-20231119
+ReportToLegalAct,ro,Informare referitoare la actul juridic,7.2.4,02010R1089-20231119
+MeasurementRegimeValue,ro,Regim de măsurare,7.3.1,02010R1089-20231119
+MediaValue,ro,Medii,7.3.2,02010R1089-20231119
+ProcessTypeValue,ro,Tip de proces,7.3.3,02010R1089-20231119
+PurposeOfCollectionValue,ro,Scopul colectării,7.3.4,02010R1089-20231119
+ResultAcquisitionSourceValue,ro,Sursa colectării de rezultate,7.3.5,02010R1089-20231119
+ResultNatureValue,ro,Natura rezultatelor,7.3.6,02010R1089-20231119
+SpecialisedEMFTypeValue,ro,Tipul de specializare a instalației de monitorizare a mediului,7.3.7,02010R1089-20231119
+ProductionFacility,ro,Unitate de producție,8.2.1,02010R1089-20231119
+ProductionInstallation,ro,Instalație de producție,8.2.2,02010R1089-20231119
+ProductionInstallationPart,ro,Parte a instalației de producție,8.2.3,02010R1089-20231119
+ProductionSite,ro,Amplasament de producție,8.2.4,02010R1089-20231119
+ProductionPlot,ro,Zonă de producție,8.2.5,02010R1089-20231119
+ProductionBuilding,ro,Clădire unde se desfășoară producția,8.2.6,02010R1089-20231119
+StatusType,ro,Tipul statutului,8.3.1,02010R1089-20231119
+PollutionAbatementTechniqueValue,ro,Tehnică de reducere a poluării,8.4.1,02010R1089-20231119
+InstallationTypeValue,ro,Tipul instalației,8.4.2,02010R1089-20231119
+InstallationPartTypeValue,ro,Tipul părții instalației,8.4.3,02010R1089-20231119
+RiverBasinDistrictValue,ro,District hidrografic,8.4.4,02010R1089-20231119
+TypeOfProductionBuildingValue,ro,Tipul clădirii în care se desfășoară producția,8.4.5,02010R1089-20231119
+Holding,ro,Exploatație,9.2.1,02010R1089-20231119
+Site,ro,Amplasament,9.2.1.1,02010R1089-20231119
+FarmAnimalSpecies,ro,Specii de animale de fermă,9.3.1,02010R1089-20231119
+LivestockSpeciesValue,ro,Specii de animale de crescătorie,9.4.1,02010R1089-20231119
+AquacultureSpeciesValue,ro,Specii de acvacultură,9.4.2,02010R1089-20231119
+StatisticalDistribution,ro,Distribuție statistică,10.1.1,02010R1089-20231119
+Classification,ro,Clasificare,10.2.1,02010R1089-20231119
+ClassificationItem,ro,Element al clasificării,10.2.2,02010R1089-20231119
+StatisticalValue,ro,Valoare statistică,10.2.3,02010R1089-20231119
+Dimensions,ro,Dimensiuni,10.2.4,02010R1089-20231119
+ClassificationTypeValue,ro,Tipul clasificării,10.3.1,02010R1089-20231119
+ClassificationItemTypeValue,ro,Tipul elementelor de clasificare,10.3.2,02010R1089-20231119
+VariableValue,ro,Variabilă,10.3.3,02010R1089-20231119
+StatisticsMeasurementMethodValue,ro,Metoda de măsurare statistică,10.3.4,02010R1089-20231119
+StatisticalDataStatusValue,ro,Statutul datelor statistice,10.3.5,02010R1089-20231119
+SpecialValue,ro,Valoare specială,10.3.6,02010R1089-20231119
+ManagementRestrictionOrRegulationZone,ro,"Zonă de gestionare, de restricționare sau de reglementare",11.2.1,02010R1089-20231119
+ZoneTypeCode,ro,Codul tipului de zonă,11.3.1,02010R1089-20231119
+SpecialisedZoneTypeCode,ro,Codul tipului de zonă specializată,11.3.2,02010R1089-20231119
+EnvironmentalDomain,ro,Domeniu al mediului,11.3.3,02010R1089-20231119
+AbstractExposedElement,ro,Element expus abstract,12.2.1,02010R1089-20231119
+AbstractHazardArea,ro,Zonă de hazard abstractă,12.2.2,02010R1089-20231119
+AbstractObservedEvent,ro,Eveniment abstract observat,12.2.3,02010R1089-20231119
+AbstractRiskZone,ro,Zonă de risc abstractă,12.2.4,02010R1089-20231119
+ExposedElementCoverage,ro,Acoperirea elementului expus,12.2.5,02010R1089-20231119
+ExposedElement,ro,Element expus,12.2.6,02010R1089-20231119
+HazardArea,ro,Zonă de hazard,12.2.7,02010R1089-20231119
+HazardCoverage,ro,Acoperire de hazard,12.2.8,02010R1089-20231119
+ObservedEventCoverage,ro,Acoperirea evenimentului observat,12.2.9,02010R1089-20231119
+ObservedEvent,ro,Eveniment observat,12.2.10,02010R1089-20231119
+RiskCoverage,ro,Acoperire de risc,12.2.11,02010R1089-20231119
+RiskCoverage,ro,Zonă de risc,12.2.12,02010R1089-20231119
+ExposedElementClassification,ro,Clasificare a elementului expus,12.3.1,02010R1089-20231119
+LevelOrIntensity,ro,Nivel sau intensitate,12.3.2,02010R1089-20231119
+LikelihoodOfOccurrence,ro,Probabilitatea producerii,12.3.3,02010R1089-20231119
+NaturalHazardClassification,ro,Clasificarea hazardelor naturale,12.3.4,02010R1089-20231119
+QuantitativeLikelihood,ro,Probabilitate cantitativă,12.3.5,02010R1089-20231119
+VulnerabilityAssessment,ro,Evaluarea vulnerabilității,12.3.6,02010R1089-20231119
+ExposedElementCategoryValue,ro,Categoria elementului expus,12.5.1,02010R1089-20231119
+NaturalHazardCategoryValue,ro,Categoria de hazard natural,12.5.2,02010R1089-20231119
+SpecificExposedElementTypeValue,ro,Tipul specific de element expus,12.5.3,02010R1089-20231119
+SpecificHazardTypeValue,ro,Tip specific de hazard,12.5.4,02010R1089-20231119
+DeterminationMethodValue,ro,Metoda de determinare,12.5.5,02010R1089-20231119
+SeaArea,ro,Zonă marină,15.1.1,02010R1089-20231119
+Sea,ro,Mare,15.1.2,02010R1089-20231119
+MarineCirculationZone,ro,Zonă de circulație marină,15.1.3,02010R1089-20231119
+InterTidalArea,ro,Zonă inter-maree,15.1.4,02010R1089-20231119
+Shoreline,ro,Linie de țărm,15.1.5,02010R1089-20231119
+Coastline,ro,Linie de coastă,15.1.7,02010R1089-20231119
+MarineContour,ro,Contur marin,15.1.8,02010R1089-20231119
+MarineLayer,ro,Strat marin,15.1.9,02010R1089-20231119
+SeaBedArea,ro,Zonă a fundului mării,15.1.10,02010R1089-20231119
+SeaSurfaceArea,ro,Zonă a suprafeței mării,15.1.11,02010R1089-20231119
+MarineExtent,ro,Întindere marină,15.2.1,02010R1089-20231119
+MarineIsoline,ro,Izolinie marină,15.2.2,02010R1089-20231119
+ParameterValuePair,ro,Cuplu parametru-valoare,15.2.3,02010R1089-20231119
+ShoreSegment,ro,Segment de țărm,15.2.4,02010R1089-20231119
+SeaAreaTypeClassificationValue,ro,Clasificarea tipului de zonă marină,15.3.1,02010R1089-20231119
+SeaBedCoverValue,ro,Acoperirea fundului mării,15.3.2,02010R1089-20231119
+SeaSurfaceClassificationValue,ro,Clasificarea suprafeței marine,15.3.3,02010R1089-20231119
+ShoreStabilityValue,ro,Stabilitatea țărmului,15.3.4,02010R1089-20231119
+ShoreTypeClassificationValue,ro,Clasificarea tipurilor de țărm,15.3.5,02010R1089-20231119
+ZoneTypeValue,ro,Tipul zonei,15.3.6,02010R1089-20231119
+RegionClassificationLevelValue,ro,Nivel de clasificare a regiunii,16.2.1,02010R1089-20231119
+RegionClassificationSchemeValue,ro,Sistem de clasificare a regiunilor,16.2.2,02010R1089-20231119
+RegionClassificationValue,ro,Clasificarea regiunilor,16.2.3,02010R1089-20231119
+Habitat,ro,Habitat,17.2.1,02010R1089-20231119
+HabitatSpeciesType,ro,Tipul de specii ale unui habitat,17.3.1,02010R1089-20231119
+HabitatTypeCoverType,ro,Tipul de acoperire a habitatului,17.3.2,02010R1089-20231119
+HabitatVegetationType,ro,Tipul de vegetație al habitatului,17.3.3,02010R1089-20231119
+LocalNameType,ro,Tipul de denumire locală,17.3.4,02010R1089-20231119
+QualifierLocalNameValue,ro,Nume local al calificatorului,17.4.1,02010R1089-20231119
+ReferenceHabitatTypeCodeValue,ro,Codul tipurilor de habitate de referință,17.4.2,02010R1089-20231119
+ReferenceHabitatTypeSchemeValue,ro,Sistemul de referință al tipului de habitat,17.4.3,02010R1089-20231119
+LocalNameCodeValue,ro,Codul denumirii locale,17.4.4,02010R1089-20231119
+SpeciesDistributionDataSet,ro,Set de date referitoare la distribuția speciilor,18.2.1,02010R1089-20231119
+SpeciesDistributionUnit,ro,Unitate de distribuție a speciilor,18.2.2,02010R1089-20231119
+DistributionInfoType,ro,Tipul de informații referitoare la distribuție,18.3.1,02010R1089-20231119
+PopulationSizeType,ro,Tipul de dimensiune a populației,18.3.2,02010R1089-20231119
+SpeciesNameType,ro,Tip de denumire a speciilor,18.3.4,02010R1089-20231119
+CountingMethodValue,ro,Metodă de numărare,18.4.1,02010R1089-20231119
+CountingUnitValue,ro,Unitatea de numărare,18.4.2,02010R1089-20231119
+LocalSpeciesNameCodeValue,ro,Codul denumirilor locale ale speciilor,18.4.3,02010R1089-20231119
+OccurrenceCategoryValue,ro,Categoria de ocurențe,18.4.4,02010R1089-20231119
+PopulationTypeValue,ro,Tipul populației,18.4.5,02010R1089-20231119
+QualifierValue,ro,Calificator,18.4.6,02010R1089-20231119
+ReferenceSpeciesCodeValue,ro,Codul de referință al speciilor,18.4.7,02010R1089-20231119
+ReferenceSpeciesSchemeValue,ro,Sistemul de referință al speciilor,18.4.8,02010R1089-20231119
+ResidencyStatusValue,ro,Statutul prezenței,18.4.9,02010R1089-20231119
+VerticalExtentRangeType,ro,Tip de interval al extinderii verticale,19.3.1.1,02010R1089-20231119
+VerticalExtentType,ro,Tip de extindere verticală,19.3.1.2,02010R1089-20231119
+VerticalExtentValue,ro,Valoare a extinderii verticale,19.3.1.3,02010R1089-20231119
+ClassificationAndQuantificationFrameworkValue,ro,Cadru de clasificare și cuantificare,19.3.2.1,02010R1089-20231119
+FossilFuelClassValue,ro,Clasa combustibililor fosili,19.3.2.2,02010R1089-20231119
+RenewableAndWasteValue,ro,Resurse regenerabile și deșeuri,19.3.2.3,02010R1089-20231119
+FossilFuelValue,ro,Combustibili fosili,19.3.2.4,02010R1089-20231119
+VerticalReferenceValue,ro,Referință verticală,19.3.2.5,02010R1089-20231119
+VectorEnergyResource,ro,Resurse energetice – mod vector,19.4.1.1,02010R1089-20231119
+FossilFuelResource,ro,Resurse de combustibili fosili,19.4.1.2,02010R1089-20231119
+RenewableAndWasteResource,ro,Resurse regenerabile și provenite din deșeuri,19.4.1.3,02010R1089-20231119
+CalorificRangeType,ro,Tipul intervalului caloric,19.4.2.1,02010R1089-20231119
+CalorificValueType,ro,Tipul valorii calorice,19.4.2.2,02010R1089-20231119
+ExploitationPeriodType,ro,Tipul perioadei de exploatare,19.4.2.3,02010R1089-20231119
+FossilFuelMeasure,ro,Măsura combustibililor fosili,19.4.2.4,02010R1089-20231119
+FossilFuelResourceType,ro,Tip resurselor de combustibili fosili,19.4.2.5,02010R1089-20231119
+RenewableAndWastePotentialCoverage,ro,Acoperirea potențialului de energii regenerabile și de deșeuri,19.5.1.1,02010R1089-20231119
+PotentialTypeValue,ro,Tipul de potențial,19.5.2.1,02010R1089-20231119
+EarthResource,ro,Resurse terestre,20.3.1.1,02010R1089-20231119
+MineralOccurrence,ro,Ocurență minerală,20.3.1.2,02010R1089-20231119
+Commodity,ro,Substanță,20.3.1.3,02010R1089-20231119
+ExplorationActivity,ro,Activitate de prospectare,20.3.1.4,02010R1089-20231119
+MiningFeature,ro,Caracteristică a mineritului,20.3.1.5,02010R1089-20231119
+MiningFeatureOccurrence,ro,Ocurență a caracteristicii mineritului,20.3.1.6,02010R1089-20231119
+Mine,ro,Mină,20.3.1.7,02010R1089-20231119
+MiningActivity,ro,Activitate minieră,20.3.1.8,02010R1089-20231119
+CommodityMeasure,ro,Cantitatea substanței,20.3.2.1,02010R1089-20231119
+EarthResourceDimension,ro,Dimensiunea resurselor terestre,20.3.2.2,02010R1089-20231119
+Endowment,ro,Potențial,20.3.2.3,02010R1089-20231119
+MineName,ro,Denumirea minei,20.3.2.4,02010R1089-20231119
+MineralDepositModel,ro,Modelul zăcământului de minerale,20.3.2.5,02010R1089-20231119
+OreMeasure,ro,Măsura minereurilor,20.3.2.6,02010R1089-20231119
+Reserve,ro,Rezervă,20.3.2.7,02010R1089-20231119
+Resource,ro,Resurse,20.3.2.8,02010R1089-20231119
+ClassificationMethodUsedValue,ro,Metoda de clasificare utilizată,20.3.3.1,02010R1089-20231119
+CommodityCodeValue,ro,Codul substanței,20.3.3.2,02010R1089-20231119
+EndusePotentialValue,ro,Potențial de utilizare finală,20.3.3.3,02010R1089-20231119
+ExplorationActivityTypeValue,ro,Tipul activităților de explorare,20.3.3.4,02010R1089-20231119
+ExplorationResultValue,ro,Rezultatul prospectării,20.3.3.5,02010R1089-20231119
+ImportanceValue,ro,Importanță,20.3.3.6,02010R1089-20231119
+MineStatusValue,ro,Statutul minei,20.3.3.7,02010R1089-20231119
+MineralDepositGroupValue,ro,Grupul zăcămintelor de minerale,20.3.3.8,02010R1089-20231119
+MineralDepositTypeValue,ro,Tipul de zăcământ de minerale,20.3.3.9,02010R1089-20231119
+MineralOccurrenceTypeValue,ro,Tipul de ocurență minerală,20.3.3.10,02010R1089-20231119
+MiningActivityTypeValue,ro,Tipul de activitate minieră,20.3.3.11,02010R1089-20231119
+ProcessingActivityTypeValue,ro,Tipul activității de prelucrare,20.3.3.12,02010R1089-20231119
+ReserveCategoryValue,ro,Categoria rezervei,20.3.3.13,02010R1089-20231119
+ResourceCategoryValue,ro,Categoria resursei,20.3.3.14,02010R1089-20231119

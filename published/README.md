@@ -7,6 +7,7 @@ scripts rather than editing them by hand. Each folder has an `ATTRIBUTION.md`.
 |---|---|---|
 | `iso-mlgt/` | ISO/TC 211 MLGT term equivalents, without definitions | `tools/publish_mlgt.sh` |
 | `corine-land-cover-no/` | CORINE Land Cover nomenclature, 64 classes, Bokmål and English, keyed by CLC code | extracted from the NIBIO CLC2006 report |
+| `inspire-regulation/` | Official names of INSPIRE spatial object types, data types and code lists, keyed by technical name, 15 languages | `tools/extract_inspire_reg.py` |
 | `gemet/` | GEMET labels (EEA environmental thesaurus), 5,609 concepts and groups in 15 target languages; CC BY 4.0 | `tools/extract_gemet.py` |
 | `geonorge-metadata-codelists/` | Geonorge metadata code list names, Bokmål and English, paired by item id; no descriptions | `tools/extract_geonorge.py codelists` |
 | `geonorge-resources/` | Geonorge web application interface strings, Bokmål and English, pinned commits | `tools/extract_geonorge.py resources` |
