@@ -13,11 +13,18 @@ otherwise not usable.
 Data: Geonorge datasets (English title against Norwegian title and abstract), LMI records in
 Icelandic, and INSPIRE feature concepts in the EU languages (corpus.tsv) as a worst case.
 Keyword fields of the records are never used, because they define the theme test's answers.
+
+Parallel mode (MODE=parallel): instead of the records above, aligned paragraphs from EU
+directives (PARALLEL, built by tools/build_parallel_corpus.py): the start of the English paragraph
+is the query, the whole paragraph in the target language is the record. It is independent of
+INSPIRE, so running it with lexicons with and without the INSPIRE regulation names measures what
+those names bring. LEXICON and OUTPUT choose the lexicon file and the report name.
 """
 import collections
 import csv
 import json
 import lzma
+import os
 import random
 import re
 import time
@@ -35,6 +42,10 @@ WEIGHT = 0.3
 TITLE_WEIGHT, BODY_WEIGHT = 0.20, 0.05
 FETCH_BUDGET = 600
 random.seed(5)
+MODE = os.environ.get("MODE", "full")
+LEXICON = os.environ.get("LEXICON", "lexicon.tsv.xz")
+OUTPUT = os.environ.get("OUTPUT", "acceptance.md")
+PARALLEL = os.environ.get("PARALLEL", "parallel_eu.tsv.xz")
 
 
 def log(*a):
@@ -72,72 +83,79 @@ def norwegian_standard(text):
 # Records: language -> list of (english query, title, body).
 records = collections.defaultdict(list)
 
-# Norwegian records, fetched in parallel within a time budget.
-offset, uuids = 0, []
-while len(uuids) < 1600:
-    page = get(f"https://kartkatalog.geonorge.no/api/search?limit=400&offset={offset}"
-               "&facets%5B0%5D.name=type&facets%5B0%5D.value=dataset", tries=3, timeout=60)
-    if not page or not page.get("Results"):
-        break
-    uuids += [r["Uuid"] for r in page["Results"]]
-    offset += 400
-random.shuffle(uuids)
-log("Geonorge uuids", len(uuids))
-outcome = collections.Counter()
-
-
-def fetch(uuid):
-    if time.time() - START > FETCH_BUDGET:
-        return "skipped", None
-    d = get(f"https://kartkatalog.geonorge.no/api/getdata/{uuid}")
-    return ("failed", None) if d is None else ("fetched", d)
-
-
-with ThreadPoolExecutor(8) as pool:
-    for state, d in pool.map(fetch, uuids):
-        outcome[state] += 1
-        if d is None:
-            continue
-        title, abstract = (d.get("Title") or "").strip(), (d.get("Abstract") or "").strip()
-        english = (d.get("EnglishTitle") or "").strip()
-        if not english or english.lower() == title.lower():
-            outcome["no English title"] += 1
-            continue
-        if len(abstract) < 40 or (d.get("EnglishAbstract") or "").strip()[:60] == abstract[:60]:
-            outcome["no Norwegian abstract"] += 1
-            continue
-        records[norwegian_standard(abstract)].append((english, title, abstract))
-log("Geonorge", dict(outcome), {k: len(v) for k, v in records.items()})
-
-# Icelandic records.
-lmi = get("https://gatt.lmi.is/geonetwork/srv/api/search/records/_search?bucket=s101",
-          {"size": 1000, "query": {"term": {"mainLanguage": "ice"}},
-           "_source": ["resourceTitleObject", "resourceAbstractObject", "allKeywords"]},
-          {"Accept": "application/json", "Content-Type": "application/json"}, tries=3, timeout=60)
 icelandic, themes = [], collections.defaultdict(set)
-for hit in (lmi or {}).get("hits", {}).get("hits", []):
-    s = hit["_source"]
-    t, a = s.get("resourceTitleObject") or {}, s.get("resourceAbstractObject") or {}
-    title = (t.get("langice") or t.get("default") or "").strip()
-    i = len(icelandic)
-    icelandic.append((t.get("langeng"), title, (a.get("langice") or a.get("default") or "").strip()))
-    for name, thesaurus in (s.get("allKeywords") or {}).items():
-        if "inspireeceuropaeutheme" in name:
-            for k in thesaurus.get("keywords", []):
-                if k.get("langeng"):
-                    themes[k["langeng"]].add(i)
-records["is"] = [r for r in icelandic if r[0] and r[0].strip().lower() != r[1].lower()]
-log("LMI records", len(icelandic), "with English title", len(records["is"]),
-    "themes", {k: len(v) for k, v in themes.items()})
+if MODE == "parallel":
+    with lzma.open(PARALLEL, "rt", encoding="utf8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE, escapechar="\\"):
+            records[r["language"]].append((r["query_en"], "", r["document"]))
+    log("parallel paragraphs", {k: len(v) for k, v in records.items()})
+else:
+    # Norwegian records, fetched in parallel within a time budget.
+    offset, uuids = 0, []
+    while len(uuids) < 1600:
+        page = get(f"https://kartkatalog.geonorge.no/api/search?limit=400&offset={offset}"
+                   "&facets%5B0%5D.name=type&facets%5B0%5D.value=dataset", tries=3, timeout=60)
+        if not page or not page.get("Results"):
+            break
+        uuids += [r["Uuid"] for r in page["Results"]]
+        offset += 400
+    random.shuffle(uuids)
+    log("Geonorge uuids", len(uuids))
+    outcome = collections.Counter()
 
-with open("corpus.tsv", encoding="utf8", newline="") as f:
-    for r in csv.DictReader(f, delimiter="\t"):
-        records[r["language"]].append((r["query_en"], "", r["document"]))
 
-with open("records.json", "w", encoding="utf8") as f:
-    json.dump({"records": {k: v for k, v in records.items() if k in ("nb", "nn", "is")},
-               "icelandic": icelandic, "themes": {k: sorted(v) for k, v in themes.items()}},
-              f, ensure_ascii=False)
+    def fetch(uuid):
+        if time.time() - START > FETCH_BUDGET:
+            return "skipped", None
+        d = get(f"https://kartkatalog.geonorge.no/api/getdata/{uuid}")
+        return ("failed", None) if d is None else ("fetched", d)
+
+
+    with ThreadPoolExecutor(8) as pool:
+        for state, d in pool.map(fetch, uuids):
+            outcome[state] += 1
+            if d is None:
+                continue
+            title, abstract = (d.get("Title") or "").strip(), (d.get("Abstract") or "").strip()
+            english = (d.get("EnglishTitle") or "").strip()
+            if not english or english.lower() == title.lower():
+                outcome["no English title"] += 1
+                continue
+            if len(abstract) < 40 or (d.get("EnglishAbstract") or "").strip()[:60] == abstract[:60]:
+                outcome["no Norwegian abstract"] += 1
+                continue
+            records[norwegian_standard(abstract)].append((english, title, abstract))
+    log("Geonorge", dict(outcome), {k: len(v) for k, v in records.items()})
+
+    # Icelandic records.
+    lmi = get("https://gatt.lmi.is/geonetwork/srv/api/search/records/_search?bucket=s101",
+              {"size": 1000, "query": {"term": {"mainLanguage": "ice"}},
+               "_source": ["resourceTitleObject", "resourceAbstractObject", "allKeywords"]},
+              {"Accept": "application/json", "Content-Type": "application/json"}, tries=3, timeout=60)
+    icelandic, themes = [], collections.defaultdict(set)
+    for hit in (lmi or {}).get("hits", {}).get("hits", []):
+        s = hit["_source"]
+        t, a = s.get("resourceTitleObject") or {}, s.get("resourceAbstractObject") or {}
+        title = (t.get("langice") or t.get("default") or "").strip()
+        i = len(icelandic)
+        icelandic.append((t.get("langeng"), title, (a.get("langice") or a.get("default") or "").strip()))
+        for name, thesaurus in (s.get("allKeywords") or {}).items():
+            if "inspireeceuropaeutheme" in name:
+                for k in thesaurus.get("keywords", []):
+                    if k.get("langeng"):
+                        themes[k["langeng"]].add(i)
+    records["is"] = [r for r in icelandic if r[0] and r[0].strip().lower() != r[1].lower()]
+    log("LMI records", len(icelandic), "with English title", len(records["is"]),
+        "themes", {k: len(v) for k, v in themes.items()})
+
+    with open("corpus.tsv", encoding="utf8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            records[r["language"]].append((r["query_en"], "", r["document"]))
+
+    with open("records.json", "w", encoding="utf8") as f:
+        json.dump({"records": {k: v for k, v in records.items() if k in ("nb", "nn", "is")},
+                   "icelandic": icelandic, "themes": {k: sorted(v) for k, v in themes.items()}},
+                  f, ensure_ascii=False)
 
 
 def text_of(record):
@@ -145,7 +163,7 @@ def text_of(record):
 
 
 # Glossary.
-with lzma.open("lexicon.tsv.xz", "rt", encoding="utf8", newline="") as f:
+with lzma.open(LEXICON, "rt", encoding="utf8", newline="") as f:
     lexicon = [r for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE, escapechar="\\")
                if r.get("term") and r.get("language")]
 # Keyword translation uses every concept; vector composition keeps to unambiguous ones.
@@ -323,7 +341,9 @@ def verdict(r10, ratio):
     return "usable" if r10 >= 0.70 and ratio >= 0.85 else "not usable"
 
 
-SOURCE = {"nb": "Geonorge", "nn": "Geonorge", "is": "LMI, English title"}
+SOURCE = {"nb": "Geonorge", "nn": "Geonorge", "is": "LMI, English title"} if MODE == "full" else {}
+DEFAULT_SOURCE = "INSPIRE concepts" if MODE == "full" else "EU directives"
+results = {}
 lines = ["| Language | Data | n | potion | + concepts | hybrid | BGE-M3 | Ratio | Verdict |",
          "|---|---|---:|---:|---:|---:|---:|---:|---|"]
 for language in sorted(records):
@@ -337,7 +357,8 @@ for language in sorted(records):
         r10[m] = (ranks < 10).mean()
     best = max(r10["potion + concepts"], r10["hybrid"])
     ratio = best / max(r10["bge-m3"], 1e-9)
-    lines.append(f"| {language} | {SOURCE.get(language, 'INSPIRE concepts')} | {len(items)} | "
+    results[language] = {m: float(v) for m, v in r10.items()}
+    lines.append(f"| {language} | {SOURCE.get(language, DEFAULT_SOURCE)} | {len(items)} | "
                  f"{r10['potion']:.2f} | {r10['potion + concepts']:.2f} | {r10['hybrid']:.2f} | "
                  f"{r10['bge-m3']:.2f} | {ratio:.2f} | {verdict(best, ratio)} |")
     log(lines[-1])
@@ -353,39 +374,42 @@ if theme_names and icelandic:
                      for i, t in enumerate(theme_names)])
         lines.append(f"| {m} | {p:.2f} |")
     lines.append(f"\nThemes: {', '.join(f'{t} ({len(themes[t])})' for t in theme_names)}")
-# Norwegian theme search: English national theme name against all Geonorge datasets; the
-# answer key is the theme each publisher set (Geonorge metadata code list, nb and en names).
-english_theme = dict(line.split("\t") for line in open("themes_no.tsv", encoding="utf8").read().splitlines()[1:])
-catalogue, offset = [], 0
-while True:
-    page = get(f"https://kartkatalog.geonorge.no/api/search?limit=500&offset={offset}"
-               "&facets%5B0%5D.name=type&facets%5B0%5D.value=dataset", tries=3, timeout=90)
-    if not page or not page.get("Results"):
-        break
-    catalogue += [r for r in page["Results"] if r.get("Theme") in english_theme and len(r.get("Abstract") or "") >= 40]
-    offset += 500
-items = [("", (r.get("Title") or "").strip(), (r.get("Abstract") or "").strip()) for r in catalogue]
-tagged = collections.defaultdict(set)
-for i, r in enumerate(catalogue):
-    tagged[english_theme[r["Theme"]]].add(i)
-standard = collections.Counter(norwegian_standard(b) for _, _, b in items)
-log("Geonorge catalogue for themes", len(items), dict(standard))
-names = [t for t in tagged if len(tagged[t]) >= 5]
-if names:
-    lines += ["", f"Norwegian theme search: English national theme name against {len(items)} Geonorge "
-              f"datasets ({dict(standard)}); share of the top 10 tagged with the theme.", "",
-              "| Method | Precision@10 | Ratio to BGE-M3 |", "|---|---:|---:|"]
-    s_no = scores(names, items, "nb")
-    precision = {}
-    for m in METHODS:
-        top = np.argsort(-s_no[m], axis=1)[:, :10]
-        precision[m] = [len(set(top[i]) & tagged[t]) / min(10, len(tagged[t])) for i, t in enumerate(names)]
-    for m in METHODS:
-        mean = np.mean(precision[m])
-        lines.append(f"| {m} | {mean:.2f} | {mean / max(np.mean(precision['bge-m3']), 1e-9):.2f} |")
-    lines += ["", "| Theme | Datasets | potion | + concepts | hybrid | BGE-M3 |", "|---|---:|---:|---:|---:|---:|"]
-    for i, t in enumerate(names):
-        lines.append(f"| {t} | {len(tagged[t])} | " + " | ".join(f"{precision[m][i]:.1f}" for m in METHODS) + " |")
-    log("Norwegian theme search done")
-open("acceptance.md", "w", encoding="utf8").write("\n".join(lines) + "\n")
+if MODE == "full":
+    # Norwegian theme search: English national theme name against all Geonorge datasets; the
+    # answer key is the theme each publisher set (Geonorge metadata code list, nb and en names).
+    english_theme = dict(line.split("\t") for line in open("themes_no.tsv", encoding="utf8").read().splitlines()[1:])
+    catalogue, offset = [], 0
+    while True:
+        page = get(f"https://kartkatalog.geonorge.no/api/search?limit=500&offset={offset}"
+                   "&facets%5B0%5D.name=type&facets%5B0%5D.value=dataset", tries=3, timeout=90)
+        if not page or not page.get("Results"):
+            break
+        catalogue += [r for r in page["Results"] if r.get("Theme") in english_theme and len(r.get("Abstract") or "") >= 40]
+        offset += 500
+    items = [("", (r.get("Title") or "").strip(), (r.get("Abstract") or "").strip()) for r in catalogue]
+    tagged = collections.defaultdict(set)
+    for i, r in enumerate(catalogue):
+        tagged[english_theme[r["Theme"]]].add(i)
+    standard = collections.Counter(norwegian_standard(b) for _, _, b in items)
+    log("Geonorge catalogue for themes", len(items), dict(standard))
+    names = [t for t in tagged if len(tagged[t]) >= 5]
+    if names:
+        lines += ["", f"Norwegian theme search: English national theme name against {len(items)} Geonorge "
+                  f"datasets ({dict(standard)}); share of the top 10 tagged with the theme.", "",
+                  "| Method | Precision@10 | Ratio to BGE-M3 |", "|---|---:|---:|"]
+        s_no = scores(names, items, "nb")
+        precision = {}
+        for m in METHODS:
+            top = np.argsort(-s_no[m], axis=1)[:, :10]
+            precision[m] = [len(set(top[i]) & tagged[t]) / min(10, len(tagged[t])) for i, t in enumerate(names)]
+        for m in METHODS:
+            mean = np.mean(precision[m])
+            lines.append(f"| {m} | {mean:.2f} | {mean / max(np.mean(precision['bge-m3']), 1e-9):.2f} |")
+        lines += ["", "| Theme | Datasets | potion | + concepts | hybrid | BGE-M3 |", "|---|---:|---:|---:|---:|---:|"]
+        for i, t in enumerate(names):
+            lines.append(f"| {t} | {len(tagged[t])} | " + " | ".join(f"{precision[m][i]:.1f}" for m in METHODS) + " |")
+        log("Norwegian theme search done")
+open(OUTPUT, "w", encoding="utf8").write("\n".join(lines) + "\n")
+with open(OUTPUT.rsplit(".", 1)[0] + ".json", "w", encoding="utf8") as f:
+    json.dump(results, f, indent=1)
 print("\n".join(lines))

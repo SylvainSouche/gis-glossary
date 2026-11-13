@@ -19,3 +19,7 @@ sources/open/iate/IATE_export.tbx.xz
 
 # INT 1 rows held back until the licence is clear (see published/kartverket-int1/README.md)
 published/kartverket-int1/int1_terms.csv
+tests/acceptance/lexicon_*.tsv.xz
+tests/acceptance/parallel*.md
+tests/acceptance/parallel*.json
+tests/acceptance/parallel*.log

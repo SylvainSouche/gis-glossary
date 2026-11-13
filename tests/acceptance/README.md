@@ -8,6 +8,8 @@ test**); it takes about an hour on a GitHub runner.
 |---|---|
 | `acceptance.py` | The test: fetches records, embeds them, scores four methods |
 | `corpus.tsv` | INSPIRE feature concepts in the EU languages, English name as query |
+| `parallel_eu.tsv.xz` | Aligned paragraphs of three EU environmental directives in 12 EU languages, for the test with and without INSPIRE names; built by `tools/build_parallel_corpus.py` |
+| `compare_parallel.py` | Writes the with/without INSPIRE comparison |
 | `themes_no.tsv` | The 18 Geonorge national themes, Norwegian name and English name |
 | `lexicon.tsv.xz` | Not in git: exported by `tools/export_lexicon.py --holdout corpus.tsv`, which leaves out the INSPIRE regulation names of the feature types tested here |
 

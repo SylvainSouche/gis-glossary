@@ -458,3 +458,35 @@ out (`export_lexicon.py --holdout`). The OpenStreetMap schema was loaded after t
 - On real Norwegian records the regulation helps: theme search rises to 0.61, 6 % above BGE-M3,
   mostly through *Base maps* (hybrid 0.4 → 0.7), where official names of transport, address and
   administrative-unit types meet catalogue wording.
+
+## Test 4: EU directives, with and without INSPIRE names (design, 2026-11-13)
+
+**Question:** what do the INSPIRE regulation names bring to search in the EU languages? The
+INSPIRE-concept test cannot tell, because those names must be held out of it.
+
+**Data:** paragraphs of three EU environmental directives that use geographic vocabulary without
+being INSPIRE: the Water Framework Directive 2000/60/EC (consolidated 2026), the Floods Directive
+2007/60/EC and the Marine Strategy Framework Directive 2008/56/EC (consolidated 2017). Official
+language versions are parallel by construction; the Cellar XHTML gives each article the same id in
+every language, and paragraphs are aligned within an article when both versions have the same
+number. Built by `tools/build_parallel_corpus.py` into `tests/acceptance/parallel_eu.tsv.xz`.
+
+**Task:** the first sentence of an English paragraph, at most 15 words, as the query; the whole
+paragraph in the target language as the answer, among all paragraphs of that language. R@10 for
+the four methods, as in the other tests.
+
+**Runs:** the same test twice, with the full lexicon and with the INSPIRE regulation rows excluded
+(`export_lexicon.py --exclude inspire-regulation`). The difference is what INSPIRE names bring.
+The INSPIRE-concept test keeps running as before, with its tested types held out.
+
+**Expected:**
+
+| Expectation | Meaning if wrong |
+|---|---|
+| Hybrid with INSPIRE names ≥ without, in most languages | The official names do not help outside their own definitions |
+| The gain is small (≤ 0.05): directives use water and marine vocabulary more than INSPIRE type names | INSPIRE vocabulary is more central to environmental text than assumed |
+| BGE-M3 scores well above 0.70, since queries are sentences | The task is too hard to separate the methods |
+
+**Limits:** legal paragraphs are not metadata records; this test complements the real-record
+tests. Norwegian and Icelandic versions exist in the EEA Supplement for the Water Framework and
+Floods directives but are not included yet.

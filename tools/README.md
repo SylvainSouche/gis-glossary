@@ -10,7 +10,8 @@ Run from any directory.
 | `extract_mlgt.py` | Extracts MLGT terms to CSV; called by `publish_mlgt.sh` |
 | `score_translation.py` | Counts terminology traps in machine translations against a reference |
 | `build_glossary.py` | Builds `build/glossary.sqlite` from the published term lists |
-| `export_lexicon.py [OUTPUT] [--holdout CORPUS]` | Exports the search lexicon; `--holdout` leaves out the regulation names of the INSPIRE feature types the acceptance test uses |
+| `export_lexicon.py [OUTPUT] [--holdout CORPUS] [--exclude SOURCE]` | Exports the search lexicon; `--holdout` leaves out the regulation names of the INSPIRE feature types the acceptance test uses; `--exclude` leaves out a whole source |
+| `build_parallel_corpus.py` | Builds aligned paragraphs from three EU environmental directives (Cellar API, about 60 MB; run on Actions) |
 | `extract_qgis_gui.py [COMMIT]` | Publishes QGIS interface labels from a pinned commit |
 | `assisted_translate.py` | Translates a text with Ollama, routed or with labels and terms |
 | `extract_lisa.py` | Extracts LÍSA Icelandic-English term pairs |
