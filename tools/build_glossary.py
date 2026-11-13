@@ -201,6 +201,39 @@ def load_inspire_regulation(db):
                        (entries[row["key"]], row["language"], row["label"], normalize(row["label"]), "preferred"))
 
 
+OSM = ROOT / "published" / "osm-tagging-schema" / "osm_terms.csv.xz"
+OSM_GEOGRAPHIC = {"natural", "landuse", "landcover", "waterway", "water", "wetland", "place", "boundary", "geological",
+                  "glacier", "man_made", "highway", "railway", "aeroway", "building", "power", "barrier", "surface",
+                  "crop", "leaf_type", "leaf_cycle", "wood", "tidal", "intermittent"}
+ATTACH_ONLY_ENTRIES = set()
+
+
+def load_osm_schema(db):
+    """Load OSM tagging-schema names, one entry per tag key (natural=glacier, surface=asphalt).
+
+    Names are terms (admitted: crowd translations). Preset search terms are loose associations
+    (glacier: ice, snow) and are kept as term_type 'search', outside linking and the lexicon.
+    Entries outside geographic tag families only attach to concepts other sources start.
+    """
+    db.execute("INSERT INTO source VALUES (?,?,?,?,?)", (
+        "osm-tagging-schema", "OpenStreetMap id-tagging-schema translations",
+        "https://github.com/openstreetmap/id-tagging-schema", "ISC; keep the licence notice", "2026-11-13"))
+    entries = {}
+    with lzma.open(OSM, "rt", encoding="utf8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    for row in rows:
+        key = row["key"]
+        if key not in entries:
+            family = key.split("=")[0].split("/")[0].split(":")[0]
+            entries[key] = db.execute("INSERT INTO entry (source_id, source_key, subject) VALUES (?,?,?)",
+                                      ("osm-tagging-schema", key, row["kind"])).lastrowid
+            if family not in OSM_GEOGRAPHIC or key.startswith("field:"):
+                ATTACH_ONLY_ENTRIES.add(entries[key])
+        db.execute("INSERT INTO term (entry_id, language, text, normalized, term_type, status) VALUES (?,?,?,?,?,?)",
+                   (entries[key], row["language"], row["text"], normalize(row["text"]),
+                    "search" if row["kind"] == "search" else "term", row["status"]))
+
+
 def load_geonorge_resources(db):
     """Load Geonorge interface strings as GUI labels, English source and Bokmål translation."""
     commits = dict(line.split("\t")[:2] for line in
@@ -424,7 +457,7 @@ def link_exact_english(db):
         groups[find(entry_id)].append(entry_id)
     sources = dict(db.execute("SELECT id, source_id FROM entry"))
     for members in groups.values():
-        if all(sources[entry_id] in ATTACH_ONLY for entry_id in members):
+        if all(sources[entry_id] in ATTACH_ONLY or entry_id in ATTACH_ONLY_ENTRIES for entry_id in members):
             continue  # general vocabulary: joins concepts of other sources, never starts one
         counts = defaultdict(int)
         for entry_id in members:
@@ -462,6 +495,7 @@ def main():
     load_corine_no(db)
     load_gemet(db)
     load_inspire_regulation(db)
+    load_osm_schema(db)
     load_en_is_glossary(db)
     link_exact_english(db)
     loaded = load_arnastofnun(db)

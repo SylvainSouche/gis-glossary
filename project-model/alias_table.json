@@ -107,6 +107,12 @@
     "status": "recorded",
     "type": "dec"
   },
+  "dec-osm-tags-and-search-terms": {
+    "active": true,
+    "id": "0f87-6af7-28db-1099",
+    "status": "recorded",
+    "type": "dec"
+  },
   "dec-public-repo-without-lisa": {
     "active": true,
     "id": "0f87-6af5-f145-c9fb",
@@ -434,6 +440,12 @@
   "obs-norwegian-theme-search": {
     "active": true,
     "id": "0f87-6af5-a863-3e17",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-osm-sources": {
+    "active": true,
+    "id": "0f87-6af7-27a2-d364",
     "status": "recorded",
     "type": "obs"
   },

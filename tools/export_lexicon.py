@@ -50,7 +50,7 @@ def main():
     for concept, label, ambiguous, language, text, term_type, source in db.execute(
             "SELECT concept_id, label, ambiguous, language, text, term_type, source_id FROM candidate_term"
             " ORDER BY concept_id"):
-        if language not in LANGUAGES or term_type == "abbreviation" or not clean(text):
+        if language not in LANGUAGES or term_type in ("abbreviation", "search") or not clean(text):
             continue
         if source == "inspire-regulation" and concept in skip:
             continue

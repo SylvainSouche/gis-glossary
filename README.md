@@ -23,8 +23,8 @@ sources, with the origin and licence of every term recorded.
 
 ## Where it stands
 
-- **Sources:** 84 sources audited ([registry](registry/sources.csv)); eleven loaded into the
-  public glossary build (twelve with LÍSA), which links them into about 48,000 concepts by
+- **Sources:** 84 sources audited ([registry](registry/sources.csv)); twelve loaded into the
+  public glossary build (thirteen with LÍSA), which links them into about 48,500 concepts by
   English term, by Icelandic term for the Icelandic dictionaries, and by code where a source
   has one ([data model](docs/data-model.md)).
 - **Search test:** an [acceptance test](tests/acceptance/README.md) asks whether an English
@@ -44,6 +44,7 @@ has an `ATTRIBUTION.md`.
 |---|---|---|
 | SNORRE word list, Standard Norge (Språkbanken) | nb, nn, en, fr, de | CC BY 4.0 |
 | INSPIRE Regulation (EU) 1089/2010, official names | 13 EU languages, nb, is | EU legal text, reuse with acknowledgement |
+| OpenStreetMap tagging schema (iD presets and fields) | all 16 | ISC |
 | GEMET, European Environment Agency | 15 of the 16 (no Nynorsk) | CC BY 4.0 |
 | IATE, European Union (GIS selection) | EU languages | reuse allowed, with acknowledgement |
 | CORINE Land Cover nomenclature, NIBIO | nb, en | NLOD 1.0 (dataset legend) |
