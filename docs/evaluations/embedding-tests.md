@@ -490,3 +490,62 @@ The INSPIRE-concept test keeps running as before, with its tested types held out
 **Limits:** legal paragraphs are not metadata records; this test complements the real-record
 tests. Norwegian and Icelandic versions exist in the EEA Supplement for the Water Framework and
 Floods directives but are not included yet.
+
+## Results, with the OpenStreetMap tagging schema (2026-11-13)
+
+Run 43469303741 on `main` (commit ddd8e05): adds OSM preset, field and value names (search terms
+excluded). Compared with the INSPIRE-names run (43443283003):
+
+| Test | With OSM | Before | BGE-M3 |
+|---|---:|---:|---:|
+| INSPIRE concepts, hybrid R@10, 12 EU languages | 0.42 to 0.59 | 0.40 to 0.60 | 0.52 to 0.63 |
+| Norwegian theme search, hybrid P@10 | 0.59 | 0.61 | 0.57 |
+| Bokmål known-item, hybrid R@10 | 0.90 (155) | 0.90 (162) | 0.93 |
+| Icelandic theme search, hybrid P@10 | 0.28 | 0.28 | 0.11 |
+
+**Reading:** OSM moves most EU languages up by 0.01 to 0.02 on INSPIRE concepts (Greek, Italian,
+Slovak +0.02; Spanish −0.01), and ten of twelve now keep at least 85 % of BGE-M3. Norwegian theme
+search drops by 0.02, within run-to-run spread. OSM's value is mainly for OSM-derived layers
+(tag names as field names and values), which no test covers yet.
+
+## Results, Test 4: EU directives with and without INSPIRE names (2026-11-13)
+
+Run 43472868372 on `main` (commit 290a6c4). Corpus: 3,188 aligned paragraphs, 184 to 470 per
+language, from the Water Framework and Floods directives. The Marine Strategy directive gave none:
+its consolidated text has no article ids. Danish and Slovak have about twice as many paragraphs
+because their versions keep the Water Framework annexes inside the last article, where they
+still align (checked by reading samples); their scores are against a larger pool.
+
+| Language | potion | hybrid without INSPIRE names | hybrid with | Change | BGE-M3 | Ratio with | Verdict |
+|---|---:|---:|---:|---:|---:|---:|---|
+| fr | 0.74 | 0.76 | **0.79** | +0.03 | 0.90 | 0.87 | usable |
+| es | 0.76 | 0.77 | **0.77** | +0.00 | 0.91 | 0.85 | usable |
+| it | 0.73 | 0.76 | 0.75 | −0.01 | 0.89 | 0.84 | not usable |
+| ro | 0.71 | 0.76 | 0.74 | −0.01 | 0.91 | 0.82 | not usable |
+| da | 0.72 | 0.73 | 0.73 | +0.00 | 0.92 | 0.79 | not usable |
+| de | 0.68 | 0.70 | 0.69 | −0.00 | 0.89 | 0.78 | not usable |
+| sv | 0.68 | 0.67 | 0.68 | +0.01 | 0.89 | 0.77 | not usable |
+| sk | 0.65 | 0.67 | 0.68 | +0.02 | 0.94 | 0.73 | not usable |
+| bg | 0.67 | 0.67 | 0.67 | −0.00 | 0.90 | 0.74 | not usable |
+| sl | 0.63 | 0.66 | 0.67 | +0.00 | 0.90 | 0.74 | not usable |
+| pl | 0.63 | 0.64 | 0.64 | +0.00 | 0.90 | 0.71 | not usable |
+| el | 0.59 | 0.63 | 0.62 | −0.02 | 0.90 | 0.68 | not usable |
+
+**Against the expectations:**
+
+- *With ≥ without in most languages*: barely. Changes run from −0.02 to +0.03 and average zero;
+  on water and flood text the INSPIRE names neither help nor hurt. Their effect seen earlier on
+  Norwegian catalogue records (theme search 0.58 → 0.61) is specific to metadata, where INSPIRE
+  type names are the actual vocabulary.
+- *Small gain*: confirmed, as no gain.
+- *BGE-M3 well above 0.70*: confirmed (0.89 to 0.94); the task separates the methods.
+
+**Other findings:**
+
+- On sentence-length queries French and Spanish reach the pass mark (R@10 ≥ 0.70 and ≥ 85 % of
+  BGE-M3); Italian (0.84) and Romanian are close. This is the first EU-language result that is
+  usable, on text closer to real descriptions than INSPIRE definitions.
+- The glossary as a whole helps everywhere: hybrid is 0.01 to 0.05 above potion alone.
+- Greek, Polish, Slovenian, Bulgarian and Slovak stay at 68 to 74 % of BGE-M3: the gap there is in
+  the static model, not in vocabulary coverage.
+- The corpus is now committed (`tests/acceptance/parallel_eu.tsv.xz`), so later runs reuse it.
