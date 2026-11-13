@@ -311,6 +311,12 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-eu-directive-test-results": {
+    "active": true,
+    "id": "0f87-6af7-7965-3f3e",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-first-glossary-build": {
     "active": true,
     "id": "0f87-6af1-f704-a5a0",
