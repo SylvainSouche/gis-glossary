@@ -251,6 +251,18 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-chs-licence-requested": {
+    "active": true,
+    "id": "0f87-6af6-e85d-789d",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-corine-no-loaded": {
+    "active": true,
+    "id": "0f87-6af6-eea5-a61f",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-embedding-tests-first-results": {
     "active": true,
     "id": "0f87-6af2-c7ec-ff52",
@@ -272,6 +284,12 @@
   "obs-first-glossary-build": {
     "active": true,
     "id": "0f87-6af1-f704-a5a0",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-gemet-loaded": {
+    "active": true,
+    "id": "0f87-6af6-f006-6139",
     "status": "recorded",
     "type": "obs"
   },
@@ -320,6 +338,18 @@
   "obs-index-9b-all-languages-test": {
     "active": true,
     "id": "0f87-6af2-4e55-f01e",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-int1-extracted": {
+    "active": true,
+    "id": "0f87-6af6-e613-17c0",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-inventory-proposal-review": {
+    "active": true,
+    "id": "0f87-6af6-eac9-ee50",
     "status": "recorded",
     "type": "obs"
   },

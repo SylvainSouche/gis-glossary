@@ -1,0 +1,65 @@
+code,level,nb,en,in_norway
+1,1,Bebygd og annet opparbeidet areal,Artificial surfaces,present
+2,1,Jordbruksareal,Agricultural areas,present
+3,1,Skog og annen fastmark,Forests and semi-natural areas,present
+4,1,Myr og våtmark,Wetlands,present
+5,1,Vann,Water bodies,present
+11,2,Tettbygd areal,Urban fabric,present
+12,2,"Industri, handels- og transportområde","Industrial, commercial and transport",present
+13,2,"Massetak, deponi og byggeplass","Mine, dump and construction sites",present
+14,2,Anlagt grøntområde,Artificial non-agricultural vegetated areas,present
+21,2,Fulldyrka mark,Arable land,present
+22,2,Frukt- og bærhage,Permanent crops,present
+23,2,Eng og beite,Pastures,present
+24,2,Heterogent jordbruksareal,Heterogeneous agricultural areas,present
+31,2,Skog,Forests,present
+32,2,Åpen fastmark med vegetasjon,Shrub and/or herbaceous vegetation associations,present
+33,2,Fastmark med sparsom eller ingen vegetasjon,Open spaces with little or no vegetation,present
+41,2,Myr,Inland wetlands,present
+42,2,Salt- og brakkvannsvåtmark,Coastal wetlands,present
+51,2,Ferskvann,Inland waters,present
+52,2,Hav,Marine waters,present
+111,3,Bymessig tettbebyggelse,Continuous urban fabric,present
+112,3,Tettbygd areal med åpen struktur,Discontinuous urban fabric,present
+121,3,Industri og handelsområde,Industrial or commercial units,present
+122,3,Veg og jernbane,Road and rail network and associated land,present
+123,3,Havn,Port areas,present
+124,3,Flyplass,Airports,present
+131,3,Gruver og massetak,Mineral extraction sites,present
+132,3,Deponi,Dump sites,present
+133,3,Byggeplass,Construction sites,present
+141,3,Grønt tettstedsareal,Green urban areas,present
+142,3,Idretts- og rekreasjonsområde,Sport and leisure facilities,present
+211,3,Fulldyrka mark,Non-irrigated arable land,present
+212,3,Permanent vannet jordbruksareal,Permanently irrigated land,absent
+213,3,Rismark,Rice fields,absent
+221,3,Vingård,Vineyards,absent
+222,3,Frukt- og bærhage,Fruit trees and berry plantations,too small
+223,3,Olivenlund,Olive groves,absent
+231,3,Eng og beite,Pastures,present
+241,3,Jordbruksareal med blanding av ettårige og flerårige vekster,Annual crops associated with permanent crops,absent
+242,3,Blandet jordbruksareal,Complex cultivation,present
+243,3,Spredt jordbruksareal,"Land principally occupied by agriculture, with significant areas of natural vegetation",present
+244,3,Agroforestry,Agro-forestry areas,absent
+311,3,Lauvskog,Broad-leaved forest,present
+312,3,Barskog,Coniferous forest,present
+313,3,Blandingsskog,Mixed forest,present
+321,3,Gras og urterik mark,Natural grassland,too small
+322,3,Hei og lyngmark,Moors and heath land,present
+323,3,Sklerofyll vegetasjon,Sclerophyllous vegetation,absent
+324,3,Hogst- og gjengroingsflater,Transitional woodland/shrub,present
+331,3,Strand og sanddyner,"Beaches, dunes and sand plains",present
+332,3,Bart fjell,Bare rock,present
+333,3,Sparsomt vegetert areal,Sparsely vegetated areas,present
+334,3,Brannflate,Burnt areas,present
+335,3,Varig is og snø,Glaciers and perpetual snow,present
+411,3,Ferskvannsvåtmark,Inland marshes,present
+412,3,Myr,Peat bogs,present
+421,3,Strandsump,Salt marshes,too small
+422,3,Saline,Salines,absent
+423,3,Tidevannsflate,Intertidal flats,present
+511,3,Elv,Water courses,present
+512,3,Innsjø,Water bodies,present
+521,3,Lagune,Coastal lagoons,too small
+522,3,Elvemunning,Estuaries,too small
+523,3,Hav,Sea and ocean,present
