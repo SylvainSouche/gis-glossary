@@ -26,6 +26,7 @@ excluded).
 | Geonorge metadata code lists | 525 | none stated | **to confirm** with Kartverket (likely NLOD) | — |
 | English-Icelandic glossary 21.09 | not yet exported | CC BY 4.0 | cleared | credit the authors and the institute |
 | INSPIRE regulation names | not yet exported | EU legal text; EEA translations | cleared | acknowledge the source (EUR-Lex, EEA Supplement) |
+| OpenStreetMap tagging schema | not yet exported | ISC | cleared | keep the ISC notice |
 | GEMET (EEA) | not yet exported | CC BY 4.0 | cleared | credit the EEA |
 | CORINE Land Cover nomenclature (NIBIO) | not yet exported | NLOD 1.0 | cleared | credit NIBIO |
 

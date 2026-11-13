@@ -28,7 +28,7 @@ CREATE TABLE term (
     text        TEXT NOT NULL,
     normalized  TEXT NOT NULL,     -- lower case, single spaces; used for matching
     term_type   TEXT NOT NULL DEFAULT 'term'
-                CHECK (term_type IN ('term', 'abbreviation', 'phrase', 'formula')),
+                CHECK (term_type IN ('term', 'abbreviation', 'phrase', 'formula', 'search')),  -- search: loose search associations (OSM), never linked or exported
     status      TEXT NOT NULL DEFAULT 'unknown'
                 CHECK (status IN ('preferred', 'admitted', 'deprecated', 'superseded', 'proposed', 'unknown')),
     reliability TEXT               -- source's own score, not comparable across sources
