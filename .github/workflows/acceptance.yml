@@ -24,14 +24,23 @@ jobs:
         run: |
           pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
           pip install --quiet model2vec sentence-transformers numpy
-      - name: Build glossary and export lexicon
+      - name: Build glossary and export lexicons
         run: |
           python tools/build_glossary.py
           python tools/export_lexicon.py --holdout tests/acceptance/corpus.tsv
-      - name: Run the test
+          python tools/export_lexicon.py tests/acceptance/lexicon_full.tsv.xz
+          python tools/export_lexicon.py tests/acceptance/lexicon_no_inspire.tsv.xz --exclude inspire-regulation
+          test -f tests/acceptance/parallel_eu.tsv.xz || python tools/build_parallel_corpus.py
+      - name: Run the test (real records, INSPIRE concepts held out)
         working-directory: tests/acceptance
         run: python acceptance.py | tee acceptance.log
-      - run: cat tests/acceptance/acceptance.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Run the EU directive test with and without INSPIRE names
+        working-directory: tests/acceptance
+        run: |
+          MODE=parallel LEXICON=lexicon_full.tsv.xz OUTPUT=parallel_with.md python acceptance.py | tee parallel_with.log
+          MODE=parallel LEXICON=lexicon_no_inspire.tsv.xz OUTPUT=parallel_without.md python acceptance.py | tee parallel_without.log
+          python compare_parallel.py parallel_with.json parallel_without.json > parallel.md
+      - run: cat tests/acceptance/acceptance.md tests/acceptance/parallel.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: acceptance
@@ -39,3 +48,7 @@ jobs:
             tests/acceptance/acceptance.md
             tests/acceptance/acceptance.log
             tests/acceptance/records.json
+            tests/acceptance/parallel*.md
+            tests/acceptance/parallel*.json
+            tests/acceptance/parallel*.log
+            tests/acceptance/parallel_eu.tsv.xz

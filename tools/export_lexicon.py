@@ -2,11 +2,12 @@
 """
 export_lexicon.py - export the search lexicon from build/glossary.sqlite.
 
-    python3 tools/export_lexicon.py [OUTPUT] [--holdout tests/acceptance/corpus.tsv]
+    python3 tools/export_lexicon.py [OUTPUT] [--holdout tests/acceptance/corpus.tsv] [--exclude SOURCE]
 
 Default OUTPUT: tests/acceptance/lexicon.tsv.xz. With --holdout, the INSPIRE regulation's names
 for the feature types tested in that corpus (its `id` column holds their technical names) are
-left out, so the INSPIRE part of the acceptance test does not see its own answers.
+left out, so the INSPIRE part of the acceptance test does not see its own answers. With
+--exclude, every row from that source is left out (to measure what the source brings).
 
 One row per concept, language, term and source, for the 16 target languages, abbreviations
 excluded. Columns: key (c<concept id>), label, language, term, source, ambiguous. Ambiguous
@@ -43,6 +44,11 @@ def main():
         i = args.index("--holdout")
         corpus = args[i + 1]
         del args[i:i + 2]
+    excluded = None
+    if "--exclude" in args:
+        i = args.index("--exclude")
+        excluded = args[i + 1]
+        del args[i:i + 2]
     output = Path(args[0]) if args else ROOT / "tests" / "acceptance" / "lexicon.tsv.xz"
     db = sqlite3.connect(ROOT / "build" / "glossary.sqlite")
     skip = held_out(db, corpus) if corpus else set()
@@ -52,7 +58,7 @@ def main():
             " ORDER BY concept_id"):
         if language not in LANGUAGES or term_type in ("abbreviation", "search") or not clean(text):
             continue
-        if source == "inspire-regulation" and concept in skip:
+        if source == "inspire-regulation" and concept in skip or source == excluded:
             continue
         key = (concept, language, clean(text).lower(), source)
         if key not in seen:

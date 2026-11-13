@@ -71,6 +71,12 @@
     "status": "recorded",
     "type": "dec"
   },
+  "dec-eu-directive-test": {
+    "active": true,
+    "id": "0f87-6af7-484c-5580",
+    "status": "recorded",
+    "type": "dec"
+  },
   "dec-glossary-vs-corpus-licensing": {
     "active": true,
     "id": "0f87-6af1-7e2b-3600",
