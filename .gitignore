@@ -17,8 +17,8 @@ tests/acceptance/acceptance.log
 # IATE export (18 MB): download it from https://iate.europa.eu/download-iate; see sources/open/iate/ATTRIBUTION.md
 sources/open/iate/IATE_export.tbx.xz
 
-# INT 1 rows held back until the licence is clear (see published/kartverket-int1/README.md)
-published/kartverket-int1/int1_terms.csv
+# INT 1 rows held back until the licence is clear (see published/int1/README.md)
+published/int1/int1_*.csv
 tests/acceptance/lexicon_*.tsv.xz
 tests/acceptance/parallel*.md
 tests/acceptance/parallel*.json

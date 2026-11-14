@@ -9,3 +9,12 @@ lasy-leksykon-geomatyczny	file	https://www.geomatyka.lasy.gov.pl/documents/25999
 zrc-geoinformatics-dictionary	file	https://omp.zrc-sazu.si/zalozba/catalog/download/2272/9159/3324?inline=1	terminoloski-slovarji-2272.pdf	55a5925976b0238f8c3634d1a7d276b76c4fbacb64a1609d74b26761cac7a2b2
 zrc-geoinformatics-dictionary	file	https://omp.zrc-sazu.si/zalozba/catalog/download/2206/8972/3144?inline=1	terminoloski-slovarji-2206.pdf	c758236935589a1d3b99370faee2a3a5bf49745b173959fa2c3f86d8457243d3
 lisa-glossary	file	https://landupplysingar.is/wp-content/uploads/2025/07/LISA-ISL-EN-6utg-2015-1-14-1.pdf	lisa-isl-en-2015.pdf	7c337585b035e0dc9c979402ee192edb0f3985d323be28e076f7762caaca254e
+iho-s32	file	https://portal.iho.int/iho-ohi/S32/	iho/s32_en.csv	b7637385bfa2d36c24ad0576e10793e5448bed4a155dc96ee8ace106037a4059
+iho-s32	file	https://portal.iho.int/iho-ohi/S32/	iho/s32_fr.csv	7b622f9e5fae0c5dfdc3b335e2b1605ad7f1dbd743ce849cd2b54fef21efd397
+iho-s32	file	https://portal.iho.int/iho-ohi/S32/	iho/s32_es.csv	d65520b88b87d1e2ec5591022f0737beac4ec0e76ae2fcc4566a149e9c81f558
+iho-s32	file	https://portal.iho.int/iho-ohi/S32/	iho/s32_zh.csv	bbcc5c140cc9860757e2c0a8232efbd18c7d7e07951d495f1a5f1c07e58edee0
+int1-dk-gst-2022	file	https://www.gst.dk	int1/int1_dk_gst_2022.pdf	b2971ee50622dbfdb67bfbda5ea893c864ff5845e35f7e96984fa47994b1bd6b
+int1-es-ihm-2011	file	https://armada.defensa.gob.es/ihm/	int1/int1_es_ihm_2011.pdf	93df550c7f8c71a24d6b376faf024d342c4f28ad8b9be398522ff28d7721f4f2
+int1-lt-ltsa-2021	file	https://ltsa.lrv.lt	int1/int1_lt_ltsa_2021.pdf	24041a7f808bfd767e1ed1427c6b8df7e5f21eab967ff9ec48d0dbb5dd4fa788
+int1-br-dhn-2022	file	https://www.marinha.mil.br/dhn/	int1/int1_br_dhn_2022.pdf	6b6c88a43c1fe0847b77d691d53ce6cf99026bf1d5e79b2bb7800c52b56fd6d8
+int1-hk-2019	file	https://www.hydro.gov.hk	int1/int1_hk_2019.pdf	6849f2606edbd829f2c6a42cee2a3e574c24b3248099b14921136d79020e1fd5

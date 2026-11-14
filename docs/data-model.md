@@ -48,6 +48,7 @@ Counts from the build of 2026-11-12.
 | Geonorge metadata code lists | none stated; names and codes only | 272 | 259 | English |
 | INSPIRE regulation 1089/2010, official names | EU legal text; EEA translations | 737 | 717 | English; keyed by technical name |
 | OpenStreetMap tagging schema | ISC | 5,090 | 1,090 | English; keyed by OSM tag; non-geographic tags attach-only |
+| INT 1 national editions (Kartverket, Geodatastyrelsen, IHM), **local builds only** | all rights reserved; not redistributed | 846 | 608 | English; keyed by INT 1 code; long descriptions stored as phrases |
 | GEMET (EEA) | CC BY 4.0 | 5,609 | 5,570 | English; Icelandic pivot |
 | CORINE Land Cover nomenclature (NIBIO) | NLOD 1.0 (dataset legend) | 64 | 63 | English; keyed by CLC code |
 | ISLEX (is → da nb nn sv fo fi) | CC BY-SA 4.0 | 80,489 | 910 | Icelandic |
@@ -55,7 +56,7 @@ Counts from the build of 2026-11-12.
 | Icelandic-Polish dictionary | CC BY-SA 4.0 | 57,876 | 1,036 | Icelandic |
 | English-Icelandic glossary 21.09 | CC BY 4.0 | 113,566 | 11,205 | English, attach-only |
 
-Totals (build of 2026-11-13): 48,491 concepts, of which 6,293 ambiguous. Most dictionary entries reach no concept:
+Totals (public build of 2026-11-13): 48,491 concepts, of which 6,293 ambiguous. A local build with LÍSA and INT 1 has 49,012. Most dictionary entries reach no concept:
 they are general vocabulary, kept for later linking.
 
 ## Linking
