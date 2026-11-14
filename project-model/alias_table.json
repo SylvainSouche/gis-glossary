@@ -365,6 +365,12 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-iho-policy-s32": {
+    "active": true,
+    "id": "0f87-6af8-2798-0b4d",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-index-2b-all-languages-test": {
     "active": true,
     "id": "0f87-6af2-4fab-50f5",
@@ -383,9 +389,27 @@
     "status": "recorded",
     "type": "obs"
   },
+  "obs-int1-editions": {
+    "active": true,
+    "id": "0f87-6af8-2b3f-91ca",
+    "status": "recorded",
+    "type": "obs"
+  },
   "obs-int1-extracted": {
     "active": true,
     "id": "0f87-6af6-e613-17c0",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-int1-loaded-locally": {
+    "active": true,
+    "id": "0f87-6af8-324e-8fca",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-int1-three-editions": {
+    "active": true,
+    "id": "0f87-6af8-2c5c-e71c",
     "status": "recorded",
     "type": "obs"
   },

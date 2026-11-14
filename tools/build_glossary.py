@@ -234,6 +234,44 @@ def load_osm_schema(db):
                     "search" if row["kind"] == "search" else "term", row["status"]))
 
 
+INT1 = ROOT / "published" / "int1"
+
+
+def load_int1(db):
+    """Load national INT 1 editions, one entry per INT 1 code (K 20) across editions.
+
+    The extracts are not in the public repository until the publishers confirm the licence
+    (published/int1/README.md); without them the build goes on without INT 1. Descriptions of
+    more than six words are stored as phrases: they are kept and exported, but not used to link.
+    """
+    files = sorted(INT1.glob("int1_*.csv"))
+    if not files:
+        print("INT 1 extracts not found; building without INT 1 (see published/int1/README.md)")
+        return
+    db.execute("INSERT INTO source VALUES (?,?,?,?,?)", (
+        "int1-national", "INT 1 national editions: Kartverket 2020, Geodatastyrelsen 2022, IHM 2011",
+        "https://iho.int/en/standards-and-specifications", "All rights reserved; local use only, not redistributed",
+        "2026-11-14"))
+    entries, seen = {}, set()
+    for path in files:
+        edition = path.stem.split("_", 1)[1]
+        for row in read(path):
+            code = row["int1_code"]
+            if code not in entries:
+                entries[code] = db.execute("INSERT INTO entry (source_id, source_key, subject) VALUES (?,?,?)",
+                                           ("int1-national", f"int1:{code}", f"S-4 {row['s4']}".strip())).lastrowid
+            for language in [c for c in row if c not in ("section", "number", "int1_code", "s4", "page")]:
+                text = row[language].strip()
+                if not text or (code, language, text.lower()) in seen:
+                    continue
+                seen.add((code, language, text.lower()))
+                status = "preferred" if language != "en" or edition == "no" else "admitted"
+                db.execute("INSERT INTO term (entry_id, language, text, normalized, term_type, status)"
+                           " VALUES (?,?,?,?,?,?)",
+                           (entries[code], language, text, normalize(text),
+                            "phrase" if len(text.split()) > 6 else "term", status))
+
+
 def load_geonorge_resources(db):
     """Load Geonorge interface strings as GUI labels, English source and Bokmål translation."""
     commits = dict(line.split("\t")[:2] for line in
@@ -496,6 +534,7 @@ def main():
     load_gemet(db)
     load_inspire_regulation(db)
     load_osm_schema(db)
+    load_int1(db)
     load_en_is_glossary(db)
     link_exact_english(db)
     loaded = load_arnastofnun(db)

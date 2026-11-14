@@ -63,7 +63,16 @@ languages by code. Their licences are the obstacle (as reported by the project o
 | UKHO English edition, also distributed by IHO | en | UKHO: internal use only; IHO: its own restrictive licence (IHO redistributing a UKHO internal-use text is itself questionable) |
 | Canadian Hydrographic Service, Chart 1 | en, fr | free download; private use allowed, commercial use forbidden; collective non-commercial use not addressed |
 
-The Norwegian extract is kept locally (`published/kartverket-int1/README.md`). A request to
+**IHO policy** on the use of its materials (iho.int, last modified 2025-10-02) allows reuse of
+public IHO material for non-commercial, educational or research purposes *without modification*,
+with attribution, date and version, keeping original notices. Adapting, translating or creating
+derivative content needs prior approval from the IHO Secretariat (info@iho.int, subject
+"Branding/Materials Use Request", stating intended use and audience, a sample, duration and
+scope); commercial use needs a formal agreement. Extracting term equivalents and linking them
+across languages is modified use, so IHO material (S-32 Hydrographic Dictionary, the English
+INT 1, S-4, S-23) needs approval before it enters a released glossary.
+
+The Norwegian extract is kept locally (`published/int1/README.md`). A request to
 Kartverket can cover INT 1 and the Geonorge code lists together; an IP licence for CHS
 Chart 1 / Carte 1 (October 2026 edition,
 <https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/chs-shc-chart1-carte1-202610-4134361x.pdf>)
