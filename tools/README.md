@@ -6,7 +6,7 @@ Run from any directory.
 |---|---|
 | `check_registry.py` | Validates the registry and that published and open folders have attribution |
 | `fetch_restricted.sh [--force]` | Collects restricted documents from their original sources |
-| `publish_mlgt.sh` | Fetches the sources, then regenerates `published/iso-mlgt/` |
+| `publish_mlgt.sh` | Fetches the sources, then regenerates `published/iso-mlgt/mlgt_terms.csv` (kept out of git) |
 | `extract_mlgt.py` | Extracts MLGT terms to CSV; called by `publish_mlgt.sh` |
 | `score_translation.py` | Counts terminology traps in machine translations against a reference |
 | `build_glossary.py` | Builds `build/glossary.sqlite` from the published term lists |

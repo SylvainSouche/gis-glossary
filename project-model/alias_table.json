@@ -53,6 +53,12 @@
     "status": "accepted",
     "type": "cand"
   },
+  "cand-real-world-gis-benchmark": {
+    "active": true,
+    "id": "0f87-6afa-c301-5ee0",
+    "status": "open",
+    "type": "cand"
+  },
   "dec-acceptance-two-verdicts": {
     "active": true,
     "id": "0f87-6af3-25d6-fb14",
@@ -92,6 +98,12 @@
   "dec-language-tiers": {
     "active": true,
     "id": "0f87-6af1-7e2b-9fe9",
+    "status": "recorded",
+    "type": "dec"
+  },
+  "dec-mlgt-held-back": {
+    "active": true,
+    "id": "0f87-6afc-8723-34d0",
     "status": "recorded",
     "type": "dec"
   },
@@ -446,6 +458,18 @@
   "obs-lookup-fixes-results": {
     "active": true,
     "id": "0f87-6af2-cde7-28d5",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-mlgt-licence-asked": {
+    "active": true,
+    "id": "0f87-6afa-d9b9-3998",
+    "status": "recorded",
+    "type": "obs"
+  },
+  "obs-model-comparison-finetune": {
+    "active": true,
+    "id": "0f87-6afa-bf36-088d",
     "status": "recorded",
     "type": "obs"
   },

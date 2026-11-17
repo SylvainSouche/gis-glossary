@@ -19,7 +19,7 @@ excluded).
 | SNORRE, Språkbanken sbr-24 | 167,911 | CC BY 4.0 | cleared | credit Standard Norge |
 | LÍSA glossary | 16,178 | none stated | **to confirm** with LÍSA | — |
 | ISLEX 2026-02 | 7,714 | CC BY-SA 4.0 | cleared | credit; share-alike |
-| ISO/TC 211 MLGT | 4,041 | © ISO/TC 211, none stated | **to confirm**, or drop (no Nordic languages) | — |
+| ISO/TC 211 MLGT | 4,041 (local only) | © ISO/TC 211, none stated | **held back** from the repository since 2026-11-17 while ISO clarifies the reuse terms | — |
 | IATE download | 3,749 | not copyright protected | cleared | credit "Download IATE, European Union, 2026" |
 | Icelandic-Polish dictionary | 3,236 | CC BY-SA 4.0 | cleared | credit; share-alike |
 | Icelandic-French dictionary | 2,629 | CC BY-SA 4.0 | cleared | credit; share-alike |

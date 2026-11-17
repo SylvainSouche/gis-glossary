@@ -23,3 +23,6 @@ tests/acceptance/lexicon_*.tsv.xz
 tests/acceptance/parallel*.md
 tests/acceptance/parallel*.json
 tests/acceptance/parallel*.log
+
+# ISO/TC 211 MLGT extract held back until ISO confirms the reuse terms (see published/iso-mlgt/README.md)
+published/iso-mlgt/mlgt_terms.csv

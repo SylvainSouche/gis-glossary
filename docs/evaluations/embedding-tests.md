@@ -549,3 +549,40 @@ still align (checked by reading samples); their scores are against a larger pool
 - Greek, Polish, Slovenian, Bulgarian and Slovak stay at 68 to 74 % of BGE-M3: the gap there is in
   the static model, not in vocabulary coverage.
 - The corpus is now committed (`tests/acceptance/parallel_eu.tsv.xz`), so later runs reuse it.
+
+## Model comparison, including the glossary fine-tune (2026-11-16)
+
+Run locally with `tests/acceptance/compare_models.py` on the data of Actions run 43472868372: its
+`records.json` (208 Bokmål, 13 Icelandic records), the committed INSPIRE and EU-directive
+corpora, and the Geonorge catalogue fetched the same day (2,042 datasets, 18 themes). Potion
+and hybrid come from that Actions run; BGE-M3 run locally reproduces its Actions scores to
+within 0.01, so the columns compare like for like.
+
+| Test (R@10; themes P@10) | potion | hybrid | static-mrl (shipped) | m2v of bge-m3 | m2v of bge-m3-gis | bge-m3 | bge-m3-gis |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bokmål known-item | 0.81 | 0.88 | 0.76 | 0.66 | 0.81 | 0.93 | 0.93 |
+| EU directives, mean of 12 | 0.68 | 0.70 | **0.84** | 0.57 | 0.70 | 0.90 | 0.91 |
+| Norwegian themes ⚠ | 0.42 | 0.59 | 0.45 | 0.30 | 0.38 | 0.56 | **0.70** |
+| INSPIRE concepts, mean of 12 ⚠ | 0.46 | 0.52 | 0.61 | 0.35 | 0.46 | 0.60 | **0.81** |
+
+Models: `static-similarity-mrl-multilingual-v1`, the static model the plugin ships today (256
+dimensions); `bge-m3-gis`, BGE-M3 fine-tuned on 100,000 English-centred glossary term pairs
+(training project `gis/training`, 32-token training length); m2v, Model2Vec distillations of
+BGE-M3 and of the fine-tune. ⚠ marks tests whose answers overlap the fine-tune's training data:
+it was trained on the local build, which contains the INSPIRE regulation names (the INSPIRE
+test's feature types) and the Geonorge code lists (the theme test's answer key).
+
+**Reading:**
+
+- **On clean tests the fine-tune equals BGE-M3** (EU directives 0.91 against 0.90, Bokmål 0.93 for
+  both): training on short terms did not damage paragraph retrieval, and did not improve it.
+- **Its gains are on the overlapping tests** (INSPIRE +0.21, themes +0.14). They show the model
+  learned the glossary, which is its purpose, but these tests cannot say how much carries to
+  terms it has not seen. A fair measure needs a fine-tune with the INSPIRE names and code lists
+  held out, as the lexicon export does.
+- **The static model the plugin ships beats potion** on EU text (0.84 against 0.68, and against
+  hybrid's 0.70) and on INSPIRE (0.61 against 0.46), but not on Norwegian records (0.76 against
+  0.81) or themes (0.45 against 0.42 for potion, 0.59 for hybrid). The acceptance test has only
+  combined the glossary with potion; static-mrl with the glossary is untested.
+- **Distilling the fine-tune helps the static model** (m2v of bge-m3-gis over m2v of bge-m3: EU
+  +0.13, Bokmål +0.15), but it stays at potion's level and below static-mrl on EU text.

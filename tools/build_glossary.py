@@ -517,10 +517,14 @@ def main():
     db = sqlite3.connect(DATABASE)
     db.executescript(SCHEMA.read_text(encoding="utf8"))
 
-    rows = read(MLGT)
-    load(db, "iso-tc-211-mlgt-geolexica", rows[0]["source"], rows[0]["source_address"],
-         rows[0]["source_licence"], rows[0]["retrieved"], rows,
-         "concept_id", "iso_reference", mlgt_status, None)
+    # The MLGT extract is held back until ISO confirms the reuse terms (published/iso-mlgt/README.md).
+    if MLGT.exists():
+        rows = read(MLGT)
+        load(db, "iso-tc-211-mlgt-geolexica", rows[0]["source"], rows[0]["source_address"],
+             rows[0]["source_licence"], rows[0]["retrieved"], rows,
+             "concept_id", "iso_reference", mlgt_status, None)
+    else:
+        print("MLGT extract not found; building without the ISO/TC 211 MLGT (see published/iso-mlgt/README.md)")
     rows = read(IATE)
     load(db, "iate", rows[0]["source"], rows[0]["source_address"],
          "Download file: not copyright protected, per IATE legal notice", rows[0]["retrieved"],

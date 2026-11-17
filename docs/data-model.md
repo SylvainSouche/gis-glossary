@@ -41,7 +41,7 @@ Counts from the build of 2026-11-12.
 
 | Source | Licence | Entries | Concepts reached | Linked by |
 |---|---|---:|---:|---|
-| ISO/TC 211 MLGT | none stated; term equivalents only | 1,633 | 1,248 | English |
+| ISO/TC 211 MLGT, **local builds only** (held back) | none stated | 1,633 | 1,248 | English |
 | IATE (GIS selection) | not copyright protected; credit | 533 | 488 | English |
 | SNORRE (Standard Norge) | CC BY 4.0; credit Standard Norge | 50,616 | 39,292 | English |
 | LÍSA glossary | none stated; term pairs only | 7,365 | 7,004 | English |
