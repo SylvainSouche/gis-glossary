@@ -48,7 +48,7 @@ has an `ATTRIBUTION.md`.
 | GEMET, European Environment Agency | 15 of the 16 (no Nynorsk) | CC BY 4.0 |
 | IATE, European Union (GIS selection) | EU languages | reuse allowed, with acknowledgement |
 | CORINE Land Cover nomenclature, NIBIO | nb, en | NLOD 1.0 (dataset legend) |
-| **ISO/TC 211 Multi-Lingual Glossary of Terms** | en and 6 others | **held back: reuse terms being clarified with ISO/TC 211, see [published/iso-mlgt/](published/iso-mlgt/README.md)** |
+| **ISO/TC 211 Multi-Lingual Glossary of Terms** | en and 6 others | **permission asked of ISO/TC 211; data held pending their answer, see [published/iso-mlgt/](published/iso-mlgt/README.md)** |
 | ISLEX, Icelandic-French and Icelandic-Polish dictionaries, Árni Magnússon Institute | is, da, nb, nn, sv, fo, fi, fr, pl | CC BY-SA 4.0 |
 | English-Icelandic glossary 21.09, Árni Magnússon Institute | en, is | CC BY 4.0 |
 | Geonorge metadata code lists and application strings, Kartverket | nb, en | code lists: to confirm; strings: MIT |
